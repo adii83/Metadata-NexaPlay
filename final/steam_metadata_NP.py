@@ -956,7 +956,6 @@ def main() -> None:
     output_dir = Path(args.output_dir)
     ensure_directory(output_dir)
 
-    print("Memuat daftar App ID dari tiga sumber GitHub...")
     appids, source_map, source_counts = build_prioritized_appids(
         args.appid_populer_url,
         args.override_data_url,
@@ -976,26 +975,30 @@ def main() -> None:
     if args.limit > 0:
         batch_appids = batch_appids[:args.limit]
 
-    print(f"Total App ID unik sumber: {len(appids)}")
-    print(f"Total App ID arsip existing: {len(existing_archive)}")
-    print(
-        "Batch terpilih:"
-        f" baru={batch_stats['new_count']},"
-        f" retry_failed={batch_stats['retry_failed_count']},"
-        f" backlog={batch_stats['backlog_count']}"
-    )
-    print(f"Total App ID yang akan diproses run ini: {len(batch_appids)}")
+    next_appid_preview = batch_appids[0] if batch_appids else None
+    cursor_before = batch_stats["backlog_cursor_before"]
+    cursor_after = batch_stats["backlog_cursor_after"]
 
     if not batch_appids:
-        print("Tidak ada App ID yang perlu diproses pada run ini.")
+        print("Tidak ada App ID yang perlu diproses.")
         return
+
+    print(
+        f"Lanjut ke App ID {next_appid_preview} | "
+        f"progress {cursor_before}->{cursor_after}"
+    )
 
     merged_entries: list[tuple[int, dict]] = []
     failures: list[dict] = []
 
     for index, appid in enumerate(batch_appids, start=1):
         source_priority = source_map.get(appid, "unknown")
-        print(f"[{index}/{len(batch_appids)}] App ID {appid} dari {source_priority}")
+        print(
+            f"Proses {appid} | "
+            f"siklus {index}/{len(batch_appids)} | "
+            f"tersimpan {len(existing_archive)} | "
+            f"sumber {source_priority}"
+        )
 
         try:
             merged_payload, entry_failures = merge_metadata(appid, source_priority)
@@ -1086,11 +1089,12 @@ def main() -> None:
 
     manifest_path = output_dir / f"{args.file_prefix}_manifest.json"
     write_json_file(manifest, manifest_path)
-
-    print("\nSelesai.")
-    print(f"Manifest : {manifest_path.resolve()}")
-    print(f"Failures : {failures_path.resolve()}")
-    print(f"Chunks   : {len(chunk_files)} file")
+    print(
+        f"Selesai | diproses {len(batch_appids)} | "
+        f"total tersimpan {len(existing_archive)} | "
+        f"error putaran ini {len(failures)} | "
+        f"file json {len(chunk_files)}"
+    )
 
 
 if __name__ == "__main__":

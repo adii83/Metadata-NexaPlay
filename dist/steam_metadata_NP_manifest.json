@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-05-16T23:43:40.516193+00:00",
+  "total_appids_processed_this_run": 1,
+  "total_entries_in_archive": 44,
+  "source_counts": {
+    "appid_populer": 238,
+    "override_data": 660,
+    "steam_data": 9417
+  },
+  "prioritized_sources": [
+    "appid_populer",
+    "override_data",
+    "steam_data"
+  ],
+  "batch": {
+    "batch_size": 1,
+    "selected_count": 1,
+    "new_count": 0,
+    "retry_failed_count": 0,
+    "backlog_count": 1,
+    "backlog_cursor_before": 43,
+    "backlog_cursor_after": 44
+  },
+  "skipped_success_existing": 43,
+  "force_refresh": false,
+  "chunking": {
+    "max_file_size_mb": 25,
+    "files": [
+      {
+        "file": "steam_metadata_NP_part001.json",
+        "entries": 44,
+        "size_bytes": 1579269
+      }
+    ]
+  },
+  "failures": {
+    "count": 0,
+    "file": "steam_metadata_NP_failures.json"
+  },
+  "progress_file": "steam_metadata_NP_progress.json"
+}

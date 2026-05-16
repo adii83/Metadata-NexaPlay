@@ -103,7 +103,7 @@ function Get-LastRunProcessedCount {
 
 function Invoke-AutoPush([int]$PendingProcessedCount) {
     if (-not (Test-Path ".git")) {
-        Write-Warning "Folder ini belum repo git. Auto-push dilewati."
+        Write-Host "[push] Folder ini belum repo git. Lewati auto-push." -ForegroundColor Yellow
         return $PendingProcessedCount
     }
 
@@ -111,26 +111,26 @@ function Invoke-AutoPush([int]$PendingProcessedCount) {
 
     $gitStatus = git status --porcelain -- dist
     if (-not $gitStatus) {
-        Write-Host "Tidak ada perubahan di dist untuk di-push."
+        Write-Host "[push] Tidak ada perubahan untuk dipush." -ForegroundColor DarkYellow
         return $PendingProcessedCount
     }
 
     git add dist
     git commit -m "Update Steam metadata archive after $PendingProcessedCount appids"
     if ($LASTEXITCODE -ne 0) {
-        Write-Warning "Commit gagal. Counter push tidak direset."
+        Write-Host "[push] Commit gagal. Counter tidak direset." -ForegroundColor Red
         return $PendingProcessedCount
     }
 
     git push
     if ($LASTEXITCODE -ne 0) {
-        Write-Warning "Push gagal. Counter push tidak direset."
+        Write-Host "[push] Push gagal. Counter tidak direset." -ForegroundColor Red
         return $PendingProcessedCount
     }
 
     $timestamp = (Get-Date).ToUniversalTime().ToString("o")
     Save-PushState -PendingProcessedCount 0 -LastPushAt $timestamp
-    Write-Host "Auto-push berhasil setelah $PendingProcessedCount App ID."
+    Write-Host "[push] Berhasil setelah $PendingProcessedCount App ID." -ForegroundColor Green
     return 0
 }
 
@@ -149,8 +149,8 @@ function Invoke-ArchiveRunner {
         $args += "--force-refresh"
     }
 
-    python @args
-    return $LASTEXITCODE
+    & python @args | Out-Host
+    return [int]$LASTEXITCODE
 }
 
 if ($RunOnce) {
@@ -159,15 +159,19 @@ if ($RunOnce) {
 }
 
 Write-Host "Mode kontinu aktif. Tekan Ctrl+C untuk berhenti."
-Write-Host "Items per run : $ItemsPerRun"
-Write-Host "Loop delay    : $LoopDelaySeconds detik"
-Write-Host "Auto-push     : setiap $PushEveryProcessedCount App ID"
+Write-Host "Per putaran   : $ItemsPerRun App ID"
+Write-Host "Jeda loop     : $LoopDelaySeconds detik"
+Write-Host "Auto-push     : tiap $PushEveryProcessedCount App ID"
 
 while ($true) {
+    $startedAt = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+    Write-Host ""
+    Write-Host "[$startedAt] Mulai putaran..." -ForegroundColor Cyan
+
     $exitCode = Invoke-ArchiveRunner
 
     if ($exitCode -ne 0) {
-        Write-Warning "Runner exit code $exitCode. Tunggu $LoopDelaySeconds detik lalu coba lagi."
+        Write-Host "[runner] Gagal. Exit code: $exitCode. Coba lagi dalam $LoopDelaySeconds detik." -ForegroundColor Red
     }
     else {
         $processedThisRun = Get-LastRunProcessedCount
@@ -176,7 +180,10 @@ while ($true) {
 
         if ($processedThisRun -gt 0) {
             Save-PushState -PendingProcessedCount $pendingProcessedCount -LastPushAt $pushState.last_push_at
-            Write-Host "Akumulasi sejak push terakhir: $pendingProcessedCount App ID"
+            Write-Host "[runner] Sukses | putaran ini: $processedThisRun | belum dipush: $pendingProcessedCount" -ForegroundColor Green
+        }
+        else {
+            Write-Host "[runner] Tidak ada App ID yang diproses di putaran ini." -ForegroundColor DarkYellow
         }
 
         if ($PushEveryProcessedCount -gt 0 -and $pendingProcessedCount -ge $PushEveryProcessedCount) {
@@ -187,5 +194,6 @@ while ($true) {
         }
     }
 
+    Write-Host "[runner] Tunggu $LoopDelaySeconds detik..." -ForegroundColor DarkGray
     Start-Sleep -Seconds $LoopDelaySeconds
 }
