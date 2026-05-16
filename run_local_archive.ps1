@@ -1,28 +1,191 @@
 param(
-    [int]$BatchSize = 2000,
+    [int]$ItemsPerRun = 1,
     [int]$Limit = 0,
     [int]$MaxFileSizeMB = 25,
     [double]$SleepSeconds = 1,
-    [switch]$ForceRefresh
+    [double]$LoopDelaySeconds = 3,
+    [int]$PushEveryProcessedCount = 1000,
+    [switch]$ForceRefresh,
+    [switch]$RunOnce
 )
 
+function Import-DotEnv {
+    param(
+        [string]$Path = ".env"
+    )
+
+    if (-not (Test-Path $Path)) {
+        return
+    }
+
+    Get-Content $Path | ForEach-Object {
+        $line = $_.Trim()
+        if (-not $line -or $line.StartsWith("#")) {
+            return
+        }
+
+        $parts = $line -split "=", 2
+        if ($parts.Count -ne 2) {
+            return
+        }
+
+        $key = $parts[0].Trim()
+        $value = $parts[1].Trim()
+
+        if (
+            ($value.StartsWith('"') -and $value.EndsWith('"')) -or
+            ($value.StartsWith("'") -and $value.EndsWith("'"))
+        ) {
+            $value = $value.Substring(1, $value.Length - 2)
+        }
+
+        [Environment]::SetEnvironmentVariable($key, $value, "Process")
+    }
+}
+
+function Set-GitIdentityFromEnv {
+    if ($env:COMMIT_USER_NAME) {
+        git config user.name "$($env:COMMIT_USER_NAME)" | Out-Null
+    }
+
+    if ($env:COMMIT_USER_EMAIL) {
+        git config user.email "$($env:COMMIT_USER_EMAIL)" | Out-Null
+    }
+}
+
+Import-DotEnv
+
 if (-not $env:STEAMGRIDDB_API_KEY) {
-    Write-Error "STEAMGRIDDB_API_KEY belum di-set di environment variable."
+    Write-Error "STEAMGRIDDB_API_KEY belum di-set. Isi lewat file .env atau environment variable."
     exit 1
 }
 
-$args = @(
-    "final\steam_metadata_NP.py",
-    "--output-dir", "dist",
-    "--file-prefix", "steam_metadata_NP",
-    "--batch-size", $BatchSize,
-    "--limit", $Limit,
-    "--max-file-size-mb", $MaxFileSizeMB,
-    "--sleep-seconds", $SleepSeconds
-)
+$pushStatePath = Join-Path "dist" "steam_metadata_NP_push_state.json"
+$manifestPath = Join-Path "dist" "steam_metadata_NP_manifest.json"
 
-if ($ForceRefresh) {
-    $args += "--force-refresh"
+function Get-PushState {
+    if (Test-Path $pushStatePath) {
+        return Get-Content -Raw $pushStatePath | ConvertFrom-Json
+    }
+
+    return [pscustomobject]@{
+        pending_processed_since_push = 0
+        last_push_at = $null
+    }
 }
 
-python @args
+function Save-PushState([int]$PendingProcessedCount, [string]$LastPushAt) {
+    $pushStateDirectory = Split-Path -Parent $pushStatePath
+    if (-not (Test-Path $pushStateDirectory)) {
+        New-Item -ItemType Directory -Path $pushStateDirectory | Out-Null
+    }
+
+    $state = [ordered]@{
+        pending_processed_since_push = $PendingProcessedCount
+        last_push_at = $LastPushAt
+    }
+
+    $state | ConvertTo-Json | Set-Content -Encoding UTF8 $pushStatePath
+}
+
+function Get-LastRunProcessedCount {
+    if (-not (Test-Path $manifestPath)) {
+        return 0
+    }
+
+    $manifest = Get-Content -Raw $manifestPath | ConvertFrom-Json
+    if ($null -eq $manifest.total_appids_processed_this_run) {
+        return 0
+    }
+
+    return [int]$manifest.total_appids_processed_this_run
+}
+
+function Invoke-AutoPush([int]$PendingProcessedCount) {
+    if (-not (Test-Path ".git")) {
+        Write-Warning "Folder ini belum repo git. Auto-push dilewati."
+        return $PendingProcessedCount
+    }
+
+    Set-GitIdentityFromEnv
+
+    $gitStatus = git status --porcelain -- dist
+    if (-not $gitStatus) {
+        Write-Host "Tidak ada perubahan di dist untuk di-push."
+        return $PendingProcessedCount
+    }
+
+    git add dist
+    git commit -m "Update Steam metadata archive after $PendingProcessedCount appids"
+    if ($LASTEXITCODE -ne 0) {
+        Write-Warning "Commit gagal. Counter push tidak direset."
+        return $PendingProcessedCount
+    }
+
+    git push
+    if ($LASTEXITCODE -ne 0) {
+        Write-Warning "Push gagal. Counter push tidak direset."
+        return $PendingProcessedCount
+    }
+
+    $timestamp = (Get-Date).ToUniversalTime().ToString("o")
+    Save-PushState -PendingProcessedCount 0 -LastPushAt $timestamp
+    Write-Host "Auto-push berhasil setelah $PendingProcessedCount App ID."
+    return 0
+}
+
+function Invoke-ArchiveRunner {
+    $args = @(
+        "final\steam_metadata_NP.py",
+        "--output-dir", "dist",
+        "--file-prefix", "steam_metadata_NP",
+        "--batch-size", $ItemsPerRun,
+        "--limit", $Limit,
+        "--max-file-size-mb", $MaxFileSizeMB,
+        "--sleep-seconds", $SleepSeconds
+    )
+
+    if ($ForceRefresh) {
+        $args += "--force-refresh"
+    }
+
+    python @args
+    return $LASTEXITCODE
+}
+
+if ($RunOnce) {
+    $exitCode = Invoke-ArchiveRunner
+    exit $exitCode
+}
+
+Write-Host "Mode kontinu aktif. Tekan Ctrl+C untuk berhenti."
+Write-Host "Items per run : $ItemsPerRun"
+Write-Host "Loop delay    : $LoopDelaySeconds detik"
+Write-Host "Auto-push     : setiap $PushEveryProcessedCount App ID"
+
+while ($true) {
+    $exitCode = Invoke-ArchiveRunner
+
+    if ($exitCode -ne 0) {
+        Write-Warning "Runner exit code $exitCode. Tunggu $LoopDelaySeconds detik lalu coba lagi."
+    }
+    else {
+        $processedThisRun = Get-LastRunProcessedCount
+        $pushState = Get-PushState
+        $pendingProcessedCount = [int]$pushState.pending_processed_since_push + $processedThisRun
+
+        if ($processedThisRun -gt 0) {
+            Save-PushState -PendingProcessedCount $pendingProcessedCount -LastPushAt $pushState.last_push_at
+            Write-Host "Akumulasi sejak push terakhir: $pendingProcessedCount App ID"
+        }
+
+        if ($PushEveryProcessedCount -gt 0 -and $pendingProcessedCount -ge $PushEveryProcessedCount) {
+            $updatedPendingCount = Invoke-AutoPush -PendingProcessedCount $pendingProcessedCount
+            if ($updatedPendingCount -ne 0) {
+                Save-PushState -PendingProcessedCount $updatedPendingCount -LastPushAt $pushState.last_push_at
+            }
+        }
+    }
+
+    Start-Sleep -Seconds $LoopDelaySeconds
+}
