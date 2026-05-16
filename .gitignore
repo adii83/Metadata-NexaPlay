@@ -1,0 +1,24 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local virtual environments
+.venv/
+venv/
+env/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local-only test outputs
+dist_test/
+test/*.json
+GITHUB_SETUP.md
+
+# Keep production archive outputs tracked by Actions
+# dist/
