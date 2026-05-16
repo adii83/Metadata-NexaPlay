@@ -37,6 +37,7 @@ DEFAULT_OUTPUT_DIR = "dist"
 DEFAULT_FILE_PREFIX = "steam_metadata_NP"
 DEFAULT_MAX_FILE_SIZE_MB = 25
 DEFAULT_SLEEP_SECONDS = 1.0
+DEFAULT_BATCH_SIZE = 2000
 
 STORE_ASSET_KEYS = [
     "header",
@@ -165,31 +166,52 @@ def load_object_appids(url: str) -> list[int]:
     return appids
 
 
-def load_processed_appids_from_dir(output_dir: Path, file_prefix: str) -> set[int]:
-    processed: set[int] = set()
+def load_existing_archive(output_dir: Path, file_prefix: str) -> dict[int, dict]:
+    archive: dict[int, dict] = {}
 
     if not output_dir.exists():
-        return processed
+        return archive
 
     pattern = f"{file_prefix}_part*.json"
     for chunk_path in sorted(output_dir.glob(pattern)):
-        if ijson is not None:
-            with chunk_path.open("rb") as handle:
-                for prefix, event, value in ijson.parse(handle):
-                    if prefix == "" and event == "map_key":
-                        appid = parse_appid_value(value)
-                        if appid is not None:
-                            processed.add(appid)
+        payload = json.loads(chunk_path.read_text(encoding="utf-8"))
+        if not isinstance(payload, dict):
             continue
 
-        payload = json.loads(chunk_path.read_text(encoding="utf-8"))
-        if isinstance(payload, dict):
-            for key in payload.keys():
-                appid = parse_appid_value(key)
-                if appid is not None:
-                    processed.add(appid)
+        for key, value in payload.items():
+            appid = parse_appid_value(key)
+            if appid is not None and isinstance(value, dict):
+                archive[appid] = value
 
-    return processed
+    return archive
+
+
+def get_progress_path(output_dir: Path, file_prefix: str) -> Path:
+    return output_dir / f"{file_prefix}_progress.json"
+
+
+def load_progress(output_dir: Path, file_prefix: str) -> dict:
+    progress_path = get_progress_path(output_dir, file_prefix)
+    if not progress_path.exists():
+        return {
+            "backlog_cursor": 0,
+            "known_source_appids": [],
+        }
+
+    payload = json.loads(progress_path.read_text(encoding="utf-8"))
+    if not isinstance(payload, dict):
+        return {
+            "backlog_cursor": 0,
+            "known_source_appids": [],
+        }
+
+    payload.setdefault("backlog_cursor", 0)
+    payload.setdefault("known_source_appids", [])
+    return payload
+
+
+def write_progress(output_dir: Path, file_prefix: str, progress: dict) -> None:
+    write_json_file(progress, get_progress_path(output_dir, file_prefix))
 
 
 def build_prioritized_appids(
@@ -217,6 +239,135 @@ def build_prioritized_appids(
 
     source_counts = {source_name: len(source_appids) for source_name, source_appids in prioritized_lists}
     return appids, source_map, source_counts
+
+
+def build_retry_appids(existing_archive: dict[int, dict]) -> list[int]:
+    retry_appids: list[int] = []
+    for appid, payload in existing_archive.items():
+        if not payload.get("success", False):
+            retry_appids.append(appid)
+    return retry_appids
+
+
+def build_backlog_batch(
+    appids: list[int],
+    cursor: int,
+    batch_remaining: int,
+    blocked_appids: set[int],
+) -> tuple[list[int], int]:
+    if not appids or batch_remaining <= 0:
+        return [], cursor
+
+    total = len(appids)
+    selected: list[int] = []
+    index = cursor % total
+    scanned = 0
+
+    while scanned < total and len(selected) < batch_remaining:
+        appid = appids[index]
+        if appid not in blocked_appids:
+            selected.append(appid)
+            blocked_appids.add(appid)
+
+        index = (index + 1) % total
+        scanned += 1
+
+    return selected, index
+
+
+def select_batch_appids(
+    appids: list[int],
+    existing_archive: dict[int, dict],
+    progress: dict,
+    batch_size: int,
+    force_refresh: bool,
+) -> tuple[list[int], dict]:
+    if not appids:
+        return [], {
+            "new_count": 0,
+            "retry_failed_count": 0,
+            "backlog_count": 0,
+            "backlog_cursor_before": 0,
+            "backlog_cursor_after": 0,
+            "skipped_success_existing": 0,
+        }
+
+    previous_known_source = {
+        appid
+        for appid in (
+            parse_appid_value(value) for value in progress.get("known_source_appids", [])
+        )
+        if appid is not None
+    }
+    processed_success = {
+        appid for appid, payload in existing_archive.items() if payload.get("success", False)
+    }
+    retry_failed = set(build_retry_appids(existing_archive))
+    cursor_before = int(progress.get("backlog_cursor", 0) or 0)
+
+    if force_refresh:
+        refresh_batch, cursor_after = build_backlog_batch(
+            appids=appids,
+            cursor=cursor_before,
+            batch_remaining=batch_size,
+            blocked_appids=set(),
+        )
+        return refresh_batch, {
+            "new_count": 0,
+            "retry_failed_count": 0,
+            "backlog_count": len(refresh_batch),
+            "backlog_cursor_before": cursor_before,
+            "backlog_cursor_after": cursor_after,
+            "skipped_success_existing": 0,
+        }
+
+    new_appids = [
+        appid
+        for appid in appids
+        if appid not in previous_known_source and appid not in processed_success
+    ]
+
+    retry_failed_appids = [
+        appid
+        for appid in appids
+        if appid in retry_failed and appid not in processed_success and appid not in set(new_appids)
+    ]
+
+    blocked_appids = set(processed_success)
+    blocked_appids.update(new_appids)
+    blocked_appids.update(retry_failed_appids)
+
+    selected: list[int] = []
+    selected.extend(new_appids[:batch_size])
+
+    if len(selected) < batch_size:
+        remaining = batch_size - len(selected)
+        selected.extend(retry_failed_appids[:remaining])
+
+    backlog_remaining = batch_size - len(selected)
+    backlog_batch: list[int] = []
+    cursor_after = cursor_before
+
+    if backlog_remaining > 0:
+        blocked_for_backlog = set(blocked_appids)
+        blocked_for_backlog.update(selected)
+        backlog_batch, cursor_after = build_backlog_batch(
+            appids=appids,
+            cursor=cursor_before,
+            batch_remaining=backlog_remaining,
+            blocked_appids=blocked_for_backlog,
+        )
+        selected.extend(backlog_batch)
+
+    stats = {
+        "new_count": len([appid for appid in selected if appid in set(new_appids)]),
+        "retry_failed_count": len([appid for appid in selected if appid in set(retry_failed_appids)]),
+        "backlog_count": len(backlog_batch),
+        "backlog_cursor_before": cursor_before,
+        "backlog_cursor_after": cursor_after,
+        "skipped_success_existing": len(processed_success),
+    }
+    return selected, stats
 
 
 def get_steam_appdetails(appid: int) -> dict:
@@ -685,12 +836,19 @@ def write_json_file(payload: Any, output_path: Path) -> None:
     )
 
 
+def remove_existing_chunk_files(output_dir: Path, file_prefix: str) -> None:
+    for chunk_path in output_dir.glob(f"{file_prefix}_part*.json"):
+        chunk_path.unlink()
+
+
 def write_chunk_files(
     entries: list[tuple[int, dict]],
     output_dir: Path,
     file_prefix: str,
     max_file_size_mb: int,
 ) -> list[dict]:
+    remove_existing_chunk_files(output_dir, file_prefix)
+
     max_bytes = max_file_size_mb * 1024 * 1024
     chunk_files: list[dict] = []
     current_chunk: dict[str, dict] = {}
@@ -765,6 +923,12 @@ def parse_args() -> argparse.Namespace:
         help="Batasi jumlah App ID untuk test lokal. 0 berarti semua.",
     )
     parser.add_argument(
+        "--batch-size",
+        type=int,
+        default=DEFAULT_BATCH_SIZE,
+        help=f"Jumlah App ID yang diproses per run. Default: {DEFAULT_BATCH_SIZE}",
+    )
+    parser.add_argument(
         "--appid-populer-url",
         default=APPID_POPULER_URL,
         help="URL sumber appid_populer.json",
@@ -798,27 +962,40 @@ def main() -> None:
         args.override_data_url,
         args.steam_data_url,
     )
+    existing_archive = load_existing_archive(output_dir, args.file_prefix)
+    progress = load_progress(output_dir, args.file_prefix)
 
-    skipped_existing = 0
-    if not args.force_refresh:
-        processed_appids = load_processed_appids_from_dir(output_dir, args.file_prefix)
-        if processed_appids:
-            original_total = len(appids)
-            appids = [appid for appid in appids if appid not in processed_appids]
-            skipped_existing = original_total - len(appids)
-            print(f"App ID existing yang dilewati: {skipped_existing}")
+    batch_appids, batch_stats = select_batch_appids(
+        appids=appids,
+        existing_archive=existing_archive,
+        progress=progress,
+        batch_size=args.batch_size,
+        force_refresh=args.force_refresh,
+    )
 
     if args.limit > 0:
-        appids = appids[:args.limit]
+        batch_appids = batch_appids[:args.limit]
 
-    print(f"Total App ID unik yang akan diproses: {len(appids)}")
+    print(f"Total App ID unik sumber: {len(appids)}")
+    print(f"Total App ID arsip existing: {len(existing_archive)}")
+    print(
+        "Batch terpilih:"
+        f" baru={batch_stats['new_count']},"
+        f" retry_failed={batch_stats['retry_failed_count']},"
+        f" backlog={batch_stats['backlog_count']}"
+    )
+    print(f"Total App ID yang akan diproses run ini: {len(batch_appids)}")
+
+    if not batch_appids:
+        print("Tidak ada App ID yang perlu diproses pada run ini.")
+        return
 
     merged_entries: list[tuple[int, dict]] = []
     failures: list[dict] = []
 
-    for index, appid in enumerate(appids, start=1):
+    for index, appid in enumerate(batch_appids, start=1):
         source_priority = source_map.get(appid, "unknown")
-        print(f"[{index}/{len(appids)}] App ID {appid} dari {source_priority}")
+        print(f"[{index}/{len(batch_appids)}] App ID {appid} dari {source_priority}")
 
         try:
             merged_payload, entry_failures = merge_metadata(appid, source_priority)
@@ -849,8 +1026,12 @@ def main() -> None:
         if args.sleep_seconds > 0:
             time.sleep(args.sleep_seconds)
 
+    for appid, payload in merged_entries:
+        existing_archive[appid] = payload
+
+    all_entries = sorted(existing_archive.items(), key=lambda item: item[0])
     chunk_files = write_chunk_files(
-        entries=merged_entries,
+        entries=all_entries,
         output_dir=output_dir,
         file_prefix=args.file_prefix,
         max_file_size_mb=args.max_file_size_mb,
@@ -859,16 +1040,38 @@ def main() -> None:
     failures_path = output_dir / f"{args.file_prefix}_failures.json"
     write_json_file(failures, failures_path)
 
+    progress["backlog_cursor"] = batch_stats["backlog_cursor_after"]
+    progress["known_source_appids"] = appids
+    progress["last_run_at"] = utc_now_iso()
+    progress["last_batch"] = {
+        "processed_count": len(batch_appids),
+        "new_count": batch_stats["new_count"],
+        "retry_failed_count": batch_stats["retry_failed_count"],
+        "backlog_count": batch_stats["backlog_count"],
+        "force_refresh": args.force_refresh,
+    }
+    write_progress(output_dir, args.file_prefix, progress)
+
     manifest = {
         "generated_at": utc_now_iso(),
-        "total_appids_processed": len(appids),
+        "total_appids_processed_this_run": len(batch_appids),
+        "total_entries_in_archive": len(existing_archive),
         "source_counts": source_counts,
         "prioritized_sources": [
             "appid_populer",
             "override_data",
             "steam_data",
         ],
-        "skipped_existing_appids": skipped_existing,
+        "batch": {
+            "batch_size": args.batch_size,
+            "selected_count": len(batch_appids),
+            "new_count": batch_stats["new_count"],
+            "retry_failed_count": batch_stats["retry_failed_count"],
+            "backlog_count": batch_stats["backlog_count"],
+            "backlog_cursor_before": batch_stats["backlog_cursor_before"],
+            "backlog_cursor_after": batch_stats["backlog_cursor_after"],
+        },
+        "skipped_success_existing": batch_stats["skipped_success_existing"],
         "force_refresh": args.force_refresh,
         "chunking": {
             "max_file_size_mb": args.max_file_size_mb,
@@ -878,6 +1081,7 @@ def main() -> None:
             "count": len(failures),
             "file": failures_path.name,
         },
+        "progress_file": get_progress_path(output_dir, args.file_prefix).name,
     }
 
     manifest_path = output_dir / f"{args.file_prefix}_manifest.json"
