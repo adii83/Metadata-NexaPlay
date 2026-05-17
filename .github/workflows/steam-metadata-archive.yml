@@ -59,6 +59,9 @@ jobs:
                 --auto-push-every 0
             fi
 
+            python final/build_runtime_catalog.py
+            python final/build_index.py
+
             if git diff --quiet -- dist; then
               echo "Tidak ada perubahan dist/ di siklus $i"
               continue
