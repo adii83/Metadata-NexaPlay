@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "appid": 4333610,
+    "stage": "steamgriddb_lookup",
+    "error": "STEAMGRIDDB_API_KEY belum di-set. Simpan di environment variable atau GitHub Actions Secret.",
+    "source_priority": "steam_data",
+    "timestamp": "2026-05-17T16:40:45.794546+00:00"
+  }
+]

@@ -2450,6 +2450,462 @@
       }
     }
   },
+  "4333500": {
+    "success": true,
+    "source_priority": "steam_data",
+    "fetch_status": {
+      "steam_appdetails": true,
+      "steam_original_assets": false
+    },
+    "name": "Lucid Dream",
+    "steam_appid": "4333500",
+    "steamgriddb_game_id": null,
+    "store_asset_mtime": null,
+    "assets_count": 14,
+    "assets": {
+      "capsule_image": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/d4426bc71201fca5e201b74bcea9dcb60a6c5232/capsule_231x87.jpg?t=1771222378"
+        }
+      ],
+      "capsule_imagev5": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/d4426bc71201fca5e201b74bcea9dcb60a6c5232/capsule_184x69.jpg?t=1771222378"
+        }
+      ],
+      "background": [
+        {
+          "url": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4333500?t=1771222378"
+        }
+      ],
+      "background_raw": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/701dd931f8a6de7db2c5c8d3fbf7f5e9ba02f599/page_bg_raw.jpg?t=1771222378"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": 0,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/86b3b883f23983138f92ab7d2f07681e848e2c70/ss_86b3b883f23983138f92ab7d2f07681e848e2c70.600x338.jpg?t=1771222378",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/86b3b883f23983138f92ab7d2f07681e848e2c70/ss_86b3b883f23983138f92ab7d2f07681e848e2c70.1920x1080.jpg?t=1771222378"
+        },
+        {
+          "id": 1,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/d38e90959209007856bb36449cda895d3e7b827b/ss_d38e90959209007856bb36449cda895d3e7b827b.600x338.jpg?t=1771222378",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/d38e90959209007856bb36449cda895d3e7b827b/ss_d38e90959209007856bb36449cda895d3e7b827b.1920x1080.jpg?t=1771222378"
+        },
+        {
+          "id": 2,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/27019f4ebcde3c8a4e9a53c6fe83e8bd11454467/ss_27019f4ebcde3c8a4e9a53c6fe83e8bd11454467.600x338.jpg?t=1771222378",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/27019f4ebcde3c8a4e9a53c6fe83e8bd11454467/ss_27019f4ebcde3c8a4e9a53c6fe83e8bd11454467.1920x1080.jpg?t=1771222378"
+        },
+        {
+          "id": 3,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/4f3403342ca2616312adaec2a2b41018635f5469/ss_4f3403342ca2616312adaec2a2b41018635f5469.600x338.jpg?t=1771222378",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/4f3403342ca2616312adaec2a2b41018635f5469/ss_4f3403342ca2616312adaec2a2b41018635f5469.1920x1080.jpg?t=1771222378"
+        },
+        {
+          "id": 4,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/a77dee28e66318a796cd4dc251721fa29ddeac72/ss_a77dee28e66318a796cd4dc251721fa29ddeac72.600x338.jpg?t=1771222378",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/a77dee28e66318a796cd4dc251721fa29ddeac72/ss_a77dee28e66318a796cd4dc251721fa29ddeac72.1920x1080.jpg?t=1771222378"
+        },
+        {
+          "id": 5,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/896146d65d8251a92ab6a4250fc3d563ecaaba10/ss_896146d65d8251a92ab6a4250fc3d563ecaaba10.600x338.jpg?t=1771222378",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/896146d65d8251a92ab6a4250fc3d563ecaaba10/ss_896146d65d8251a92ab6a4250fc3d563ecaaba10.1920x1080.jpg?t=1771222378"
+        },
+        {
+          "id": 6,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/983877d0cc2553b5ecfa538f332bf0f136d967dd/ss_983877d0cc2553b5ecfa538f332bf0f136d967dd.600x338.jpg?t=1771222378",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/983877d0cc2553b5ecfa538f332bf0f136d967dd/ss_983877d0cc2553b5ecfa538f332bf0f136d967dd.1920x1080.jpg?t=1771222378"
+        },
+        {
+          "id": 7,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/f9969f242d6d591c6378a787dd7d78522df117c0/ss_f9969f242d6d591c6378a787dd7d78522df117c0.600x338.jpg?t=1771222378",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/f9969f242d6d591c6378a787dd7d78522df117c0/ss_f9969f242d6d591c6378a787dd7d78522df117c0.1920x1080.jpg?t=1771222378"
+        }
+      ],
+      "movies": [
+        {
+          "id": 257264463,
+          "name": "Lucid Dream",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257264463/f84dcb76c95fc2e686961c1757b000c54d50f631/movie_600x337.jpg?t=1768888565",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4333500/823418868/1590a6e821f2916ec4599fc8fc4dceff66dd6d6c/1768352051/dash_av1.mpd?t=1768888565",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4333500/823418868/1590a6e821f2916ec4599fc8fc4dceff66dd6d6c/1768352051/dash_h264.mpd?t=1768888565",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4333500/823418868/1590a6e821f2916ec4599fc8fc4dceff66dd6d6c/1768352051/hls_264_master.m3u8?t=1768888565",
+          "highlight": true
+        }
+      ],
+      "embedded_media": {
+        "about_the_game_urls": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/cbf026cabb8e49c8da19c6346ba568bf.poster.avif?t=1771222378",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/cbf026cabb8e49c8da19c6346ba568bf.webm?t=1771222378",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/cbf026cabb8e49c8da19c6346ba568bf.mp4?t=1771222378",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/3bf9f97e76ded6b9f8d5eddf9ba289e3.poster.avif?t=1771222378",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/3bf9f97e76ded6b9f8d5eddf9ba289e3.webm?t=1771222378",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/3bf9f97e76ded6b9f8d5eddf9ba289e3.mp4?t=1771222378",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/26f6edf21f6f068fa8d6083e1cd8204b.poster.avif?t=1771222378",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/26f6edf21f6f068fa8d6083e1cd8204b.webm?t=1771222378",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/26f6edf21f6f068fa8d6083e1cd8204b.mp4?t=1771222378"
+        ],
+        "detailed_description_urls": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/cbf026cabb8e49c8da19c6346ba568bf.poster.avif?t=1771222378",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/cbf026cabb8e49c8da19c6346ba568bf.webm?t=1771222378",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/cbf026cabb8e49c8da19c6346ba568bf.mp4?t=1771222378",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/3bf9f97e76ded6b9f8d5eddf9ba289e3.poster.avif?t=1771222378",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/3bf9f97e76ded6b9f8d5eddf9ba289e3.webm?t=1771222378",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/3bf9f97e76ded6b9f8d5eddf9ba289e3.mp4?t=1771222378",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/26f6edf21f6f068fa8d6083e1cd8204b.poster.avif?t=1771222378",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/26f6edf21f6f068fa8d6083e1cd8204b.webm?t=1771222378",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/26f6edf21f6f068fa8d6083e1cd8204b.mp4?t=1771222378"
+        ],
+        "all_urls": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/cbf026cabb8e49c8da19c6346ba568bf.poster.avif?t=1771222378",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/cbf026cabb8e49c8da19c6346ba568bf.webm?t=1771222378",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/cbf026cabb8e49c8da19c6346ba568bf.mp4?t=1771222378",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/3bf9f97e76ded6b9f8d5eddf9ba289e3.poster.avif?t=1771222378",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/3bf9f97e76ded6b9f8d5eddf9ba289e3.webm?t=1771222378",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/3bf9f97e76ded6b9f8d5eddf9ba289e3.mp4?t=1771222378",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/26f6edf21f6f068fa8d6083e1cd8204b.poster.avif?t=1771222378",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/26f6edf21f6f068fa8d6083e1cd8204b.webm?t=1771222378",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/26f6edf21f6f068fa8d6083e1cd8204b.mp4?t=1771222378"
+        ],
+        "videos_mp4": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/cbf026cabb8e49c8da19c6346ba568bf.mp4?t=1771222378",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/3bf9f97e76ded6b9f8d5eddf9ba289e3.mp4?t=1771222378",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/26f6edf21f6f068fa8d6083e1cd8204b.mp4?t=1771222378"
+        ],
+        "videos_webm": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/cbf026cabb8e49c8da19c6346ba568bf.webm?t=1771222378",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/3bf9f97e76ded6b9f8d5eddf9ba289e3.webm?t=1771222378",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/26f6edf21f6f068fa8d6083e1cd8204b.webm?t=1771222378"
+        ],
+        "images": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/cbf026cabb8e49c8da19c6346ba568bf.poster.avif?t=1771222378",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/3bf9f97e76ded6b9f8d5eddf9ba289e3.poster.avif?t=1771222378",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/26f6edf21f6f068fa8d6083e1cd8204b.poster.avif?t=1771222378"
+        ]
+      }
+    },
+    "store_data": {
+      "type": "game",
+      "required_age": 0,
+      "is_free": false,
+      "controller_support": "full",
+      "demos": [
+        {
+          "appid": 4333910,
+          "description": ""
+        }
+      ],
+      "about_the_game": "<h2 class=\"bb_tag\" >LUCID DREAM</h2>A Skill-Driven Top-Down Action Game<br><br><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/cbf026cabb8e49c8da19c6346ba568bf.poster.avif?t=1771222378\" width=426 height=240 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/cbf026cabb8e49c8da19c6346ba568bf.webm?t=1771222378\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/cbf026cabb8e49c8da19c6346ba568bf.mp4?t=1771222378\" type=\"video/mp4\"></video></span></p>You awaken in a fractured dream world with no clear explanation of how you arrived.<br>Armed with a single weapon, you must move through hostile environments and confront powerful entities blocking your path.<br><br><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/3bf9f97e76ded6b9f8d5eddf9ba289e3.poster.avif?t=1771222378\" width=426 height=240 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/3bf9f97e76ded6b9f8d5eddf9ba289e3.webm?t=1771222378\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/3bf9f97e76ded6b9f8d5eddf9ba289e3.mp4?t=1771222378\" type=\"video/mp4\"></video></span></p><strong>Core Gameplay</strong><br>Lucid Dream is a top-down action game focused on player control, positioning, and timing.<br>Progress is earned through observation, adaptation, and consistent execution rather than statistics or automated assistance.<br><br><strong>World and Exploration</strong><br>The dream kingdom is built from rigid structures and distorted logic.<br>Levels are designed to remain readable under pressure, allowing players to assess threats and react quickly.<br><br><strong>Combat Flow</strong><br>Encounters are fast and demanding.<br>Success depends on movement, spacing, and timing rather than numerical advantage.<br><br><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/26f6edf21f6f068fa8d6083e1cd8204b.poster.avif?t=1771222378\" width=426 height=240 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/26f6edf21f6f068fa8d6083e1cd8204b.webm?t=1771222378\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/26f6edf21f6f068fa8d6083e1cd8204b.mp4?t=1771222378\" type=\"video/mp4\"></video></span></p><strong>Pressure and Opposition</strong><br>Enemies apply constant pressure, forcing players to read attack patterns, identify openings, and commit decisively.<br><br><strong>Guardians</strong><br>As you progress, increasingly formidable guardians stand in your way.<br>These encounters emphasize pattern recognition, composure, and precise execution.",
+      "detailed_description": "<h2 class=\"bb_tag\" >LUCID DREAM</h2>A Skill-Driven Top-Down Action Game<br><br><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/cbf026cabb8e49c8da19c6346ba568bf.poster.avif?t=1771222378\" width=426 height=240 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/cbf026cabb8e49c8da19c6346ba568bf.webm?t=1771222378\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/cbf026cabb8e49c8da19c6346ba568bf.mp4?t=1771222378\" type=\"video/mp4\"></video></span></p>You awaken in a fractured dream world with no clear explanation of how you arrived.<br>Armed with a single weapon, you must move through hostile environments and confront powerful entities blocking your path.<br><br><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/3bf9f97e76ded6b9f8d5eddf9ba289e3.poster.avif?t=1771222378\" width=426 height=240 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/3bf9f97e76ded6b9f8d5eddf9ba289e3.webm?t=1771222378\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/3bf9f97e76ded6b9f8d5eddf9ba289e3.mp4?t=1771222378\" type=\"video/mp4\"></video></span></p><strong>Core Gameplay</strong><br>Lucid Dream is a top-down action game focused on player control, positioning, and timing.<br>Progress is earned through observation, adaptation, and consistent execution rather than statistics or automated assistance.<br><br><strong>World and Exploration</strong><br>The dream kingdom is built from rigid structures and distorted logic.<br>Levels are designed to remain readable under pressure, allowing players to assess threats and react quickly.<br><br><strong>Combat Flow</strong><br>Encounters are fast and demanding.<br>Success depends on movement, spacing, and timing rather than numerical advantage.<br><br><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/26f6edf21f6f068fa8d6083e1cd8204b.poster.avif?t=1771222378\" width=426 height=240 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/26f6edf21f6f068fa8d6083e1cd8204b.webm?t=1771222378\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333500/extras/26f6edf21f6f068fa8d6083e1cd8204b.mp4?t=1771222378\" type=\"video/mp4\"></video></span></p><strong>Pressure and Opposition</strong><br>Enemies apply constant pressure, forcing players to read attack patterns, identify openings, and commit decisively.<br><br><strong>Guardians</strong><br>As you progress, increasingly formidable guardians stand in your way.<br>These encounters emphasize pattern recognition, composure, and precise execution.",
+      "short_description": "Lucid Dream is a top-down action shooter with intense combat and hard boss fights. Explore layered areas, collect powerful upgrades, and build your own playstyle.",
+      "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Russian<strong>*</strong>, Turkish<strong>*</strong>, Japanese<strong>*</strong>, Simplified Chinese<strong>*</strong>, Traditional Chinese<strong>*</strong>, Portuguese - Portugal<strong>*</strong>, Korean<strong>*</strong><br><strong>*</strong>languages with full audio support",
+      "website": null,
+      "pc_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows 7<br></li><li><strong>Processor:</strong> Intel Pentium G620 (2.5 GHz dual-core) or equivalent<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Integrated graphics or equivalent<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows 7 / Windows 8 / Windows 10<br></li><li><strong>Processor:</strong> Intel Core i5-2300 (2.8 GHz quad-core) or equivalent<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 750 or equivalent<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>"
+      },
+      "mac_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> macOS Sierra<br></li><li><strong>Processor:</strong> Intel Core i5 dual-core 1.6 GHz<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Intel UHD Graphics 617<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> macOS Monterey<br></li><li><strong>Processor:</strong> Intel Core i5 dual-core 2.3 GHz<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Intel Iris Plus Graphics 640<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>"
+      },
+      "linux_requirements": [],
+      "developers": [
+        "Ragdall_"
+      ],
+      "publishers": [
+        "Ragdoll_"
+      ],
+      "support_info": {
+        "url": "",
+        "email": "palmasandpazu@gmail.com"
+      },
+      "package_groups": [],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "categories": [
+        {
+          "id": 2,
+          "description": "Single-player"
+        },
+        {
+          "id": 28,
+          "description": "Full controller support"
+        },
+        {
+          "id": 62,
+          "description": "Family Sharing"
+        }
+      ],
+      "genres": [
+        {
+          "id": "1",
+          "description": "Action"
+        },
+        {
+          "id": "25",
+          "description": "Adventure"
+        },
+        {
+          "id": "23",
+          "description": "Indie"
+        },
+        {
+          "id": "3",
+          "description": "RPG"
+        },
+        {
+          "id": "2",
+          "description": "Strategy"
+        }
+      ],
+      "release_date": {
+        "coming_soon": true,
+        "date": "To be announced"
+      },
+      "content_descriptors": {
+        "ids": [],
+        "notes": null
+      },
+      "ratings": {
+        "dejus": {
+          "rating_generated": "1",
+          "rating": "6",
+          "required_age": "6",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": "Violência fantasiosa"
+        },
+        "steam_germany": {
+          "rating_generated": "1",
+          "rating": "6",
+          "required_age": "6",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": "Fantasy-Gewalt"
+        },
+        "igrs": {
+          "rating_generated": "1",
+          "rating": "13",
+          "required_age": "13",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": "Kekerasan"
+        }
+      }
+    }
+  },
+  "4333610": {
+    "success": true,
+    "source_priority": "steam_data",
+    "fetch_status": {
+      "steam_appdetails": true,
+      "steam_original_assets": false
+    },
+    "name": "Unit League",
+    "steam_appid": "4333610",
+    "steamgriddb_game_id": null,
+    "store_asset_mtime": null,
+    "assets_count": 11,
+    "assets": {
+      "capsule_image": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333610/4e9d49c85c73640113431660eb3b1ba72b95db20/capsule_231x87.jpg?t=1770192729"
+        }
+      ],
+      "capsule_imagev5": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333610/4e9d49c85c73640113431660eb3b1ba72b95db20/capsule_184x69.jpg?t=1770192729"
+        }
+      ],
+      "background": [
+        {
+          "url": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4333610?t=1770192729"
+        }
+      ],
+      "background_raw": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333610/54b9d01770efdae1f2000857652e27ebbc811c35/page_bg_raw.jpg?t=1770192729"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": 0,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333610/52b01319d23190ff3d79736b131354502f5e70a5/ss_52b01319d23190ff3d79736b131354502f5e70a5.600x338.jpg?t=1770192729",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333610/52b01319d23190ff3d79736b131354502f5e70a5/ss_52b01319d23190ff3d79736b131354502f5e70a5.1920x1080.jpg?t=1770192729"
+        },
+        {
+          "id": 1,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333610/8401d72e7a3151a3b0863053a6ac3d446564b70a/ss_8401d72e7a3151a3b0863053a6ac3d446564b70a.600x338.jpg?t=1770192729",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333610/8401d72e7a3151a3b0863053a6ac3d446564b70a/ss_8401d72e7a3151a3b0863053a6ac3d446564b70a.1920x1080.jpg?t=1770192729"
+        },
+        {
+          "id": 2,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333610/1a1db4e080346ec96b925156e75a9717fbe75521/ss_1a1db4e080346ec96b925156e75a9717fbe75521.600x338.jpg?t=1770192729",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333610/1a1db4e080346ec96b925156e75a9717fbe75521/ss_1a1db4e080346ec96b925156e75a9717fbe75521.1920x1080.jpg?t=1770192729"
+        },
+        {
+          "id": 3,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333610/474d503ecc4a9632432849ec5baa0c5a2cc660e2/ss_474d503ecc4a9632432849ec5baa0c5a2cc660e2.600x338.jpg?t=1770192729",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333610/474d503ecc4a9632432849ec5baa0c5a2cc660e2/ss_474d503ecc4a9632432849ec5baa0c5a2cc660e2.1920x1080.jpg?t=1770192729"
+        },
+        {
+          "id": 4,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333610/160c90514bdf0a2044f9f015c4628a277cebc152/ss_160c90514bdf0a2044f9f015c4628a277cebc152.600x338.jpg?t=1770192729",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333610/160c90514bdf0a2044f9f015c4628a277cebc152/ss_160c90514bdf0a2044f9f015c4628a277cebc152.1920x1080.jpg?t=1770192729"
+        }
+      ],
+      "movies": [
+        {
+          "id": 257264444,
+          "name": "Unit League",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257264444/b918cf2637e31dd907dcc3e452a280a583cba189/movie_600x337.jpg?t=1769010775",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4333610/1843008257/47608a3885e0bd5ee44baea86f1e1ec73960569e/1768386956/dash_av1.mpd?t=1769010775",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4333610/1843008257/47608a3885e0bd5ee44baea86f1e1ec73960569e/1768386956/dash_h264.mpd?t=1769010775",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4333610/1843008257/47608a3885e0bd5ee44baea86f1e1ec73960569e/1768386956/hls_264_master.m3u8?t=1769010775",
+          "highlight": true
+        }
+      ],
+      "embedded_media": {
+        "about_the_game_urls": [],
+        "detailed_description_urls": [],
+        "all_urls": [],
+        "videos_mp4": [],
+        "videos_webm": [],
+        "images": []
+      }
+    },
+    "store_data": {
+      "type": "game",
+      "required_age": 0,
+      "is_free": false,
+      "about_the_game": "<p class=\"bb_paragraph\" > In the near future, the standards for human enjoyment are becoming increasingly demanding, and people constantly seek more stimulating content. To meet these heightened expectations, entertainment companies have launched the 'Unit League', a competitive tournament where participants battle each other using various weapons. As a player, you will take charge of managing one of these teams.</p><p class=\"bb_paragraph\" > Recruit units needed for your team and deploy them appropriately. Strengthen your team by leveling them up and equipping them, win battles, and achieve good results in the league.</p><p class=\"bb_paragraph\" > Basically, combat is played from a third-person perspective, where you choose to 'directly control' one member from your entire team. For league matches, you can select and field 25 team members and support a 'spectator mode' where you watch without any control.</p><p class=\"bb_paragraph\" > Each unit type is divided into Mace, Dagger, Greatsword, Greataxe, Dual (Dual Wield), Pistol, Shotgun, Launcher, Rifle, and Sniper, and there is a basic stat difference depending on the type.</p><p class=\"bb_paragraph\" > You can earn in-game money (c) and reputation by participating in League Matches, Mini-Games, the Arena, and Bounty Hunts. In-game money can be used to purchase equipment from the shop or recruit players. As your reputation increases, the in-game money you receive from participating in league matches increases, and the rewards you get for clearing mini-games also increase.</p><p class=\"bb_paragraph\" > Scientific Capability (f) can be obtained as a final reward at the end of a league season, by disassembling items, or by analyzing street waste. In the Lab, you can use Scientific Capability to raise the level of functions that help with gameplay.</p><p class=\"bb_paragraph\" > Items can be obtained by purchasing them from the shop or by going out into the Restricted Area to hunt and explore</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >[license]</p><p class=\"bb_paragraph\" >(Font: 강원특별자치도 태백시's public work is used according to KOGL)</p><p class=\"bb_paragraph\" >(Image: Icons created by Freepik - Flaticon)</p>",
+      "detailed_description": "<p class=\"bb_paragraph\" > In the near future, the standards for human enjoyment are becoming increasingly demanding, and people constantly seek more stimulating content. To meet these heightened expectations, entertainment companies have launched the 'Unit League', a competitive tournament where participants battle each other using various weapons. As a player, you will take charge of managing one of these teams.</p><p class=\"bb_paragraph\" > Recruit units needed for your team and deploy them appropriately. Strengthen your team by leveling them up and equipping them, win battles, and achieve good results in the league.</p><p class=\"bb_paragraph\" > Basically, combat is played from a third-person perspective, where you choose to 'directly control' one member from your entire team. For league matches, you can select and field 25 team members and support a 'spectator mode' where you watch without any control.</p><p class=\"bb_paragraph\" > Each unit type is divided into Mace, Dagger, Greatsword, Greataxe, Dual (Dual Wield), Pistol, Shotgun, Launcher, Rifle, and Sniper, and there is a basic stat difference depending on the type.</p><p class=\"bb_paragraph\" > You can earn in-game money (c) and reputation by participating in League Matches, Mini-Games, the Arena, and Bounty Hunts. In-game money can be used to purchase equipment from the shop or recruit players. As your reputation increases, the in-game money you receive from participating in league matches increases, and the rewards you get for clearing mini-games also increase.</p><p class=\"bb_paragraph\" > Scientific Capability (f) can be obtained as a final reward at the end of a league season, by disassembling items, or by analyzing street waste. In the Lab, you can use Scientific Capability to raise the level of functions that help with gameplay.</p><p class=\"bb_paragraph\" > Items can be obtained by purchasing them from the shop or by going out into the Restricted Area to hunt and explore</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >[license]</p><p class=\"bb_paragraph\" >(Font: 강원특별자치도 태백시's public work is used according to KOGL)</p><p class=\"bb_paragraph\" >(Image: Icons created by Freepik - Flaticon)</p>",
+      "short_description": "Manage the units on your team and perform well in the league.",
+      "supported_languages": "English, Korean",
+      "website": null,
+      "pc_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 11 x64<br></li><li><strong>Processor:</strong> AMD Ryzen 5 3600<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 1060<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Storage:</strong> 5 GB available space</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+      },
+      "mac_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+      },
+      "linux_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+      },
+      "developers": [
+        "Skyland"
+      ],
+      "publishers": [
+        "Skyland"
+      ],
+      "support_info": {
+        "url": "",
+        "email": "skylandgames0812@gmail.com"
+      },
+      "price_overview": {
+        "currency": "USD",
+        "initial": 99,
+        "final": 99,
+        "discount_percent": 0,
+        "initial_formatted": "",
+        "final_formatted": "$0.99"
+      },
+      "packages": [
+        1514972
+      ],
+      "package_groups": [
+        {
+          "name": "default",
+          "title": "Buy Unit League",
+          "description": "",
+          "selection_text": "Select a purchase option",
+          "save_text": "",
+          "display_type": 0,
+          "is_recurring_subscription": "false",
+          "subs": [
+            {
+              "packageid": 1514972,
+              "percent_savings_text": " ",
+              "percent_savings": 0,
+              "option_text": "Unit League - $0.99",
+              "option_description": "",
+              "can_get_free_license": "0",
+              "is_free_license": false,
+              "price_in_cents_with_discount": 99
+            }
+          ]
+        }
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "categories": [
+        {
+          "id": 2,
+          "description": "Single-player"
+        },
+        {
+          "id": 62,
+          "description": "Family Sharing"
+        }
+      ],
+      "genres": [
+        {
+          "id": "23",
+          "description": "Indie"
+        },
+        {
+          "id": "28",
+          "description": "Simulation"
+        }
+      ],
+      "release_date": {
+        "coming_soon": false,
+        "date": "Feb 4, 2026"
+      },
+      "content_descriptors": {
+        "ids": [],
+        "notes": null
+      },
+      "ratings": {
+        "dejus": {
+          "rating_generated": "1",
+          "rating": "14",
+          "required_age": "14",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": "Violência"
+        },
+        "steam_germany": {
+          "rating_generated": "1",
+          "rating": "16",
+          "required_age": "16",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": "Drastische Gewalt"
+        },
+        "igrs": {
+          "rating_generated": "1",
+          "rating": "18",
+          "required_age": "18",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": "Kekerasan"
+        }
+      }
+    }
+  },
   "4348760": {
     "success": true,
     "source_priority": "appid_populer",

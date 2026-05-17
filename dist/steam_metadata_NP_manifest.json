@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-17T16:20:42.325950+00:00",
+  "generated_at": "2026-05-17T16:40:47.793507+00:00",
   "total_appids_processed_this_run": 1,
-  "total_entries_in_archive": 3642,
+  "total_entries_in_archive": 3644,
   "source_counts": {
     "appid_populer": 238,
     "fix_games": 120,
@@ -24,10 +24,10 @@
     "new_count": 0,
     "retry_failed_count": 0,
     "backlog_count": 1,
-    "backlog_cursor_before": 3631,
-    "backlog_cursor_after": 3632
+    "backlog_cursor_before": 3633,
+    "backlog_cursor_after": 3634
   },
-  "skipped_success_existing": 3637,
+  "skipped_success_existing": 3639,
   "force_refresh": false,
   "chunking": {
     "max_file_size_mb": 25,
@@ -50,13 +50,13 @@
       },
       {
         "file": "steam_metadata_NP_part004.json",
-        "entries": 10,
-        "size_bytes": 260570
+        "entries": 12,
+        "size_bytes": 296376
       }
     ]
   },
   "failures": {
-    "count": 0,
+    "count": 1,
     "file": "steam_metadata_NP_failures.json"
   },
   "progress_file": "steam_metadata_NP_progress.json"
