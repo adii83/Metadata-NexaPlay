@@ -1,16 +1,1 @@
-[
-  {
-    "appid": 48180,
-    "stage": "steam_appdetails",
-    "error": "Steam mengembalikan success=false.",
-    "source_priority": "override_data",
-    "timestamp": "2026-05-17T09:21:55.047182+00:00"
-  },
-  {
-    "appid": 48180,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "override_data",
-    "timestamp": "2026-05-17T09:21:56.065339+00:00"
-  }
-]
+[]
