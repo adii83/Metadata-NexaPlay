@@ -1,0 +1,59 @@
+{
+  "generated_at": "2026-05-17T18:01:19.673362+00:00",
+  "dataset": "steam_metadata_NP",
+  "version": "2026-05-17T18:01:19.673366+00:00",
+  "chunks": {
+    "folder": "chunks",
+    "count": 5,
+    "total_entries": 8744,
+    "total_size_bytes": 145815451,
+    "files": [
+      {
+        "file": "steam_metadata_NP_part001.json",
+        "path": "chunks/steam_metadata_NP_part001.json",
+        "size_bytes": 29858120,
+        "sha256": "478fbe7b833c45d4d6e2c768075f277bcc185d66c6ac4f9e3a60e049852c1892",
+        "entries": 1028,
+        "last_modified_utc": "2026-05-17T18:01:12.204109+00:00"
+      },
+      {
+        "file": "steam_metadata_NP_part002.json",
+        "path": "chunks/steam_metadata_NP_part002.json",
+        "size_bytes": 29783173,
+        "sha256": "a526e3543c014e14cd336cee87694ece4e3688ede1dff2ada4bf3a3137f8f6b5",
+        "entries": 1301,
+        "last_modified_utc": "2026-05-17T18:01:12.846112+00:00"
+      },
+      {
+        "file": "steam_metadata_NP_part003.json",
+        "path": "chunks/steam_metadata_NP_part003.json",
+        "size_bytes": 29794307,
+        "sha256": "29a2f05c9982fb6259f1f159ef7dd2e8863da48f6408f25fb58e12c882c606e3",
+        "entries": 1302,
+        "last_modified_utc": "2026-05-17T18:01:13.493115+00:00"
+      },
+      {
+        "file": "steam_metadata_NP_part004.json",
+        "path": "chunks/steam_metadata_NP_part004.json",
+        "size_bytes": 30232680,
+        "sha256": "fd5977d1c863677709bf9c4e3e9bcb8ca87bb28bfa27cc507fd076f3b668603a",
+        "entries": 2743,
+        "last_modified_utc": "2026-05-17T18:01:14.197118+00:00"
+      },
+      {
+        "file": "steam_metadata_NP_part005.json",
+        "path": "chunks/steam_metadata_NP_part005.json",
+        "size_bytes": 26147171,
+        "sha256": "6fd36c3c529e698ce35684bdb1d114d22a4d5621f4b4e4bedb0a99f7319993b8",
+        "entries": 2370,
+        "last_modified_utc": "2026-05-17T18:01:14.817121+00:00"
+      }
+    ]
+  },
+  "runtime_catalog": {
+    "file": "runtime_catalog.json",
+    "size_bytes": 20459783,
+    "sha256": "799c00f64aec993cf92b435296b9cb2f468a90d07e25a261ba1e9b480f71a0e5",
+    "last_modified_utc": "2026-05-17T18:01:18.014135+00:00"
+  }
+}
