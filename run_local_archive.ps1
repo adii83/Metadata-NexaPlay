@@ -3,8 +3,8 @@ param(
     [int]$Limit = 0,
     [int]$MaxFileSizeMB = 25,
     [double]$SleepSeconds = 1,
-    [double]$LoopDelaySeconds = 3,
-    [int]$PushEveryProcessedCount = 1000,
+    [double]$LoopDelaySeconds = 0,
+    [int]$PushEveryProcessedCount = 500,
     [switch]$ForceRefresh,
     [switch]$RunOnce
 )
@@ -62,6 +62,7 @@ if (-not $env:STEAMGRIDDB_API_KEY) {
 
 $pushStatePath = Join-Path "dist" "steam_metadata_NP_push_state.json"
 $manifestPath = Join-Path "dist" "steam_metadata_NP_manifest.json"
+$snapshotPath = Join-Path "dist" "steam_metadata_NP_sources.json"
 
 function Get-PushState {
     if (Test-Path $pushStatePath) {
@@ -86,6 +87,22 @@ function Save-PushState([int]$PendingProcessedCount, [string]$LastPushAt) {
     }
 
     $state | ConvertTo-Json | Set-Content -Encoding UTF8 $pushStatePath
+}
+
+function Clear-FailedRetryState {
+    $progressPath = Join-Path "dist" "steam_metadata_NP_progress.json"
+    if (-not (Test-Path $progressPath)) {
+        return
+    }
+
+    $progress = Get-Content -Raw $progressPath | ConvertFrom-Json
+    if ($null -eq $progress) {
+        return
+    }
+
+    $progress.failed_once_appids = @()
+    $progress.failed_twice_appids = @()
+    $progress | ConvertTo-Json -Depth 20 | Set-Content -Encoding UTF8 $progressPath
 }
 
 function Get-LastRunProcessedCount {
@@ -115,23 +132,34 @@ function Invoke-AutoPush([int]$PendingProcessedCount) {
         return $PendingProcessedCount
     }
 
-    git add dist
-    git commit -m "Update Steam metadata archive after $PendingProcessedCount appids"
+    git add dist | Out-Null
+    $commitOutput = git commit -m "Update Steam metadata archive after $PendingProcessedCount appids" 2>&1
     if ($LASTEXITCODE -ne 0) {
         Write-Host "[push] Commit gagal. Counter tidak direset." -ForegroundColor Red
+        Write-Host $commitOutput
         return $PendingProcessedCount
     }
 
-    git push
+    $pushOutput = git push 2>&1
     if ($LASTEXITCODE -ne 0) {
         Write-Host "[push] Push gagal. Counter tidak direset." -ForegroundColor Red
+        Write-Host $pushOutput
         return $PendingProcessedCount
     }
 
     $timestamp = (Get-Date).ToUniversalTime().ToString("o")
     Save-PushState -PendingProcessedCount 0 -LastPushAt $timestamp
-    Write-Host "[push] Berhasil setelah $PendingProcessedCount App ID." -ForegroundColor Green
+    Clear-FailedRetryState
+    Write-Host "[push] OK | pushed=$PendingProcessedCount | reset pending=0" -ForegroundColor Green
     return 0
+}
+
+function Invoke-RefreshSnapshot {
+    Write-Host "[snapshot] refresh mulai..." -ForegroundColor DarkGray
+    & python final\steam_metadata_NP.py --output-dir dist --refresh-snapshot --snapshot-only | Out-Host
+    if ($LASTEXITCODE -ne 0) {
+        Write-Host "[snapshot] refresh gagal | exit=$LASTEXITCODE" -ForegroundColor Yellow
+    }
 }
 
 function Invoke-ArchiveRunner {
@@ -159,19 +187,29 @@ if ($RunOnce) {
 }
 
 Write-Host "Mode kontinu aktif. Tekan Ctrl+C untuk berhenti."
-Write-Host "Per putaran   : $ItemsPerRun App ID"
-Write-Host "Jeda loop     : $LoopDelaySeconds detik"
-Write-Host "Auto-push     : tiap $PushEveryProcessedCount App ID"
+Write-Host "[runner] batch=$ItemsPerRun | jeda=${LoopDelaySeconds}s | auto-push=$PushEveryProcessedCount"
+
+# Bootstrap snapshot jika belum ada
+if (-not (Test-Path $snapshotPath)) {
+    Write-Host ""
+    Write-Host "[startup] snapshot belum ada, bootstrap sekarang..." -ForegroundColor Cyan
+    & python final\steam_metadata_NP.py --output-dir dist --refresh-snapshot --snapshot-only | Out-Host
+    if ($LASTEXITCODE -ne 0) {
+        Write-Host "[startup] bootstrap snapshot gagal!" -ForegroundColor Red
+        exit 1
+    }
+    Write-Host "[startup] snapshot siap" -ForegroundColor Green
+}
 
 while ($true) {
     $startedAt = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
     Write-Host ""
-    Write-Host "[$startedAt] Mulai putaran..." -ForegroundColor Cyan
+    Write-Host "[$startedAt] putaran dimulai" -ForegroundColor Cyan
 
     $exitCode = Invoke-ArchiveRunner
 
     if ($exitCode -ne 0) {
-        Write-Host "[runner] Gagal. Exit code: $exitCode. Coba lagi dalam $LoopDelaySeconds detik." -ForegroundColor Red
+        Write-Host "[runner] gagal | exit=$exitCode | retry=${LoopDelaySeconds}s" -ForegroundColor Red
     }
     else {
         $processedThisRun = Get-LastRunProcessedCount
@@ -180,20 +218,22 @@ while ($true) {
 
         if ($processedThisRun -gt 0) {
             Save-PushState -PendingProcessedCount $pendingProcessedCount -LastPushAt $pushState.last_push_at
-            Write-Host "[runner] Sukses | putaran ini: $processedThisRun | belum dipush: $pendingProcessedCount" -ForegroundColor Green
+            Write-Host "[runner] selesai | diproses=$processedThisRun | belum dipush=$pendingProcessedCount" -ForegroundColor Green
         }
         else {
-            Write-Host "[runner] Tidak ada App ID yang diproses di putaran ini." -ForegroundColor DarkYellow
+            Write-Host "[runner] selesai | tidak ada App ID baru" -ForegroundColor DarkYellow
         }
 
         if ($PushEveryProcessedCount -gt 0 -and $pendingProcessedCount -ge $PushEveryProcessedCount) {
             $updatedPendingCount = Invoke-AutoPush -PendingProcessedCount $pendingProcessedCount
             if ($updatedPendingCount -ne 0) {
                 Save-PushState -PendingProcessedCount $updatedPendingCount -LastPushAt $pushState.last_push_at
+            } else {
+                Invoke-RefreshSnapshot
             }
         }
     }
 
-    Write-Host "[runner] Tunggu $LoopDelaySeconds detik..." -ForegroundColor DarkGray
+    Write-Host "[runner] tunggu ${LoopDelaySeconds}s..." -ForegroundColor DarkGray
     Start-Sleep -Seconds $LoopDelaySeconds
 }
