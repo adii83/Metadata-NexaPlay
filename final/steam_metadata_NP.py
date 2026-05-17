@@ -4,7 +4,10 @@ import io
 import json
 import os
 import re
+import subprocess
+import sys
 import time
+from contextlib import suppress
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -50,6 +53,12 @@ DEFAULT_MAX_FILE_SIZE_MB = 25
 DEFAULT_SLEEP_SECONDS = 1.0
 DEFAULT_BATCH_SIZE = 2000
 DEFAULT_SNAPSHOT_NAME = "steam_metadata_NP_sources.json"
+DEFAULT_CHUNKS_DIR_NAME = "chunks"
+DEFAULT_CONTINUOUS_DELAY_SECONDS = 0.0
+DEFAULT_AUTO_PUSH_EVERY = 500
+DEFAULT_PRODUCTION_BATCH_SIZE = 1
+DEFAULT_REPLACE_RETRIES = 8
+DEFAULT_REPLACE_RETRY_DELAY_SECONDS = 0.25
 
 STORE_ASSET_KEYS = [
     "header",
@@ -247,16 +256,23 @@ def load_existing_archive(output_dir: Path, file_prefix: str) -> dict[int, dict]
     if not output_dir.exists():
         return archive
 
+    chunks_dir = output_dir / DEFAULT_CHUNKS_DIR_NAME
+    # Keep backward compatibility: read both old root chunks and new chunks folder.
+    search_dirs = [output_dir, chunks_dir]
     pattern = f"{file_prefix}_part*.json"
-    for chunk_path in sorted(output_dir.glob(pattern)):
-        payload = json.loads(chunk_path.read_text(encoding="utf-8-sig"))
-        if not isinstance(payload, dict):
-            continue
 
-        for key, value in payload.items():
-            appid = parse_appid_value(key)
-            if appid is not None and isinstance(value, dict):
-                archive[appid] = value
+    for search_dir in search_dirs:
+        if not search_dir.exists():
+            continue
+        for chunk_path in sorted(search_dir.glob(pattern)):
+            payload = json.loads(chunk_path.read_text(encoding="utf-8-sig"))
+            if not isinstance(payload, dict):
+                continue
+
+            for key, value in payload.items():
+                appid = parse_appid_value(key)
+                if appid is not None and isinstance(value, dict):
+                    archive[appid] = value
 
     return archive
 
@@ -466,9 +482,11 @@ def select_batch_appids(
     processed_success = {
         appid for appid, payload in existing_archive.items() if payload.get("success", False)
     }
+    # Hindari loop App ID gagal yang sama berulang-ulang.
+    # App ID yang sudah masuk failed_once/failed_twice tidak diretry lagi di putaran berikutnya.
     retry_failed_appids = build_retry_appids(
         existing_archive,
-        failed_twice_appids,
+        failed_once_appids | failed_twice_appids,
     )
     cursor_before = int(progress.get("backlog_cursor", 0) or 0)
 
@@ -502,12 +520,13 @@ def select_batch_appids(
     blocked_appids.update(failed_once_appids)
     blocked_appids.update(failed_twice_appids)
 
+    # Prioritas utama: App ID baru dari sumber terbaru harus didahulukan.
     selected: list[int] = []
-    selected.extend(retry_failed_appids[:batch_size])
+    selected.extend(new_appids[:batch_size])
 
     if len(selected) < batch_size:
         remaining = batch_size - len(selected)
-        selected.extend(new_appids[:remaining])
+        selected.extend(retry_failed_appids[:remaining])
 
     backlog_remaining = batch_size - len(selected)
     backlog_batch: list[int] = []
@@ -991,7 +1010,9 @@ def ensure_directory(path: Path) -> None:
 
 
 def build_chunk_path(output_dir: Path, file_prefix: str, chunk_index: int) -> Path:
-    return output_dir / f"{file_prefix}_part{chunk_index:03d}.json"
+    chunks_dir = output_dir / DEFAULT_CHUNKS_DIR_NAME
+    ensure_directory(chunks_dir)
+    return chunks_dir / f"{file_prefix}_part{chunk_index:03d}.json"
 
 
 def write_json_file(payload: Any, output_path: Path) -> None:
@@ -1001,9 +1022,34 @@ def write_json_file(payload: Any, output_path: Path) -> None:
     )
 
 
+def write_json_file_atomic(payload: Any, output_path: Path) -> None:
+    temp_path = output_path.with_suffix(output_path.suffix + ".tmp")
+    temp_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+
+    last_error: Exception | None = None
+    for _ in range(DEFAULT_REPLACE_RETRIES):
+        try:
+            temp_path.replace(output_path)
+            return
+        except PermissionError as exc:
+            # Windows can hold transient locks (indexer/AV/git scanner). Retry shortly.
+            last_error = exc
+            time.sleep(DEFAULT_REPLACE_RETRY_DELAY_SECONDS)
+
+    with suppress(FileNotFoundError):
+        temp_path.unlink()
+    if last_error is not None:
+        raise last_error
+
+
 def remove_existing_chunk_files(output_dir: Path, file_prefix: str) -> None:
+    # Remove chunks from both old and new locations to avoid stale duplicates.
     for chunk_path in output_dir.glob(f"{file_prefix}_part*.json"):
         chunk_path.unlink()
+    chunks_dir = output_dir / DEFAULT_CHUNKS_DIR_NAME
+    if chunks_dir.exists():
+        for chunk_path in chunks_dir.glob(f"{file_prefix}_part*.json"):
+            chunk_path.unlink()
 
 
 def write_chunk_files(
@@ -1012,13 +1058,18 @@ def write_chunk_files(
     file_prefix: str,
     max_file_size_mb: int,
 ) -> list[dict]:
-    remove_existing_chunk_files(output_dir, file_prefix)
-
     max_bytes = max_file_size_mb * 1024 * 1024
     chunk_files: list[dict] = []
     current_chunk: dict[str, dict] = {}
     current_size = 2
     chunk_index = 1
+    new_paths: list[Path] = []
+    old_paths: set[Path] = set()
+
+    for root in [output_dir, output_dir / DEFAULT_CHUNKS_DIR_NAME]:
+        if root.exists():
+            for p in root.glob(f"{file_prefix}_part*.json"):
+                old_paths.add(p.resolve())
 
     for appid, payload in entries:
         entry_json = json.dumps({str(appid): payload}, ensure_ascii=False)
@@ -1026,7 +1077,8 @@ def write_chunk_files(
 
         if current_chunk and current_size + entry_size > max_bytes:
             chunk_path = build_chunk_path(output_dir, file_prefix, chunk_index)
-            write_json_file(current_chunk, chunk_path)
+            write_json_file_atomic(current_chunk, chunk_path)
+            new_paths.append(chunk_path.resolve())
             chunk_files.append(
                 {
                     "file": chunk_path.name,
@@ -1043,7 +1095,8 @@ def write_chunk_files(
 
     if current_chunk:
         chunk_path = build_chunk_path(output_dir, file_prefix, chunk_index)
-        write_json_file(current_chunk, chunk_path)
+        write_json_file_atomic(current_chunk, chunk_path)
+        new_paths.append(chunk_path.resolve())
         chunk_files.append(
             {
                 "file": chunk_path.name,
@@ -1052,7 +1105,94 @@ def write_chunk_files(
             }
         )
 
+    # Cleanup stale chunk files only after new files are safely written.
+    for old_path in old_paths:
+        if old_path not in set(new_paths):
+            try:
+                old_path.unlink()
+            except FileNotFoundError:
+                pass
+
     return chunk_files
+
+
+def get_push_state_path(output_dir: Path, file_prefix: str) -> Path:
+    return output_dir / f"{file_prefix}_push_state.json"
+
+
+def load_push_state(output_dir: Path, file_prefix: str) -> dict:
+    push_state_path = get_push_state_path(output_dir, file_prefix)
+    if not push_state_path.exists():
+        return {"pending_processed_since_push": 0, "last_push_at": None}
+    payload = json.loads(push_state_path.read_text(encoding="utf-8-sig"))
+    if not isinstance(payload, dict):
+        return {"pending_processed_since_push": 0, "last_push_at": None}
+    payload.setdefault("pending_processed_since_push", 0)
+    payload.setdefault("last_push_at", None)
+    return payload
+
+
+def write_push_state(output_dir: Path, file_prefix: str, state: dict) -> None:
+    write_json_file_atomic(state, get_push_state_path(output_dir, file_prefix))
+
+
+def run_git_command(args: list[str], cwd: Path) -> tuple[int, str]:
+    proc = subprocess.run(
+        args,
+        cwd=str(cwd),
+        capture_output=True,
+        text=True,
+    )
+    output = (proc.stdout or "") + (proc.stderr or "")
+    return proc.returncode, output.strip()
+
+
+def try_auto_push(
+    repo_dir: Path,
+    output_dir: Path,
+    file_prefix: str,
+    pending_processed_count: int,
+) -> tuple[bool, int]:
+    git_dir = repo_dir / ".git"
+    if not git_dir.exists():
+        print("[push] skip | folder bukan repo git")
+        return False, pending_processed_count
+
+    commit_user_name = os.getenv("COMMIT_USER_NAME")
+    commit_user_email = os.getenv("COMMIT_USER_EMAIL")
+    if commit_user_name:
+        run_git_command(["git", "config", "user.name", commit_user_name], repo_dir)
+    if commit_user_email:
+        run_git_command(["git", "config", "user.email", commit_user_email], repo_dir)
+
+    rc, status_out = run_git_command(["git", "status", "--porcelain", "--", "dist"], repo_dir)
+    if rc != 0 or not status_out:
+        print("[push] skip | tidak ada perubahan")
+        return False, pending_processed_count
+
+    rc_add, out_add = run_git_command(["git", "add", "dist"], repo_dir)
+    if rc_add != 0:
+        print(f"[push] gagal add | {out_add}")
+        return False, pending_processed_count
+
+    commit_msg = f"Update Steam metadata archive after {pending_processed_count} appids"
+    rc_commit, out_commit = run_git_command(["git", "commit", "-m", commit_msg], repo_dir)
+    if rc_commit != 0:
+        print(f"[push] gagal commit | {out_commit}")
+        return False, pending_processed_count
+
+    rc_push, out_push = run_git_command(["git", "push"], repo_dir)
+    if rc_push != 0:
+        print(f"[push] gagal push | {out_push}")
+        return False, pending_processed_count
+
+    write_push_state(
+        output_dir,
+        file_prefix,
+        {"pending_processed_since_push": 0, "last_push_at": utc_now_iso()},
+    )
+    print(f"[push] OK | pushed={pending_processed_count} | reset pending=0")
+    return True, 0
 
 
 def parse_args() -> argparse.Namespace:
@@ -1138,14 +1278,41 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Proses ulang semua App ID walau sudah ada di output sebelumnya.",
     )
-    return parser.parse_args()
+    parser.add_argument(
+        "--continuous",
+        action="store_true",
+        help="Jalankan mode kontinu langsung di Python (tanpa loop PowerShell).",
+    )
+    parser.add_argument(
+        "--continuous-delay-seconds",
+        type=float,
+        default=DEFAULT_CONTINUOUS_DELAY_SECONDS,
+        help=f"Jeda antar putaran mode kontinu. Default: {DEFAULT_CONTINUOUS_DELAY_SECONDS}",
+    )
+    parser.add_argument(
+        "--auto-push-every",
+        type=int,
+        default=DEFAULT_AUTO_PUSH_EVERY,
+        help=f"Auto push setiap N App ID terproses (0=off). Default: {DEFAULT_AUTO_PUSH_EVERY}",
+    )
+    args = parser.parse_args()
+
+    # No-arg mode = production mode
+    # python final/steam_metadata_NP.py
+    if len(sys.argv) == 1:
+        args.continuous = True
+        args.batch_size = DEFAULT_PRODUCTION_BATCH_SIZE
+        args.continuous_delay_seconds = DEFAULT_CONTINUOUS_DELAY_SECONDS
+        args.auto_push_every = DEFAULT_AUTO_PUSH_EVERY
+
+    return args
 
 
-def main() -> None:
-    args = parse_args()
+def run_once(args: argparse.Namespace) -> int:
     output_dir = Path(args.output_dir)
     ensure_directory(output_dir)
 
+    processed_count_this_run = 0
     snapshot_loaded = False
     snapshot_payload = None if args.refresh_snapshot else load_source_snapshot(output_dir)
     if snapshot_payload is not None:
@@ -1165,7 +1332,7 @@ def main() -> None:
     if args.snapshot_only:
         status = "refresh" if args.refresh_snapshot else "load"
         print(f"[snapshot] {status} | total={len(appids)} | file={get_snapshot_path(output_dir).name}")
-        return
+        return 0
 
     if snapshot_loaded:
         print(f"[snapshot] loaded | total={len(appids)} | file={get_snapshot_path(output_dir).name}")
@@ -1191,7 +1358,7 @@ def main() -> None:
 
     if not batch_appids:
         print("[run] tidak ada App ID yang perlu diproses")
-        return
+        return 0
 
     print(f"[run] mulai dari App ID {next_appid_preview}")
 
@@ -1319,6 +1486,7 @@ def main() -> None:
         "force_refresh": args.force_refresh,
         "chunking": {
             "max_file_size_mb": args.max_file_size_mb,
+            "folder": DEFAULT_CHUNKS_DIR_NAME,
             "files": chunk_files,
         },
         "failures": {
@@ -1332,9 +1500,67 @@ def main() -> None:
     write_json_file(manifest, manifest_path)
 
     archive_count_after = len(all_entries)
+    processed_count_this_run = len(batch_appids)
     print(
         f"[run] selesai | diproses={len(batch_appids)} | arsip={archive_count_after} | error={len(failures)} | file={len(chunk_files)}"
     )
+    return processed_count_this_run
+
+
+def main() -> None:
+    args = parse_args()
+
+    if not args.continuous:
+        run_once(args)
+        return
+
+    print("Mode kontinu aktif. Tekan Ctrl+C untuk berhenti.")
+    print(
+        f"[runner] batch={args.batch_size} | jeda={args.continuous_delay_seconds}s | auto-push={args.auto_push_every}"
+    )
+    output_dir = Path(args.output_dir)
+    push_state = load_push_state(output_dir, args.file_prefix)
+    pending = int(push_state.get("pending_processed_since_push", 0) or 0)
+    always_refresh_snapshot = bool(args.refresh_snapshot)
+    refresh_snapshot_next_run = False
+
+    while True:
+        started_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        print(f"\n[{started_at}] proses dimulai")
+        try:
+            args.refresh_snapshot = always_refresh_snapshot or refresh_snapshot_next_run
+            processed = run_once(args)
+            if refresh_snapshot_next_run and not always_refresh_snapshot:
+                refresh_snapshot_next_run = False
+            pending += processed
+            write_push_state(
+                output_dir,
+                args.file_prefix,
+                {
+                    "pending_processed_since_push": pending,
+                    "last_push_at": push_state.get("last_push_at"),
+                },
+            )
+            print(f"[runner] selesai | appid diproses={processed} | belum dipush={pending}")
+            if args.auto_push_every > 0 and pending >= args.auto_push_every:
+                pushed, pending = try_auto_push(
+                    Path.cwd(),
+                    output_dir,
+                    args.file_prefix,
+                    pending,
+                )
+                if pushed and not always_refresh_snapshot:
+                    refresh_snapshot_next_run = True
+                    print("[snapshot] dijadwalkan refresh otomatis setelah push sukses")
+        except KeyboardInterrupt:
+            print("\n[runner] dihentikan manual.")
+            break
+        except Exception as exc:
+            print(f"[runner] gagal | error={exc}")
+
+        if args.continuous_delay_seconds > 0:
+            print(f"[runner] tunggu {args.continuous_delay_seconds}s...")
+            time.sleep(args.continuous_delay_seconds)
 
 
 if __name__ == "__main__":
