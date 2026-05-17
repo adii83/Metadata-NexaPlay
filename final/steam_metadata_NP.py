@@ -59,6 +59,8 @@ DEFAULT_AUTO_PUSH_EVERY = 500
 DEFAULT_PRODUCTION_BATCH_SIZE = 1
 DEFAULT_REPLACE_RETRIES = 8
 DEFAULT_REPLACE_RETRY_DELAY_SECONDS = 0.25
+DEFAULT_APPDETAILS_429_RETRIES = 3
+DEFAULT_APPDETAILS_429_BACKOFF_SECONDS = 2.0
 
 STORE_ASSET_KEYS = [
     "header",
@@ -451,6 +453,7 @@ def select_batch_appids(
     if not appids:
         return [], {
             "new_count": 0,
+            "retry_429_count": 0,
             "retry_failed_count": 0,
             "backlog_count": 0,
             "backlog_cursor_before": 0,
@@ -479,6 +482,13 @@ def select_batch_appids(
         )
         if appid is not None
     }
+    retry_429_appids = {
+        appid
+        for appid in (
+            parse_appid_value(value) for value in progress.get("retry_429_appids", [])
+        )
+        if appid is not None
+    }
     processed_success = {
         appid for appid, payload in existing_archive.items() if payload.get("success", False)
     }
@@ -499,6 +509,7 @@ def select_batch_appids(
         )
         return refresh_batch, {
             "new_count": 0,
+            "retry_429_count": 0,
             "retry_failed_count": 0,
             "backlog_count": len(refresh_batch),
             "backlog_cursor_before": cursor_before,
@@ -514,15 +525,24 @@ def select_batch_appids(
         and appid not in failed_once_appids
         and appid not in failed_twice_appids
     ]
+    retry_429_ordered = [
+        appid for appid in appids if appid in retry_429_appids and appid not in processed_success
+    ]
 
     blocked_appids = set(processed_success)
     blocked_appids.update(new_appids)
     blocked_appids.update(failed_once_appids)
     blocked_appids.update(failed_twice_appids)
+    # App ID 429 harus tetap bisa dipilih ulang di run berikutnya.
+    blocked_appids.difference_update(retry_429_appids)
 
     # Prioritas utama: App ID baru dari sumber terbaru harus didahulukan.
     selected: list[int] = []
-    selected.extend(new_appids[:batch_size])
+    selected.extend(retry_429_ordered[:batch_size])
+
+    if len(selected) < batch_size:
+        remaining = batch_size - len(selected)
+        selected.extend(new_appids[:remaining])
 
     if len(selected) < batch_size:
         remaining = batch_size - len(selected)
@@ -545,6 +565,7 @@ def select_batch_appids(
 
     stats = {
         "new_count": len([appid for appid in selected if appid in set(new_appids)]),
+        "retry_429_count": len([appid for appid in selected if appid in set(retry_429_ordered)]),
         "retry_failed_count": len([appid for appid in selected if appid in set(retry_failed_appids)]),
         "backlog_count": len(backlog_batch),
         "backlog_cursor_before": cursor_before,
@@ -565,12 +586,24 @@ def get_steam_appdetails(appid: int) -> dict:
         "User-Agent": "Mozilla/5.0 SteamMetadataNP/2.0"
     }
 
-    response = requests.get(
-        STEAM_APPDETAILS_URL,
-        params=params,
-        headers=headers,
-        timeout=30,
-    )
+    response = None
+    for attempt in range(DEFAULT_APPDETAILS_429_RETRIES + 1):
+        response = requests.get(
+            STEAM_APPDETAILS_URL,
+            params=params,
+            headers=headers,
+            timeout=30,
+        )
+        if response.status_code != 429:
+            break
+        if attempt < DEFAULT_APPDETAILS_429_RETRIES:
+            backoff = DEFAULT_APPDETAILS_429_BACKOFF_SECONDS * (2 ** attempt)
+            print(f"    [retry-429] appid={appid} tunggu {backoff:.1f}s")
+            time.sleep(backoff)
+
+    if response is None:
+        raise RuntimeError("Gagal mengambil response steam_appdetails.")
+
     response.raise_for_status()
 
     payload = response.json()
@@ -1425,6 +1458,13 @@ def run_once(args: argparse.Namespace) -> int:
         )
         if appid is not None
     }
+    retry_429_set = {
+        appid
+        for appid in (
+            parse_appid_value(value) for value in progress.get("retry_429_appids", [])
+        )
+        if appid is not None
+    }
 
     for appid in failed_appids_this_run:
         if appid in failed_once_set:
@@ -1432,8 +1472,18 @@ def run_once(args: argparse.Namespace) -> int:
         else:
             failed_once_set.add(appid)
 
+    for failure in failures:
+        if (
+            failure.get("stage") == "steam_appdetails"
+            and "429" in str(failure.get("error", ""))
+        ):
+            failed_appid = parse_appid_value(failure.get("appid"))
+            if failed_appid is not None:
+                retry_429_set.add(failed_appid)
+
     failed_once_set.difference_update(successful_appids_this_run)
     failed_twice_set.difference_update(successful_appids_this_run)
+    retry_429_set.difference_update(successful_appids_this_run)
 
     all_entries = sorted(existing_archive.items(), key=lambda item: item[0])
     chunk_files = write_chunk_files(
@@ -1450,10 +1500,12 @@ def run_once(args: argparse.Namespace) -> int:
     progress["known_source_appids"] = appids
     progress["failed_once_appids"] = sorted(failed_once_set)
     progress["failed_twice_appids"] = sorted(failed_twice_set)
+    progress["retry_429_appids"] = sorted(retry_429_set)
     progress["last_run_at"] = utc_now_iso()
     progress["last_batch"] = {
         "processed_count": len(batch_appids),
         "new_count": batch_stats["new_count"],
+        "retry_429_count": batch_stats.get("retry_429_count", 0),
         "retry_failed_count": batch_stats["retry_failed_count"],
         "backlog_count": batch_stats["backlog_count"],
         "force_refresh": args.force_refresh,
@@ -1477,6 +1529,7 @@ def run_once(args: argparse.Namespace) -> int:
             "batch_size": args.batch_size,
             "selected_count": len(batch_appids),
             "new_count": batch_stats["new_count"],
+            "retry_429_count": batch_stats.get("retry_429_count", 0),
             "retry_failed_count": batch_stats["retry_failed_count"],
             "backlog_count": batch_stats["backlog_count"],
             "backlog_cursor_before": batch_stats["backlog_cursor_before"],

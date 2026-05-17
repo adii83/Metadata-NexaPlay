@@ -49,13 +49,13 @@ jobs:
             if [ "$i" -eq 1 ]; then
               python final/steam_metadata_NP.py \
                 --batch-size 500 \
-                --sleep-seconds 0.2 \
+                --sleep-seconds 1.0 \
                 --refresh-snapshot \
                 --auto-push-every 0
             else
               python final/steam_metadata_NP.py \
                 --batch-size 500 \
-                --sleep-seconds 0.2 \
+                --sleep-seconds 1.0 \
                 --auto-push-every 0
             fi
 
