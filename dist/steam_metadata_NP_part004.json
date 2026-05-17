@@ -1719,6 +1719,355 @@
       }
     }
   },
+  "4333410": {
+    "success": true,
+    "source_priority": "steam_data",
+    "fetch_status": {
+      "steam_appdetails": true,
+      "steam_original_assets": true
+    },
+    "name": "JAMBREDREK: TWO GUNS",
+    "steam_appid": "4333410",
+    "steamgriddb_game_id": 5515287,
+    "store_asset_mtime": 1768941871,
+    "assets_count": 29,
+    "assets": {
+      "header": [
+        {
+          "path": "5eedab378a67a3f59919eb6ad42f1ec76be3d879/header.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4333410/5eedab378a67a3f59919eb6ad42f1ec76be3d879/header.jpg?t=1768941871",
+          "language": "english"
+        }
+      ],
+      "library_capsule": [
+        {
+          "path": "38ca17503880a058059018f003d4bc4798e58fec/library_capsule.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4333410/38ca17503880a058059018f003d4bc4798e58fec/library_capsule.jpg?t=1768941871",
+          "language": "english"
+        }
+      ],
+      "library_capsule_2x": [
+        {
+          "path": "38ca17503880a058059018f003d4bc4798e58fec/library_capsule_2x.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4333410/38ca17503880a058059018f003d4bc4798e58fec/library_capsule_2x.jpg?t=1768941871",
+          "language": "english"
+        }
+      ],
+      "library_hero": [
+        {
+          "path": "13592bb20794bde16251328076d0a6245633b482/library_hero.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4333410/13592bb20794bde16251328076d0a6245633b482/library_hero.jpg?t=1768941871",
+          "language": "english"
+        }
+      ],
+      "library_hero_2x": [
+        {
+          "path": "13592bb20794bde16251328076d0a6245633b482/library_hero_2x.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4333410/13592bb20794bde16251328076d0a6245633b482/library_hero_2x.jpg?t=1768941871",
+          "language": "english"
+        }
+      ],
+      "library_logo": [
+        {
+          "path": "a45459e03104f3d37a87ddd0aecc24912f67871d/logo.png",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4333410/a45459e03104f3d37a87ddd0aecc24912f67871d/logo.png?t=1768941871",
+          "language": "english"
+        }
+      ],
+      "library_logo_2x": [
+        {
+          "path": "a45459e03104f3d37a87ddd0aecc24912f67871d/logo_2x.png",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4333410/a45459e03104f3d37a87ddd0aecc24912f67871d/logo_2x.png?t=1768941871",
+          "language": "english"
+        }
+      ],
+      "clienticon": [
+        {
+          "hash": "3cc1228b6ef3bc8db3595be70ddd38cd3260423e",
+          "url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/4333410/3cc1228b6ef3bc8db3595be70ddd38cd3260423e.ico"
+        }
+      ],
+      "icon": [
+        {
+          "hash": "3cc1228b6ef3bc8db3595be70ddd38cd3260423e",
+          "url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/4333410/3cc1228b6ef3bc8db3595be70ddd38cd3260423e.jpg"
+        }
+      ],
+      "capsule_image": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/d73fa15c92e34198bdc4f6f597563c72b4b0e601/capsule_231x87.jpg?t=1770995867"
+        }
+      ],
+      "capsule_imagev5": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/d73fa15c92e34198bdc4f6f597563c72b4b0e601/capsule_184x69.jpg?t=1770995867"
+        }
+      ],
+      "background": [
+        {
+          "url": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4333410?t=1770995867"
+        }
+      ],
+      "background_raw": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/616f87527bce815a4b880f9cfef5fb9629592313/page_bg_raw.jpg?t=1770995867"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": 0,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/1250c6508e7d47978f0c27f08f954853123b907c/ss_1250c6508e7d47978f0c27f08f954853123b907c.600x338.jpg?t=1770995867",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/1250c6508e7d47978f0c27f08f954853123b907c/ss_1250c6508e7d47978f0c27f08f954853123b907c.1920x1080.jpg?t=1770995867"
+        },
+        {
+          "id": 1,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/158388b1e1b8a78d4af4c1a6f88af60d29ba847c/ss_158388b1e1b8a78d4af4c1a6f88af60d29ba847c.600x338.jpg?t=1770995867",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/158388b1e1b8a78d4af4c1a6f88af60d29ba847c/ss_158388b1e1b8a78d4af4c1a6f88af60d29ba847c.1920x1080.jpg?t=1770995867"
+        },
+        {
+          "id": 2,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/b01e74a9c878293f89d662eedf33fd9675a5f69b/ss_b01e74a9c878293f89d662eedf33fd9675a5f69b.600x338.jpg?t=1770995867",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/b01e74a9c878293f89d662eedf33fd9675a5f69b/ss_b01e74a9c878293f89d662eedf33fd9675a5f69b.1920x1080.jpg?t=1770995867"
+        },
+        {
+          "id": 3,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/aefd53e35db7d036be1a3af21f2181b37af72608/ss_aefd53e35db7d036be1a3af21f2181b37af72608.600x338.jpg?t=1770995867",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/aefd53e35db7d036be1a3af21f2181b37af72608/ss_aefd53e35db7d036be1a3af21f2181b37af72608.1920x1080.jpg?t=1770995867"
+        },
+        {
+          "id": 4,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/83162c8090ad077740a0ab3845dca9339297fe03/ss_83162c8090ad077740a0ab3845dca9339297fe03.600x338.jpg?t=1770995867",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/83162c8090ad077740a0ab3845dca9339297fe03/ss_83162c8090ad077740a0ab3845dca9339297fe03.1920x1080.jpg?t=1770995867"
+        },
+        {
+          "id": 5,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/39f08c506b00b475f6e625d7c64e4a493e087ed6/ss_39f08c506b00b475f6e625d7c64e4a493e087ed6.600x338.jpg?t=1770995867",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/39f08c506b00b475f6e625d7c64e4a493e087ed6/ss_39f08c506b00b475f6e625d7c64e4a493e087ed6.1920x1080.jpg?t=1770995867"
+        },
+        {
+          "id": 6,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/49c57b49092116c2f368f06d4547382bf4e8c46a/ss_49c57b49092116c2f368f06d4547382bf4e8c46a.600x338.jpg?t=1770995867",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/49c57b49092116c2f368f06d4547382bf4e8c46a/ss_49c57b49092116c2f368f06d4547382bf4e8c46a.1920x1080.jpg?t=1770995867"
+        },
+        {
+          "id": 7,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/94ee3cd9bdd86f9ec1f6e428ea8f4d43ab707f6c/ss_94ee3cd9bdd86f9ec1f6e428ea8f4d43ab707f6c.600x338.jpg?t=1770995867",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/94ee3cd9bdd86f9ec1f6e428ea8f4d43ab707f6c/ss_94ee3cd9bdd86f9ec1f6e428ea8f4d43ab707f6c.1920x1080.jpg?t=1770995867"
+        },
+        {
+          "id": 8,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/78b103295eb31f4ede2bf1a9969747d846591316/ss_78b103295eb31f4ede2bf1a9969747d846591316.600x338.jpg?t=1770995867",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/78b103295eb31f4ede2bf1a9969747d846591316/ss_78b103295eb31f4ede2bf1a9969747d846591316.1920x1080.jpg?t=1770995867"
+        },
+        {
+          "id": 9,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/21fc8332cf8e94ac6238bc5b1ec9b1dd7829d8e8/ss_21fc8332cf8e94ac6238bc5b1ec9b1dd7829d8e8.600x338.jpg?t=1770995867",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/21fc8332cf8e94ac6238bc5b1ec9b1dd7829d8e8/ss_21fc8332cf8e94ac6238bc5b1ec9b1dd7829d8e8.1920x1080.jpg?t=1770995867"
+        },
+        {
+          "id": 10,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/b0bd0ad4c54c2c6385c5b0e50ec284123f42f567/ss_b0bd0ad4c54c2c6385c5b0e50ec284123f42f567.600x338.jpg?t=1770995867",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/b0bd0ad4c54c2c6385c5b0e50ec284123f42f567/ss_b0bd0ad4c54c2c6385c5b0e50ec284123f42f567.1920x1080.jpg?t=1770995867"
+        },
+        {
+          "id": 11,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/83e2446b799a109302b23bbcb41f81be27071701/ss_83e2446b799a109302b23bbcb41f81be27071701.600x338.jpg?t=1770995867",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/83e2446b799a109302b23bbcb41f81be27071701/ss_83e2446b799a109302b23bbcb41f81be27071701.1920x1080.jpg?t=1770995867"
+        },
+        {
+          "id": 12,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/9da69e9e442491787a86f62d53c63166e8faba80/ss_9da69e9e442491787a86f62d53c63166e8faba80.600x338.jpg?t=1770995867",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/9da69e9e442491787a86f62d53c63166e8faba80/ss_9da69e9e442491787a86f62d53c63166e8faba80.1920x1080.jpg?t=1770995867"
+        },
+        {
+          "id": 13,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/5658f6f6f2ed4ac02804106e7d0e0a5bbf03948b/ss_5658f6f6f2ed4ac02804106e7d0e0a5bbf03948b.600x338.jpg?t=1770995867",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/5658f6f6f2ed4ac02804106e7d0e0a5bbf03948b/ss_5658f6f6f2ed4ac02804106e7d0e0a5bbf03948b.1920x1080.jpg?t=1770995867"
+        }
+      ],
+      "movies": [
+        {
+          "id": 257265518,
+          "name": "Gameplay Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257265518/2dd1dc86eaa492eb56c005d558c5cd3ebd8925a1/movie_600x337.jpg?t=1769281660",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4333410/160663813/7335ccb0166ef959852754869f07878a6bcffb36/1768507421/dash_av1.mpd?t=1769281660",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4333410/160663813/7335ccb0166ef959852754869f07878a6bcffb36/1768507421/dash_h264.mpd?t=1769281660",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4333410/160663813/7335ccb0166ef959852754869f07878a6bcffb36/1768507421/hls_264_master.m3u8?t=1769281660",
+          "highlight": true
+        }
+      ],
+      "embedded_media": {
+        "about_the_game_urls": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/7702f263726b7128372c0ff793aec17d.poster.avif?t=1770995867",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/7702f263726b7128372c0ff793aec17d.webm?t=1770995867",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/7702f263726b7128372c0ff793aec17d.mp4?t=1770995867",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/e48ec1f65bff5d14d5318a51c3e1112d.poster.avif?t=1770995867",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/e48ec1f65bff5d14d5318a51c3e1112d.webm?t=1770995867",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/e48ec1f65bff5d14d5318a51c3e1112d.mp4?t=1770995867",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/af0d7326f933e1dc12b67d08b7edcc68.poster.avif?t=1770995867",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/af0d7326f933e1dc12b67d08b7edcc68.webm?t=1770995867",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/af0d7326f933e1dc12b67d08b7edcc68.mp4?t=1770995867"
+        ],
+        "detailed_description_urls": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/7702f263726b7128372c0ff793aec17d.poster.avif?t=1770995867",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/7702f263726b7128372c0ff793aec17d.webm?t=1770995867",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/7702f263726b7128372c0ff793aec17d.mp4?t=1770995867",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/e48ec1f65bff5d14d5318a51c3e1112d.poster.avif?t=1770995867",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/e48ec1f65bff5d14d5318a51c3e1112d.webm?t=1770995867",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/e48ec1f65bff5d14d5318a51c3e1112d.mp4?t=1770995867",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/af0d7326f933e1dc12b67d08b7edcc68.poster.avif?t=1770995867",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/af0d7326f933e1dc12b67d08b7edcc68.webm?t=1770995867",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/af0d7326f933e1dc12b67d08b7edcc68.mp4?t=1770995867"
+        ],
+        "all_urls": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/7702f263726b7128372c0ff793aec17d.poster.avif?t=1770995867",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/7702f263726b7128372c0ff793aec17d.webm?t=1770995867",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/7702f263726b7128372c0ff793aec17d.mp4?t=1770995867",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/e48ec1f65bff5d14d5318a51c3e1112d.poster.avif?t=1770995867",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/e48ec1f65bff5d14d5318a51c3e1112d.webm?t=1770995867",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/e48ec1f65bff5d14d5318a51c3e1112d.mp4?t=1770995867",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/af0d7326f933e1dc12b67d08b7edcc68.poster.avif?t=1770995867",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/af0d7326f933e1dc12b67d08b7edcc68.webm?t=1770995867",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/af0d7326f933e1dc12b67d08b7edcc68.mp4?t=1770995867"
+        ],
+        "videos_mp4": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/7702f263726b7128372c0ff793aec17d.mp4?t=1770995867",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/e48ec1f65bff5d14d5318a51c3e1112d.mp4?t=1770995867",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/af0d7326f933e1dc12b67d08b7edcc68.mp4?t=1770995867"
+        ],
+        "videos_webm": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/7702f263726b7128372c0ff793aec17d.webm?t=1770995867",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/e48ec1f65bff5d14d5318a51c3e1112d.webm?t=1770995867",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/af0d7326f933e1dc12b67d08b7edcc68.webm?t=1770995867"
+        ],
+        "images": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/7702f263726b7128372c0ff793aec17d.poster.avif?t=1770995867",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/e48ec1f65bff5d14d5318a51c3e1112d.poster.avif?t=1770995867",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/af0d7326f933e1dc12b67d08b7edcc68.poster.avif?t=1770995867"
+        ]
+      }
+    },
+    "store_data": {
+      "type": "game",
+      "required_age": 0,
+      "is_free": false,
+      "about_the_game": "<p class=\"bb_paragraph\" >You take on the role of <strong>Brice</strong>, a corrupt police officer with his own questionable methods, trying to get into the <strong>narcotics division</strong>. His path forward is controlled by another corrupt figure the person responsible for recruiting new narcotics officers whose demands push Brice even deeper into the dirt.</p><p class=\"bb_paragraph\" >On a random, ordinary workday, Brice wakes up and starts cleaning his apartment after a fight with his girlfriend the night before. He then heads to the station and clocks in. During his routine patrol, he encounters both minor and serious crimes, using his badge in ways that blur the line between law and self interest. The last dispatch call is the most serious one yet.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" style=\"text-align: center\"><strong><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/7702f263726b7128372c0ff793aec17d.poster.avif?t=1770995867\" width=652 height=464 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/7702f263726b7128372c0ff793aec17d.webm?t=1770995867\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/7702f263726b7128372c0ff793aec17d.mp4?t=1770995867\" type=\"video/mp4\"></video></span></strong></p><p class=\"bb_paragraph\" ><strong><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/e48ec1f65bff5d14d5318a51c3e1112d.poster.avif?t=1770995867\" width=800 height=484 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/e48ec1f65bff5d14d5318a51c3e1112d.webm?t=1770995867\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/e48ec1f65bff5d14d5318a51c3e1112d.mp4?t=1770995867\" type=\"video/mp4\"></video></span></strong></p><p class=\"bb_paragraph\" style=\"text-align: center\"><strong><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/af0d7326f933e1dc12b67d08b7edcc68.poster.avif?t=1770995867\" width=684 height=490 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/af0d7326f933e1dc12b67d08b7edcc68.webm?t=1770995867\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/af0d7326f933e1dc12b67d08b7edcc68.mp4?t=1770995867\" type=\"video/mp4\"></video></span></strong></p>",
+      "detailed_description": "<p class=\"bb_paragraph\" >You take on the role of <strong>Brice</strong>, a corrupt police officer with his own questionable methods, trying to get into the <strong>narcotics division</strong>. His path forward is controlled by another corrupt figure the person responsible for recruiting new narcotics officers whose demands push Brice even deeper into the dirt.</p><p class=\"bb_paragraph\" >On a random, ordinary workday, Brice wakes up and starts cleaning his apartment after a fight with his girlfriend the night before. He then heads to the station and clocks in. During his routine patrol, he encounters both minor and serious crimes, using his badge in ways that blur the line between law and self interest. The last dispatch call is the most serious one yet.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" style=\"text-align: center\"><strong><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/7702f263726b7128372c0ff793aec17d.poster.avif?t=1770995867\" width=652 height=464 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/7702f263726b7128372c0ff793aec17d.webm?t=1770995867\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/7702f263726b7128372c0ff793aec17d.mp4?t=1770995867\" type=\"video/mp4\"></video></span></strong></p><p class=\"bb_paragraph\" ><strong><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/e48ec1f65bff5d14d5318a51c3e1112d.poster.avif?t=1770995867\" width=800 height=484 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/e48ec1f65bff5d14d5318a51c3e1112d.webm?t=1770995867\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/e48ec1f65bff5d14d5318a51c3e1112d.mp4?t=1770995867\" type=\"video/mp4\"></video></span></strong></p><p class=\"bb_paragraph\" style=\"text-align: center\"><strong><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/af0d7326f933e1dc12b67d08b7edcc68.poster.avif?t=1770995867\" width=684 height=490 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/af0d7326f933e1dc12b67d08b7edcc68.webm?t=1770995867\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333410/extras/af0d7326f933e1dc12b67d08b7edcc68.mp4?t=1770995867\" type=\"video/mp4\"></video></span></strong></p>",
+      "short_description": "A first-person action-adventure set in the 1990s. Play as a corrupt police officer as you move through story-driven locations, investigate crime scenes, and make morally questionable choices.",
+      "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+      "website": null,
+      "pc_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10 (64-bit)<br></li><li><strong>Processor:</strong> Intel Core i3-2100<br></li><li><strong>Memory:</strong> 4096 MB MB RAM<br></li><li><strong>Graphics:</strong> Intel HD Graphics 4000<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 332 MB available space<br></li><li><strong>Sound Card:</strong> DirectX compatible</li></ul>"
+      },
+      "mac_requirements": [],
+      "linux_requirements": [],
+      "developers": [
+        "Devils on the Loose"
+      ],
+      "publishers": [
+        "Devils on the Loose"
+      ],
+      "support_info": {
+        "url": "",
+        "email": "168gamess@gmail.com"
+      },
+      "price_overview": {
+        "currency": "USD",
+        "initial": 199,
+        "final": 199,
+        "discount_percent": 0,
+        "initial_formatted": "",
+        "final_formatted": "$1.99"
+      },
+      "packages": [
+        1514911
+      ],
+      "package_groups": [
+        {
+          "name": "default",
+          "title": "Buy JAMBREDREK: TWO GUNS",
+          "description": "",
+          "selection_text": "Select a purchase option",
+          "save_text": "",
+          "display_type": 0,
+          "is_recurring_subscription": "false",
+          "subs": [
+            {
+              "packageid": 1514911,
+              "percent_savings_text": " ",
+              "percent_savings": 0,
+              "option_text": "JAMBREDREK: TWO GUNS - $1.99",
+              "option_description": "",
+              "can_get_free_license": "0",
+              "is_free_license": false,
+              "price_in_cents_with_discount": 199
+            }
+          ]
+        }
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "categories": [
+        {
+          "id": 2,
+          "description": "Single-player"
+        },
+        {
+          "id": 62,
+          "description": "Family Sharing"
+        }
+      ],
+      "genres": [
+        {
+          "id": "1",
+          "description": "Action"
+        },
+        {
+          "id": "23",
+          "description": "Indie"
+        }
+      ],
+      "release_date": {
+        "coming_soon": false,
+        "date": "Feb 13, 2026"
+      },
+      "content_descriptors": {
+        "ids": [
+          5
+        ],
+        "notes": "This game contains depictions of violence, including the use of firearms, blood, and character deaths. The story includes themes of crime, corruption, and illegal drug activity. There is mild sexual innuendo and suggestive audio, but no explicit sexual content or nudity.\r\n"
+      },
+      "ratings": {
+        "dejus": {
+          "rating_generated": "1",
+          "rating": "14",
+          "required_age": "14",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": "Violência\nDrogas ilícitas\nConteúdo sexual"
+        },
+        "steam_germany": {
+          "rating_generated": "1",
+          "rating": "16",
+          "required_age": "16",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": "Drastische Gewalt\nDrogen\nSexuelle Andeutungen"
+        },
+        "igrs": {
+          "rating_generated": "1",
+          "rating": "18",
+          "required_age": "18",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": "Rokok dan/atau rokok elektronik, minuman beralkohol, narkotika, psikotropika, dan/atau zat adiktif lainnya\nPenampilan Tokoh\nKekerasan"
+        }
+      }
+    }
+  },
   "4348760": {
     "success": true,
     "source_priority": "appid_populer",
