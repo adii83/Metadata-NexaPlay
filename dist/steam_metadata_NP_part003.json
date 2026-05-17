@@ -187954,6 +187954,750 @@
       }
     }
   },
+  "4296280": {
+    "success": true,
+    "source_priority": "steam_data",
+    "fetch_status": {
+      "steam_appdetails": true,
+      "steam_original_assets": true
+    },
+    "name": "Amphibarium",
+    "steam_appid": "4296280",
+    "steamgriddb_game_id": 5513838,
+    "store_asset_mtime": 1774373080,
+    "assets_count": 22,
+    "assets": {
+      "header": [
+        {
+          "path": "1c59a807504f9d1cb925aae4a2be49e129ab5921/header.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296280/1c59a807504f9d1cb925aae4a2be49e129ab5921/header.jpg?t=1774373080",
+          "language": "english"
+        }
+      ],
+      "library_capsule": [
+        {
+          "path": "7e2236535e153641f6b988b01c6dd5d0150b80b5/library_capsule.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296280/7e2236535e153641f6b988b01c6dd5d0150b80b5/library_capsule.jpg?t=1774373080",
+          "language": "english"
+        }
+      ],
+      "library_capsule_2x": [
+        {
+          "path": "7e2236535e153641f6b988b01c6dd5d0150b80b5/library_capsule_2x.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296280/7e2236535e153641f6b988b01c6dd5d0150b80b5/library_capsule_2x.jpg?t=1774373080",
+          "language": "english"
+        }
+      ],
+      "library_hero": [
+        {
+          "path": "c0ba48f5c212876f086da5da794f90a0300177f3/library_hero.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296280/c0ba48f5c212876f086da5da794f90a0300177f3/library_hero.jpg?t=1774373080",
+          "language": "english"
+        }
+      ],
+      "library_hero_2x": [
+        {
+          "path": "c0ba48f5c212876f086da5da794f90a0300177f3/library_hero_2x.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296280/c0ba48f5c212876f086da5da794f90a0300177f3/library_hero_2x.jpg?t=1774373080",
+          "language": "english"
+        }
+      ],
+      "library_logo": [
+        {
+          "path": "8603b96f67f5a3b70b559a4f319e4de66010a2b9/logo.png",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296280/8603b96f67f5a3b70b559a4f319e4de66010a2b9/logo.png?t=1774373080",
+          "language": "english"
+        }
+      ],
+      "library_logo_2x": [
+        {
+          "path": "8603b96f67f5a3b70b559a4f319e4de66010a2b9/logo_2x.png",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296280/8603b96f67f5a3b70b559a4f319e4de66010a2b9/logo_2x.png?t=1774373080",
+          "language": "english"
+        }
+      ],
+      "clienticon": [
+        {
+          "hash": "8228666002a9b7019a5c0c42e18a926986810de2",
+          "url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/4296280/8228666002a9b7019a5c0c42e18a926986810de2.ico"
+        }
+      ],
+      "icon": [
+        {
+          "hash": "8228666002a9b7019a5c0c42e18a926986810de2",
+          "url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/4296280/8228666002a9b7019a5c0c42e18a926986810de2.jpg"
+        }
+      ],
+      "capsule_image": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/d29c630faf6c64b73d6fd0f7fa02738e542668cb/capsule_231x87.jpg?t=1774373084"
+        }
+      ],
+      "capsule_imagev5": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/d29c630faf6c64b73d6fd0f7fa02738e542668cb/capsule_184x69.jpg?t=1774373084"
+        }
+      ],
+      "background": [
+        {
+          "url": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4296280?t=1774373084"
+        }
+      ],
+      "background_raw": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/7a6f629647fa2765526f6107990007442b04bb83/page_bg_raw.jpg?t=1774373084"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": 0,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/73ca95bf7797baa910b459a231305efaaa74f803/ss_73ca95bf7797baa910b459a231305efaaa74f803.600x338.jpg?t=1774373084",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/73ca95bf7797baa910b459a231305efaaa74f803/ss_73ca95bf7797baa910b459a231305efaaa74f803.1920x1080.jpg?t=1774373084"
+        },
+        {
+          "id": 1,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/2770c45eb0faa9a74aee7844f2056d50ef3e936d/ss_2770c45eb0faa9a74aee7844f2056d50ef3e936d.600x338.jpg?t=1774373084",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/2770c45eb0faa9a74aee7844f2056d50ef3e936d/ss_2770c45eb0faa9a74aee7844f2056d50ef3e936d.1920x1080.jpg?t=1774373084"
+        },
+        {
+          "id": 2,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/55028be6c4fd0487a2262108b3a7b6c6ed9c293a/ss_55028be6c4fd0487a2262108b3a7b6c6ed9c293a.600x338.jpg?t=1774373084",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/55028be6c4fd0487a2262108b3a7b6c6ed9c293a/ss_55028be6c4fd0487a2262108b3a7b6c6ed9c293a.1920x1080.jpg?t=1774373084"
+        },
+        {
+          "id": 3,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/9a87b9381424de5e0bcb03fd55110706d1d6c704/ss_9a87b9381424de5e0bcb03fd55110706d1d6c704.600x338.jpg?t=1774373084",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/9a87b9381424de5e0bcb03fd55110706d1d6c704/ss_9a87b9381424de5e0bcb03fd55110706d1d6c704.1920x1080.jpg?t=1774373084"
+        },
+        {
+          "id": 4,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/aeaee996b2cfee8e380a4d09678918222221e967/ss_aeaee996b2cfee8e380a4d09678918222221e967.600x338.jpg?t=1774373084",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/aeaee996b2cfee8e380a4d09678918222221e967/ss_aeaee996b2cfee8e380a4d09678918222221e967.1920x1080.jpg?t=1774373084"
+        },
+        {
+          "id": 5,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/19ce8393f47c1faad05800ef36c29ad11c8b42b2/ss_19ce8393f47c1faad05800ef36c29ad11c8b42b2.600x338.jpg?t=1774373084",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/19ce8393f47c1faad05800ef36c29ad11c8b42b2/ss_19ce8393f47c1faad05800ef36c29ad11c8b42b2.1920x1080.jpg?t=1774373084"
+        },
+        {
+          "id": 6,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/eefa0283fe5cf8947c7c5e848974d0e14a589e56/ss_eefa0283fe5cf8947c7c5e848974d0e14a589e56.600x338.jpg?t=1774373084",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/eefa0283fe5cf8947c7c5e848974d0e14a589e56/ss_eefa0283fe5cf8947c7c5e848974d0e14a589e56.1920x1080.jpg?t=1774373084"
+        }
+      ],
+      "movies": [
+        {
+          "id": 257308457,
+          "name": "tra",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257308457/477b23adc76525a28f1dbbb013604bfa7451feaf/movie_600x337.jpg?t=1774373083",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4296280/318404671/8d798bd454a3110349250977bee7d35fd1c629bf/1774372759/dash_av1.mpd?t=1774373083",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4296280/318404671/8d798bd454a3110349250977bee7d35fd1c629bf/1774372759/dash_h264.mpd?t=1774373083",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4296280/318404671/8d798bd454a3110349250977bee7d35fd1c629bf/1774372759/hls_264_master.m3u8?t=1774373083",
+          "highlight": true
+        }
+      ],
+      "embedded_media": {
+        "about_the_game_urls": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/488446349c67a52878eb52e5031db8c4.poster.avif?t=1774373084",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/488446349c67a52878eb52e5031db8c4.webm?t=1774373084",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/488446349c67a52878eb52e5031db8c4.mp4?t=1774373084",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/9a38442e55912c8a7060e0a5965c3f86.poster.avif?t=1774373084",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/9a38442e55912c8a7060e0a5965c3f86.webm?t=1774373084",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/9a38442e55912c8a7060e0a5965c3f86.mp4?t=1774373084",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/ff527a6a0101b4d40777ffe4a4fc8268.poster.avif?t=1774373084",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/ff527a6a0101b4d40777ffe4a4fc8268.webm?t=1774373084",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/ff527a6a0101b4d40777ffe4a4fc8268.mp4?t=1774373084"
+        ],
+        "detailed_description_urls": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/488446349c67a52878eb52e5031db8c4.poster.avif?t=1774373084",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/488446349c67a52878eb52e5031db8c4.webm?t=1774373084",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/488446349c67a52878eb52e5031db8c4.mp4?t=1774373084",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/9a38442e55912c8a7060e0a5965c3f86.poster.avif?t=1774373084",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/9a38442e55912c8a7060e0a5965c3f86.webm?t=1774373084",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/9a38442e55912c8a7060e0a5965c3f86.mp4?t=1774373084",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/ff527a6a0101b4d40777ffe4a4fc8268.poster.avif?t=1774373084",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/ff527a6a0101b4d40777ffe4a4fc8268.webm?t=1774373084",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/ff527a6a0101b4d40777ffe4a4fc8268.mp4?t=1774373084"
+        ],
+        "all_urls": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/488446349c67a52878eb52e5031db8c4.poster.avif?t=1774373084",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/488446349c67a52878eb52e5031db8c4.webm?t=1774373084",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/488446349c67a52878eb52e5031db8c4.mp4?t=1774373084",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/9a38442e55912c8a7060e0a5965c3f86.poster.avif?t=1774373084",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/9a38442e55912c8a7060e0a5965c3f86.webm?t=1774373084",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/9a38442e55912c8a7060e0a5965c3f86.mp4?t=1774373084",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/ff527a6a0101b4d40777ffe4a4fc8268.poster.avif?t=1774373084",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/ff527a6a0101b4d40777ffe4a4fc8268.webm?t=1774373084",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/ff527a6a0101b4d40777ffe4a4fc8268.mp4?t=1774373084"
+        ],
+        "videos_mp4": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/488446349c67a52878eb52e5031db8c4.mp4?t=1774373084",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/9a38442e55912c8a7060e0a5965c3f86.mp4?t=1774373084",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/ff527a6a0101b4d40777ffe4a4fc8268.mp4?t=1774373084"
+        ],
+        "videos_webm": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/488446349c67a52878eb52e5031db8c4.webm?t=1774373084",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/9a38442e55912c8a7060e0a5965c3f86.webm?t=1774373084",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/ff527a6a0101b4d40777ffe4a4fc8268.webm?t=1774373084"
+        ],
+        "images": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/488446349c67a52878eb52e5031db8c4.poster.avif?t=1774373084",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/9a38442e55912c8a7060e0a5965c3f86.poster.avif?t=1774373084",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/ff527a6a0101b4d40777ffe4a4fc8268.poster.avif?t=1774373084"
+        ]
+      }
+    },
+    "store_data": {
+      "type": "game",
+      "required_age": 0,
+      "is_free": false,
+      "dlc": [
+        4506230,
+        4519410
+      ],
+      "demos": [
+        {
+          "appid": 4305320,
+          "description": ""
+        }
+      ],
+      "about_the_game": "<p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/488446349c67a52878eb52e5031db8c4.poster.avif?t=1774373084\" width=1170 height=658 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/488446349c67a52878eb52e5031db8c4.webm?t=1774373084\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/488446349c67a52878eb52e5031db8c4.mp4?t=1774373084\" type=\"video/mp4\"></video></span>Expansive Amphibian Library Discover and collect a massive variety of frogs, toads, and salamanders. Every amphibian</p><p class=\"bb_paragraph\" >  is assigned one of seven rarity levels: Common, Uncommon, Rare, Epic, Legendary, Mythic, and Ancient. Complete your</p><p class=\"bb_paragraph\" >  journal with vibrant, hand-drawn designs.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/9a38442e55912c8a7060e0a5965c3f86.poster.avif?t=1774373084\" width=1170 height=658 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/9a38442e55912c8a7060e0a5965c3f86.webm?t=1774373084\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/9a38442e55912c8a7060e0a5965c3f86.mp4?t=1774373084\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" >Real-Time Metamorphosis &amp; Strategy Witness the miracle of nature as your creatures grow from tiny eggs to swimming</p><p class=\"bb_paragraph\" >  tadpoles, eventually transforming into majestic adults in real time. Release them into the wild for instant rewards or</p><p class=\"bb_paragraph\" >   keep them in your vivarium to generate steady passive income.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/ff527a6a0101b4d40777ffe4a4fc8268.poster.avif?t=1774373084\" width=1170 height=658 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/ff527a6a0101b4d40777ffe4a4fc8268.webm?t=1774373084\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/ff527a6a0101b4d40777ffe4a4fc8268.mp4?t=1774373084\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" >Background Play Your terrarium thrives even while you work or study. Relax with gentle water sounds and ambient nature</p><p class=\"bb_paragraph\" >   noises while the auto-feed system keeps your amphibians happy and healthy. It's the perfect low-stress companion for</p><p class=\"bb_paragraph\" >  your desktop.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Personalize Your Terrariums Unlock new decorations and accessories as you progress. Add plants, backgrounds, and other items to make each habitat feel unique and truly yours.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Leaderboards Compete on global rankings based on your total collection value or the number of unique species</p><p class=\"bb_paragraph\" >  discovered. Track your progress and see how your vivarium compares to other collectors worldwide.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Take the Leap Today Amphibarium blends relaxation with deep collection mechanics. Whether you're unwinding after a</p><p class=\"bb_paragraph\" >  long day or setting goals to complete your library, you'll find endless delight in this wet and wild world. Dive in</p><p class=\"bb_paragraph\" >  and start building your dream frog sanctuary today.</p>",
+      "detailed_description": "<p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/488446349c67a52878eb52e5031db8c4.poster.avif?t=1774373084\" width=1170 height=658 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/488446349c67a52878eb52e5031db8c4.webm?t=1774373084\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/488446349c67a52878eb52e5031db8c4.mp4?t=1774373084\" type=\"video/mp4\"></video></span>Expansive Amphibian Library Discover and collect a massive variety of frogs, toads, and salamanders. Every amphibian</p><p class=\"bb_paragraph\" >  is assigned one of seven rarity levels: Common, Uncommon, Rare, Epic, Legendary, Mythic, and Ancient. Complete your</p><p class=\"bb_paragraph\" >  journal with vibrant, hand-drawn designs.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/9a38442e55912c8a7060e0a5965c3f86.poster.avif?t=1774373084\" width=1170 height=658 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/9a38442e55912c8a7060e0a5965c3f86.webm?t=1774373084\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/9a38442e55912c8a7060e0a5965c3f86.mp4?t=1774373084\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" >Real-Time Metamorphosis &amp; Strategy Witness the miracle of nature as your creatures grow from tiny eggs to swimming</p><p class=\"bb_paragraph\" >  tadpoles, eventually transforming into majestic adults in real time. Release them into the wild for instant rewards or</p><p class=\"bb_paragraph\" >   keep them in your vivarium to generate steady passive income.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/ff527a6a0101b4d40777ffe4a4fc8268.poster.avif?t=1774373084\" width=1170 height=658 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/ff527a6a0101b4d40777ffe4a4fc8268.webm?t=1774373084\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296280/extras/ff527a6a0101b4d40777ffe4a4fc8268.mp4?t=1774373084\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" >Background Play Your terrarium thrives even while you work or study. Relax with gentle water sounds and ambient nature</p><p class=\"bb_paragraph\" >   noises while the auto-feed system keeps your amphibians happy and healthy. It's the perfect low-stress companion for</p><p class=\"bb_paragraph\" >  your desktop.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Personalize Your Terrariums Unlock new decorations and accessories as you progress. Add plants, backgrounds, and other items to make each habitat feel unique and truly yours.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Leaderboards Compete on global rankings based on your total collection value or the number of unique species</p><p class=\"bb_paragraph\" >  discovered. Track your progress and see how your vivarium compares to other collectors worldwide.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Take the Leap Today Amphibarium blends relaxation with deep collection mechanics. Whether you're unwinding after a</p><p class=\"bb_paragraph\" >  long day or setting goals to complete your library, you'll find endless delight in this wet and wild world. Dive in</p><p class=\"bb_paragraph\" >  and start building your dream frog sanctuary today.</p>",
+      "short_description": "Relax and collect hundreds of unique frogs and salamanders in this cozy idle game. Watch tadpoles undergo metamorphosis in real-time, customize lush terrariums, and discover rare species. Let your vivarium thrive in the background while you work or study. Start your collection today!",
+      "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Bulgarian, Czech, Danish, Dutch, Finnish, Greek, Hungarian, Indonesian, Japanese, Korean, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Russian, Simplified Chinese, Spanish - Latin America, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian, Vietnamese",
+      "website": null,
+      "pc_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows 7 SP1 or newer<br></li><li><strong>Processor:</strong> Intel Core i3 1.2 GHz (or equivalent AMD)<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Intel HD Graphics 3000 / AMD Radeon HD 6350 (or equivalent)<br></li><li><strong>DirectX:</strong> Version 9.0<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 200 MB available space<br></li><li><strong>Sound Card:</strong> DirectX-compatible<br></li><li><strong>VR Support:</strong> None<br></li><li><strong>Additional Notes:</strong> Keyboard &amp; mouse required  1280×720 minimum display resolution</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10 (64-bit) or newer<br></li><li><strong>Processor:</strong> Intel Core i5 2.5 GHz (or equivalent AMD)<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Intel HD Graphics 4000 / NVIDIA GeForce GTX 650 (or equivalent)<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 500  MB available space<br></li><li><strong>Sound Card:</strong> DirectX-compatible or onboard audio<br></li><li><strong>VR Support:</strong> None<br></li><li><strong>Additional Notes:</strong> SSD recommended for faster load times  1920×1080 or higher recommended display resolution</li></ul>"
+      },
+      "mac_requirements": [],
+      "linux_requirements": [],
+      "developers": [
+        "Ahmet Babagil"
+      ],
+      "publishers": [
+        "Ahmet Babagil"
+      ],
+      "support_info": {
+        "url": "",
+        "email": "ahmetbabagil817@gmail.com"
+      },
+      "price_overview": {
+        "currency": "USD",
+        "initial": 799,
+        "final": 799,
+        "discount_percent": 0,
+        "initial_formatted": "",
+        "final_formatted": "$7.99"
+      },
+      "packages": [
+        1502573
+      ],
+      "package_groups": [
+        {
+          "name": "default",
+          "title": "Buy Amphibarium",
+          "description": "",
+          "selection_text": "Select a purchase option",
+          "save_text": "",
+          "display_type": 0,
+          "is_recurring_subscription": "false",
+          "subs": [
+            {
+              "packageid": 1502573,
+              "percent_savings_text": " ",
+              "percent_savings": 0,
+              "option_text": "Amphibarium - $7.99",
+              "option_description": "",
+              "can_get_free_license": "0",
+              "is_free_license": false,
+              "price_in_cents_with_discount": 799
+            }
+          ]
+        }
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "categories": [
+        {
+          "id": 2,
+          "description": "Single-player"
+        },
+        {
+          "id": 22,
+          "description": "Steam Achievements"
+        },
+        {
+          "id": 23,
+          "description": "Steam Cloud"
+        },
+        {
+          "id": 15,
+          "description": "Stats"
+        },
+        {
+          "id": 25,
+          "description": "Steam Leaderboards"
+        },
+        {
+          "id": 62,
+          "description": "Family Sharing"
+        }
+      ],
+      "genres": [
+        {
+          "id": "4",
+          "description": "Casual"
+        },
+        {
+          "id": "23",
+          "description": "Indie"
+        },
+        {
+          "id": "28",
+          "description": "Simulation"
+        }
+      ],
+      "achievements": {
+        "total": 24,
+        "highlighted": [
+          {
+            "icon": "e2b0ae3d58a2e63f7d8009c2890fa4f04f0130e1.jpg",
+            "localized_name": "First Hop",
+            "name": "First Hop",
+            "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/4296280/e2b0ae3d58a2e63f7d8009c2890fa4f04f0130e1.jpg"
+          },
+          {
+            "icon": "e8efb45ce1a217123bf1b7d51f54e04ac3784910.jpg",
+            "localized_name": "Farewell, Friend",
+            "name": "Farewell, Friend",
+            "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/4296280/e8efb45ce1a217123bf1b7d51f54e04ac3784910.jpg"
+          },
+          {
+            "icon": "ee4c1074e34b7026f95cfc4abdce66b4e4da430f.jpg",
+            "localized_name": "Golden Frog",
+            "name": "Golden Frog",
+            "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/4296280/ee4c1074e34b7026f95cfc4abdce66b4e4da430f.jpg"
+          },
+          {
+            "icon": "5e6d348ab167a77068dc91a2f905dc0cef10b402.jpg",
+            "localized_name": "Chromatic Catch",
+            "name": "Chromatic Catch",
+            "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/4296280/5e6d348ab167a77068dc91a2f905dc0cef10b402.jpg"
+          },
+          {
+            "icon": "8ee3780c846c27ef96f24d05735ea3cfb8e91e73.jpg",
+            "localized_name": "Exotic Species",
+            "name": "Exotic Species",
+            "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/4296280/8ee3780c846c27ef96f24d05735ea3cfb8e91e73.jpg"
+          },
+          {
+            "icon": "e5346c912676b548967aede59843b0169c147dca.jpg",
+            "localized_name": "Prehistoric Guardian",
+            "name": "Prehistoric Guardian",
+            "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/4296280/e5346c912676b548967aede59843b0169c147dca.jpg"
+          },
+          {
+            "icon": "7e5e6912bb3835fc1bd6c8eb03f865d76e1e7341.jpg",
+            "localized_name": "Tycoon of the Swamp",
+            "name": "Tycoon of the Swamp",
+            "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/4296280/7e5e6912bb3835fc1bd6c8eb03f865d76e1e7341.jpg"
+          },
+          {
+            "icon": "9e258ee07b4a180e01215ec4b58faabe0696de25.jpg",
+            "localized_name": "Splashing Cash",
+            "name": "Splashing Cash",
+            "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/4296280/9e258ee07b4a180e01215ec4b58faabe0696de25.jpg"
+          },
+          {
+            "icon": "4255bb4455e8f0e260df81b5ec2db3881292bf92.jpg",
+            "localized_name": "Habitat Upgrade",
+            "name": "Habitat Upgrade",
+            "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/4296280/4255bb4455e8f0e260df81b5ec2db3881292bf92.jpg"
+          },
+          {
+            "icon": "433b87a9431dec67773522b096f3951344550293.jpg",
+            "localized_name": "Biodiversity Expert",
+            "name": "Biodiversity Expert",
+            "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/4296280/433b87a9431dec67773522b096f3951344550293.jpg"
+          }
+        ]
+      },
+      "release_date": {
+        "coming_soon": false,
+        "date": "Mar 17, 2026"
+      },
+      "content_descriptors": {
+        "ids": [],
+        "notes": null
+      },
+      "ratings": {
+        "dejus": {
+          "rating_generated": "1",
+          "rating": "l",
+          "required_age": "0",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": ""
+        },
+        "steam_germany": {
+          "rating_generated": "1",
+          "rating": "0",
+          "required_age": "0",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": ""
+        },
+        "igrs": {
+          "rating_generated": "1",
+          "rating": "3",
+          "required_age": "0",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": ""
+        }
+      }
+    }
+  },
+  "4296370": {
+    "success": true,
+    "source_priority": "steam_data",
+    "fetch_status": {
+      "steam_appdetails": true,
+      "steam_original_assets": true
+    },
+    "name": "Every Wednesday",
+    "steam_appid": "4296370",
+    "steamgriddb_game_id": 5514537,
+    "store_asset_mtime": 1772306037,
+    "assets_count": 23,
+    "assets": {
+      "header": [
+        {
+          "path": "05d2706659af3c7ca42415359f8330027ab1961d/header.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296370/05d2706659af3c7ca42415359f8330027ab1961d/header.jpg?t=1772306037",
+          "language": "english"
+        }
+      ],
+      "library_capsule": [
+        {
+          "path": "5d499a0a9d339eb64c6aca324af8f515382a1578/library_capsule.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296370/5d499a0a9d339eb64c6aca324af8f515382a1578/library_capsule.jpg?t=1772306037",
+          "language": "english"
+        }
+      ],
+      "library_capsule_2x": [
+        {
+          "path": "5d499a0a9d339eb64c6aca324af8f515382a1578/library_capsule_2x.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296370/5d499a0a9d339eb64c6aca324af8f515382a1578/library_capsule_2x.jpg?t=1772306037",
+          "language": "english"
+        }
+      ],
+      "library_hero": [
+        {
+          "path": "2edb9d97cdd2fe33d695529c8234927002927c98/library_hero.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296370/2edb9d97cdd2fe33d695529c8234927002927c98/library_hero.jpg?t=1772306037",
+          "language": "english"
+        }
+      ],
+      "library_hero_2x": [
+        {
+          "path": "2edb9d97cdd2fe33d695529c8234927002927c98/library_hero_2x.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296370/2edb9d97cdd2fe33d695529c8234927002927c98/library_hero_2x.jpg?t=1772306037",
+          "language": "english"
+        }
+      ],
+      "library_logo": [
+        {
+          "path": "58dcb649177f7479acc4b69c83cfe85959ef2b4b/logo.png",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296370/58dcb649177f7479acc4b69c83cfe85959ef2b4b/logo.png?t=1772306037",
+          "language": "english"
+        }
+      ],
+      "library_logo_2x": [
+        {
+          "path": "58dcb649177f7479acc4b69c83cfe85959ef2b4b/logo_2x.png",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296370/58dcb649177f7479acc4b69c83cfe85959ef2b4b/logo_2x.png?t=1772306037",
+          "language": "english"
+        }
+      ],
+      "clienticon": [
+        {
+          "hash": "832685616347ed8c50a369bca62e84b08f83e7e2",
+          "url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/4296370/832685616347ed8c50a369bca62e84b08f83e7e2.ico"
+        }
+      ],
+      "icon": [
+        {
+          "hash": "832685616347ed8c50a369bca62e84b08f83e7e2",
+          "url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/4296370/832685616347ed8c50a369bca62e84b08f83e7e2.jpg"
+        }
+      ],
+      "capsule_image": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/806f056928b332e101b67db46246919d226b2c7a/capsule_231x87.jpg?t=1778079249"
+        }
+      ],
+      "capsule_imagev5": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/806f056928b332e101b67db46246919d226b2c7a/capsule_184x69.jpg?t=1778079249"
+        }
+      ],
+      "background": [
+        {
+          "url": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4296370?t=1778079249"
+        }
+      ],
+      "background_raw": [
+        {
+          "url": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4296370?t=1778079249"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": 0,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/5942066631033700776a52c050b4668b4c36bed5/ss_5942066631033700776a52c050b4668b4c36bed5.600x338.jpg?t=1778079249",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/5942066631033700776a52c050b4668b4c36bed5/ss_5942066631033700776a52c050b4668b4c36bed5.1920x1080.jpg?t=1778079249"
+        },
+        {
+          "id": 1,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/4f0f8253659273ba4dfe297c2ab0e9dc9bb181f2/ss_4f0f8253659273ba4dfe297c2ab0e9dc9bb181f2.600x338.jpg?t=1778079249",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/4f0f8253659273ba4dfe297c2ab0e9dc9bb181f2/ss_4f0f8253659273ba4dfe297c2ab0e9dc9bb181f2.1920x1080.jpg?t=1778079249"
+        },
+        {
+          "id": 2,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/9ecc2879c1ec58930ab2eccbd12aeecf2e5cb6e7/ss_9ecc2879c1ec58930ab2eccbd12aeecf2e5cb6e7.600x338.jpg?t=1778079249",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/9ecc2879c1ec58930ab2eccbd12aeecf2e5cb6e7/ss_9ecc2879c1ec58930ab2eccbd12aeecf2e5cb6e7.1920x1080.jpg?t=1778079249"
+        },
+        {
+          "id": 3,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/7054d2b610cb969a4e8597281d21c80a3e9dc92f/ss_7054d2b610cb969a4e8597281d21c80a3e9dc92f.600x338.jpg?t=1778079249",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/7054d2b610cb969a4e8597281d21c80a3e9dc92f/ss_7054d2b610cb969a4e8597281d21c80a3e9dc92f.1920x1080.jpg?t=1778079249"
+        },
+        {
+          "id": 4,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/d0066fcc609697f5332e915e8f839979aa614a00/ss_d0066fcc609697f5332e915e8f839979aa614a00.600x338.jpg?t=1778079249",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/d0066fcc609697f5332e915e8f839979aa614a00/ss_d0066fcc609697f5332e915e8f839979aa614a00.1920x1080.jpg?t=1778079249"
+        },
+        {
+          "id": 5,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/3240ff631cddc966cad71c07bf1b543e5ac3947f/ss_3240ff631cddc966cad71c07bf1b543e5ac3947f.600x338.jpg?t=1778079249",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/3240ff631cddc966cad71c07bf1b543e5ac3947f/ss_3240ff631cddc966cad71c07bf1b543e5ac3947f.1920x1080.jpg?t=1778079249"
+        },
+        {
+          "id": 6,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/7abf6a4cdfbe8dd98fff147cc3c4155187240187/ss_7abf6a4cdfbe8dd98fff147cc3c4155187240187.600x338.jpg?t=1778079249",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/7abf6a4cdfbe8dd98fff147cc3c4155187240187/ss_7abf6a4cdfbe8dd98fff147cc3c4155187240187.1920x1080.jpg?t=1778079249"
+        },
+        {
+          "id": 7,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/63bdf768c350946c2dcef4888bf41c7c7b2dfa10/ss_63bdf768c350946c2dcef4888bf41c7c7b2dfa10.600x338.jpg?t=1778079249",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/63bdf768c350946c2dcef4888bf41c7c7b2dfa10/ss_63bdf768c350946c2dcef4888bf41c7c7b2dfa10.1920x1080.jpg?t=1778079249"
+        }
+      ],
+      "movies": [
+        {
+          "id": 257257380,
+          "name": "Every Wednesday #1",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257257380/677e539ee316d0b96a4f6f3f8a58b6f7d8d346b7/movie_600x337.jpg?t=1771005189",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4296370/464676257/b32aff8683fdbcdfba161705064b9717a673cd31/1771003992/dash_av1.mpd?t=1771005189",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4296370/464676257/b32aff8683fdbcdfba161705064b9717a673cd31/1771003992/dash_h264.mpd?t=1771005189",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4296370/464676257/b32aff8683fdbcdfba161705064b9717a673cd31/1771003992/hls_264_master.m3u8?t=1771005189",
+          "highlight": true
+        }
+      ],
+      "embedded_media": {
+        "about_the_game_urls": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/ef0aabf8484d59ba20ce9791a70af1ec.poster.avif?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/ef0aabf8484d59ba20ce9791a70af1ec.webm?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/ef0aabf8484d59ba20ce9791a70af1ec.mp4?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/4f829726641f4827a1966cc7747e48ea.poster.avif?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/4f829726641f4827a1966cc7747e48ea.webm?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/4f829726641f4827a1966cc7747e48ea.mp4?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/cafa43f07018e9e7314be4a913bcad29.poster.avif?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/cafa43f07018e9e7314be4a913bcad29.webm?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/cafa43f07018e9e7314be4a913bcad29.mp4?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/43f1d9b0f14bdfafe3f7ca42cb4f9424.poster.avif?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/43f1d9b0f14bdfafe3f7ca42cb4f9424.webm?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/43f1d9b0f14bdfafe3f7ca42cb4f9424.mp4?t=1778079249"
+        ],
+        "detailed_description_urls": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/ef0aabf8484d59ba20ce9791a70af1ec.poster.avif?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/ef0aabf8484d59ba20ce9791a70af1ec.webm?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/ef0aabf8484d59ba20ce9791a70af1ec.mp4?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/4f829726641f4827a1966cc7747e48ea.poster.avif?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/4f829726641f4827a1966cc7747e48ea.webm?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/4f829726641f4827a1966cc7747e48ea.mp4?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/cafa43f07018e9e7314be4a913bcad29.poster.avif?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/cafa43f07018e9e7314be4a913bcad29.webm?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/cafa43f07018e9e7314be4a913bcad29.mp4?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/43f1d9b0f14bdfafe3f7ca42cb4f9424.poster.avif?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/43f1d9b0f14bdfafe3f7ca42cb4f9424.webm?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/43f1d9b0f14bdfafe3f7ca42cb4f9424.mp4?t=1778079249"
+        ],
+        "all_urls": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/ef0aabf8484d59ba20ce9791a70af1ec.poster.avif?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/ef0aabf8484d59ba20ce9791a70af1ec.webm?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/ef0aabf8484d59ba20ce9791a70af1ec.mp4?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/4f829726641f4827a1966cc7747e48ea.poster.avif?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/4f829726641f4827a1966cc7747e48ea.webm?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/4f829726641f4827a1966cc7747e48ea.mp4?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/cafa43f07018e9e7314be4a913bcad29.poster.avif?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/cafa43f07018e9e7314be4a913bcad29.webm?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/cafa43f07018e9e7314be4a913bcad29.mp4?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/43f1d9b0f14bdfafe3f7ca42cb4f9424.poster.avif?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/43f1d9b0f14bdfafe3f7ca42cb4f9424.webm?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/43f1d9b0f14bdfafe3f7ca42cb4f9424.mp4?t=1778079249"
+        ],
+        "videos_mp4": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/ef0aabf8484d59ba20ce9791a70af1ec.mp4?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/4f829726641f4827a1966cc7747e48ea.mp4?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/cafa43f07018e9e7314be4a913bcad29.mp4?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/43f1d9b0f14bdfafe3f7ca42cb4f9424.mp4?t=1778079249"
+        ],
+        "videos_webm": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/ef0aabf8484d59ba20ce9791a70af1ec.webm?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/4f829726641f4827a1966cc7747e48ea.webm?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/cafa43f07018e9e7314be4a913bcad29.webm?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/43f1d9b0f14bdfafe3f7ca42cb4f9424.webm?t=1778079249"
+        ],
+        "images": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/ef0aabf8484d59ba20ce9791a70af1ec.poster.avif?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/4f829726641f4827a1966cc7747e48ea.poster.avif?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/cafa43f07018e9e7314be4a913bcad29.poster.avif?t=1778079249",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/43f1d9b0f14bdfafe3f7ca42cb4f9424.poster.avif?t=1778079249"
+        ]
+      }
+    },
+    "store_data": {
+      "type": "game",
+      "required_age": 0,
+      "is_free": false,
+      "controller_support": "full",
+      "about_the_game": "<p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/ef0aabf8484d59ba20ce9791a70af1ec.poster.avif?t=1778079249\" width=960 height=490 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/ef0aabf8484d59ba20ce9791a70af1ec.webm?t=1778079249\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/ef0aabf8484d59ba20ce9791a70af1ec.mp4?t=1778079249\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/4f829726641f4827a1966cc7747e48ea.poster.avif?t=1778079249\" width=960 height=464 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/4f829726641f4827a1966cc7747e48ea.webm?t=1778079249\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/4f829726641f4827a1966cc7747e48ea.mp4?t=1778079249\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/cafa43f07018e9e7314be4a913bcad29.poster.avif?t=1778079249\" width=960 height=464 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/cafa43f07018e9e7314be4a913bcad29.webm?t=1778079249\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/cafa43f07018e9e7314be4a913bcad29.mp4?t=1778079249\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/43f1d9b0f14bdfafe3f7ca42cb4f9424.poster.avif?t=1778079249\" width=960 height=464 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/43f1d9b0f14bdfafe3f7ca42cb4f9424.webm?t=1778079249\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/43f1d9b0f14bdfafe3f7ca42cb4f9424.mp4?t=1778079249\" type=\"video/mp4\"></video></span></p>",
+      "detailed_description": "<p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/ef0aabf8484d59ba20ce9791a70af1ec.poster.avif?t=1778079249\" width=960 height=490 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/ef0aabf8484d59ba20ce9791a70af1ec.webm?t=1778079249\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/ef0aabf8484d59ba20ce9791a70af1ec.mp4?t=1778079249\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/4f829726641f4827a1966cc7747e48ea.poster.avif?t=1778079249\" width=960 height=464 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/4f829726641f4827a1966cc7747e48ea.webm?t=1778079249\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/4f829726641f4827a1966cc7747e48ea.mp4?t=1778079249\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/cafa43f07018e9e7314be4a913bcad29.poster.avif?t=1778079249\" width=960 height=464 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/cafa43f07018e9e7314be4a913bcad29.webm?t=1778079249\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/cafa43f07018e9e7314be4a913bcad29.mp4?t=1778079249\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/43f1d9b0f14bdfafe3f7ca42cb4f9424.poster.avif?t=1778079249\" width=960 height=464 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/43f1d9b0f14bdfafe3f7ca42cb4f9424.webm?t=1778079249\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296370/extras/43f1d9b0f14bdfafe3f7ca42cb4f9424.mp4?t=1778079249\" type=\"video/mp4\"></video></span></p>",
+      "short_description": "In this narrative adventure, Hideki steps into the laundromat, unaware that this is where he will stop feeling invisible. Explore the laundromat, build connections, and uncover the stories of those who become part of your life.",
+      "supported_languages": "English, French, Italian, German, Spanish - Spain, Portuguese - Brazil, Traditional Chinese, Simplified Chinese, Japanese, Korean",
+      "website": null,
+      "pc_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong>  Intel Core i5-4460 / AMD FX-8320<br></li><li><strong>Memory:</strong> 4000 MB RAM<br></li><li><strong>Graphics:</strong> GeForce GTX 750 Ti / Radeon R7 260<br></li><li><strong>Storage:</strong> 1000 MB available space</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 or later<br></li><li><strong>Processor:</strong> Intel Core i5-6400 / AMD Ryzen 5 1400<br></li><li><strong>Memory:</strong> 8000 MB RAM<br></li><li><strong>Graphics:</strong> GeForce GTX 1650 / AMD RX 570<br></li><li><strong>Storage:</strong> 1000 MB available space</li></ul>"
+      },
+      "mac_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+      },
+      "linux_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+      },
+      "developers": [
+        "Pixel Chest Storyworks"
+      ],
+      "publishers": [
+        "IndieArk"
+      ],
+      "support_info": {
+        "url": "",
+        "email": "david@pixelchest.games"
+      },
+      "package_groups": [],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "categories": [
+        {
+          "id": 2,
+          "description": "Single-player"
+        },
+        {
+          "id": 22,
+          "description": "Steam Achievements"
+        },
+        {
+          "id": 28,
+          "description": "Full controller support"
+        },
+        {
+          "id": 64,
+          "description": "Adjustable Text Size"
+        },
+        {
+          "id": 68,
+          "description": "Custom Volume Controls"
+        },
+        {
+          "id": 74,
+          "description": "Playable without Timed Input"
+        },
+        {
+          "id": 69,
+          "description": "Stereo Sound"
+        },
+        {
+          "id": 23,
+          "description": "Steam Cloud"
+        },
+        {
+          "id": 62,
+          "description": "Family Sharing"
+        }
+      ],
+      "genres": [
+        {
+          "id": "25",
+          "description": "Adventure"
+        },
+        {
+          "id": "4",
+          "description": "Casual"
+        },
+        {
+          "id": "23",
+          "description": "Indie"
+        }
+      ],
+      "release_date": {
+        "coming_soon": true,
+        "date": "February 2027"
+      },
+      "content_descriptors": {
+        "ids": [],
+        "notes": null
+      },
+      "ratings": {
+        "dejus": {
+          "rating_generated": "1",
+          "rating": "l",
+          "required_age": "0",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": ""
+        },
+        "steam_germany": {
+          "rating_generated": "1",
+          "rating": "0",
+          "required_age": "0",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": ""
+        },
+        "igrs": {
+          "rating_generated": "1",
+          "rating": "3",
+          "required_age": "0",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": ""
+        }
+      }
+    }
+  },
   "4317690": {
     "success": true,
     "source_priority": "appid_populer",
