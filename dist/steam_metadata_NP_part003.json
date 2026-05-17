@@ -188698,6 +188698,2063 @@
       }
     }
   },
+  "4296380": {
+    "success": true,
+    "source_priority": "steam_data",
+    "fetch_status": {
+      "steam_appdetails": true,
+      "steam_original_assets": true
+    },
+    "name": "Camp \"Burevestnik\"",
+    "steam_appid": "4296380",
+    "steamgriddb_game_id": 5513749,
+    "store_asset_mtime": 1767378072,
+    "assets_count": 22,
+    "assets": {
+      "header": [
+        {
+          "path": "f8bfaf9e7fa0906db700ea562f66677db562823a/header.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296380/f8bfaf9e7fa0906db700ea562f66677db562823a/header.jpg?t=1767378072",
+          "language": "english"
+        }
+      ],
+      "library_capsule": [
+        {
+          "path": "320e7ba6bdc1760b8d867d432f802be97473f81f/library_capsule.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296380/320e7ba6bdc1760b8d867d432f802be97473f81f/library_capsule.jpg?t=1767378072",
+          "language": "english"
+        }
+      ],
+      "library_capsule_2x": [
+        {
+          "path": "320e7ba6bdc1760b8d867d432f802be97473f81f/library_capsule_2x.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296380/320e7ba6bdc1760b8d867d432f802be97473f81f/library_capsule_2x.jpg?t=1767378072",
+          "language": "english"
+        }
+      ],
+      "library_hero": [
+        {
+          "path": "0f5965062d6a26e01d498c46b00da984c291d26c/library_hero.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296380/0f5965062d6a26e01d498c46b00da984c291d26c/library_hero.jpg?t=1767378072",
+          "language": "english"
+        }
+      ],
+      "library_hero_2x": [
+        {
+          "path": "0f5965062d6a26e01d498c46b00da984c291d26c/library_hero_2x.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296380/0f5965062d6a26e01d498c46b00da984c291d26c/library_hero_2x.jpg?t=1767378072",
+          "language": "english"
+        }
+      ],
+      "library_logo": [
+        {
+          "path": "b9d392b95a320dba8b71e247f7dfb29ffcc84a08/logo.png",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296380/b9d392b95a320dba8b71e247f7dfb29ffcc84a08/logo.png?t=1767378072",
+          "language": "english"
+        }
+      ],
+      "library_logo_2x": [
+        {
+          "path": "b9d392b95a320dba8b71e247f7dfb29ffcc84a08/logo_2x.png",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296380/b9d392b95a320dba8b71e247f7dfb29ffcc84a08/logo_2x.png?t=1767378072",
+          "language": "english"
+        }
+      ],
+      "clienticon": [
+        {
+          "hash": "40af4d88f84b504e4d8a3a28cd4714df36176249",
+          "url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/4296380/40af4d88f84b504e4d8a3a28cd4714df36176249.ico"
+        }
+      ],
+      "icon": [
+        {
+          "hash": "40af4d88f84b504e4d8a3a28cd4714df36176249",
+          "url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/4296380/40af4d88f84b504e4d8a3a28cd4714df36176249.jpg"
+        }
+      ],
+      "capsule_image": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296380/c26e07e4ea5f36e92fef813140968c903770e8b9/capsule_231x87.jpg?t=1769507687"
+        }
+      ],
+      "capsule_imagev5": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296380/c26e07e4ea5f36e92fef813140968c903770e8b9/capsule_184x69.jpg?t=1769507687"
+        }
+      ],
+      "background": [
+        {
+          "url": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4296380?t=1769507687"
+        }
+      ],
+      "background_raw": [
+        {
+          "url": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4296380?t=1769507687"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": 0,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296380/fb599ab021ad2c29a9314943678ad37f43f1c253/ss_fb599ab021ad2c29a9314943678ad37f43f1c253.600x338.jpg?t=1769507687",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296380/fb599ab021ad2c29a9314943678ad37f43f1c253/ss_fb599ab021ad2c29a9314943678ad37f43f1c253.1920x1080.jpg?t=1769507687"
+        },
+        {
+          "id": 1,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296380/45c4e2d5b1c27089301dbc9f85dfaad368388a7b/ss_45c4e2d5b1c27089301dbc9f85dfaad368388a7b.600x338.jpg?t=1769507687",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296380/45c4e2d5b1c27089301dbc9f85dfaad368388a7b/ss_45c4e2d5b1c27089301dbc9f85dfaad368388a7b.1920x1080.jpg?t=1769507687"
+        },
+        {
+          "id": 2,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296380/f764ec6c14c93ee66623b8ffbe771166721acad6/ss_f764ec6c14c93ee66623b8ffbe771166721acad6.600x338.jpg?t=1769507687",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296380/f764ec6c14c93ee66623b8ffbe771166721acad6/ss_f764ec6c14c93ee66623b8ffbe771166721acad6.1920x1080.jpg?t=1769507687"
+        },
+        {
+          "id": 3,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296380/343b3efe6710b492a1cbb16b61bd522ae9150afe/ss_343b3efe6710b492a1cbb16b61bd522ae9150afe.600x338.jpg?t=1769507687",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296380/343b3efe6710b492a1cbb16b61bd522ae9150afe/ss_343b3efe6710b492a1cbb16b61bd522ae9150afe.1920x1080.jpg?t=1769507687"
+        },
+        {
+          "id": 4,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296380/4b8b89116bb27a009e53fb33a7ab2d6e9d730a88/ss_4b8b89116bb27a009e53fb33a7ab2d6e9d730a88.600x338.jpg?t=1769507687",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296380/4b8b89116bb27a009e53fb33a7ab2d6e9d730a88/ss_4b8b89116bb27a009e53fb33a7ab2d6e9d730a88.1920x1080.jpg?t=1769507687"
+        },
+        {
+          "id": 5,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296380/3a93928d790a5c231d3ae43d8adee093d0ebca02/ss_3a93928d790a5c231d3ae43d8adee093d0ebca02.600x338.jpg?t=1769507687",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296380/3a93928d790a5c231d3ae43d8adee093d0ebca02/ss_3a93928d790a5c231d3ae43d8adee093d0ebca02.1920x1080.jpg?t=1769507687"
+        },
+        {
+          "id": 6,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296380/116026c9dd7caf2e40473828b56759680146824b/ss_116026c9dd7caf2e40473828b56759680146824b.600x338.jpg?t=1769507687",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296380/116026c9dd7caf2e40473828b56759680146824b/ss_116026c9dd7caf2e40473828b56759680146824b.1920x1080.jpg?t=1769507687"
+        }
+      ],
+      "movies": [
+        {
+          "id": 257258147,
+          "name": "Burevestnik",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257258147/7fae267747741be32b7104262a06345366ba4c90/movie_600x337.jpg?t=1768107739",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4296380/2020890074/0361865fe9a072eb7f1faf57282fe8cafd2f9109/1767351762/dash_av1.mpd?t=1768107739",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4296380/2020890074/0361865fe9a072eb7f1faf57282fe8cafd2f9109/1767351762/dash_h264.mpd?t=1768107739",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4296380/2020890074/0361865fe9a072eb7f1faf57282fe8cafd2f9109/1767351762/hls_264_master.m3u8?t=1768107739",
+          "highlight": true
+        }
+      ],
+      "embedded_media": {
+        "about_the_game_urls": [],
+        "detailed_description_urls": [],
+        "all_urls": [],
+        "videos_mp4": [],
+        "videos_webm": [],
+        "images": []
+      }
+    },
+    "store_data": {
+      "type": "game",
+      "required_age": 0,
+      "is_free": false,
+      "about_the_game": "<p class=\"bb_paragraph\" >Forty years of insomnia. Forty years of trying to forget that August. But memory is a trap you can't escape by simply closing your eyes.</p><p class=\"bb_paragraph\" >For Nikita, time stood still long ago. His life has become an endless, exhausting marathon of anxiety, where night brings no rest. Trying to find some peace and escape the haunting nightmares, he suddenly discovers that reality has cracked. Instead of oblivion, he falls into the past.</p><p class=\"bb_paragraph\" >It's August 1982. Hot, dusty, real. He's thirteen again, and he's shaking on an old bus carrying a group of late Pioneers to the Burevestnik camp.</p><p class=\"bb_paragraph\" >Your shift begins strangely. The camp greets you not with a ceremonial assembly and songs around the campfire, but with an eerie silence and the creaking of empty swings. The counselors are gone, the director has left, and the only remaining master of the camp is the mysterious caretaker, Yegor Danilych—a man with a heavy gaze who seems to know more about you than you do.</p><p class=\"bb_paragraph\" >This shift is filled with outcasts: a local bully, a perpetually hungry greedy man, an arrogant beauty, inseparable twins with opposite personalities, and a quiet intellectual. But in the strange, distorted world of &quot;Burevestnik,&quot; their childhood vices and fears begin to take on a terrifying physical form.</p><p class=\"bb_paragraph\" >You will be immersed in a surreal story where familiar Soviet life intertwines with a nightmare. Why did the beauty turn into a soulless mannequin? Why was the greedy man punished with bestial form? And where do those who didn't manage to hide before lights out disappear to?</p><p class=\"bb_paragraph\" >To break the time loop and return home, Nikita will have to play a dangerous game with the camp's owner. Solve Danilych's riddles, search for items that can restore your comrades' humanity, and try to understand what really happened that distant August.</p><p class=\"bb_paragraph\" >Every mistake throws you back to the beginning of your shift. But remember: sometimes saving others is the only way to save yourself. Welcome to Burevestnik. Your final shift begins now.</p>",
+      "detailed_description": "<p class=\"bb_paragraph\" >Forty years of insomnia. Forty years of trying to forget that August. But memory is a trap you can't escape by simply closing your eyes.</p><p class=\"bb_paragraph\" >For Nikita, time stood still long ago. His life has become an endless, exhausting marathon of anxiety, where night brings no rest. Trying to find some peace and escape the haunting nightmares, he suddenly discovers that reality has cracked. Instead of oblivion, he falls into the past.</p><p class=\"bb_paragraph\" >It's August 1982. Hot, dusty, real. He's thirteen again, and he's shaking on an old bus carrying a group of late Pioneers to the Burevestnik camp.</p><p class=\"bb_paragraph\" >Your shift begins strangely. The camp greets you not with a ceremonial assembly and songs around the campfire, but with an eerie silence and the creaking of empty swings. The counselors are gone, the director has left, and the only remaining master of the camp is the mysterious caretaker, Yegor Danilych—a man with a heavy gaze who seems to know more about you than you do.</p><p class=\"bb_paragraph\" >This shift is filled with outcasts: a local bully, a perpetually hungry greedy man, an arrogant beauty, inseparable twins with opposite personalities, and a quiet intellectual. But in the strange, distorted world of &quot;Burevestnik,&quot; their childhood vices and fears begin to take on a terrifying physical form.</p><p class=\"bb_paragraph\" >You will be immersed in a surreal story where familiar Soviet life intertwines with a nightmare. Why did the beauty turn into a soulless mannequin? Why was the greedy man punished with bestial form? And where do those who didn't manage to hide before lights out disappear to?</p><p class=\"bb_paragraph\" >To break the time loop and return home, Nikita will have to play a dangerous game with the camp's owner. Solve Danilych's riddles, search for items that can restore your comrades' humanity, and try to understand what really happened that distant August.</p><p class=\"bb_paragraph\" >Every mistake throws you back to the beginning of your shift. But remember: sometimes saving others is the only way to save yourself. Welcome to Burevestnik. Your final shift begins now.</p>",
+      "short_description": "For Nikita, time stood still long ago. His life has become an endless, exhausting marathon of anxiety, where night brings no rest. Trying to find some peace and escape the haunting nightmares, he suddenly discovers that reality has cracked.",
+      "supported_languages": "English, Russian, Simplified Chinese, Japanese",
+      "website": null,
+      "pc_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> 64-bit Windows 10<br></li><li><strong>Processor:</strong> Intel Core i5-3570K or AMD FX-8310<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> GeForce GTX 670 / GeForce GTX 1050 / AMD Radeon HD 7870<br></li><li><strong>DirectX:</strong> Version 10</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> 64-bit Windows 10<br></li><li><strong>Processor:</strong> INTEL CORE I7-8700K or AMD RYZEN 5 3600X<br></li><li><strong>Memory:</strong> 16 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce 1080Ti or AMD Radeon RX 5700 XT<br></li><li><strong>DirectX:</strong> Version 11</li></ul>"
+      },
+      "mac_requirements": [],
+      "linux_requirements": [],
+      "developers": [
+        " Reanim Games"
+      ],
+      "publishers": [
+        "STuNT"
+      ],
+      "support_info": {
+        "url": "",
+        "email": "almaztokarev50@gmail.com"
+      },
+      "price_overview": {
+        "currency": "USD",
+        "initial": 99,
+        "final": 99,
+        "discount_percent": 0,
+        "initial_formatted": "",
+        "final_formatted": "$0.99"
+      },
+      "packages": [
+        1502604
+      ],
+      "package_groups": [
+        {
+          "name": "default",
+          "title": "Buy Camp \"Burevestnik\"",
+          "description": "",
+          "selection_text": "Select a purchase option",
+          "save_text": "",
+          "display_type": 0,
+          "is_recurring_subscription": "false",
+          "subs": [
+            {
+              "packageid": 1502604,
+              "percent_savings_text": " ",
+              "percent_savings": 0,
+              "option_text": "Camp \"Burevestnik\" - $0.99",
+              "option_description": "",
+              "can_get_free_license": "0",
+              "is_free_license": false,
+              "price_in_cents_with_discount": 99
+            }
+          ]
+        }
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "categories": [
+        {
+          "id": 2,
+          "description": "Single-player"
+        },
+        {
+          "id": 62,
+          "description": "Family Sharing"
+        }
+      ],
+      "genres": [
+        {
+          "id": "1",
+          "description": "Action"
+        },
+        {
+          "id": "25",
+          "description": "Adventure"
+        },
+        {
+          "id": "4",
+          "description": "Casual"
+        },
+        {
+          "id": "23",
+          "description": "Indie"
+        }
+      ],
+      "release_date": {
+        "coming_soon": false,
+        "date": "Jan 24, 2026"
+      },
+      "content_descriptors": {
+        "ids": [],
+        "notes": null
+      },
+      "ratings": {
+        "dejus": {
+          "rating_generated": "1",
+          "rating": "l",
+          "required_age": "0",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": ""
+        },
+        "steam_germany": {
+          "rating_generated": "1",
+          "rating": "0",
+          "required_age": "0",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": ""
+        },
+        "igrs": {
+          "rating_generated": "1",
+          "rating": "3",
+          "required_age": "0",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": ""
+        }
+      }
+    }
+  },
+  "4296390": {
+    "success": true,
+    "source_priority": "steam_data",
+    "fetch_status": {
+      "steam_appdetails": true,
+      "steam_original_assets": true
+    },
+    "name": "Borderless Bullethell",
+    "steam_appid": "4296390",
+    "steamgriddb_game_id": 5514304,
+    "store_asset_mtime": 1768304537,
+    "assets_count": 22,
+    "assets": {
+      "header": [
+        {
+          "path": "5a3bd63fb063f467f8ec68e0e4c26af66c60cee4/header.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296390/5a3bd63fb063f467f8ec68e0e4c26af66c60cee4/header.jpg?t=1768304537",
+          "language": "english"
+        }
+      ],
+      "library_capsule": [
+        {
+          "path": "4c25deae80f82c374d88ee44de32b46684f62f52/library_capsule.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296390/4c25deae80f82c374d88ee44de32b46684f62f52/library_capsule.jpg?t=1768304537",
+          "language": "english"
+        }
+      ],
+      "library_capsule_2x": [
+        {
+          "path": "4c25deae80f82c374d88ee44de32b46684f62f52/library_capsule_2x.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296390/4c25deae80f82c374d88ee44de32b46684f62f52/library_capsule_2x.jpg?t=1768304537",
+          "language": "english"
+        }
+      ],
+      "library_hero": [
+        {
+          "path": "81a79f62e2e38bf0678a50f893e23702413b3ed6/library_hero.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296390/81a79f62e2e38bf0678a50f893e23702413b3ed6/library_hero.jpg?t=1768304537",
+          "language": "english"
+        }
+      ],
+      "library_hero_2x": [
+        {
+          "path": "81a79f62e2e38bf0678a50f893e23702413b3ed6/library_hero_2x.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296390/81a79f62e2e38bf0678a50f893e23702413b3ed6/library_hero_2x.jpg?t=1768304537",
+          "language": "english"
+        }
+      ],
+      "library_logo": [
+        {
+          "path": "f9ca7c16f43ab6e1e293eebe50898f321449113a/logo.png",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296390/f9ca7c16f43ab6e1e293eebe50898f321449113a/logo.png?t=1768304537",
+          "language": "english"
+        }
+      ],
+      "library_logo_2x": [
+        {
+          "path": "f9ca7c16f43ab6e1e293eebe50898f321449113a/logo_2x.png",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296390/f9ca7c16f43ab6e1e293eebe50898f321449113a/logo_2x.png?t=1768304537",
+          "language": "english"
+        }
+      ],
+      "clienticon": [
+        {
+          "hash": "848e8761215bbf2bb08032b4ac515fbe37da4f2d",
+          "url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/4296390/848e8761215bbf2bb08032b4ac515fbe37da4f2d.ico"
+        }
+      ],
+      "icon": [
+        {
+          "hash": "848e8761215bbf2bb08032b4ac515fbe37da4f2d",
+          "url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/4296390/848e8761215bbf2bb08032b4ac515fbe37da4f2d.jpg"
+        }
+      ],
+      "capsule_image": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296390/5d16e06ceeb54d2025bd12d2935f9f9967ebcab9/capsule_231x87.jpg?t=1775845995"
+        }
+      ],
+      "capsule_imagev5": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296390/5d16e06ceeb54d2025bd12d2935f9f9967ebcab9/capsule_184x69.jpg?t=1775845995"
+        }
+      ],
+      "background": [
+        {
+          "url": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4296390?t=1775845995"
+        }
+      ],
+      "background_raw": [
+        {
+          "url": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4296390?t=1775845995"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": 0,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296390/c49a1fa02a836d2ec287fb4a6e0010d2c868fdee/ss_c49a1fa02a836d2ec287fb4a6e0010d2c868fdee.600x338.jpg?t=1775845995",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296390/c49a1fa02a836d2ec287fb4a6e0010d2c868fdee/ss_c49a1fa02a836d2ec287fb4a6e0010d2c868fdee.1920x1080.jpg?t=1775845995"
+        },
+        {
+          "id": 1,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296390/fb48db5f72c094f815875f49668500a9fef56bf9/ss_fb48db5f72c094f815875f49668500a9fef56bf9.600x338.jpg?t=1775845995",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296390/fb48db5f72c094f815875f49668500a9fef56bf9/ss_fb48db5f72c094f815875f49668500a9fef56bf9.1920x1080.jpg?t=1775845995"
+        },
+        {
+          "id": 2,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296390/112c9726322e22caf425ea781955f01eb6c97485/ss_112c9726322e22caf425ea781955f01eb6c97485.600x338.jpg?t=1775845995",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296390/112c9726322e22caf425ea781955f01eb6c97485/ss_112c9726322e22caf425ea781955f01eb6c97485.1920x1080.jpg?t=1775845995"
+        },
+        {
+          "id": 3,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296390/d906470e4a791cc9631677d1a78a5348b600f605/ss_d906470e4a791cc9631677d1a78a5348b600f605.600x338.jpg?t=1775845995",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296390/d906470e4a791cc9631677d1a78a5348b600f605/ss_d906470e4a791cc9631677d1a78a5348b600f605.1920x1080.jpg?t=1775845995"
+        },
+        {
+          "id": 4,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296390/aa326cb69c02c6138e876598770c3804fc4f48bf/ss_aa326cb69c02c6138e876598770c3804fc4f48bf.600x338.jpg?t=1775845995",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296390/aa326cb69c02c6138e876598770c3804fc4f48bf/ss_aa326cb69c02c6138e876598770c3804fc4f48bf.1920x1080.jpg?t=1775845995"
+        },
+        {
+          "id": 5,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296390/7d14a8e06893a90492bc6ad4a15c4599c4b7c2cf/ss_7d14a8e06893a90492bc6ad4a15c4599c4b7c2cf.600x338.jpg?t=1775845995",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296390/7d14a8e06893a90492bc6ad4a15c4599c4b7c2cf/ss_7d14a8e06893a90492bc6ad4a15c4599c4b7c2cf.1920x1080.jpg?t=1775845995"
+        },
+        {
+          "id": 6,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296390/ed0d91606f8015d4a55ba5fe18511d5d05397f0a/ss_ed0d91606f8015d4a55ba5fe18511d5d05397f0a.600x338.jpg?t=1775845995",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296390/ed0d91606f8015d4a55ba5fe18511d5d05397f0a/ss_ed0d91606f8015d4a55ba5fe18511d5d05397f0a.1920x1080.jpg?t=1775845995"
+        }
+      ],
+      "movies": [
+        {
+          "id": 257257386,
+          "name": "Borderless Bullethell",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257257386/eded0c9739df04d453d7d94da6239853b9389cf2/movie_600x337.jpg?t=1768589073",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4296390/14033031/ff02bf7862d2da25d309eeba729ccc0c0a17ab45/1768301036/dash_av1.mpd?t=1768589073",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4296390/14033031/ff02bf7862d2da25d309eeba729ccc0c0a17ab45/1768301036/dash_h264.mpd?t=1768589073",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4296390/14033031/ff02bf7862d2da25d309eeba729ccc0c0a17ab45/1768301036/hls_264_master.m3u8?t=1768589073",
+          "highlight": true
+        }
+      ],
+      "embedded_media": {
+        "about_the_game_urls": [],
+        "detailed_description_urls": [],
+        "all_urls": [],
+        "videos_mp4": [],
+        "videos_webm": [],
+        "images": []
+      }
+    },
+    "store_data": {
+      "type": "game",
+      "required_age": 0,
+      "is_free": true,
+      "about_the_game": "<h2 class=\"bb_tag\" ><strong>A Chill Bullet Hell You Can Play While Doing Anything Else</strong></h2><p class=\"bb_paragraph\" >This is a <strong>minimal, relaxed bullet-hell experience</strong> designed to live quietly on your screen while you focus on your own tasks.</p><p class=\"bb_paragraph\" >The game runs in a <strong>borderless, movable window</strong> that you can place anywhere — corner of your monitor, second screen, or floating beside your work. It’s meant to be played <strong>alongside</strong> whatever you’re already doing, not instead of it.</p><p class=\"bb_paragraph\" >Hold the mouse button to play at full speed.<br>Let go, and the game <strong>slows down</strong>, giving you time to refocus on your work whenever you need.</p><p class=\"bb_paragraph\" >No flashing lights. No visual noise. Just calm colors, smooth motion, and steady progression.</p><h2 class=\"bb_tag\" ><strong>Gameplay</strong></h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Classic <strong>bullet-hell mechanics</strong>, simplified and easy to read</p></li><li><p class=\"bb_paragraph\" >Game <strong>slows automatically</strong> when you’re not actively playing</p></li><li><p class=\"bb_paragraph\" >Designed to be <strong>low-distraction</strong> and visually calm</p></li><li><p class=\"bb_paragraph\" >Smooth, continuous gameplay that doesn’t demand full attention</p></li></ul><h2 class=\"bb_tag\" ><strong>Progression</strong></h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Reach <strong>milestones</strong> during play to unlock:</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >New powerups</p></li><li><p class=\"bb_paragraph\" >Passive perks</p></li><li><p class=\"bb_paragraph\" >Small gameplay modifiers</p></li></ul></li><li><p class=\"bb_paragraph\" >Progress is steady and rewarding, even in short sessions</p></li></ul><h2 class=\"bb_tag\" ><strong>Designed for Multitasking</strong></h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Borderless window you can move freely</p></li><li><p class=\"bb_paragraph\" >Calm visuals that won’t steal your focus</p></li><li><p class=\"bb_paragraph\" >Perfect for:</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Working</p></li><li><p class=\"bb_paragraph\" >Studying</p></li><li><p class=\"bb_paragraph\" >Watching videos</p></li><li><p class=\"bb_paragraph\" >Chatting or browsing</p></li><li><p class=\"bb_paragraph\" >Second-monitor setups</p></li></ul></li></ul><h2 class=\"bb_tag\" ><strong>Play Actively or Passively</strong></h2><p class=\"bb_paragraph\" >Engage fully when you want.<br>Let it slow down when you don’t.</p><p class=\"bb_paragraph\" >This is a bullet hell that <strong>fits into your routine</strong>, not the other way around.</p>",
+      "detailed_description": "<h2 class=\"bb_tag\" ><strong>A Chill Bullet Hell You Can Play While Doing Anything Else</strong></h2><p class=\"bb_paragraph\" >This is a <strong>minimal, relaxed bullet-hell experience</strong> designed to live quietly on your screen while you focus on your own tasks.</p><p class=\"bb_paragraph\" >The game runs in a <strong>borderless, movable window</strong> that you can place anywhere — corner of your monitor, second screen, or floating beside your work. It’s meant to be played <strong>alongside</strong> whatever you’re already doing, not instead of it.</p><p class=\"bb_paragraph\" >Hold the mouse button to play at full speed.<br>Let go, and the game <strong>slows down</strong>, giving you time to refocus on your work whenever you need.</p><p class=\"bb_paragraph\" >No flashing lights. No visual noise. Just calm colors, smooth motion, and steady progression.</p><h2 class=\"bb_tag\" ><strong>Gameplay</strong></h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Classic <strong>bullet-hell mechanics</strong>, simplified and easy to read</p></li><li><p class=\"bb_paragraph\" >Game <strong>slows automatically</strong> when you’re not actively playing</p></li><li><p class=\"bb_paragraph\" >Designed to be <strong>low-distraction</strong> and visually calm</p></li><li><p class=\"bb_paragraph\" >Smooth, continuous gameplay that doesn’t demand full attention</p></li></ul><h2 class=\"bb_tag\" ><strong>Progression</strong></h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Reach <strong>milestones</strong> during play to unlock:</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >New powerups</p></li><li><p class=\"bb_paragraph\" >Passive perks</p></li><li><p class=\"bb_paragraph\" >Small gameplay modifiers</p></li></ul></li><li><p class=\"bb_paragraph\" >Progress is steady and rewarding, even in short sessions</p></li></ul><h2 class=\"bb_tag\" ><strong>Designed for Multitasking</strong></h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Borderless window you can move freely</p></li><li><p class=\"bb_paragraph\" >Calm visuals that won’t steal your focus</p></li><li><p class=\"bb_paragraph\" >Perfect for:</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Working</p></li><li><p class=\"bb_paragraph\" >Studying</p></li><li><p class=\"bb_paragraph\" >Watching videos</p></li><li><p class=\"bb_paragraph\" >Chatting or browsing</p></li><li><p class=\"bb_paragraph\" >Second-monitor setups</p></li></ul></li></ul><h2 class=\"bb_tag\" ><strong>Play Actively or Passively</strong></h2><p class=\"bb_paragraph\" >Engage fully when you want.<br>Let it slow down when you don’t.</p><p class=\"bb_paragraph\" >This is a bullet hell that <strong>fits into your routine</strong>, not the other way around.</p>",
+      "short_description": "A calm, minimalist bullet hell designed for multitasking. Play in a movable borderless window that slows down when you let go. Unlock powerups through milestones and let the game run quietly while you focus on other things.",
+      "supported_languages": "English",
+      "website": null,
+      "pc_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> Intel Core i3-2100 or equivalent<br></li><li><strong>Memory:</strong> 1024 MB RAM<br></li><li><strong>Graphics:</strong> Graphics: Integrated Graphics<br></li><li><strong>DirectX:</strong> Version 10<br></li><li><strong>Storage:</strong> 350 MB available space<br></li><li><strong>Sound Card:</strong> Any</li></ul>"
+      },
+      "mac_requirements": [],
+      "linux_requirements": [],
+      "developers": [
+        "LaatsaMedia"
+      ],
+      "publishers": [
+        "LaatsaMedia"
+      ],
+      "support_info": {
+        "url": "",
+        "email": "laatsamedia@gmail.com"
+      },
+      "package_groups": [],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "categories": [
+        {
+          "id": 2,
+          "description": "Single-player"
+        },
+        {
+          "id": 68,
+          "description": "Custom Volume Controls"
+        },
+        {
+          "id": 76,
+          "description": "Mouse Only Option"
+        },
+        {
+          "id": 74,
+          "description": "Playable without Timed Input"
+        },
+        {
+          "id": 79,
+          "description": "Save Anytime"
+        }
+      ],
+      "genres": [
+        {
+          "id": "1",
+          "description": "Action"
+        },
+        {
+          "id": "4",
+          "description": "Casual"
+        },
+        {
+          "id": "23",
+          "description": "Indie"
+        },
+        {
+          "id": "28",
+          "description": "Simulation"
+        },
+        {
+          "id": "2",
+          "description": "Strategy"
+        },
+        {
+          "id": "37",
+          "description": "Free To Play"
+        }
+      ],
+      "release_date": {
+        "coming_soon": false,
+        "date": "Jan 31, 2026"
+      },
+      "content_descriptors": {
+        "ids": [],
+        "notes": null
+      },
+      "ratings": {
+        "dejus": {
+          "rating_generated": "1",
+          "rating": "l",
+          "required_age": "0",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": ""
+        },
+        "steam_germany": {
+          "rating_generated": "1",
+          "rating": "0",
+          "required_age": "0",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": ""
+        },
+        "igrs": {
+          "rating_generated": "1",
+          "rating": "3",
+          "required_age": "0",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": ""
+        }
+      }
+    }
+  },
+  "4296410": {
+    "success": true,
+    "source_priority": "steam_data",
+    "fetch_status": {
+      "steam_appdetails": true,
+      "steam_original_assets": true
+    },
+    "name": "Gravscape",
+    "steam_appid": "4296410",
+    "steamgriddb_game_id": 5514840,
+    "store_asset_mtime": 1768744096,
+    "assets_count": 20,
+    "assets": {
+      "header": [
+        {
+          "path": "69c1c898c49589d964a289cffba7266578b9fc41/header.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296410/69c1c898c49589d964a289cffba7266578b9fc41/header.jpg?t=1768744096",
+          "language": "english"
+        }
+      ],
+      "library_capsule": [
+        {
+          "path": "25352ad065653220467e7f1e0e7393b7027409da/library_capsule.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296410/25352ad065653220467e7f1e0e7393b7027409da/library_capsule.jpg?t=1768744096",
+          "language": "english"
+        }
+      ],
+      "library_capsule_2x": [
+        {
+          "path": "25352ad065653220467e7f1e0e7393b7027409da/library_capsule_2x.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296410/25352ad065653220467e7f1e0e7393b7027409da/library_capsule_2x.jpg?t=1768744096",
+          "language": "english"
+        }
+      ],
+      "library_hero": [
+        {
+          "path": "834c42007dd0bf72e20b2d944d49c5110e81f67d/library_hero.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296410/834c42007dd0bf72e20b2d944d49c5110e81f67d/library_hero.jpg?t=1768744096",
+          "language": "english"
+        }
+      ],
+      "library_hero_2x": [
+        {
+          "path": "834c42007dd0bf72e20b2d944d49c5110e81f67d/library_hero_2x.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296410/834c42007dd0bf72e20b2d944d49c5110e81f67d/library_hero_2x.jpg?t=1768744096",
+          "language": "english"
+        }
+      ],
+      "library_logo": [
+        {
+          "path": "2b1b9ffa540c5ea46b064cee9355ed2988468101/logo.png",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296410/2b1b9ffa540c5ea46b064cee9355ed2988468101/logo.png?t=1768744096",
+          "language": "english"
+        }
+      ],
+      "library_logo_2x": [
+        {
+          "path": "2b1b9ffa540c5ea46b064cee9355ed2988468101/logo_2x.png",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296410/2b1b9ffa540c5ea46b064cee9355ed2988468101/logo_2x.png?t=1768744096",
+          "language": "english"
+        }
+      ],
+      "clienticon": [
+        {
+          "hash": "6aea4f3df0bab61f823b8610580ab860c7f3b02f",
+          "url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/4296410/6aea4f3df0bab61f823b8610580ab860c7f3b02f.ico"
+        }
+      ],
+      "icon": [
+        {
+          "hash": "6aea4f3df0bab61f823b8610580ab860c7f3b02f",
+          "url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/4296410/6aea4f3df0bab61f823b8610580ab860c7f3b02f.jpg"
+        }
+      ],
+      "capsule_image": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296410/26189226ea9f26e14f89b86de297e54fa21b4ae9/capsule_231x87.jpg?t=1774984778"
+        }
+      ],
+      "capsule_imagev5": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296410/26189226ea9f26e14f89b86de297e54fa21b4ae9/capsule_184x69.jpg?t=1774984778"
+        }
+      ],
+      "background": [
+        {
+          "url": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4296410?t=1774984778"
+        }
+      ],
+      "background_raw": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296410/ae6c0660cde822b264b4b93cef09c28dbe375a6c/page_bg_raw.jpg?t=1774984778"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": 0,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296410/373e77f7ef8c976e4c545cd4051ee790f11dca46/ss_373e77f7ef8c976e4c545cd4051ee790f11dca46.600x338.jpg?t=1774984778",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296410/373e77f7ef8c976e4c545cd4051ee790f11dca46/ss_373e77f7ef8c976e4c545cd4051ee790f11dca46.1920x1080.jpg?t=1774984778"
+        },
+        {
+          "id": 1,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296410/25e844dbcd5ed01bb5bef266858f8b1e2ea1b584/ss_25e844dbcd5ed01bb5bef266858f8b1e2ea1b584.600x338.jpg?t=1774984778",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296410/25e844dbcd5ed01bb5bef266858f8b1e2ea1b584/ss_25e844dbcd5ed01bb5bef266858f8b1e2ea1b584.1920x1080.jpg?t=1774984778"
+        },
+        {
+          "id": 2,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296410/9a01791084d0f6823fb399d8a3930e99126c3ecf/ss_9a01791084d0f6823fb399d8a3930e99126c3ecf.600x338.jpg?t=1774984778",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296410/9a01791084d0f6823fb399d8a3930e99126c3ecf/ss_9a01791084d0f6823fb399d8a3930e99126c3ecf.1920x1080.jpg?t=1774984778"
+        },
+        {
+          "id": 3,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296410/c6302551f2a08ce16bb463d33d8c5ed0c8d6dda2/ss_c6302551f2a08ce16bb463d33d8c5ed0c8d6dda2.600x338.jpg?t=1774984778",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296410/c6302551f2a08ce16bb463d33d8c5ed0c8d6dda2/ss_c6302551f2a08ce16bb463d33d8c5ed0c8d6dda2.1920x1080.jpg?t=1774984778"
+        },
+        {
+          "id": 4,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296410/e11bb17eacead2bbd836bfc9ed040b6cb6d69191/ss_e11bb17eacead2bbd836bfc9ed040b6cb6d69191.600x338.jpg?t=1774984778",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296410/e11bb17eacead2bbd836bfc9ed040b6cb6d69191/ss_e11bb17eacead2bbd836bfc9ed040b6cb6d69191.1920x1080.jpg?t=1774984778"
+        }
+      ],
+      "movies": [
+        {
+          "id": 257267355,
+          "name": "Main Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257267355/56204ff6c3cab3b9eaa5ea738f168c651c1bb5b4/movie_600x337.jpg?t=1769026042",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4296410/911524189/78216fedbff5b331084066ad30a14708fbcde754/1768743807/dash_av1.mpd?t=1769026042",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4296410/911524189/78216fedbff5b331084066ad30a14708fbcde754/1768743807/dash_h264.mpd?t=1769026042",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4296410/911524189/78216fedbff5b331084066ad30a14708fbcde754/1768743807/hls_264_master.m3u8?t=1769026042",
+          "highlight": true
+        }
+      ],
+      "embedded_media": {
+        "about_the_game_urls": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296410/extras/746fd31a79c88ad16bb2a248859b7a68.avif?t=1774984778"
+        ],
+        "detailed_description_urls": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296410/extras/746fd31a79c88ad16bb2a248859b7a68.avif?t=1774984778"
+        ],
+        "all_urls": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296410/extras/746fd31a79c88ad16bb2a248859b7a68.avif?t=1774984778"
+        ],
+        "videos_mp4": [],
+        "videos_webm": [],
+        "images": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296410/extras/746fd31a79c88ad16bb2a248859b7a68.avif?t=1774984778"
+        ]
+      }
+    },
+    "store_data": {
+      "type": "game",
+      "required_age": 0,
+      "is_free": false,
+      "about_the_game": "<p class=\"bb_paragraph\" ><i>Launch into a tiny orbit of chaos!</i><br>Click to attract to nearby planets; release to launch yourself away. Slingshot swings, split-second releases, and sharp timing turn every run into a dance of momentum and risk.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296410/extras/746fd31a79c88ad16bb2a248859b7a68.avif?t=1774984778\" width=90 height=90 /></span></p><h2 class=\"bb_tag\" ><strong>Quick facts:</strong></h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>Planets &amp; hazards:</strong> 8 unique planets + powerful wind hazards and unpredictable meteors.</p></li><li><p class=\"bb_paragraph\" ><strong>Movement:</strong> Planets act like bouncy bumpers you swing around - you do <strong>not</strong> enter orbit.</p></li><li><p class=\"bb_paragraph\" ><strong>Levels:</strong> 25+ handcrafted stages plus procedurally generated infinite runs (with optional upgrades).</p></li><li><p class=\"bb_paragraph\" ><strong>Run length:</strong> Typical runs last ~6 seconds - then one more try becomes ten.</p></li><li><p class=\"bb_paragraph\" ><strong>Customization:</strong> 16+ unlockable skins (with stupid puns) and a collectible Planet Book of facts/stats.</p></li></ul><h2 class=\"bb_tag\" >Key features</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>One-button core:</strong> Click to cling, release to free-fall - simple to learn, brutal to master.</p></li><li><p class=\"bb_paragraph\" ><strong>Distinct planets:</strong> Each one changes how you move and survive - some are sticky, some launch you like a cannon, some kill on contact.</p></li><li><p class=\"bb_paragraph\" ><strong>Three modes:</strong></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><i>Infinite</i> - survive for the highest score.</p></li><li><p class=\"bb_paragraph\" ><i>Roguelike</i> - gain a power-up every few points (wider FOV, speed boosts, shields).</p></li><li><p class=\"bb_paragraph\" ><i>Crafted levels</i> - tackle pre-made stages end-to-end with local grading and speedruning targets.</p></li></ul></li><li><p class=\"bb_paragraph\" ><strong>Competitive play:</strong> Global leaderboards and local ranks (E -&gt; S) reward precision.</p></li><li><p class=\"bb_paragraph\" ><strong>Collectibles &amp; cosmetics:</strong> Unlock skins, achievements, and Planet Book entries as you refine routes.</p></li></ul><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>Have fun!</strong></p>",
+      "detailed_description": "<p class=\"bb_paragraph\" ><i>Launch into a tiny orbit of chaos!</i><br>Click to attract to nearby planets; release to launch yourself away. Slingshot swings, split-second releases, and sharp timing turn every run into a dance of momentum and risk.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296410/extras/746fd31a79c88ad16bb2a248859b7a68.avif?t=1774984778\" width=90 height=90 /></span></p><h2 class=\"bb_tag\" ><strong>Quick facts:</strong></h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>Planets &amp; hazards:</strong> 8 unique planets + powerful wind hazards and unpredictable meteors.</p></li><li><p class=\"bb_paragraph\" ><strong>Movement:</strong> Planets act like bouncy bumpers you swing around - you do <strong>not</strong> enter orbit.</p></li><li><p class=\"bb_paragraph\" ><strong>Levels:</strong> 25+ handcrafted stages plus procedurally generated infinite runs (with optional upgrades).</p></li><li><p class=\"bb_paragraph\" ><strong>Run length:</strong> Typical runs last ~6 seconds - then one more try becomes ten.</p></li><li><p class=\"bb_paragraph\" ><strong>Customization:</strong> 16+ unlockable skins (with stupid puns) and a collectible Planet Book of facts/stats.</p></li></ul><h2 class=\"bb_tag\" >Key features</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>One-button core:</strong> Click to cling, release to free-fall - simple to learn, brutal to master.</p></li><li><p class=\"bb_paragraph\" ><strong>Distinct planets:</strong> Each one changes how you move and survive - some are sticky, some launch you like a cannon, some kill on contact.</p></li><li><p class=\"bb_paragraph\" ><strong>Three modes:</strong></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><i>Infinite</i> - survive for the highest score.</p></li><li><p class=\"bb_paragraph\" ><i>Roguelike</i> - gain a power-up every few points (wider FOV, speed boosts, shields).</p></li><li><p class=\"bb_paragraph\" ><i>Crafted levels</i> - tackle pre-made stages end-to-end with local grading and speedruning targets.</p></li></ul></li><li><p class=\"bb_paragraph\" ><strong>Competitive play:</strong> Global leaderboards and local ranks (E -&gt; S) reward precision.</p></li><li><p class=\"bb_paragraph\" ><strong>Collectibles &amp; cosmetics:</strong> Unlock skins, achievements, and Planet Book entries as you refine routes.</p></li></ul><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>Have fun!</strong></p>",
+      "short_description": "One button. Infinite momentum. Gravscape is a fast 2D arcade platformer - attract to planets, release to free-fall, chain swings through hazards. Master 8 planets, clear 25+ handcrafted levels, and chase high scores in Infinite and Roguelike modes.",
+      "supported_languages": "English",
+      "website": null,
+      "pc_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10 (64-bit)<br></li><li><strong>Processor:</strong> Intel Core i3-6100 / AMD Ryzen 3 1200<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Intel UHD 630 / GTX 750 / RX 550<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 200 MB available space<br></li><li><strong>Additional Notes:</strong> A potato could probably run the game to be honest, there's a special setting for that too.</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10 / 11 (64-bit)<br></li><li><strong>Processor:</strong> Intel Core i5-8400 / AMD Ryzen 5 2600<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> GTX 1060 / RX 580 or better<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 300 MB available space<br></li><li><strong>Additional Notes:</strong> 1080p to 4K, high settings, smooth performance</li></ul>"
+      },
+      "mac_requirements": [],
+      "linux_requirements": [],
+      "developers": [
+        "Kirocet Studio"
+      ],
+      "publishers": [
+        "Kirocet Studio"
+      ],
+      "support_info": {
+        "url": "",
+        "email": "kirocethelp@gmail.com"
+      },
+      "price_overview": {
+        "currency": "USD",
+        "initial": 399,
+        "final": 399,
+        "discount_percent": 0,
+        "initial_formatted": "",
+        "final_formatted": "$3.99"
+      },
+      "packages": [
+        1502614
+      ],
+      "package_groups": [
+        {
+          "name": "default",
+          "title": "Buy Gravscape",
+          "description": "",
+          "selection_text": "Select a purchase option",
+          "save_text": "",
+          "display_type": 0,
+          "is_recurring_subscription": "false",
+          "subs": [
+            {
+              "packageid": 1502614,
+              "percent_savings_text": " ",
+              "percent_savings": 0,
+              "option_text": "Gravscape - $3.99",
+              "option_description": "",
+              "can_get_free_license": "0",
+              "is_free_license": false,
+              "price_in_cents_with_discount": 399
+            }
+          ]
+        }
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "categories": [
+        {
+          "id": 2,
+          "description": "Single-player"
+        },
+        {
+          "id": 22,
+          "description": "Steam Achievements"
+        },
+        {
+          "id": 67,
+          "description": "Camera Comfort"
+        },
+        {
+          "id": 68,
+          "description": "Custom Volume Controls"
+        },
+        {
+          "id": 74,
+          "description": "Playable without Timed Input"
+        },
+        {
+          "id": 23,
+          "description": "Steam Cloud"
+        },
+        {
+          "id": 15,
+          "description": "Stats"
+        },
+        {
+          "id": 25,
+          "description": "Steam Leaderboards"
+        },
+        {
+          "id": 62,
+          "description": "Family Sharing"
+        }
+      ],
+      "genres": [
+        {
+          "id": "1",
+          "description": "Action"
+        },
+        {
+          "id": "23",
+          "description": "Indie"
+        }
+      ],
+      "achievements": {
+        "total": 26,
+        "highlighted": [
+          {
+            "icon": "982ca44fa5aac84df5f3fb0c4ea18a8867e9a683.jpg",
+            "localized_name": "To Infinity And Beyond",
+            "name": "To Infinity And Beyond",
+            "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/4296410/982ca44fa5aac84df5f3fb0c4ea18a8867e9a683.jpg"
+          },
+          {
+            "icon": "d883e34241521f127972d4e620fa515218017661.jpg",
+            "localized_name": "We Are Gravscape",
+            "name": "We Are Gravscape",
+            "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/4296410/d883e34241521f127972d4e620fa515218017661.jpg"
+          },
+          {
+            "icon": "ecec3d5855132723ad4dc3a4dbbfab1ffd933288.jpg",
+            "localized_name": "Potato",
+            "name": "Potato",
+            "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/4296410/ecec3d5855132723ad4dc3a4dbbfab1ffd933288.jpg"
+          },
+          {
+            "icon": "571dbe5996c9190a5d6a88bff78e691e78cfb930.jpg",
+            "localized_name": "On Boarding",
+            "name": "On Boarding",
+            "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/4296410/571dbe5996c9190a5d6a88bff78e691e78cfb930.jpg"
+          },
+          {
+            "icon": "2bd436ae6a106d048a325b719bffd24906c89cc8.jpg",
+            "localized_name": "You Died",
+            "name": "You Died",
+            "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/4296410/2bd436ae6a106d048a325b719bffd24906c89cc8.jpg"
+          },
+          {
+            "icon": "7d943243c9d7a84dc29546e0ac6b213ee7f80ac3.jpg",
+            "localized_name": "You're A Star",
+            "name": "You're A Star",
+            "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/4296410/7d943243c9d7a84dc29546e0ac6b213ee7f80ac3.jpg"
+          },
+          {
+            "icon": "35d2cfd36c5adb2f5d58476e368098c607067274.jpg",
+            "localized_name": "Sub 5",
+            "name": "Sub 5",
+            "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/4296410/35d2cfd36c5adb2f5d58476e368098c607067274.jpg"
+          },
+          {
+            "icon": "bc37ea9a86ca07ce013ab7639bcdf5804e9234f3.jpg",
+            "localized_name": "Sucky Sucky",
+            "name": "Sucky Sucky",
+            "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/4296410/bc37ea9a86ca07ce013ab7639bcdf5804e9234f3.jpg"
+          },
+          {
+            "icon": "0808394503ace8d2c3299b5a382f4bc0d83b8d55.jpg",
+            "localized_name": "Lightspeed",
+            "name": "Lightspeed",
+            "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/4296410/0808394503ace8d2c3299b5a382f4bc0d83b8d55.jpg"
+          },
+          {
+            "icon": "d9268ed830f562db0813602883e3ace05c00ff5b.jpg",
+            "localized_name": "Reach For The Stars",
+            "name": "Reach For The Stars",
+            "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/4296410/d9268ed830f562db0813602883e3ace05c00ff5b.jpg"
+          }
+        ]
+      },
+      "release_date": {
+        "coming_soon": false,
+        "date": "Mar 24, 2026"
+      },
+      "content_descriptors": {
+        "ids": [],
+        "notes": null
+      },
+      "ratings": {
+        "dejus": {
+          "rating_generated": "1",
+          "rating": "l",
+          "required_age": "0",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": ""
+        },
+        "steam_germany": {
+          "rating_generated": "1",
+          "rating": "0",
+          "required_age": "0",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": ""
+        },
+        "igrs": {
+          "rating_generated": "1",
+          "rating": "3",
+          "required_age": "0",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": ""
+        }
+      }
+    }
+  },
+  "4296430": {
+    "success": true,
+    "source_priority": "steam_data",
+    "fetch_status": {
+      "steam_appdetails": true,
+      "steam_original_assets": true
+    },
+    "name": "School Guard",
+    "steam_appid": "4296430",
+    "steamgriddb_game_id": 5514236,
+    "store_asset_mtime": 1768000782,
+    "assets_count": 37,
+    "assets": {
+      "header": [
+        {
+          "path": "5122a3c97e40494d665c7535534c819a8a6c705b/header.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296430/5122a3c97e40494d665c7535534c819a8a6c705b/header.jpg?t=1768000782",
+          "language": "english"
+        }
+      ],
+      "library_capsule": [
+        {
+          "path": "68a5af0ea91ae32a6d8abbee566029089b44d7a9/library_capsule.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296430/68a5af0ea91ae32a6d8abbee566029089b44d7a9/library_capsule.jpg?t=1768000782",
+          "language": "english"
+        }
+      ],
+      "library_capsule_2x": [
+        {
+          "path": "68a5af0ea91ae32a6d8abbee566029089b44d7a9/library_capsule_2x.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296430/68a5af0ea91ae32a6d8abbee566029089b44d7a9/library_capsule_2x.jpg?t=1768000782",
+          "language": "english"
+        }
+      ],
+      "library_hero": [
+        {
+          "path": "14c06f44e5ba21a9c95159a18f25931e9c3df454/library_hero.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296430/14c06f44e5ba21a9c95159a18f25931e9c3df454/library_hero.jpg?t=1768000782",
+          "language": "english"
+        }
+      ],
+      "library_hero_2x": [
+        {
+          "path": "14c06f44e5ba21a9c95159a18f25931e9c3df454/library_hero_2x.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296430/14c06f44e5ba21a9c95159a18f25931e9c3df454/library_hero_2x.jpg?t=1768000782",
+          "language": "english"
+        }
+      ],
+      "library_logo": [
+        {
+          "path": "bbfa7b55b752ae024ee768ea5282d189cf8402cb/logo.png",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296430/bbfa7b55b752ae024ee768ea5282d189cf8402cb/logo.png?t=1768000782",
+          "language": "english"
+        }
+      ],
+      "library_logo_2x": [
+        {
+          "path": "bbfa7b55b752ae024ee768ea5282d189cf8402cb/logo_2x.png",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296430/bbfa7b55b752ae024ee768ea5282d189cf8402cb/logo_2x.png?t=1768000782",
+          "language": "english"
+        }
+      ],
+      "clienticon": [
+        {
+          "hash": "6905ae170ebac05de2a2a005dae7b2b925abe1b6",
+          "url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/4296430/6905ae170ebac05de2a2a005dae7b2b925abe1b6.ico"
+        }
+      ],
+      "icon": [
+        {
+          "hash": "6905ae170ebac05de2a2a005dae7b2b925abe1b6",
+          "url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/4296430/6905ae170ebac05de2a2a005dae7b2b925abe1b6.jpg"
+        }
+      ],
+      "capsule_image": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/94ab799563c1ce59d150ec4bddfb187b45a4a55e/capsule_231x87.jpg?t=1773294735"
+        }
+      ],
+      "capsule_imagev5": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/94ab799563c1ce59d150ec4bddfb187b45a4a55e/capsule_184x69.jpg?t=1773294735"
+        }
+      ],
+      "background": [
+        {
+          "url": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4296430?t=1773294735"
+        }
+      ],
+      "background_raw": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/6f1dc1237eeb7b16870bd8fef52bacce590a2ef5/page_bg_raw.jpg?t=1773294735"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": 0,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/4704fabfbca3c93aa2c77ae43989c34b445a83b4/ss_4704fabfbca3c93aa2c77ae43989c34b445a83b4.600x338.jpg?t=1773294735",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/4704fabfbca3c93aa2c77ae43989c34b445a83b4/ss_4704fabfbca3c93aa2c77ae43989c34b445a83b4.1920x1080.jpg?t=1773294735"
+        },
+        {
+          "id": 1,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/a302bb6c371c08118475e01178c94bab5bcb2af6/ss_a302bb6c371c08118475e01178c94bab5bcb2af6.600x338.jpg?t=1773294735",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/a302bb6c371c08118475e01178c94bab5bcb2af6/ss_a302bb6c371c08118475e01178c94bab5bcb2af6.1920x1080.jpg?t=1773294735"
+        },
+        {
+          "id": 2,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/479d13ecf54aed6efae5b500f9c8130707dcecd1/ss_479d13ecf54aed6efae5b500f9c8130707dcecd1.600x338.jpg?t=1773294735",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/479d13ecf54aed6efae5b500f9c8130707dcecd1/ss_479d13ecf54aed6efae5b500f9c8130707dcecd1.1920x1080.jpg?t=1773294735"
+        },
+        {
+          "id": 3,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/8abd41495d0c0bbbe9b8e346f08c0ed0ff456cd4/ss_8abd41495d0c0bbbe9b8e346f08c0ed0ff456cd4.600x338.jpg?t=1773294735",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/8abd41495d0c0bbbe9b8e346f08c0ed0ff456cd4/ss_8abd41495d0c0bbbe9b8e346f08c0ed0ff456cd4.1920x1080.jpg?t=1773294735"
+        },
+        {
+          "id": 4,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/1c4db4c2281ba07baa9e69f78c0e80966b6bbdf3/ss_1c4db4c2281ba07baa9e69f78c0e80966b6bbdf3.600x338.jpg?t=1773294735",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/1c4db4c2281ba07baa9e69f78c0e80966b6bbdf3/ss_1c4db4c2281ba07baa9e69f78c0e80966b6bbdf3.1920x1080.jpg?t=1773294735"
+        },
+        {
+          "id": 5,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/658cbeefbe99491e43e730b30e3111f1ffd600e4/ss_658cbeefbe99491e43e730b30e3111f1ffd600e4.600x338.jpg?t=1773294735",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/658cbeefbe99491e43e730b30e3111f1ffd600e4/ss_658cbeefbe99491e43e730b30e3111f1ffd600e4.1920x1080.jpg?t=1773294735"
+        },
+        {
+          "id": 6,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/168697efc8cb61007f6be8acea89e92de3588f1f/ss_168697efc8cb61007f6be8acea89e92de3588f1f.600x338.jpg?t=1773294735",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/168697efc8cb61007f6be8acea89e92de3588f1f/ss_168697efc8cb61007f6be8acea89e92de3588f1f.1920x1080.jpg?t=1773294735"
+        },
+        {
+          "id": 7,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/2b75531cb185001c5ca7f02bb941b76c4c6280da/ss_2b75531cb185001c5ca7f02bb941b76c4c6280da.600x338.jpg?t=1773294735",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/2b75531cb185001c5ca7f02bb941b76c4c6280da/ss_2b75531cb185001c5ca7f02bb941b76c4c6280da.1920x1080.jpg?t=1773294735"
+        },
+        {
+          "id": 8,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/9637a4ca7cc98deed4086d5d7d99fe69eab7cd9f/ss_9637a4ca7cc98deed4086d5d7d99fe69eab7cd9f.600x338.jpg?t=1773294735",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/9637a4ca7cc98deed4086d5d7d99fe69eab7cd9f/ss_9637a4ca7cc98deed4086d5d7d99fe69eab7cd9f.1920x1080.jpg?t=1773294735"
+        },
+        {
+          "id": 9,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/95c0a453cb8f2e7c98bd4d2bd8d79c05ae36573b/ss_95c0a453cb8f2e7c98bd4d2bd8d79c05ae36573b.600x338.jpg?t=1773294735",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/95c0a453cb8f2e7c98bd4d2bd8d79c05ae36573b/ss_95c0a453cb8f2e7c98bd4d2bd8d79c05ae36573b.1920x1080.jpg?t=1773294735"
+        },
+        {
+          "id": 10,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/fa99f3a2296c3ce99c79da1b67ec79dc8e0a774f/ss_fa99f3a2296c3ce99c79da1b67ec79dc8e0a774f.600x338.jpg?t=1773294735",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/fa99f3a2296c3ce99c79da1b67ec79dc8e0a774f/ss_fa99f3a2296c3ce99c79da1b67ec79dc8e0a774f.1920x1080.jpg?t=1773294735"
+        },
+        {
+          "id": 11,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/1e16b1a0fd2c39a1e6fed247c7f91cdd37c382a7/ss_1e16b1a0fd2c39a1e6fed247c7f91cdd37c382a7.600x338.jpg?t=1773294735",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/1e16b1a0fd2c39a1e6fed247c7f91cdd37c382a7/ss_1e16b1a0fd2c39a1e6fed247c7f91cdd37c382a7.1920x1080.jpg?t=1773294735"
+        },
+        {
+          "id": 12,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/f930accb57f8c585e2e685788940326ebaf922ee/ss_f930accb57f8c585e2e685788940326ebaf922ee.600x338.jpg?t=1773294735",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/f930accb57f8c585e2e685788940326ebaf922ee/ss_f930accb57f8c585e2e685788940326ebaf922ee.1920x1080.jpg?t=1773294735"
+        },
+        {
+          "id": 13,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/78ad14cb8f9612053b083f3cfa9358b6578a66c6/ss_78ad14cb8f9612053b083f3cfa9358b6578a66c6.600x338.jpg?t=1773294735",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/78ad14cb8f9612053b083f3cfa9358b6578a66c6/ss_78ad14cb8f9612053b083f3cfa9358b6578a66c6.1920x1080.jpg?t=1773294735"
+        },
+        {
+          "id": 14,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/c2b0c2760b25ad61e82dd7656199a8a9b1d0462b/ss_c2b0c2760b25ad61e82dd7656199a8a9b1d0462b.600x338.jpg?t=1773294735",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/c2b0c2760b25ad61e82dd7656199a8a9b1d0462b/ss_c2b0c2760b25ad61e82dd7656199a8a9b1d0462b.1920x1080.jpg?t=1773294735"
+        },
+        {
+          "id": 15,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/2c37afa2ad7e59bd11b2de34ee3d2a2cb3eda8db/ss_2c37afa2ad7e59bd11b2de34ee3d2a2cb3eda8db.600x338.jpg?t=1773294735",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/2c37afa2ad7e59bd11b2de34ee3d2a2cb3eda8db/ss_2c37afa2ad7e59bd11b2de34ee3d2a2cb3eda8db.1920x1080.jpg?t=1773294735"
+        },
+        {
+          "id": 16,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/082d133999c1e2cb9dcc55ec97d9c4aa0644fd87/ss_082d133999c1e2cb9dcc55ec97d9c4aa0644fd87.600x338.jpg?t=1773294735",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/082d133999c1e2cb9dcc55ec97d9c4aa0644fd87/ss_082d133999c1e2cb9dcc55ec97d9c4aa0644fd87.1920x1080.jpg?t=1773294735"
+        },
+        {
+          "id": 17,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/ae1749ac1d84104c47106dc4f7f80d8a62c84eff/ss_ae1749ac1d84104c47106dc4f7f80d8a62c84eff.600x338.jpg?t=1773294735",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/ae1749ac1d84104c47106dc4f7f80d8a62c84eff/ss_ae1749ac1d84104c47106dc4f7f80d8a62c84eff.1920x1080.jpg?t=1773294735"
+        },
+        {
+          "id": 18,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/e70638685564c548e9a6dc4cdf993669713844de/ss_e70638685564c548e9a6dc4cdf993669713844de.600x338.jpg?t=1773294735",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/e70638685564c548e9a6dc4cdf993669713844de/ss_e70638685564c548e9a6dc4cdf993669713844de.1920x1080.jpg?t=1773294735"
+        },
+        {
+          "id": 19,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/18354cd1b4c1af0818c1861014553f0bea17f770/ss_18354cd1b4c1af0818c1861014553f0bea17f770.600x338.jpg?t=1773294735",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/18354cd1b4c1af0818c1861014553f0bea17f770/ss_18354cd1b4c1af0818c1861014553f0bea17f770.1920x1080.jpg?t=1773294735"
+        },
+        {
+          "id": 20,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/b6affde2c6fedb6929edb11fd0511766538b17d6/ss_b6affde2c6fedb6929edb11fd0511766538b17d6.600x338.jpg?t=1773294735",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/b6affde2c6fedb6929edb11fd0511766538b17d6/ss_b6affde2c6fedb6929edb11fd0511766538b17d6.1920x1080.jpg?t=1773294735"
+        },
+        {
+          "id": 21,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/d1a6cd66ac57c89a671d296fae8119c675c996aa/ss_d1a6cd66ac57c89a671d296fae8119c675c996aa.600x338.jpg?t=1773294735",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/d1a6cd66ac57c89a671d296fae8119c675c996aa/ss_d1a6cd66ac57c89a671d296fae8119c675c996aa.1920x1080.jpg?t=1773294735"
+        }
+      ],
+      "movies": [
+        {
+          "id": 257257507,
+          "name": "School Guard Official Trailer ",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257257507/e64e2d5dbcef0c0362da46f23d1f4c67f1e3a3d1/movie_600x337.jpg?t=1768550836",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4296430/1383517216/d1b916af24c153ae2374ce7f040d9b7efd6c8953/1767248103/dash_av1.mpd?t=1768550836",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4296430/1383517216/d1b916af24c153ae2374ce7f040d9b7efd6c8953/1767248103/dash_h264.mpd?t=1768550836",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4296430/1383517216/d1b916af24c153ae2374ce7f040d9b7efd6c8953/1767248103/hls_264_master.m3u8?t=1768550836",
+          "highlight": true
+        }
+      ],
+      "embedded_media": {
+        "about_the_game_urls": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/30a3dc064e6677f313628fedfb5939a1.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/a2a805e6aee1f1bb9c549babeefdb68f.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/a2a805e6aee1f1bb9c549babeefdb68f.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/4e96fd39f58cec17104603ad09f43b76.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/cef5318fac3a06f08ba00b23d5568dd7.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/cef5318fac3a06f08ba00b23d5568dd7.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/fc3f27f097f73ff62182e9fac32aecd6.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/dea7ddb429ee18328e63016a7caad2bf.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/dea7ddb429ee18328e63016a7caad2bf.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/74017dff4a5f5dcfff6efd244e005a4b.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/65031b023198abf043462e07ff250404.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/65031b023198abf043462e07ff250404.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/336a82812244285f27fe123ee20dc05d.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/8872e42a0a0467f791ecf6417e5da569.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/8872e42a0a0467f791ecf6417e5da569.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/fff0709ce5974bc90e9818aba3fa1fec.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/5ffbd3a1fe57807f5ef7443d29f2769f.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/5ffbd3a1fe57807f5ef7443d29f2769f.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/24787c409609bed8e5ffccde2ace2762.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/5a42bcc575dcecbca3ba40a77541bc26.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/5a42bcc575dcecbca3ba40a77541bc26.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/d617407c3db4a7406efeee461818bfb4.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/98f3d4647314532631e1b07b5fecffe0.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/98f3d4647314532631e1b07b5fecffe0.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/930e8a383618338f07e3e7e34b9f4063.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/1b6bcd6a691ccd62d98b63ba52a17819.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/1b6bcd6a691ccd62d98b63ba52a17819.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/2ef512315c1c0845bb69725ae736eb48.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/662f2eb4bdc7e94dfbd90b72bb3d38ff.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/662f2eb4bdc7e94dfbd90b72bb3d38ff.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/3badaf31789679ea7a1a8595758b818b.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/bf7ab46f2b322ea0def13b10c759858f.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/bf7ab46f2b322ea0def13b10c759858f.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/821a50cd486ca443ed26a7b9cd67ab1d.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/82e25fd1eff8cdb461431609eec155cf.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/82e25fd1eff8cdb461431609eec155cf.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/5e29ecfc3aab8821be721a796c2fc387.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/fc2a5746ad209e5c4c591fe334d2a7f3.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/fc2a5746ad209e5c4c591fe334d2a7f3.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/cb4cfa46d2e8b00167396f3ddd17eb3b.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/901b5a679b73f59f591e463b13e35cd3.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/901b5a679b73f59f591e463b13e35cd3.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/a97aee3088d53c92a759f2c168ed6b26.avif?t=1773294735"
+        ],
+        "detailed_description_urls": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/30a3dc064e6677f313628fedfb5939a1.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/a2a805e6aee1f1bb9c549babeefdb68f.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/a2a805e6aee1f1bb9c549babeefdb68f.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/4e96fd39f58cec17104603ad09f43b76.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/cef5318fac3a06f08ba00b23d5568dd7.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/cef5318fac3a06f08ba00b23d5568dd7.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/fc3f27f097f73ff62182e9fac32aecd6.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/dea7ddb429ee18328e63016a7caad2bf.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/dea7ddb429ee18328e63016a7caad2bf.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/74017dff4a5f5dcfff6efd244e005a4b.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/65031b023198abf043462e07ff250404.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/65031b023198abf043462e07ff250404.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/336a82812244285f27fe123ee20dc05d.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/8872e42a0a0467f791ecf6417e5da569.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/8872e42a0a0467f791ecf6417e5da569.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/fff0709ce5974bc90e9818aba3fa1fec.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/5ffbd3a1fe57807f5ef7443d29f2769f.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/5ffbd3a1fe57807f5ef7443d29f2769f.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/24787c409609bed8e5ffccde2ace2762.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/5a42bcc575dcecbca3ba40a77541bc26.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/5a42bcc575dcecbca3ba40a77541bc26.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/d617407c3db4a7406efeee461818bfb4.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/98f3d4647314532631e1b07b5fecffe0.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/98f3d4647314532631e1b07b5fecffe0.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/930e8a383618338f07e3e7e34b9f4063.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/1b6bcd6a691ccd62d98b63ba52a17819.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/1b6bcd6a691ccd62d98b63ba52a17819.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/2ef512315c1c0845bb69725ae736eb48.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/662f2eb4bdc7e94dfbd90b72bb3d38ff.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/662f2eb4bdc7e94dfbd90b72bb3d38ff.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/3badaf31789679ea7a1a8595758b818b.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/bf7ab46f2b322ea0def13b10c759858f.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/bf7ab46f2b322ea0def13b10c759858f.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/821a50cd486ca443ed26a7b9cd67ab1d.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/82e25fd1eff8cdb461431609eec155cf.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/82e25fd1eff8cdb461431609eec155cf.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/5e29ecfc3aab8821be721a796c2fc387.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/fc2a5746ad209e5c4c591fe334d2a7f3.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/fc2a5746ad209e5c4c591fe334d2a7f3.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/cb4cfa46d2e8b00167396f3ddd17eb3b.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/901b5a679b73f59f591e463b13e35cd3.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/901b5a679b73f59f591e463b13e35cd3.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/a97aee3088d53c92a759f2c168ed6b26.avif?t=1773294735"
+        ],
+        "all_urls": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/30a3dc064e6677f313628fedfb5939a1.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/a2a805e6aee1f1bb9c549babeefdb68f.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/a2a805e6aee1f1bb9c549babeefdb68f.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/4e96fd39f58cec17104603ad09f43b76.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/cef5318fac3a06f08ba00b23d5568dd7.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/cef5318fac3a06f08ba00b23d5568dd7.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/fc3f27f097f73ff62182e9fac32aecd6.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/dea7ddb429ee18328e63016a7caad2bf.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/dea7ddb429ee18328e63016a7caad2bf.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/74017dff4a5f5dcfff6efd244e005a4b.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/65031b023198abf043462e07ff250404.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/65031b023198abf043462e07ff250404.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/336a82812244285f27fe123ee20dc05d.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/8872e42a0a0467f791ecf6417e5da569.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/8872e42a0a0467f791ecf6417e5da569.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/fff0709ce5974bc90e9818aba3fa1fec.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/5ffbd3a1fe57807f5ef7443d29f2769f.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/5ffbd3a1fe57807f5ef7443d29f2769f.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/24787c409609bed8e5ffccde2ace2762.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/5a42bcc575dcecbca3ba40a77541bc26.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/5a42bcc575dcecbca3ba40a77541bc26.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/d617407c3db4a7406efeee461818bfb4.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/98f3d4647314532631e1b07b5fecffe0.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/98f3d4647314532631e1b07b5fecffe0.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/930e8a383618338f07e3e7e34b9f4063.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/1b6bcd6a691ccd62d98b63ba52a17819.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/1b6bcd6a691ccd62d98b63ba52a17819.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/2ef512315c1c0845bb69725ae736eb48.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/662f2eb4bdc7e94dfbd90b72bb3d38ff.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/662f2eb4bdc7e94dfbd90b72bb3d38ff.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/3badaf31789679ea7a1a8595758b818b.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/bf7ab46f2b322ea0def13b10c759858f.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/bf7ab46f2b322ea0def13b10c759858f.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/821a50cd486ca443ed26a7b9cd67ab1d.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/82e25fd1eff8cdb461431609eec155cf.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/82e25fd1eff8cdb461431609eec155cf.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/5e29ecfc3aab8821be721a796c2fc387.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/fc2a5746ad209e5c4c591fe334d2a7f3.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/fc2a5746ad209e5c4c591fe334d2a7f3.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/cb4cfa46d2e8b00167396f3ddd17eb3b.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/901b5a679b73f59f591e463b13e35cd3.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/901b5a679b73f59f591e463b13e35cd3.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/a97aee3088d53c92a759f2c168ed6b26.avif?t=1773294735"
+        ],
+        "videos_mp4": [],
+        "videos_webm": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/a2a805e6aee1f1bb9c549babeefdb68f.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/cef5318fac3a06f08ba00b23d5568dd7.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/dea7ddb429ee18328e63016a7caad2bf.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/65031b023198abf043462e07ff250404.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/8872e42a0a0467f791ecf6417e5da569.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/5ffbd3a1fe57807f5ef7443d29f2769f.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/5a42bcc575dcecbca3ba40a77541bc26.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/98f3d4647314532631e1b07b5fecffe0.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/1b6bcd6a691ccd62d98b63ba52a17819.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/662f2eb4bdc7e94dfbd90b72bb3d38ff.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/bf7ab46f2b322ea0def13b10c759858f.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/82e25fd1eff8cdb461431609eec155cf.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/fc2a5746ad209e5c4c591fe334d2a7f3.webm?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/901b5a679b73f59f591e463b13e35cd3.webm?t=1773294735"
+        ],
+        "images": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/30a3dc064e6677f313628fedfb5939a1.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/a2a805e6aee1f1bb9c549babeefdb68f.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/4e96fd39f58cec17104603ad09f43b76.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/cef5318fac3a06f08ba00b23d5568dd7.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/fc3f27f097f73ff62182e9fac32aecd6.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/dea7ddb429ee18328e63016a7caad2bf.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/74017dff4a5f5dcfff6efd244e005a4b.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/65031b023198abf043462e07ff250404.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/336a82812244285f27fe123ee20dc05d.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/8872e42a0a0467f791ecf6417e5da569.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/fff0709ce5974bc90e9818aba3fa1fec.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/5ffbd3a1fe57807f5ef7443d29f2769f.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/24787c409609bed8e5ffccde2ace2762.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/5a42bcc575dcecbca3ba40a77541bc26.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/d617407c3db4a7406efeee461818bfb4.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/98f3d4647314532631e1b07b5fecffe0.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/930e8a383618338f07e3e7e34b9f4063.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/1b6bcd6a691ccd62d98b63ba52a17819.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/2ef512315c1c0845bb69725ae736eb48.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/662f2eb4bdc7e94dfbd90b72bb3d38ff.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/3badaf31789679ea7a1a8595758b818b.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/bf7ab46f2b322ea0def13b10c759858f.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/821a50cd486ca443ed26a7b9cd67ab1d.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/82e25fd1eff8cdb461431609eec155cf.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/5e29ecfc3aab8821be721a796c2fc387.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/fc2a5746ad209e5c4c591fe334d2a7f3.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/cb4cfa46d2e8b00167396f3ddd17eb3b.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/901b5a679b73f59f591e463b13e35cd3.poster.avif?t=1773294735",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/a97aee3088d53c92a759f2c168ed6b26.avif?t=1773294735"
+        ]
+      }
+    },
+    "store_data": {
+      "type": "game",
+      "required_age": 0,
+      "is_free": false,
+      "controller_support": "full",
+      "about_the_game": "<p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/30a3dc064e6677f313628fedfb5939a1.avif?t=1773294735\" width=1083 height=94 /></span></p><p class=\"bb_paragraph\" >You've been searching for work for months. Rejection after rejection. This job — security guard at a local school — isn't exactly a dream career. But your mother needs surgery, the bills are piling up, and this is the only place that called back. You're taking this job. No matter what happens.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/a2a805e6aee1f1bb9c549babeefdb68f.poster.avif?t=1773294735\" width=780 height=250 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/a2a805e6aee1f1bb9c549babeefdb68f.webm?t=1773294735\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/4e96fd39f58cec17104603ad09f43b76.avif?t=1773294735\" width=1083 height=94 /></span></p><p class=\"bb_paragraph\" >Every morning begins the same way — keys in hand, eyes on the clock. Your job is to open the school gates before the bus arrives, letting students through for scanning and inspection.</p><p class=\"bb_paragraph\" >Simple? Sure. But show up late, and the principal won't be happy. Your performance rating takes a hit. Your paycheck shrinks. Do it too many times, and you might not have a job at all.</p><p class=\"bb_paragraph\" >Find your keys. Open the gate. Start the day right.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/cef5318fac3a06f08ba00b23d5568dd7.poster.avif?t=1773294735\" width=780 height=250 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/cef5318fac3a06f08ba00b23d5568dd7.webm?t=1773294735\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/fc3f27f097f73ff62182e9fac32aecd6.avif?t=1773294735\" width=1083 height=94 /></span></p><p class=\"bb_paragraph\" >Before anyone steps inside, they go through you. Select your metal detector from the inventory and scan each student as they enter.</p><p class=\"bb_paragraph\" >Some kids are clean. Others? Not so much. Your detector picks up anything suspicious — forbidden items hidden in bags, pockets, wherever they think you won't look.</p><p class=\"bb_paragraph\" >You'll find things that have no place in a school. And when you do, you decide: confiscate it, send them home, or let it slide. Every choice has consequences.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/dea7ddb429ee18328e63016a7caad2bf.poster.avif?t=1773294735\" width=780 height=250 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/dea7ddb429ee18328e63016a7caad2bf.webm?t=1773294735\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/74017dff4a5f5dcfff6efd244e005a4b.avif?t=1773294735\" width=1083 height=94 /></span></p><p class=\"bb_paragraph\" >When your detector hits on something, you take it. No negotiation. The contraband is yours now.</p><p class=\"bb_paragraph\" >But the student? That's your call. Let them continue to class and hope they learned their lesson. Send them back to the bus to go home. Or toss them out the gate yourself — the hard way.</p><p class=\"bb_paragraph\" >Every student is tracked in your attendance book. Mark who arrived, who's absent, who got denied entry. You can check them off one by one, or process the whole line at once if you're in a hurry.</p><p class=\"bb_paragraph\" >Just remember: every choice you make gets noticed.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/65031b023198abf043462e07ff250404.poster.avif?t=1773294735\" width=780 height=250 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/65031b023198abf043462e07ff250404.webm?t=1773294735\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/336a82812244285f27fe123ee20dc05d.avif?t=1773294735\" width=1083 height=94 /></span></p><p class=\"bb_paragraph\" >Every good guard needs backup — yours has four legs and sharp teeth.</p><p class=\"bb_paragraph\" >Your guard dog is the real security around here, but loyalty doesn't run on empty. When they're hungry, you'll know — listen for the barking or watch for the notification on screen.</p><p class=\"bb_paragraph\" >Food doesn't appear out of nowhere. Head to the shop, order supplies, and wait for the delivery. When the cardboard box arrives, grab what you need and feed your partner.</p><p class=\"bb_paragraph\" >Keep them fed, and they'll keep you safe. Neglect them, and you're on your own.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/8872e42a0a0467f791ecf6417e5da569.poster.avif?t=1773294735\" width=780 height=250 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/8872e42a0a0467f791ecf6417e5da569.webm?t=1773294735\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/fff0709ce5974bc90e9818aba3fa1fec.avif?t=1773294735\" width=1083 height=94 /></span></p><p class=\"bb_paragraph\" >Being a security guard doesn't mean you can't be an entrepreneur.</p><p class=\"bb_paragraph\" >The school grounds are your canvas. Place vending machines around campus and watch the money trickle in — every student, every visitor, every thirsty stranger off the street puts coins in your pocket.</p><p class=\"bb_paragraph\" >Want to keep the kids out of trouble during breaks? Add playground equipment. Swings, toys, whatever keeps them distracted and happy.</p><p class=\"bb_paragraph\" >Everything runs through the shop. Supplies, food, upgrades — if you need it, you buy it. The more you invest in this place, the more it gives back.</p><p class=\"bb_paragraph\" >This isn't just a job anymore. It's your territory.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/5ffbd3a1fe57807f5ef7443d29f2769f.poster.avif?t=1773294735\" width=780 height=250 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/5ffbd3a1fe57807f5ef7443d29f2769f.webm?t=1773294735\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/24787c409609bed8e5ffccde2ace2762.avif?t=1773294735\" width=1083 height=94 /></span></p><p class=\"bb_paragraph\" >The bell doesn't ring itself — that's your job.</p><p class=\"bb_paragraph\" >Every school day runs on a schedule, and you're the one keeping it. Class time? Ring the bell. Break time? Ring the bell. Bus pulling up to take the kids home? You guessed it.</p><p class=\"bb_paragraph\" >Time it right, and everything flows smoothly. Forget, and you'll have students wandering where they shouldn't be, teachers getting frustrated, and chaos creeping in.</p><p class=\"bb_paragraph\" >Simple job. Easy to mess up.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/5a42bcc575dcecbca3ba40a77541bc26.poster.avif?t=1773294735\" width=780 height=250 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/5a42bcc575dcecbca3ba40a77541bc26.webm?t=1773294735\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/d617407c3db4a7406efeee461818bfb4.avif?t=1773294735\" width=1083 height=94 /></span></p><p class=\"bb_paragraph\" >Everything you need runs through the shop.</p><p class=\"bb_paragraph\" >Want better buses pulling up to the gate? Buy them. Need stronger tools or weapons for when things get serious? They're on the shelf. Feel like upgrading your look? New uniforms and outfits are waiting.</p><p class=\"bb_paragraph\" >Money comes on your terms. Pick your pay schedule — daily for quick cash, weekly for balance, or monthly for a bigger payday. But remember: your salary isn't fixed. Do the job well, and you earn more. Slack off, and your paycheck shows it.</p><p class=\"bb_paragraph\" >Work smart. Spend smarter. The shop is your ladder — climb it.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/98f3d4647314532631e1b07b5fecffe0.poster.avif?t=1773294735\" width=780 height=250 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/98f3d4647314532631e1b07b5fecffe0.webm?t=1773294735\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/930e8a383618338f07e3e7e34b9f4063.avif?t=1773294735\" width=1083 height=94 /></span></p><p class=\"bb_paragraph\" >The students are gone. The halls are empty. Now it's just you and the night.</p><p class=\"bb_paragraph\" >Your patrol route covers every corner of the school. Move through each zone, confirm it's clear, and move on. Check the classrooms. Check the gates. Check every door — if it's supposed to be locked, it better be locked.</p><p class=\"bb_paragraph\" >Leave something open, and you're inviting trouble. What kind of trouble? You don't want to find out.</p><p class=\"bb_paragraph\" >Stay sharp. Stay thorough. The night shift isn't for the careless.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/1b6bcd6a691ccd62d98b63ba52a17819.poster.avif?t=1773294735\" width=780 height=250 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/1b6bcd6a691ccd62d98b63ba52a17819.webm?t=1773294735\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/2ef512315c1c0845bb69725ae736eb48.avif?t=1773294735\" width=1083 height=94 /></span></p><p class=\"bb_paragraph\" >You signed up to guard a school. Nobody mentioned the apocalypse.</p><p class=\"bb_paragraph\" >The outbreak that tore through the city has finally arrived at your gates. Zombies — fast, relentless, and smarter than they have any right to be — are pouring in. Running won't save you. Panic will get you killed.</p><p class=\"bb_paragraph\" >Arm yourself. Learn their patterns. Use every weapon, every trick, every dirty strategy you can think of. This isn't just survival — it's war.</p><p class=\"bb_paragraph\" >The school is yours. Defend it, or become one of them.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/662f2eb4bdc7e94dfbd90b72bb3d38ff.poster.avif?t=1773294735\" width=780 height=250 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/662f2eb4bdc7e94dfbd90b72bb3d38ff.webm?t=1773294735\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/3badaf31789679ea7a1a8595758b818b.avif?t=1773294735\" width=1083 height=94 /></span></p><p class=\"bb_paragraph\" >Kids will be kids. But some of these kids? They like fire a little too much.</p><p class=\"bb_paragraph\" >Flames can erupt anywhere — classrooms, hallways, bathrooms, wherever a troublemaker decides to strike. When it happens, you don't have time to think. You run.</p><p class=\"bb_paragraph\" >Make sure your fire extinguisher is in your inventory before things go wrong. Find the blaze, aim, and put it out before it swallows everything in its path. Wait too long, and the damage is done — equipment destroyed, areas lost, chaos everywhere.</p><p class=\"bb_paragraph\" >Fire doesn't wait. Neither should you.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/bf7ab46f2b322ea0def13b10c759858f.poster.avif?t=1773294735\" width=780 height=250 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/bf7ab46f2b322ea0def13b10c759858f.webm?t=1773294735\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/821a50cd486ca443ed26a7b9cd67ab1d.avif?t=1773294735\" width=1083 height=94 /></span></p><p class=\"bb_paragraph\" >Who says security guards can't be artists?</p><p class=\"bb_paragraph\" >When you're off the clock — or just feeling creative — grab a spray can and go wild. Every wall, every street corner, every surface on campus is yours to customize. Pick from dozens of built-in graffiti packs, or go personal and import your own logos, artwork, or designs.</p><p class=\"bb_paragraph\" >Tag your booth. Decorate the entrance. Turn the whole school into your gallery. Buy new graffiti packs from the shop to expand your collection and keep things fresh.</p><p class=\"bb_paragraph\" >You're not just guarding this place. You're making it yours.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/82e25fd1eff8cdb461431609eec155cf.poster.avif?t=1773294735\" width=780 height=250 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/82e25fd1eff8cdb461431609eec155cf.webm?t=1773294735\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/5e29ecfc3aab8821be721a796c2fc387.avif?t=1773294735\" width=1083 height=94 /></span></p><p class=\"bb_paragraph\" >There's a reason the old staff never talk about what happened here.</p><p class=\"bb_paragraph\" >Years ago, a teacher died in this school. An accident, they say — killed by her own students. But whatever happened that night didn't stay buried. She's still here. And on certain nights, she wakes up.</p><p class=\"bb_paragraph\" >You'll know when she's close. The air changes. The lights flicker. And then you'll see her — drifting through the halls where it happened, searching for something. Or someone.</p><p class=\"bb_paragraph\" >There's no weapon that can stop her. No room safe enough to hide. When she appears, you have one option:</p><p class=\"bb_paragraph\" >Run.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/fc2a5746ad209e5c4c591fe334d2a7f3.poster.avif?t=1773294735\" width=780 height=250 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/fc2a5746ad209e5c4c591fe334d2a7f3.webm?t=1773294735\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/cb4cfa46d2e8b00167396f3ddd17eb3b.avif?t=1773294735\" width=1083 height=94 /></span></p><p class=\"bb_paragraph\" >Behind the uniform, you're still human. And humans have needs.</p><p class=\"bb_paragraph\" >Feeling tired? Sleep in your booth to recover health. Bored between shifts? Turn on the TV and relax for a minute. Nature calling? The bathroom is there for a reason — toilets, showers, everything you need to stay fresh.</p><p class=\"bb_paragraph\" >And don't forget to move. Exercise, go for a run, stay in shape. Skip the workouts too many times and you'll feel it — slower, weaker, rounder. Nobody wants a security guard who can't outrun a student, let alone a zombie.</p><p class=\"bb_paragraph\" >Take care of your body. It's the only one you've got.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/901b5a679b73f59f591e463b13e35cd3.poster.avif?t=1773294735\" width=780 height=250 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/901b5a679b73f59f591e463b13e35cd3.webm?t=1773294735\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/a97aee3088d53c92a759f2c168ed6b26.avif?t=1773294735\" width=1083 height=94 /></span></p><p class=\"bb_paragraph\" >One school isn't enough. Why stop there?</p><p class=\"bb_paragraph\" >Unlock new locations and construct entirely new schools from the ground up. Choose the layout, place the buildings, design the grounds — every campus is yours to create.</p><p class=\"bb_paragraph\" >But a school is nothing without students. Create your own from scratch — pick their face, their hair, their uniform, their style. Dress them up, mix and match outfits, and customize every detail until they're exactly who you want walking through those gates.</p><p class=\"bb_paragraph\" >Build the schools. Fill them with students. Run the whole operation your way.</p><p class=\"bb_paragraph\" >This isn't just a job anymore. It's your empire.</p>",
+      "detailed_description": "<p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/30a3dc064e6677f313628fedfb5939a1.avif?t=1773294735\" width=1083 height=94 /></span></p><p class=\"bb_paragraph\" >You've been searching for work for months. Rejection after rejection. This job — security guard at a local school — isn't exactly a dream career. But your mother needs surgery, the bills are piling up, and this is the only place that called back. You're taking this job. No matter what happens.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/a2a805e6aee1f1bb9c549babeefdb68f.poster.avif?t=1773294735\" width=780 height=250 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/a2a805e6aee1f1bb9c549babeefdb68f.webm?t=1773294735\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/4e96fd39f58cec17104603ad09f43b76.avif?t=1773294735\" width=1083 height=94 /></span></p><p class=\"bb_paragraph\" >Every morning begins the same way — keys in hand, eyes on the clock. Your job is to open the school gates before the bus arrives, letting students through for scanning and inspection.</p><p class=\"bb_paragraph\" >Simple? Sure. But show up late, and the principal won't be happy. Your performance rating takes a hit. Your paycheck shrinks. Do it too many times, and you might not have a job at all.</p><p class=\"bb_paragraph\" >Find your keys. Open the gate. Start the day right.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/cef5318fac3a06f08ba00b23d5568dd7.poster.avif?t=1773294735\" width=780 height=250 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/cef5318fac3a06f08ba00b23d5568dd7.webm?t=1773294735\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/fc3f27f097f73ff62182e9fac32aecd6.avif?t=1773294735\" width=1083 height=94 /></span></p><p class=\"bb_paragraph\" >Before anyone steps inside, they go through you. Select your metal detector from the inventory and scan each student as they enter.</p><p class=\"bb_paragraph\" >Some kids are clean. Others? Not so much. Your detector picks up anything suspicious — forbidden items hidden in bags, pockets, wherever they think you won't look.</p><p class=\"bb_paragraph\" >You'll find things that have no place in a school. And when you do, you decide: confiscate it, send them home, or let it slide. Every choice has consequences.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/dea7ddb429ee18328e63016a7caad2bf.poster.avif?t=1773294735\" width=780 height=250 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/dea7ddb429ee18328e63016a7caad2bf.webm?t=1773294735\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/74017dff4a5f5dcfff6efd244e005a4b.avif?t=1773294735\" width=1083 height=94 /></span></p><p class=\"bb_paragraph\" >When your detector hits on something, you take it. No negotiation. The contraband is yours now.</p><p class=\"bb_paragraph\" >But the student? That's your call. Let them continue to class and hope they learned their lesson. Send them back to the bus to go home. Or toss them out the gate yourself — the hard way.</p><p class=\"bb_paragraph\" >Every student is tracked in your attendance book. Mark who arrived, who's absent, who got denied entry. You can check them off one by one, or process the whole line at once if you're in a hurry.</p><p class=\"bb_paragraph\" >Just remember: every choice you make gets noticed.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/65031b023198abf043462e07ff250404.poster.avif?t=1773294735\" width=780 height=250 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/65031b023198abf043462e07ff250404.webm?t=1773294735\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/336a82812244285f27fe123ee20dc05d.avif?t=1773294735\" width=1083 height=94 /></span></p><p class=\"bb_paragraph\" >Every good guard needs backup — yours has four legs and sharp teeth.</p><p class=\"bb_paragraph\" >Your guard dog is the real security around here, but loyalty doesn't run on empty. When they're hungry, you'll know — listen for the barking or watch for the notification on screen.</p><p class=\"bb_paragraph\" >Food doesn't appear out of nowhere. Head to the shop, order supplies, and wait for the delivery. When the cardboard box arrives, grab what you need and feed your partner.</p><p class=\"bb_paragraph\" >Keep them fed, and they'll keep you safe. Neglect them, and you're on your own.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/8872e42a0a0467f791ecf6417e5da569.poster.avif?t=1773294735\" width=780 height=250 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/8872e42a0a0467f791ecf6417e5da569.webm?t=1773294735\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/fff0709ce5974bc90e9818aba3fa1fec.avif?t=1773294735\" width=1083 height=94 /></span></p><p class=\"bb_paragraph\" >Being a security guard doesn't mean you can't be an entrepreneur.</p><p class=\"bb_paragraph\" >The school grounds are your canvas. Place vending machines around campus and watch the money trickle in — every student, every visitor, every thirsty stranger off the street puts coins in your pocket.</p><p class=\"bb_paragraph\" >Want to keep the kids out of trouble during breaks? Add playground equipment. Swings, toys, whatever keeps them distracted and happy.</p><p class=\"bb_paragraph\" >Everything runs through the shop. Supplies, food, upgrades — if you need it, you buy it. The more you invest in this place, the more it gives back.</p><p class=\"bb_paragraph\" >This isn't just a job anymore. It's your territory.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/5ffbd3a1fe57807f5ef7443d29f2769f.poster.avif?t=1773294735\" width=780 height=250 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/5ffbd3a1fe57807f5ef7443d29f2769f.webm?t=1773294735\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/24787c409609bed8e5ffccde2ace2762.avif?t=1773294735\" width=1083 height=94 /></span></p><p class=\"bb_paragraph\" >The bell doesn't ring itself — that's your job.</p><p class=\"bb_paragraph\" >Every school day runs on a schedule, and you're the one keeping it. Class time? Ring the bell. Break time? Ring the bell. Bus pulling up to take the kids home? You guessed it.</p><p class=\"bb_paragraph\" >Time it right, and everything flows smoothly. Forget, and you'll have students wandering where they shouldn't be, teachers getting frustrated, and chaos creeping in.</p><p class=\"bb_paragraph\" >Simple job. Easy to mess up.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/5a42bcc575dcecbca3ba40a77541bc26.poster.avif?t=1773294735\" width=780 height=250 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/5a42bcc575dcecbca3ba40a77541bc26.webm?t=1773294735\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/d617407c3db4a7406efeee461818bfb4.avif?t=1773294735\" width=1083 height=94 /></span></p><p class=\"bb_paragraph\" >Everything you need runs through the shop.</p><p class=\"bb_paragraph\" >Want better buses pulling up to the gate? Buy them. Need stronger tools or weapons for when things get serious? They're on the shelf. Feel like upgrading your look? New uniforms and outfits are waiting.</p><p class=\"bb_paragraph\" >Money comes on your terms. Pick your pay schedule — daily for quick cash, weekly for balance, or monthly for a bigger payday. But remember: your salary isn't fixed. Do the job well, and you earn more. Slack off, and your paycheck shows it.</p><p class=\"bb_paragraph\" >Work smart. Spend smarter. The shop is your ladder — climb it.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/98f3d4647314532631e1b07b5fecffe0.poster.avif?t=1773294735\" width=780 height=250 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/98f3d4647314532631e1b07b5fecffe0.webm?t=1773294735\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/930e8a383618338f07e3e7e34b9f4063.avif?t=1773294735\" width=1083 height=94 /></span></p><p class=\"bb_paragraph\" >The students are gone. The halls are empty. Now it's just you and the night.</p><p class=\"bb_paragraph\" >Your patrol route covers every corner of the school. Move through each zone, confirm it's clear, and move on. Check the classrooms. Check the gates. Check every door — if it's supposed to be locked, it better be locked.</p><p class=\"bb_paragraph\" >Leave something open, and you're inviting trouble. What kind of trouble? You don't want to find out.</p><p class=\"bb_paragraph\" >Stay sharp. Stay thorough. The night shift isn't for the careless.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/1b6bcd6a691ccd62d98b63ba52a17819.poster.avif?t=1773294735\" width=780 height=250 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/1b6bcd6a691ccd62d98b63ba52a17819.webm?t=1773294735\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/2ef512315c1c0845bb69725ae736eb48.avif?t=1773294735\" width=1083 height=94 /></span></p><p class=\"bb_paragraph\" >You signed up to guard a school. Nobody mentioned the apocalypse.</p><p class=\"bb_paragraph\" >The outbreak that tore through the city has finally arrived at your gates. Zombies — fast, relentless, and smarter than they have any right to be — are pouring in. Running won't save you. Panic will get you killed.</p><p class=\"bb_paragraph\" >Arm yourself. Learn their patterns. Use every weapon, every trick, every dirty strategy you can think of. This isn't just survival — it's war.</p><p class=\"bb_paragraph\" >The school is yours. Defend it, or become one of them.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/662f2eb4bdc7e94dfbd90b72bb3d38ff.poster.avif?t=1773294735\" width=780 height=250 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/662f2eb4bdc7e94dfbd90b72bb3d38ff.webm?t=1773294735\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/3badaf31789679ea7a1a8595758b818b.avif?t=1773294735\" width=1083 height=94 /></span></p><p class=\"bb_paragraph\" >Kids will be kids. But some of these kids? They like fire a little too much.</p><p class=\"bb_paragraph\" >Flames can erupt anywhere — classrooms, hallways, bathrooms, wherever a troublemaker decides to strike. When it happens, you don't have time to think. You run.</p><p class=\"bb_paragraph\" >Make sure your fire extinguisher is in your inventory before things go wrong. Find the blaze, aim, and put it out before it swallows everything in its path. Wait too long, and the damage is done — equipment destroyed, areas lost, chaos everywhere.</p><p class=\"bb_paragraph\" >Fire doesn't wait. Neither should you.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/bf7ab46f2b322ea0def13b10c759858f.poster.avif?t=1773294735\" width=780 height=250 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/bf7ab46f2b322ea0def13b10c759858f.webm?t=1773294735\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/821a50cd486ca443ed26a7b9cd67ab1d.avif?t=1773294735\" width=1083 height=94 /></span></p><p class=\"bb_paragraph\" >Who says security guards can't be artists?</p><p class=\"bb_paragraph\" >When you're off the clock — or just feeling creative — grab a spray can and go wild. Every wall, every street corner, every surface on campus is yours to customize. Pick from dozens of built-in graffiti packs, or go personal and import your own logos, artwork, or designs.</p><p class=\"bb_paragraph\" >Tag your booth. Decorate the entrance. Turn the whole school into your gallery. Buy new graffiti packs from the shop to expand your collection and keep things fresh.</p><p class=\"bb_paragraph\" >You're not just guarding this place. You're making it yours.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/82e25fd1eff8cdb461431609eec155cf.poster.avif?t=1773294735\" width=780 height=250 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/82e25fd1eff8cdb461431609eec155cf.webm?t=1773294735\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/5e29ecfc3aab8821be721a796c2fc387.avif?t=1773294735\" width=1083 height=94 /></span></p><p class=\"bb_paragraph\" >There's a reason the old staff never talk about what happened here.</p><p class=\"bb_paragraph\" >Years ago, a teacher died in this school. An accident, they say — killed by her own students. But whatever happened that night didn't stay buried. She's still here. And on certain nights, she wakes up.</p><p class=\"bb_paragraph\" >You'll know when she's close. The air changes. The lights flicker. And then you'll see her — drifting through the halls where it happened, searching for something. Or someone.</p><p class=\"bb_paragraph\" >There's no weapon that can stop her. No room safe enough to hide. When she appears, you have one option:</p><p class=\"bb_paragraph\" >Run.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/fc2a5746ad209e5c4c591fe334d2a7f3.poster.avif?t=1773294735\" width=780 height=250 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/fc2a5746ad209e5c4c591fe334d2a7f3.webm?t=1773294735\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/cb4cfa46d2e8b00167396f3ddd17eb3b.avif?t=1773294735\" width=1083 height=94 /></span></p><p class=\"bb_paragraph\" >Behind the uniform, you're still human. And humans have needs.</p><p class=\"bb_paragraph\" >Feeling tired? Sleep in your booth to recover health. Bored between shifts? Turn on the TV and relax for a minute. Nature calling? The bathroom is there for a reason — toilets, showers, everything you need to stay fresh.</p><p class=\"bb_paragraph\" >And don't forget to move. Exercise, go for a run, stay in shape. Skip the workouts too many times and you'll feel it — slower, weaker, rounder. Nobody wants a security guard who can't outrun a student, let alone a zombie.</p><p class=\"bb_paragraph\" >Take care of your body. It's the only one you've got.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/901b5a679b73f59f591e463b13e35cd3.poster.avif?t=1773294735\" width=780 height=250 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/901b5a679b73f59f591e463b13e35cd3.webm?t=1773294735\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296430/extras/a97aee3088d53c92a759f2c168ed6b26.avif?t=1773294735\" width=1083 height=94 /></span></p><p class=\"bb_paragraph\" >One school isn't enough. Why stop there?</p><p class=\"bb_paragraph\" >Unlock new locations and construct entirely new schools from the ground up. Choose the layout, place the buildings, design the grounds — every campus is yours to create.</p><p class=\"bb_paragraph\" >But a school is nothing without students. Create your own from scratch — pick their face, their hair, their uniform, their style. Dress them up, mix and match outfits, and customize every detail until they're exactly who you want walking through those gates.</p><p class=\"bb_paragraph\" >Build the schools. Fill them with students. Run the whole operation your way.</p><p class=\"bb_paragraph\" >This isn't just a job anymore. It's your empire.</p>",
+      "short_description": "💼 You took this job to save your family. Now you have to survive it. 🔍 Scan students. 🚫 Confiscate contraband. 🏗️ Build your empire. 🌙 Patrol the night. But when the sun goes down, the school reveals what it's been hiding—🧟 zombies, 🔥 fire, and 👻 a ghost that never left.",
+      "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Bulgarian, Czech, Danish, Dutch, Finnish, Greek, Hungarian, Indonesian, Japanese, Korean, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Russian, Simplified Chinese, Spanish - Latin America, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian, Vietnamese",
+      "website": "https://syzoz.com",
+      "pc_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> Intel Core i5-4460 or AMD FX-6300<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GTX 750 Ti or AMD Radeon R7 260X<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 2 GB available space<br></li><li><strong>Sound Card:</strong> DirectX compatible</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10/11<br></li><li><strong>Processor:</strong> Intel Core i7-6700 or AMD Ryzen 5 1600<br></li><li><strong>Memory:</strong> 16 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GTX 1060 or AMD RX 580<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Storage:</strong> 2 GB available space<br></li><li><strong>Sound Card:</strong> DirectX compatible</li></ul>"
+      },
+      "mac_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> macOS 11 Big Sur<br></li><li><strong>Processor:</strong> Apple M1 or Intel Core i5<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Apple M1 or AMD Radeon Pro 560X<br></li><li><strong>Storage:</strong> 3 GB available space<br></li><li><strong>Sound Card:</strong> Integrated</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> macOS 12 Monterey or newer<br></li><li><strong>Processor:</strong> Apple M4 Pro or Intel Core i7<br></li><li><strong>Memory:</strong> 24 GB RAM<br></li><li><strong>Graphics:</strong> Apple M4 Pro or AMD Radeon Pro 5500M<br></li><li><strong>Storage:</strong> 3 GB available space<br></li><li><strong>Sound Card:</strong> Integrated</li></ul>"
+      },
+      "linux_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 20.04 LTS<br></li><li><strong>Processor:</strong> Intel Core i5-4460 or AMD FX-6300<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GTX 750 Ti or AMD Radeon R7 260X<br></li><li><strong>Storage:</strong> 2 GB available space<br></li><li><strong>Sound Card:</strong> Integrated</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 22.04 LTS<br></li><li><strong>Processor:</strong> Intel Core i7-6700 or AMD Ryzen 5 1600<br></li><li><strong>Memory:</strong> 16 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GTX 1060 or AMD RX 580<br></li><li><strong>Storage:</strong> 2 GB available space<br></li><li><strong>Sound Card:</strong> Integrated</li></ul>"
+      },
+      "developers": [
+        "Youness El Bouziani"
+      ],
+      "publishers": [
+        "Syzoz Games"
+      ],
+      "support_info": {
+        "url": "https://syzoz.com/support.html",
+        "email": "contact@syzoz.com"
+      },
+      "legal_notice": "© 2026 Syzoz Games. All rights reserved.",
+      "package_groups": [],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "categories": [
+        {
+          "id": 2,
+          "description": "Single-player"
+        },
+        {
+          "id": 22,
+          "description": "Steam Achievements"
+        },
+        {
+          "id": 28,
+          "description": "Full controller support"
+        },
+        {
+          "id": 64,
+          "description": "Adjustable Text Size"
+        },
+        {
+          "id": 67,
+          "description": "Camera Comfort"
+        },
+        {
+          "id": 66,
+          "description": "Color Alternatives"
+        },
+        {
+          "id": 68,
+          "description": "Custom Volume Controls"
+        },
+        {
+          "id": 78,
+          "description": "Adjustable Difficulty"
+        },
+        {
+          "id": 74,
+          "description": "Playable without Timed Input"
+        },
+        {
+          "id": 79,
+          "description": "Save Anytime"
+        },
+        {
+          "id": 69,
+          "description": "Stereo Sound"
+        },
+        {
+          "id": 65,
+          "description": "Subtitle Options"
+        },
+        {
+          "id": 23,
+          "description": "Steam Cloud"
+        },
+        {
+          "id": 25,
+          "description": "Steam Leaderboards"
+        },
+        {
+          "id": 17,
+          "description": "Includes level editor"
+        },
+        {
+          "id": 62,
+          "description": "Family Sharing"
+        }
+      ],
+      "genres": [
+        {
+          "id": "1",
+          "description": "Action"
+        },
+        {
+          "id": "25",
+          "description": "Adventure"
+        },
+        {
+          "id": "28",
+          "description": "Simulation"
+        },
+        {
+          "id": "2",
+          "description": "Strategy"
+        }
+      ],
+      "release_date": {
+        "coming_soon": true,
+        "date": "Q2 2026"
+      },
+      "content_descriptors": {
+        "ids": [],
+        "notes": null
+      },
+      "ratings": {
+        "dejus": {
+          "rating_generated": "1",
+          "rating": "14",
+          "required_age": "14",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": "Violência\nMedo\nAtos criminosos"
+        },
+        "steam_germany": {
+          "rating_generated": "1",
+          "rating": "16",
+          "required_age": "16",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": "Horror"
+        },
+        "igrs": {
+          "rating_generated": "1",
+          "rating": "18",
+          "required_age": "18",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": "Horor\nKekerasan"
+        }
+      }
+    }
+  },
+  "4296450": {
+    "success": true,
+    "source_priority": "steam_data",
+    "fetch_status": {
+      "steam_appdetails": true,
+      "steam_original_assets": true
+    },
+    "name": "Shorekeeper",
+    "steam_appid": "4296450",
+    "steamgriddb_game_id": 5514252,
+    "store_asset_mtime": 1776629618,
+    "assets_count": 25,
+    "assets": {
+      "header": [
+        {
+          "path": "725e73f5d71c08bdbb269d7a3ed23788d4bbf4dd/header.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296450/725e73f5d71c08bdbb269d7a3ed23788d4bbf4dd/header.jpg?t=1776629618",
+          "language": "english"
+        }
+      ],
+      "library_capsule": [
+        {
+          "path": "229c01aa1104dd9e0f856de45a9f517f3b2cb6a2/library_capsule.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296450/229c01aa1104dd9e0f856de45a9f517f3b2cb6a2/library_capsule.jpg?t=1776629618",
+          "language": "english"
+        }
+      ],
+      "library_capsule_2x": [
+        {
+          "path": "229c01aa1104dd9e0f856de45a9f517f3b2cb6a2/library_capsule_2x.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296450/229c01aa1104dd9e0f856de45a9f517f3b2cb6a2/library_capsule_2x.jpg?t=1776629618",
+          "language": "english"
+        }
+      ],
+      "library_hero": [
+        {
+          "path": "9e385caa7b269b33a3366aa607f48a408fec57bc/library_hero.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296450/9e385caa7b269b33a3366aa607f48a408fec57bc/library_hero.jpg?t=1776629618",
+          "language": "english"
+        }
+      ],
+      "library_hero_2x": [
+        {
+          "path": "9e385caa7b269b33a3366aa607f48a408fec57bc/library_hero_2x.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296450/9e385caa7b269b33a3366aa607f48a408fec57bc/library_hero_2x.jpg?t=1776629618",
+          "language": "english"
+        }
+      ],
+      "library_logo": [
+        {
+          "path": "6de0ac303f462291004aaf179e1b2883c2d2d87b/logo.png",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296450/6de0ac303f462291004aaf179e1b2883c2d2d87b/logo.png?t=1776629618",
+          "language": "english"
+        }
+      ],
+      "library_logo_2x": [
+        {
+          "path": "6de0ac303f462291004aaf179e1b2883c2d2d87b/logo_2x.png",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296450/6de0ac303f462291004aaf179e1b2883c2d2d87b/logo_2x.png?t=1776629618",
+          "language": "english"
+        }
+      ],
+      "clienticon": [
+        {
+          "hash": "a56accad3b33da861be2166c8626e12085fcdc2d",
+          "url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/4296450/a56accad3b33da861be2166c8626e12085fcdc2d.ico"
+        }
+      ],
+      "icon": [
+        {
+          "hash": "a56accad3b33da861be2166c8626e12085fcdc2d",
+          "url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/4296450/a56accad3b33da861be2166c8626e12085fcdc2d.jpg"
+        }
+      ],
+      "capsule_image": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/0e7698b944eb7daf14439bc26677c55e67590716/capsule_231x87.jpg?t=1778171652"
+        }
+      ],
+      "capsule_imagev5": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/0e7698b944eb7daf14439bc26677c55e67590716/capsule_184x69.jpg?t=1778171652"
+        }
+      ],
+      "background": [
+        {
+          "url": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4296450?t=1778171652"
+        }
+      ],
+      "background_raw": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/efa462375362d30f94ca10ce84b1cce54131e2cc/page_bg_raw.jpg?t=1778171652"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": 0,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/6e4521c70abaed0f6ff20365373a00772e110df1/ss_6e4521c70abaed0f6ff20365373a00772e110df1.600x338.jpg?t=1778171652",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/6e4521c70abaed0f6ff20365373a00772e110df1/ss_6e4521c70abaed0f6ff20365373a00772e110df1.1920x1080.jpg?t=1778171652"
+        },
+        {
+          "id": 1,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/858e2b45dc601e418fd8d70b89fbad5404fb9d4b/ss_858e2b45dc601e418fd8d70b89fbad5404fb9d4b.600x338.jpg?t=1778171652",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/858e2b45dc601e418fd8d70b89fbad5404fb9d4b/ss_858e2b45dc601e418fd8d70b89fbad5404fb9d4b.1920x1080.jpg?t=1778171652"
+        },
+        {
+          "id": 2,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/d892b67804db2f87978cc0a578efe6f00ea1580e/ss_d892b67804db2f87978cc0a578efe6f00ea1580e.600x338.jpg?t=1778171652",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/d892b67804db2f87978cc0a578efe6f00ea1580e/ss_d892b67804db2f87978cc0a578efe6f00ea1580e.1920x1080.jpg?t=1778171652"
+        },
+        {
+          "id": 3,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/2c006a6b87ccd7cdd56829ab0a0886d48e783ce7/ss_2c006a6b87ccd7cdd56829ab0a0886d48e783ce7.600x338.jpg?t=1778171652",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/2c006a6b87ccd7cdd56829ab0a0886d48e783ce7/ss_2c006a6b87ccd7cdd56829ab0a0886d48e783ce7.1920x1080.jpg?t=1778171652"
+        },
+        {
+          "id": 4,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/de10f1f2af35269218a91b73ff1c77e3a010353e/ss_de10f1f2af35269218a91b73ff1c77e3a010353e.600x338.jpg?t=1778171652",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/de10f1f2af35269218a91b73ff1c77e3a010353e/ss_de10f1f2af35269218a91b73ff1c77e3a010353e.1920x1080.jpg?t=1778171652"
+        },
+        {
+          "id": 5,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/b2741fdd1f2aa58bb089b51d506a7e0b5f217a39/ss_b2741fdd1f2aa58bb089b51d506a7e0b5f217a39.600x338.jpg?t=1778171652",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/b2741fdd1f2aa58bb089b51d506a7e0b5f217a39/ss_b2741fdd1f2aa58bb089b51d506a7e0b5f217a39.1920x1080.jpg?t=1778171652"
+        },
+        {
+          "id": 6,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/4aa373b30f4bb4318a8ca46ac178dda3541aabb7/ss_4aa373b30f4bb4318a8ca46ac178dda3541aabb7.600x338.jpg?t=1778171652",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/4aa373b30f4bb4318a8ca46ac178dda3541aabb7/ss_4aa373b30f4bb4318a8ca46ac178dda3541aabb7.1920x1080.jpg?t=1778171652"
+        },
+        {
+          "id": 7,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/b1ab84d6a0440de1f8fafe7ce23bcd682c6e69ac/ss_b1ab84d6a0440de1f8fafe7ce23bcd682c6e69ac.600x338.jpg?t=1778171652",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/b1ab84d6a0440de1f8fafe7ce23bcd682c6e69ac/ss_b1ab84d6a0440de1f8fafe7ce23bcd682c6e69ac.1920x1080.jpg?t=1778171652"
+        },
+        {
+          "id": 8,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/f6c2f7b03b830662d2dd56306b192a2a2cf9a6b7/ss_f6c2f7b03b830662d2dd56306b192a2a2cf9a6b7.600x338.jpg?t=1778171652",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/f6c2f7b03b830662d2dd56306b192a2a2cf9a6b7/ss_f6c2f7b03b830662d2dd56306b192a2a2cf9a6b7.1920x1080.jpg?t=1778171652"
+        },
+        {
+          "id": 9,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/f5553f9ee57a15337ea41ee3c3b55005bbc63eda/ss_f5553f9ee57a15337ea41ee3c3b55005bbc63eda.600x338.jpg?t=1778171652",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/f5553f9ee57a15337ea41ee3c3b55005bbc63eda/ss_f5553f9ee57a15337ea41ee3c3b55005bbc63eda.1920x1080.jpg?t=1778171652"
+        }
+      ],
+      "movies": [
+        {
+          "id": 257278853,
+          "name": "Gameplay Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257278853/1631232866275cf8c2351855fd48214d26386d2c/movie_600x337.jpg?t=1770291752",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4296450/358034974/bd110d18cbad9e788f9e9c041dce64053e428aa7/1770289897/dash_av1.mpd?t=1770291752",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4296450/358034974/bd110d18cbad9e788f9e9c041dce64053e428aa7/1770289897/dash_h264.mpd?t=1770291752",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4296450/358034974/bd110d18cbad9e788f9e9c041dce64053e428aa7/1770289897/hls_264_master.m3u8?t=1770291752",
+          "highlight": true
+        }
+      ],
+      "embedded_media": {
+        "about_the_game_urls": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/extras/ec3de76d40152ac229ab0ae10e865c8e.avif?t=1778171652",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/extras/637ae8b3c56bfd1107c19b2815c2c931.avif?t=1778171652",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/extras/825feec6a21aaf73d5d0c30b2b2ba57f.avif?t=1778171652",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/extras/f300719efb7a5f3ce8b50de47da9fab6.avif?t=1778171652"
+        ],
+        "detailed_description_urls": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/extras/ec3de76d40152ac229ab0ae10e865c8e.avif?t=1778171652",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/extras/637ae8b3c56bfd1107c19b2815c2c931.avif?t=1778171652",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/extras/825feec6a21aaf73d5d0c30b2b2ba57f.avif?t=1778171652",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/extras/f300719efb7a5f3ce8b50de47da9fab6.avif?t=1778171652"
+        ],
+        "all_urls": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/extras/ec3de76d40152ac229ab0ae10e865c8e.avif?t=1778171652",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/extras/637ae8b3c56bfd1107c19b2815c2c931.avif?t=1778171652",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/extras/825feec6a21aaf73d5d0c30b2b2ba57f.avif?t=1778171652",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/extras/f300719efb7a5f3ce8b50de47da9fab6.avif?t=1778171652"
+        ],
+        "videos_mp4": [],
+        "videos_webm": [],
+        "images": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/extras/ec3de76d40152ac229ab0ae10e865c8e.avif?t=1778171652",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/extras/637ae8b3c56bfd1107c19b2815c2c931.avif?t=1778171652",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/extras/825feec6a21aaf73d5d0c30b2b2ba57f.avif?t=1778171652",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/extras/f300719efb7a5f3ce8b50de47da9fab6.avif?t=1778171652"
+        ]
+      }
+    },
+    "store_data": {
+      "type": "game",
+      "required_age": 0,
+      "is_free": false,
+      "controller_support": "full",
+      "demos": [
+        {
+          "appid": 4378790,
+          "description": ""
+        }
+      ],
+      "about_the_game": "<p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/extras/ec3de76d40152ac229ab0ae10e865c8e.avif?t=1778171652\" width=1408 height=260 /></span>You washed ashore on a mysterious island with nothing but the clothes on your back. Now what? In <strong>Shorekeeper</strong>, you are a survivor trying to carve out a new life. Start with a simple campfire, chop trees for wood, and slowly turn your campsite into a thriving sanctuary. Whether you want to explore deep caves or just watch the sunset by the fire, the island is yours to shape.</p><h2 class=\"bb_tag\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/extras/637ae8b3c56bfd1107c19b2815c2c931.avif?t=1778171652\" width=1300 height=575 /></span></h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/extras/825feec6a21aaf73d5d0c30b2b2ba57f.avif?t=1778171652\" width=1408 height=260 /></span></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>Live the Island Life</strong> – Plant crops, raise animals, cook warm meals, and cast your line off the pier. Watch the sun rise and set as you chop trees and gather resources. Whether you are clearing debris to expand your land or just relaxing by the campfire, play at your own cozy pace.</p></li><li><p class=\"bb_paragraph\" ><strong>Explore Hidden Worlds</strong> – There is more to this island than just the beach. Unlock entrances to mysterious subworlds, caves, and mines. You will need a sword and some courage to find the rare ores and treasures hidden in the dark.</p></li><li><p class=\"bb_paragraph\" ><strong>Build &amp; Craft</strong> – Set up your tent for shelter and craft stronger tools to break harder rocks. Unlock new recipes, manage your inventory, and design a campsite that feels like home.</p></li><li><p class=\"bb_paragraph\" ><strong>Trade &amp; Expand</strong> – You are not alone. Meet other survivors washed ashore, trade your goods for coins, and use your earnings to expand your island even further.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/extras/f300719efb7a5f3ce8b50de47da9fab6.avif?t=1778171652\" width=1300 height=569 /></span></p></li></ul>",
+      "detailed_description": "<p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/extras/ec3de76d40152ac229ab0ae10e865c8e.avif?t=1778171652\" width=1408 height=260 /></span>You washed ashore on a mysterious island with nothing but the clothes on your back. Now what? In <strong>Shorekeeper</strong>, you are a survivor trying to carve out a new life. Start with a simple campfire, chop trees for wood, and slowly turn your campsite into a thriving sanctuary. Whether you want to explore deep caves or just watch the sunset by the fire, the island is yours to shape.</p><h2 class=\"bb_tag\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/extras/637ae8b3c56bfd1107c19b2815c2c931.avif?t=1778171652\" width=1300 height=575 /></span></h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/extras/825feec6a21aaf73d5d0c30b2b2ba57f.avif?t=1778171652\" width=1408 height=260 /></span></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>Live the Island Life</strong> – Plant crops, raise animals, cook warm meals, and cast your line off the pier. Watch the sun rise and set as you chop trees and gather resources. Whether you are clearing debris to expand your land or just relaxing by the campfire, play at your own cozy pace.</p></li><li><p class=\"bb_paragraph\" ><strong>Explore Hidden Worlds</strong> – There is more to this island than just the beach. Unlock entrances to mysterious subworlds, caves, and mines. You will need a sword and some courage to find the rare ores and treasures hidden in the dark.</p></li><li><p class=\"bb_paragraph\" ><strong>Build &amp; Craft</strong> – Set up your tent for shelter and craft stronger tools to break harder rocks. Unlock new recipes, manage your inventory, and design a campsite that feels like home.</p></li><li><p class=\"bb_paragraph\" ><strong>Trade &amp; Expand</strong> – You are not alone. Meet other survivors washed ashore, trade your goods for coins, and use your earnings to expand your island even further.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296450/extras/f300719efb7a5f3ce8b50de47da9fab6.avif?t=1778171652\" width=1300 height=569 /></span></p></li></ul>",
+      "short_description": "You washed ashore on a mysterious island. Now what? Build a shelter, find food, and explore the unknown. Or just sit by the campfire and watch the sunset. Farm, craft, and manage your new island life entirely at your own pace.",
+      "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Simplified Chinese, Japanese, Korean, Polish, Portuguese - Portugal, Russian, Turkish, Czech, Portuguese - Brazil<br><strong>*</strong>languages with full audio support",
+      "website": "https://gullfraziegames.com",
+      "pc_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 (64-bit)<br></li><li><strong>Processor:</strong> Intel Core i3-2100 or AMD equivalent<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Intel HD Graphics 4000 or higher<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 (64-bit)<br></li><li><strong>Processor:</strong> Intel Core i3-4160 or AMD equivalent<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GT 730 or AMD Radeon R7 240<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>"
+      },
+      "mac_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> macOS High Sierra 10.13+<br></li><li><strong>Processor:</strong> Intel Core i5 (2015+) or Apple Silicon (M1/M2)<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Metal-capable graphics card<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> macOS Catalina 10.15+<br></li><li><strong>Processor:</strong> Intel Core i5 (2017+) or Apple Silicon (M1/M2)<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Radeon Pro 560 or Apple M1<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>"
+      },
+      "linux_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+      },
+      "developers": [
+        "Gullfrazie Games"
+      ],
+      "publishers": [
+        "Gullfrazie Games"
+      ],
+      "support_info": {
+        "url": "https://gullfraziegames.com/#contact",
+        "email": "gullfraziegames@gmail.com"
+      },
+      "package_groups": [],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "categories": [
+        {
+          "id": 2,
+          "description": "Single-player"
+        },
+        {
+          "id": 28,
+          "description": "Full controller support"
+        },
+        {
+          "id": 68,
+          "description": "Custom Volume Controls"
+        },
+        {
+          "id": 78,
+          "description": "Adjustable Difficulty"
+        },
+        {
+          "id": 74,
+          "description": "Playable without Timed Input"
+        },
+        {
+          "id": 79,
+          "description": "Save Anytime"
+        },
+        {
+          "id": 65,
+          "description": "Subtitle Options"
+        },
+        {
+          "id": 62,
+          "description": "Family Sharing"
+        }
+      ],
+      "genres": [
+        {
+          "id": "25",
+          "description": "Adventure"
+        },
+        {
+          "id": "4",
+          "description": "Casual"
+        },
+        {
+          "id": "23",
+          "description": "Indie"
+        },
+        {
+          "id": "28",
+          "description": "Simulation"
+        }
+      ],
+      "release_date": {
+        "coming_soon": true,
+        "date": "Q2 2026"
+      },
+      "content_descriptors": {
+        "ids": [],
+        "notes": null
+      },
+      "ratings": {
+        "dejus": {
+          "rating_generated": "1",
+          "rating": "10",
+          "required_age": "10",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": "Violência"
+        },
+        "steam_germany": {
+          "rating_generated": "1",
+          "rating": "12",
+          "required_age": "12",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": "Gewalt"
+        },
+        "igrs": {
+          "rating_generated": "1",
+          "rating": "13",
+          "required_age": "13",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": "Kekerasan"
+        }
+      }
+    }
+  },
+  "4296470": {
+    "success": true,
+    "source_priority": "steam_data",
+    "fetch_status": {
+      "steam_appdetails": true,
+      "steam_original_assets": true
+    },
+    "name": "Sniper Reaction",
+    "steam_appid": "4296470",
+    "steamgriddb_game_id": 5514349,
+    "store_asset_mtime": 1768184684,
+    "assets_count": 20,
+    "assets": {
+      "header": [
+        {
+          "path": "fdb2e53788f4fba7196620fae9a6c5a88eacaefd/header.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296470/fdb2e53788f4fba7196620fae9a6c5a88eacaefd/header.jpg?t=1768184684",
+          "language": "english"
+        }
+      ],
+      "library_capsule": [
+        {
+          "path": "1ad11fe41719e0bd941d94b074e996deedd06600/library_capsule.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296470/1ad11fe41719e0bd941d94b074e996deedd06600/library_capsule.jpg?t=1768184684",
+          "language": "english"
+        }
+      ],
+      "library_capsule_2x": [
+        {
+          "path": "1ad11fe41719e0bd941d94b074e996deedd06600/library_capsule_2x.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296470/1ad11fe41719e0bd941d94b074e996deedd06600/library_capsule_2x.jpg?t=1768184684",
+          "language": "english"
+        }
+      ],
+      "library_hero": [
+        {
+          "path": "d19d1a562264823bd267f991af395b515be00a5a/library_hero.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296470/d19d1a562264823bd267f991af395b515be00a5a/library_hero.jpg?t=1768184684",
+          "language": "english"
+        }
+      ],
+      "library_hero_2x": [
+        {
+          "path": "d19d1a562264823bd267f991af395b515be00a5a/library_hero_2x.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296470/d19d1a562264823bd267f991af395b515be00a5a/library_hero_2x.jpg?t=1768184684",
+          "language": "english"
+        }
+      ],
+      "library_logo": [
+        {
+          "path": "aded5cfeaf2ce0e5812aff851d177806aa22f59d/logo.png",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296470/aded5cfeaf2ce0e5812aff851d177806aa22f59d/logo.png?t=1768184684",
+          "language": "english"
+        }
+      ],
+      "library_logo_2x": [
+        {
+          "path": "aded5cfeaf2ce0e5812aff851d177806aa22f59d/logo_2x.png",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4296470/aded5cfeaf2ce0e5812aff851d177806aa22f59d/logo_2x.png?t=1768184684",
+          "language": "english"
+        }
+      ],
+      "clienticon": [
+        {
+          "hash": "4067a292c58a08f244bb44ff7a20e7029bb1c5d4",
+          "url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/4296470/4067a292c58a08f244bb44ff7a20e7029bb1c5d4.ico"
+        }
+      ],
+      "icon": [
+        {
+          "hash": "4067a292c58a08f244bb44ff7a20e7029bb1c5d4",
+          "url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/4296470/4067a292c58a08f244bb44ff7a20e7029bb1c5d4.jpg"
+        }
+      ],
+      "capsule_image": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296470/1f190ca8897fa1f2e134ae5a31208362aa2fda16/capsule_231x87.jpg?t=1769762366"
+        }
+      ],
+      "capsule_imagev5": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296470/1f190ca8897fa1f2e134ae5a31208362aa2fda16/capsule_184x69.jpg?t=1769762366"
+        }
+      ],
+      "background": [
+        {
+          "url": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4296470?t=1769762366"
+        }
+      ],
+      "background_raw": [
+        {
+          "url": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4296470?t=1769762366"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": 0,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296470/a3057a94aebd387177420c0cbd955a8289c2cd65/ss_a3057a94aebd387177420c0cbd955a8289c2cd65.600x338.jpg?t=1769762366",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296470/a3057a94aebd387177420c0cbd955a8289c2cd65/ss_a3057a94aebd387177420c0cbd955a8289c2cd65.1920x1080.jpg?t=1769762366"
+        },
+        {
+          "id": 1,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296470/5261a8103ebc674d60bfab30d012764a1c4b4200/ss_5261a8103ebc674d60bfab30d012764a1c4b4200.600x338.jpg?t=1769762366",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296470/5261a8103ebc674d60bfab30d012764a1c4b4200/ss_5261a8103ebc674d60bfab30d012764a1c4b4200.1920x1080.jpg?t=1769762366"
+        },
+        {
+          "id": 2,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296470/69f47598695fa11ef18dc4702741a3b1580f1b70/ss_69f47598695fa11ef18dc4702741a3b1580f1b70.600x338.jpg?t=1769762366",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296470/69f47598695fa11ef18dc4702741a3b1580f1b70/ss_69f47598695fa11ef18dc4702741a3b1580f1b70.1920x1080.jpg?t=1769762366"
+        },
+        {
+          "id": 3,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296470/d1b21738f175cab33026499df4cd7eb563bacd27/ss_d1b21738f175cab33026499df4cd7eb563bacd27.600x338.jpg?t=1769762366",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296470/d1b21738f175cab33026499df4cd7eb563bacd27/ss_d1b21738f175cab33026499df4cd7eb563bacd27.1920x1080.jpg?t=1769762366"
+        },
+        {
+          "id": 4,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296470/413eb403559517eb8583fab8e727f8b4b4959592/ss_413eb403559517eb8583fab8e727f8b4b4959592.600x338.jpg?t=1769762366",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296470/413eb403559517eb8583fab8e727f8b4b4959592/ss_413eb403559517eb8583fab8e727f8b4b4959592.1920x1080.jpg?t=1769762366"
+        }
+      ],
+      "movies": [
+        {
+          "id": 257257445,
+          "name": "Official Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257257445/16491528493ecf15551ac1bbb3dbe443262e83b4/movie_600x337.jpg?t=1768620258",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4296470/1948967973/d92d078c59aba0bb0e791ba09583d87cbe3b280e/1767191997/dash_av1.mpd?t=1768620258",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4296470/1948967973/d92d078c59aba0bb0e791ba09583d87cbe3b280e/1767191997/dash_h264.mpd?t=1768620258",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4296470/1948967973/d92d078c59aba0bb0e791ba09583d87cbe3b280e/1767191997/hls_264_master.m3u8?t=1768620258",
+          "highlight": false
+        }
+      ],
+      "embedded_media": {
+        "about_the_game_urls": [],
+        "detailed_description_urls": [],
+        "all_urls": [],
+        "videos_mp4": [],
+        "videos_webm": [],
+        "images": []
+      }
+    },
+    "store_data": {
+      "type": "game",
+      "required_age": 0,
+      "is_free": false,
+      "about_the_game": "<h2 class=\"bb_tag\" ><strong>Are You Faster Than Average?</strong></h2><p class=\"bb_paragraph\" >In competitive shooters, milliseconds are the difference between a win and a loss. While the <strong>average person reacts in 250ms</strong>, elite gamers and athletes often push into the <strong>150ms–200ms</strong> range. <strong>Sniper Reaction</strong> is a focused training tool designed to help you bridge that gap.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" ><strong>Tactical Precision Training</strong></h2><p class=\"bb_paragraph\" >Forget distracting 3D environments. <strong>Sniper Reaction</strong> provides a clean, high-contrast interface designed for one thing: pure reflex development. Using a stylized sniper scope overlay, you must identify and neutralize targets the moment they appear.</p><h2 class=\"bb_tag\" ><strong>Key Features:</strong></h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>Reaction Benchmarking:</strong> Find out your exact visual reaction speed down to the millisecond.</p></li><li><p class=\"bb_paragraph\" ><strong>Performance Tracking:</strong> Detailed stats show your average and best times to help you see real-world improvement over time.</p></li><li><p class=\"bb_paragraph\" ><strong>Low-Latency Performance:</strong> Built for speed, the app ensures that your recorded times are accurate and not hampered by engine bloat.</p></li><li><p class=\"bb_paragraph\" ><strong>Minimalist Aesthetic:</strong> A &quot;Night Vision&quot; tactical UI that keeps your eyes focused on the target, perfect for pre-game warmups.</p></li></ul><h2 class=\"bb_tag\" ><strong>The Perfect Warmup</strong></h2><p class=\"bb_paragraph\" >Don't go into your first match &quot;cold.&quot; Spend 5 minutes in <strong>Sniper Reaction</strong> to wake up your hand-eye coordination and ensure you're performing at your absolute peak before the stakes get high.</p>",
+      "detailed_description": "<h2 class=\"bb_tag\" ><strong>Are You Faster Than Average?</strong></h2><p class=\"bb_paragraph\" >In competitive shooters, milliseconds are the difference between a win and a loss. While the <strong>average person reacts in 250ms</strong>, elite gamers and athletes often push into the <strong>150ms–200ms</strong> range. <strong>Sniper Reaction</strong> is a focused training tool designed to help you bridge that gap.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" ><strong>Tactical Precision Training</strong></h2><p class=\"bb_paragraph\" >Forget distracting 3D environments. <strong>Sniper Reaction</strong> provides a clean, high-contrast interface designed for one thing: pure reflex development. Using a stylized sniper scope overlay, you must identify and neutralize targets the moment they appear.</p><h2 class=\"bb_tag\" ><strong>Key Features:</strong></h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>Reaction Benchmarking:</strong> Find out your exact visual reaction speed down to the millisecond.</p></li><li><p class=\"bb_paragraph\" ><strong>Performance Tracking:</strong> Detailed stats show your average and best times to help you see real-world improvement over time.</p></li><li><p class=\"bb_paragraph\" ><strong>Low-Latency Performance:</strong> Built for speed, the app ensures that your recorded times are accurate and not hampered by engine bloat.</p></li><li><p class=\"bb_paragraph\" ><strong>Minimalist Aesthetic:</strong> A &quot;Night Vision&quot; tactical UI that keeps your eyes focused on the target, perfect for pre-game warmups.</p></li></ul><h2 class=\"bb_tag\" ><strong>The Perfect Warmup</strong></h2><p class=\"bb_paragraph\" >Don't go into your first match &quot;cold.&quot; Spend 5 minutes in <strong>Sniper Reaction</strong> to wake up your hand-eye coordination and ensure you're performing at your absolute peak before the stakes get high.</p>",
+      "short_description": "The average human reaction time is 250ms. Where do you stand? Test your reflexes through a tactical sniper scope in this high-precision aim trainer.",
+      "supported_languages": "English",
+      "website": null,
+      "pc_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10 (64-bit)<br></li><li><strong>Processor:</strong> Intel Core i3 or AMD equivalent<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Integrated Graphics (Intel HD 4000)<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 500 MB available space<br></li><li><strong>Additional Notes:</strong> High polling rate mouse recommended.</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10/11 (64-bit)<br></li><li><strong>Processor:</strong> Intel Core i5 or AMD equivalent<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Dedicated Graphics (GTX 660 / HD 7850)<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 1 GB available space<br></li><li><strong>Additional Notes:</strong> 144Hz+ Monitor recommended for accuracy.</li></ul>"
+      },
+      "mac_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> macOS 10.15 (Catalina)<br></li><li><strong>Processor:</strong> Intel Core i3 or Apple M1<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Intel HD Graphics or Apple M1 GPU<br></li><li><strong>Storage:</strong> 500 MB available space<br></li><li><strong>Additional Notes:</strong> Supports both Apple Silicon and Intel.</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> macOS 11.0 (Big Sur) or newer<br></li><li><strong>Processor:</strong> Apple M1 or Intel Core i5<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Metal-capable GPU<br></li><li><strong>Storage:</strong> 1 GB available space<br></li><li><strong>Additional Notes:</strong> Supports both Apple Silicon and Intel.</li></ul>"
+      },
+      "linux_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 20.04+, SteamOS 3.0+<br></li><li><strong>Processor:</strong> Intel Core i3 or AMD equivalent<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Integrated Graphics<br></li><li><strong>Storage:</strong> 500 MB available space<br></li><li><strong>Additional Notes:</strong> AppImage support required.</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 22.04+ or latest SteamOS<br></li><li><strong>Processor:</strong> Intel Core i5 or AMD equivalent<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Dedicated Graphics<br></li><li><strong>Storage:</strong> 1 GB available space<br></li><li><strong>Additional Notes:</strong> X11 or Wayland (with XWayland) support.</li></ul>"
+      },
+      "developers": [
+        "Saitama"
+      ],
+      "publishers": [
+        "Saitama"
+      ],
+      "support_info": {
+        "url": "https://steamcommunity.com/app/4296470/discussions/",
+        "email": ""
+      },
+      "price_overview": {
+        "currency": "USD",
+        "initial": 99,
+        "final": 99,
+        "discount_percent": 0,
+        "initial_formatted": "",
+        "final_formatted": "$0.99"
+      },
+      "packages": [
+        1502632
+      ],
+      "package_groups": [
+        {
+          "name": "default",
+          "title": "Buy Sniper Reaction",
+          "description": "",
+          "selection_text": "Select a purchase option",
+          "save_text": "",
+          "display_type": 0,
+          "is_recurring_subscription": "false",
+          "subs": [
+            {
+              "packageid": 1502632,
+              "percent_savings_text": " ",
+              "percent_savings": 0,
+              "option_text": "Sniper Reaction - $0.99",
+              "option_description": "",
+              "can_get_free_license": "0",
+              "is_free_license": false,
+              "price_in_cents_with_discount": 99
+            }
+          ]
+        }
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "categories": [
+        {
+          "id": 2,
+          "description": "Single-player"
+        },
+        {
+          "id": 62,
+          "description": "Family Sharing"
+        }
+      ],
+      "genres": [
+        {
+          "id": "1",
+          "description": "Action"
+        },
+        {
+          "id": "4",
+          "description": "Casual"
+        },
+        {
+          "id": "23",
+          "description": "Indie"
+        }
+      ],
+      "release_date": {
+        "coming_soon": false,
+        "date": "Jan 30, 2026"
+      },
+      "content_descriptors": {
+        "ids": [],
+        "notes": null
+      },
+      "ratings": {
+        "dejus": {
+          "rating_generated": "1",
+          "rating": "l",
+          "required_age": "0",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": ""
+        },
+        "steam_germany": {
+          "rating_generated": "1",
+          "rating": "0",
+          "required_age": "0",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": ""
+        },
+        "igrs": {
+          "rating_generated": "1",
+          "rating": "3",
+          "required_age": "0",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": ""
+        }
+      }
+    }
+  },
   "4317690": {
     "success": true,
     "source_priority": "appid_populer",
