@@ -1,5 +1,5 @@
 {
-  "backlog_cursor": 2929,
+  "backlog_cursor": 3630,
   "known_source_appids": [
     3321460,
     3959890,
@@ -156942,13 +156942,18 @@
     224060,
     255480
   ],
-  "failed_twice_appids": [],
-  "last_run_at": "2026-05-17T14:48:36.155358+00:00",
+  "failed_twice_appids": [
+    33440,
+    48180,
+    224060,
+    255480
+  ],
+  "last_run_at": "2026-05-17T15:56:21.388302+00:00",
   "last_batch": {
-    "processed_count": 10,
+    "processed_count": 1,
     "new_count": 0,
-    "retry_failed_count": 4,
-    "backlog_count": 6,
+    "retry_failed_count": 0,
+    "backlog_count": 1,
     "force_refresh": false
   }
 }
