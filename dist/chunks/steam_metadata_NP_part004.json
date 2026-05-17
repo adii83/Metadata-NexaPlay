@@ -2068,6 +2068,388 @@
       }
     }
   },
+  "4333430": {
+    "success": true,
+    "source_priority": "steam_data",
+    "fetch_status": {
+      "steam_appdetails": true,
+      "steam_original_assets": true
+    },
+    "name": "The Apartment",
+    "steam_appid": "4333430",
+    "steamgriddb_game_id": 5515307,
+    "store_asset_mtime": 1775789119,
+    "assets_count": 29,
+    "assets": {
+      "header": [
+        {
+          "path": "2014104fa4439a11624a48254f348360dbfcc965/header.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4333430/2014104fa4439a11624a48254f348360dbfcc965/header.jpg?t=1775789119",
+          "language": "english"
+        }
+      ],
+      "library_capsule": [
+        {
+          "path": "a36cdc430cfa999face401bc2ba1ba3e31b1fe8f/library_capsule.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4333430/a36cdc430cfa999face401bc2ba1ba3e31b1fe8f/library_capsule.jpg?t=1775789119",
+          "language": "english"
+        }
+      ],
+      "library_capsule_2x": [
+        {
+          "path": "a36cdc430cfa999face401bc2ba1ba3e31b1fe8f/library_capsule_2x.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4333430/a36cdc430cfa999face401bc2ba1ba3e31b1fe8f/library_capsule_2x.jpg?t=1775789119",
+          "language": "english"
+        }
+      ],
+      "library_hero": [
+        {
+          "path": "e52d6ede2420486cafa56774a7b82b3069d241d1/library_hero.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4333430/e52d6ede2420486cafa56774a7b82b3069d241d1/library_hero.jpg?t=1775789119",
+          "language": "english"
+        }
+      ],
+      "library_hero_2x": [
+        {
+          "path": "e52d6ede2420486cafa56774a7b82b3069d241d1/library_hero_2x.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4333430/e52d6ede2420486cafa56774a7b82b3069d241d1/library_hero_2x.jpg?t=1775789119",
+          "language": "english"
+        }
+      ],
+      "library_logo": [
+        {
+          "path": "8d73cb6bdf82a23b1979b46ab7a15ef24647bca4/logo.png",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4333430/8d73cb6bdf82a23b1979b46ab7a15ef24647bca4/logo.png?t=1775789119",
+          "language": "english"
+        }
+      ],
+      "library_logo_2x": [
+        {
+          "path": "8d73cb6bdf82a23b1979b46ab7a15ef24647bca4/logo_2x.png",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4333430/8d73cb6bdf82a23b1979b46ab7a15ef24647bca4/logo_2x.png?t=1775789119",
+          "language": "english"
+        }
+      ],
+      "clienticon": [
+        {
+          "hash": "73b959f6a42beef8d2796ea1efdd57e4892b06b7",
+          "url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/4333430/73b959f6a42beef8d2796ea1efdd57e4892b06b7.ico"
+        }
+      ],
+      "icon": [
+        {
+          "hash": "73b959f6a42beef8d2796ea1efdd57e4892b06b7",
+          "url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/4333430/73b959f6a42beef8d2796ea1efdd57e4892b06b7.jpg"
+        }
+      ],
+      "capsule_image": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/bfe179bb61607f8dfb6ebbae93bb8346d38be9a8/capsule_231x87.jpg?t=1776028686"
+        }
+      ],
+      "capsule_imagev5": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/bfe179bb61607f8dfb6ebbae93bb8346d38be9a8/capsule_184x69.jpg?t=1776028686"
+        }
+      ],
+      "background": [
+        {
+          "url": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4333430?t=1776028686"
+        }
+      ],
+      "background_raw": [
+        {
+          "url": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4333430?t=1776028686"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": 0,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/bec8d0d7d5658501f329c8eb88f850e673ada3a5/ss_bec8d0d7d5658501f329c8eb88f850e673ada3a5.600x338.jpg?t=1776028686",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/bec8d0d7d5658501f329c8eb88f850e673ada3a5/ss_bec8d0d7d5658501f329c8eb88f850e673ada3a5.1920x1080.jpg?t=1776028686"
+        },
+        {
+          "id": 1,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/760d98d1bdbbc8bed9987a4da9eb40f42abbf046/ss_760d98d1bdbbc8bed9987a4da9eb40f42abbf046.600x338.jpg?t=1776028686",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/760d98d1bdbbc8bed9987a4da9eb40f42abbf046/ss_760d98d1bdbbc8bed9987a4da9eb40f42abbf046.1920x1080.jpg?t=1776028686"
+        },
+        {
+          "id": 2,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/73c03a7813e66c6118bb9aa398eac9cd3a0bd954/ss_73c03a7813e66c6118bb9aa398eac9cd3a0bd954.600x338.jpg?t=1776028686",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/73c03a7813e66c6118bb9aa398eac9cd3a0bd954/ss_73c03a7813e66c6118bb9aa398eac9cd3a0bd954.1920x1080.jpg?t=1776028686"
+        },
+        {
+          "id": 3,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/360a52111c0a149b8bc4f2417aab4b8dc67ecd3c/ss_360a52111c0a149b8bc4f2417aab4b8dc67ecd3c.600x338.jpg?t=1776028686",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/360a52111c0a149b8bc4f2417aab4b8dc67ecd3c/ss_360a52111c0a149b8bc4f2417aab4b8dc67ecd3c.1920x1080.jpg?t=1776028686"
+        },
+        {
+          "id": 4,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/534463c45e13ed6276728049b62b43ed09abc205/ss_534463c45e13ed6276728049b62b43ed09abc205.600x338.jpg?t=1776028686",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/534463c45e13ed6276728049b62b43ed09abc205/ss_534463c45e13ed6276728049b62b43ed09abc205.1920x1080.jpg?t=1776028686"
+        },
+        {
+          "id": 5,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/14392645f3fcb99afafca1796f1998bf18f0b4d4/ss_14392645f3fcb99afafca1796f1998bf18f0b4d4.600x338.jpg?t=1776028686",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/14392645f3fcb99afafca1796f1998bf18f0b4d4/ss_14392645f3fcb99afafca1796f1998bf18f0b4d4.1920x1080.jpg?t=1776028686"
+        },
+        {
+          "id": 6,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/57df42a23649c94aecd65ba083d55183fa2eae4d/ss_57df42a23649c94aecd65ba083d55183fa2eae4d.600x338.jpg?t=1776028686",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/57df42a23649c94aecd65ba083d55183fa2eae4d/ss_57df42a23649c94aecd65ba083d55183fa2eae4d.1920x1080.jpg?t=1776028686"
+        },
+        {
+          "id": 7,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/e83eb32aabc5050bbcfd3392eeeb8da81e34b0ce/ss_e83eb32aabc5050bbcfd3392eeeb8da81e34b0ce.600x338.jpg?t=1776028686",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/e83eb32aabc5050bbcfd3392eeeb8da81e34b0ce/ss_e83eb32aabc5050bbcfd3392eeeb8da81e34b0ce.1920x1080.jpg?t=1776028686"
+        },
+        {
+          "id": 8,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/4f21a34aedf87007898ac36c0dd6236ca102394d/ss_4f21a34aedf87007898ac36c0dd6236ca102394d.600x338.jpg?t=1776028686",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/4f21a34aedf87007898ac36c0dd6236ca102394d/ss_4f21a34aedf87007898ac36c0dd6236ca102394d.1920x1080.jpg?t=1776028686"
+        },
+        {
+          "id": 9,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/e66da2b7beb56c6fad37e65c83b5b70650a69b97/ss_e66da2b7beb56c6fad37e65c83b5b70650a69b97.600x338.jpg?t=1776028686",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/e66da2b7beb56c6fad37e65c83b5b70650a69b97/ss_e66da2b7beb56c6fad37e65c83b5b70650a69b97.1920x1080.jpg?t=1776028686"
+        },
+        {
+          "id": 10,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/19b31197fc28d92f58a9fced4a8166287e0b249d/ss_19b31197fc28d92f58a9fced4a8166287e0b249d.600x338.jpg?t=1776028686",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/19b31197fc28d92f58a9fced4a8166287e0b249d/ss_19b31197fc28d92f58a9fced4a8166287e0b249d.1920x1080.jpg?t=1776028686"
+        },
+        {
+          "id": 11,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/a80dca87d9998da91fa5e521157d34db402ef2eb/ss_a80dca87d9998da91fa5e521157d34db402ef2eb.600x338.jpg?t=1776028686",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/a80dca87d9998da91fa5e521157d34db402ef2eb/ss_a80dca87d9998da91fa5e521157d34db402ef2eb.1920x1080.jpg?t=1776028686"
+        },
+        {
+          "id": 12,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/660eeb7cace28aadbb49b042ec31b7c0b7414b10/ss_660eeb7cace28aadbb49b042ec31b7c0b7414b10.600x338.jpg?t=1776028686",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/660eeb7cace28aadbb49b042ec31b7c0b7414b10/ss_660eeb7cace28aadbb49b042ec31b7c0b7414b10.1920x1080.jpg?t=1776028686"
+        }
+      ],
+      "movies": [
+        {
+          "id": 257308796,
+          "name": "Gameplay Trailer #1",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257308796/ac90db3e6ce83f877a33cfb4651de480988d5434/movie_600x337.jpg?t=1774995560",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4333430/268593268/1d25a7de06a0e47eb992c89f51acfb8e6e2fa0be/1774427360/dash_av1.mpd?t=1774995560",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4333430/268593268/1d25a7de06a0e47eb992c89f51acfb8e6e2fa0be/1774427360/dash_h264.mpd?t=1774995560",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4333430/268593268/1d25a7de06a0e47eb992c89f51acfb8e6e2fa0be/1774427360/hls_264_master.m3u8?t=1774995560",
+          "highlight": true
+        },
+        {
+          "id": 257264526,
+          "name": "Announcement Teaser",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257264526/e0c8663d36d08599263a90ebae6c879b72469a60/movie_600x337.jpg?t=1769290193",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4333430/1578495707/13a6af69c0ea8f0fa66fac72a85184b16dbc8cbe/1768524001/dash_av1.mpd?t=1769290193",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4333430/1578495707/13a6af69c0ea8f0fa66fac72a85184b16dbc8cbe/1768524001/dash_h264.mpd?t=1769290193",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4333430/1578495707/13a6af69c0ea8f0fa66fac72a85184b16dbc8cbe/1768524001/hls_264_master.m3u8?t=1769290193",
+          "highlight": false
+        }
+      ],
+      "embedded_media": {
+        "about_the_game_urls": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/d96b98c35d5fad12624e320faf4f2f68.webp?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/5f8a6163aac8ab7c6bc9073519b3c629.poster.avif?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/5f8a6163aac8ab7c6bc9073519b3c629.webm?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/5f8a6163aac8ab7c6bc9073519b3c629.mp4?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/20c38b22bd54fbca51cb134a8e1cd33a.webp?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/9344681cc58d9582f569199dc9e6837a.poster.avif?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/9344681cc58d9582f569199dc9e6837a.webm?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/9344681cc58d9582f569199dc9e6837a.mp4?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/1b88f14b8b3c1ac4361de2d1d8b92798.webp?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/7c4723754cf2d3f1be6f5fdf40328a9e.poster.avif?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/7c4723754cf2d3f1be6f5fdf40328a9e.webm?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/7c4723754cf2d3f1be6f5fdf40328a9e.mp4?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/bdfea93d04b02bae9a254743ee697ec0.webp?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/adf39d3291187d10e087f41a59cd25c2.poster.avif?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/adf39d3291187d10e087f41a59cd25c2.webm?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/adf39d3291187d10e087f41a59cd25c2.mp4?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/9e1e57262630c8fe92132de61bd2d629.webp?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/bbb5e05e167ce3fba9a0dcc8ef78b3e8.poster.avif?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/bbb5e05e167ce3fba9a0dcc8ef78b3e8.webm?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/bbb5e05e167ce3fba9a0dcc8ef78b3e8.mp4?t=1776028686"
+        ],
+        "detailed_description_urls": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/d96b98c35d5fad12624e320faf4f2f68.webp?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/5f8a6163aac8ab7c6bc9073519b3c629.poster.avif?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/5f8a6163aac8ab7c6bc9073519b3c629.webm?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/5f8a6163aac8ab7c6bc9073519b3c629.mp4?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/20c38b22bd54fbca51cb134a8e1cd33a.webp?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/9344681cc58d9582f569199dc9e6837a.poster.avif?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/9344681cc58d9582f569199dc9e6837a.webm?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/9344681cc58d9582f569199dc9e6837a.mp4?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/1b88f14b8b3c1ac4361de2d1d8b92798.webp?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/7c4723754cf2d3f1be6f5fdf40328a9e.poster.avif?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/7c4723754cf2d3f1be6f5fdf40328a9e.webm?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/7c4723754cf2d3f1be6f5fdf40328a9e.mp4?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/bdfea93d04b02bae9a254743ee697ec0.webp?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/adf39d3291187d10e087f41a59cd25c2.poster.avif?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/adf39d3291187d10e087f41a59cd25c2.webm?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/adf39d3291187d10e087f41a59cd25c2.mp4?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/9e1e57262630c8fe92132de61bd2d629.webp?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/bbb5e05e167ce3fba9a0dcc8ef78b3e8.poster.avif?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/bbb5e05e167ce3fba9a0dcc8ef78b3e8.webm?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/bbb5e05e167ce3fba9a0dcc8ef78b3e8.mp4?t=1776028686"
+        ],
+        "all_urls": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/d96b98c35d5fad12624e320faf4f2f68.webp?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/5f8a6163aac8ab7c6bc9073519b3c629.poster.avif?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/5f8a6163aac8ab7c6bc9073519b3c629.webm?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/5f8a6163aac8ab7c6bc9073519b3c629.mp4?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/20c38b22bd54fbca51cb134a8e1cd33a.webp?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/9344681cc58d9582f569199dc9e6837a.poster.avif?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/9344681cc58d9582f569199dc9e6837a.webm?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/9344681cc58d9582f569199dc9e6837a.mp4?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/1b88f14b8b3c1ac4361de2d1d8b92798.webp?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/7c4723754cf2d3f1be6f5fdf40328a9e.poster.avif?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/7c4723754cf2d3f1be6f5fdf40328a9e.webm?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/7c4723754cf2d3f1be6f5fdf40328a9e.mp4?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/bdfea93d04b02bae9a254743ee697ec0.webp?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/adf39d3291187d10e087f41a59cd25c2.poster.avif?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/adf39d3291187d10e087f41a59cd25c2.webm?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/adf39d3291187d10e087f41a59cd25c2.mp4?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/9e1e57262630c8fe92132de61bd2d629.webp?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/bbb5e05e167ce3fba9a0dcc8ef78b3e8.poster.avif?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/bbb5e05e167ce3fba9a0dcc8ef78b3e8.webm?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/bbb5e05e167ce3fba9a0dcc8ef78b3e8.mp4?t=1776028686"
+        ],
+        "videos_mp4": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/5f8a6163aac8ab7c6bc9073519b3c629.mp4?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/9344681cc58d9582f569199dc9e6837a.mp4?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/7c4723754cf2d3f1be6f5fdf40328a9e.mp4?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/adf39d3291187d10e087f41a59cd25c2.mp4?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/bbb5e05e167ce3fba9a0dcc8ef78b3e8.mp4?t=1776028686"
+        ],
+        "videos_webm": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/5f8a6163aac8ab7c6bc9073519b3c629.webm?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/9344681cc58d9582f569199dc9e6837a.webm?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/7c4723754cf2d3f1be6f5fdf40328a9e.webm?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/adf39d3291187d10e087f41a59cd25c2.webm?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/bbb5e05e167ce3fba9a0dcc8ef78b3e8.webm?t=1776028686"
+        ],
+        "images": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/d96b98c35d5fad12624e320faf4f2f68.webp?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/5f8a6163aac8ab7c6bc9073519b3c629.poster.avif?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/20c38b22bd54fbca51cb134a8e1cd33a.webp?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/9344681cc58d9582f569199dc9e6837a.poster.avif?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/1b88f14b8b3c1ac4361de2d1d8b92798.webp?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/7c4723754cf2d3f1be6f5fdf40328a9e.poster.avif?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/bdfea93d04b02bae9a254743ee697ec0.webp?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/adf39d3291187d10e087f41a59cd25c2.poster.avif?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/9e1e57262630c8fe92132de61bd2d629.webp?t=1776028686",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/bbb5e05e167ce3fba9a0dcc8ef78b3e8.poster.avif?t=1776028686"
+        ]
+      }
+    },
+    "store_data": {
+      "type": "game",
+      "required_age": 0,
+      "is_free": false,
+      "controller_support": "full",
+      "about_the_game": "<p class=\"bb_paragraph\" style=\"text-align: center\"></p><p class=\"bb_paragraph\" style=\"text-align: center\"><strong>The Apartment</strong> is a first-person psychological horror <br> where a familiar space begins to live by <strong>someone else’s rules</strong>.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" style=\"text-align: center\"></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/d96b98c35d5fad12624e320faf4f2f68.webp?t=1776028686\" width=960 height=48 /></span></p><p class=\"bb_paragraph\" >You wake up in your apartment. At first glance, everything looks the same: the same rooms, the same objects, the same silence. But only at first glance. A strange feeling won’t leave you, as if something has changed.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/5f8a6163aac8ab7c6bc9073519b3c629.poster.avif?t=1776028686\" width=800 height=450 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/5f8a6163aac8ab7c6bc9073519b3c629.webm?t=1776028686\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/5f8a6163aac8ab7c6bc9073519b3c629.mp4?t=1776028686\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Suddenly, the silence is shattered by a deafening siren. The countdown has already begun. But what will happen when the time runs out?</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/20c38b22bd54fbca51cb134a8e1cd33a.webp?t=1776028686\" width=960 height=48 /></span></p><p class=\"bb_paragraph\" >In the bedroom, the computer is on. On the screen a code input window. </p><p class=\"bb_paragraph\" >And then you hear a voice: It demands that you <strong>enter the code</strong>.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/9344681cc58d9582f569199dc9e6837a.poster.avif?t=1776028686\" width=800 height=450 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/9344681cc58d9582f569199dc9e6837a.webm?t=1776028686\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/9344681cc58d9582f569199dc9e6837a.mp4?t=1776028686\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >The siren keeps drilling into your ears, making it impossible to concentrate. You don’t understand what is happening or why it’s happening to you.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/1b88f14b8b3c1ac4361de2d1d8b92798.webp?t=1776028686\" width=960 height=48 /></span></p><p class=\"bb_paragraph\" >When the timer reaches zero, the air begins to change. It becomes heavier, denser, and somewhere beyond the walls you hear a quiet, almost imperceptible hiss.</p><p class=\"bb_paragraph\" >It’s gas.</p><p class=\"bb_paragraph\" >It slowly fills the apartment.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/7c4723754cf2d3f1be6f5fdf40328a9e.poster.avif?t=1776028686\" width=800 height=436 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/7c4723754cf2d3f1be6f5fdf40328a9e.webm?t=1776028686\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/7c4723754cf2d3f1be6f5fdf40328a9e.mp4?t=1776028686\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/bdfea93d04b02bae9a254743ee697ec0.webp?t=1776028686\" width=960 height=48 /></span></p><p class=\"bb_paragraph\" >The apartment is full of details that once seemed insignificant. Hidden compartments, notes, cryptic codes, forgotten objects… All of them are pieces of a puzzle whose meaning you have yet to understand.</p><p class=\"bb_paragraph\" >Old VHS cameras are watching your every step.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/adf39d3291187d10e087f41a59cd25c2.poster.avif?t=1776028686\" width=800 height=450 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/adf39d3291187d10e087f41a59cd25c2.webm?t=1776028686\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/adf39d3291187d10e087f41a59cd25c2.mp4?t=1776028686\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" style=\"text-align: center\"></p><p class=\"bb_paragraph\" >Returning to familiar rooms and discovering new fragments, you begin to see the bigger picture. The apartment holds the answers — but it won’t give them up easily.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/9e1e57262630c8fe92132de61bd2d629.webp?t=1776028686\" width=960 height=48 /></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Uncover what happened.</p><p class=\"bb_paragraph\" >And find a way out before it’s too late.</p><p class=\"bb_paragraph\" >By any means necessary.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/bbb5e05e167ce3fba9a0dcc8ef78b3e8.poster.avif?t=1776028686\" width=800 height=450 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/bbb5e05e167ce3fba9a0dcc8ef78b3e8.webm?t=1776028686\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/bbb5e05e167ce3fba9a0dcc8ef78b3e8.mp4?t=1776028686\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Inspired by classic psychological horror and the aesthetics of analog horror and VHS.</p>",
+      "detailed_description": "<p class=\"bb_paragraph\" style=\"text-align: center\"></p><p class=\"bb_paragraph\" style=\"text-align: center\"><strong>The Apartment</strong> is a first-person psychological horror <br> where a familiar space begins to live by <strong>someone else’s rules</strong>.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" style=\"text-align: center\"></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/d96b98c35d5fad12624e320faf4f2f68.webp?t=1776028686\" width=960 height=48 /></span></p><p class=\"bb_paragraph\" >You wake up in your apartment. At first glance, everything looks the same: the same rooms, the same objects, the same silence. But only at first glance. A strange feeling won’t leave you, as if something has changed.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/5f8a6163aac8ab7c6bc9073519b3c629.poster.avif?t=1776028686\" width=800 height=450 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/5f8a6163aac8ab7c6bc9073519b3c629.webm?t=1776028686\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/5f8a6163aac8ab7c6bc9073519b3c629.mp4?t=1776028686\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Suddenly, the silence is shattered by a deafening siren. The countdown has already begun. But what will happen when the time runs out?</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/20c38b22bd54fbca51cb134a8e1cd33a.webp?t=1776028686\" width=960 height=48 /></span></p><p class=\"bb_paragraph\" >In the bedroom, the computer is on. On the screen a code input window. </p><p class=\"bb_paragraph\" >And then you hear a voice: It demands that you <strong>enter the code</strong>.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/9344681cc58d9582f569199dc9e6837a.poster.avif?t=1776028686\" width=800 height=450 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/9344681cc58d9582f569199dc9e6837a.webm?t=1776028686\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/9344681cc58d9582f569199dc9e6837a.mp4?t=1776028686\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >The siren keeps drilling into your ears, making it impossible to concentrate. You don’t understand what is happening or why it’s happening to you.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/1b88f14b8b3c1ac4361de2d1d8b92798.webp?t=1776028686\" width=960 height=48 /></span></p><p class=\"bb_paragraph\" >When the timer reaches zero, the air begins to change. It becomes heavier, denser, and somewhere beyond the walls you hear a quiet, almost imperceptible hiss.</p><p class=\"bb_paragraph\" >It’s gas.</p><p class=\"bb_paragraph\" >It slowly fills the apartment.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/7c4723754cf2d3f1be6f5fdf40328a9e.poster.avif?t=1776028686\" width=800 height=436 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/7c4723754cf2d3f1be6f5fdf40328a9e.webm?t=1776028686\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/7c4723754cf2d3f1be6f5fdf40328a9e.mp4?t=1776028686\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/bdfea93d04b02bae9a254743ee697ec0.webp?t=1776028686\" width=960 height=48 /></span></p><p class=\"bb_paragraph\" >The apartment is full of details that once seemed insignificant. Hidden compartments, notes, cryptic codes, forgotten objects… All of them are pieces of a puzzle whose meaning you have yet to understand.</p><p class=\"bb_paragraph\" >Old VHS cameras are watching your every step.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/adf39d3291187d10e087f41a59cd25c2.poster.avif?t=1776028686\" width=800 height=450 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/adf39d3291187d10e087f41a59cd25c2.webm?t=1776028686\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/adf39d3291187d10e087f41a59cd25c2.mp4?t=1776028686\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" style=\"text-align: center\"></p><p class=\"bb_paragraph\" >Returning to familiar rooms and discovering new fragments, you begin to see the bigger picture. The apartment holds the answers — but it won’t give them up easily.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/9e1e57262630c8fe92132de61bd2d629.webp?t=1776028686\" width=960 height=48 /></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Uncover what happened.</p><p class=\"bb_paragraph\" >And find a way out before it’s too late.</p><p class=\"bb_paragraph\" >By any means necessary.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/bbb5e05e167ce3fba9a0dcc8ef78b3e8.poster.avif?t=1776028686\" width=800 height=450 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/bbb5e05e167ce3fba9a0dcc8ef78b3e8.webm?t=1776028686\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4333430/extras/bbb5e05e167ce3fba9a0dcc8ef78b3e8.mp4?t=1776028686\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Inspired by classic psychological horror and the aesthetics of analog horror and VHS.</p>",
+      "short_description": "A quiet apartment. A friendly neighbour. A normal life. You've been in this apartment for a while now. You know the layout. The sounds. The routine. So do we. A psychological horror about control.",
+      "supported_languages": "English<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Japanese<strong>*</strong>, Korean<strong>*</strong>, Polish<strong>*</strong>, Russian<strong>*</strong>, Simplified Chinese<strong>*</strong>, Spanish - Latin America<strong>*</strong><br><strong>*</strong>languages with full audio support",
+      "website": "https://apartment.games",
+      "pc_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> Intel i5 / Ryzen 5<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> GTX 1060</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+      },
+      "mac_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+      },
+      "linux_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+      },
+      "developers": [
+        "Ultima Thule Labs"
+      ],
+      "publishers": [
+        "Ultima Thule Labs"
+      ],
+      "support_info": {
+        "url": "",
+        "email": "info@ultimathulelabs.com"
+      },
+      "package_groups": [],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "categories": [
+        {
+          "id": 2,
+          "description": "Single-player"
+        },
+        {
+          "id": 22,
+          "description": "Steam Achievements"
+        },
+        {
+          "id": 28,
+          "description": "Full controller support"
+        },
+        {
+          "id": 61,
+          "description": "HDR available"
+        },
+        {
+          "id": 62,
+          "description": "Family Sharing"
+        }
+      ],
+      "genres": [
+        {
+          "id": "25",
+          "description": "Adventure"
+        },
+        {
+          "id": "23",
+          "description": "Indie"
+        }
+      ],
+      "release_date": {
+        "coming_soon": true,
+        "date": "Q3 2026"
+      },
+      "content_descriptors": {
+        "ids": [],
+        "notes": null
+      },
+      "ratings": {
+        "dejus": {
+          "rating_generated": "1",
+          "rating": "14",
+          "required_age": "14",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": "Linguagem imprópria\nViolência\nMedo"
+        },
+        "steam_germany": {
+          "rating_generated": "1",
+          "rating": "16",
+          "required_age": "16",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": "Horror\nAlkohol / Tabak\nDerbe Sprache"
+        },
+        "igrs": {
+          "rating_generated": "1",
+          "rating": "18",
+          "required_age": "18",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": "Rokok dan/atau rokok elektronik, minuman beralkohol, narkotika, psikotropika, dan/atau zat adiktif lainnya\nHoror\nPenggunaan bahasa"
+        }
+      }
+    }
+  },
   "4348760": {
     "success": true,
     "source_priority": "appid_populer",
