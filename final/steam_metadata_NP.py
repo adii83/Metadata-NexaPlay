@@ -1,4 +1,6 @@
 import argparse
+import gzip
+import io
 import json
 import os
 import re
@@ -24,11 +26,20 @@ STEAM_APPDETAILS_URL = "https://store.steampowered.com/api/appdetails"
 APPID_POPULER_URL = (
     "https://raw.githubusercontent.com/adii83/steam-metadata-archive/main/appid_populer.json"
 )
+FIX_GAMES_URL = (
+    "https://raw.githubusercontent.com/adii83/steam-metadata-archive/main/fix_games.json"
+)
+NEW_FIX_GAMES_URL = (
+    "https://raw.githubusercontent.com/adii83/steam-metadata-archive/main/new_fix_games.json"
+)
 OVERRIDE_DATA_URL = (
     "https://raw.githubusercontent.com/adii83/steam-metadata-archive/main/override_data.json"
 )
 STEAM_DATA_URL = (
     "https://raw.githubusercontent.com/adii83/steam-metadata-archive/main/steam_data.json"
+)
+STEAM_DATA_GZ_URL = (
+    "https://raw.githubusercontent.com/adii83/steam-metadata-archive/main/steam_data.json.gz"
 )
 
 LANGUAGE = "english"
@@ -38,6 +49,7 @@ DEFAULT_FILE_PREFIX = "steam_metadata_NP"
 DEFAULT_MAX_FILE_SIZE_MB = 25
 DEFAULT_SLEEP_SECONDS = 1.0
 DEFAULT_BATCH_SIZE = 2000
+DEFAULT_SNAPSHOT_NAME = "steam_metadata_NP_sources.json"
 
 STORE_ASSET_KEYS = [
     "header",
@@ -71,6 +83,19 @@ def fetch_json(url: str, timeout: int = 60) -> Any:
     )
     response.raise_for_status()
     return response.json()
+
+
+def fetch_and_decompress_gz(url: str, timeout: int = 60) -> Any:
+    """Fetch gzip-compressed JSON and decompress on-the-fly."""
+    response = requests.get(
+        url,
+        timeout=timeout,
+        headers={"User-Agent": "SteamMetadataNP/2.0"},
+        stream=True,
+    )
+    response.raise_for_status()
+    with gzip.GzipFile(fileobj=io.BytesIO(response.content)) as gz:
+        return json.load(gz)
 
 
 def extract_urls_from_html(raw_html: str | None) -> list[str]:
@@ -135,6 +160,56 @@ def load_popular_appids(url: str) -> list[int]:
     return appids
 
 
+def load_fix_games_appids(url: str) -> list[int]:
+    """Load App IDs from fix_games.json which has structure: {"games": [{"appid": ..., ...}]}"""
+    payload = fetch_json(url)
+    if not isinstance(payload, dict) or "games" not in payload:
+        raise RuntimeError("fix_games.json harus berupa object dengan key 'games'.")
+    
+    games = payload.get("games", [])
+    if not isinstance(games, list):
+        raise RuntimeError("fix_games.json['games'] harus berupa array.")
+    
+    appids: list[int] = []
+    for item in games:
+        if isinstance(item, dict):
+            appid = parse_appid_value(item.get("appid"))
+            if appid is not None:
+                appids.append(appid)
+    
+    return appids
+
+
+def load_new_fix_games_appids(url: str) -> list[int]:
+    """Load App IDs from new_fix_games.json which is a direct array of integers."""
+    payload = fetch_json(url)
+    if not isinstance(payload, list):
+        raise RuntimeError("new_fix_games.json harus berupa array App ID.")
+    
+    appids: list[int] = []
+    for item in payload:
+        appid = parse_appid_value(item)
+        if appid is not None:
+            appids.append(appid)
+    
+    return appids
+
+
+def load_steam_data_gz_appids(url: str) -> list[int]:
+    """Load App IDs from steam_data.json.gz (compressed version with full dataset)."""
+    payload = fetch_and_decompress_gz(url, timeout=180)
+    if not isinstance(payload, dict):
+        raise RuntimeError("steam_data.json.gz harus berupa object keyed by App ID.")
+    
+    appids: list[int] = []
+    for key in payload.keys():
+        appid = parse_appid_value(key)
+        if appid is not None:
+            appids.append(appid)
+    
+    return appids
+
+
 def load_object_appids(url: str) -> list[int]:
     if ijson is not None:
         response = requests.get(
@@ -174,7 +249,7 @@ def load_existing_archive(output_dir: Path, file_prefix: str) -> dict[int, dict]
 
     pattern = f"{file_prefix}_part*.json"
     for chunk_path in sorted(output_dir.glob(pattern)):
-        payload = json.loads(chunk_path.read_text(encoding="utf-8"))
+        payload = json.loads(chunk_path.read_text(encoding="utf-8-sig"))
         if not isinstance(payload, dict):
             continue
 
@@ -196,17 +271,23 @@ def load_progress(output_dir: Path, file_prefix: str) -> dict:
         return {
             "backlog_cursor": 0,
             "known_source_appids": [],
+            "failed_once_appids": [],
+            "failed_twice_appids": [],
         }
 
-    payload = json.loads(progress_path.read_text(encoding="utf-8"))
+    payload = json.loads(progress_path.read_text(encoding="utf-8-sig"))
     if not isinstance(payload, dict):
         return {
             "backlog_cursor": 0,
             "known_source_appids": [],
+            "failed_once_appids": [],
+            "failed_twice_appids": [],
         }
 
     payload.setdefault("backlog_cursor", 0)
     payload.setdefault("known_source_appids", [])
+    payload.setdefault("failed_once_appids", [])
+    payload.setdefault("failed_twice_appids", [])
     return payload
 
 
@@ -214,15 +295,81 @@ def write_progress(output_dir: Path, file_prefix: str, progress: dict) -> None:
     write_json_file(progress, get_progress_path(output_dir, file_prefix))
 
 
+def get_snapshot_path(output_dir: Path) -> Path:
+    return output_dir / DEFAULT_SNAPSHOT_NAME
+
+
+def save_source_snapshot(
+    output_dir: Path,
+    appids: list[int],
+    source_map: dict[int, str],
+    source_counts: dict[str, int],
+) -> Path:
+    payload = {
+        "generated_at": utc_now_iso(),
+        "appids": appids,
+        "source_map": {str(appid): source for appid, source in source_map.items()},
+        "source_counts": source_counts,
+        "sources": list(source_counts.keys()),
+    }
+    snapshot_path = get_snapshot_path(output_dir)
+    write_json_file(payload, snapshot_path)
+    return snapshot_path
+
+
+def load_source_snapshot(
+    output_dir: Path,
+) -> tuple[list[int], dict[int, str], dict[str, int]] | None:
+    snapshot_path = get_snapshot_path(output_dir)
+    if not snapshot_path.exists():
+        return None
+
+    payload = json.loads(snapshot_path.read_text(encoding="utf-8-sig"))
+    if not isinstance(payload, dict):
+        return None
+
+    raw_appids = payload.get("appids")
+    raw_source_map = payload.get("source_map")
+    raw_source_counts = payload.get("source_counts")
+
+    if not isinstance(raw_appids, list) or not isinstance(raw_source_map, dict) or not isinstance(raw_source_counts, dict):
+        return None
+
+    appids: list[int] = []
+    for item in raw_appids:
+        appid = parse_appid_value(item)
+        if appid is not None:
+            appids.append(appid)
+
+    source_map: dict[int, str] = {}
+    for key, value in raw_source_map.items():
+        appid = parse_appid_value(key)
+        if appid is not None and isinstance(value, str):
+            source_map[appid] = value
+
+    source_counts: dict[str, int] = {}
+    for key, value in raw_source_counts.items():
+        if isinstance(key, str) and isinstance(value, int):
+            source_counts[key] = value
+
+    return appids, source_map, source_counts
+
+
 def build_prioritized_appids(
     popular_url: str,
+    fix_games_url: str,
+    new_fix_games_url: str,
     override_url: str,
     steam_data_url: str,
+    steam_data_gz_url: str,
 ) -> tuple[list[int], dict[int, str], dict[str, int]]:
     prioritized_lists = [
         ("appid_populer", load_popular_appids(popular_url)),
+        ("fix_games", load_fix_games_appids(fix_games_url)),
+        ("new_fix_games", load_new_fix_games_appids(new_fix_games_url)),
         ("override_data", load_object_appids(override_url)),
         ("steam_data", load_object_appids(steam_data_url)),
+        ("steam_data_gz", load_steam_data_gz_appids(steam_data_gz_url)),
     ]
 
     appids: list[int] = []
@@ -241,10 +388,13 @@ def build_prioritized_appids(
     return appids, source_map, source_counts
 
 
-def build_retry_appids(existing_archive: dict[int, dict]) -> list[int]:
+def build_retry_appids(
+    existing_archive: dict[int, dict],
+    excluded_appids: set[int],
+) -> list[int]:
     retry_appids: list[int] = []
     for appid, payload in existing_archive.items():
-        if not payload.get("success", False):
+        if not payload.get("success", False) and appid not in excluded_appids:
             retry_appids.append(appid)
     return retry_appids
 
@@ -299,10 +449,27 @@ def select_batch_appids(
         )
         if appid is not None
     }
+    failed_once_appids = {
+        appid
+        for appid in (
+            parse_appid_value(value) for value in progress.get("failed_once_appids", [])
+        )
+        if appid is not None
+    }
+    failed_twice_appids = {
+        appid
+        for appid in (
+            parse_appid_value(value) for value in progress.get("failed_twice_appids", [])
+        )
+        if appid is not None
+    }
     processed_success = {
         appid for appid, payload in existing_archive.items() if payload.get("success", False)
     }
-    retry_failed = set(build_retry_appids(existing_archive))
+    retry_failed_appids = build_retry_appids(
+        existing_archive,
+        failed_twice_appids,
+    )
     cursor_before = int(progress.get("backlog_cursor", 0) or 0)
 
     if force_refresh:
@@ -324,25 +491,23 @@ def select_batch_appids(
     new_appids = [
         appid
         for appid in appids
-        if appid not in previous_known_source and appid not in processed_success
-    ]
-
-    retry_failed_appids = [
-        appid
-        for appid in appids
-        if appid in retry_failed and appid not in processed_success and appid not in set(new_appids)
+        if appid not in previous_known_source
+        and appid not in processed_success
+        and appid not in failed_once_appids
+        and appid not in failed_twice_appids
     ]
 
     blocked_appids = set(processed_success)
     blocked_appids.update(new_appids)
-    blocked_appids.update(retry_failed_appids)
+    blocked_appids.update(failed_once_appids)
+    blocked_appids.update(failed_twice_appids)
 
     selected: list[int] = []
-    selected.extend(new_appids[:batch_size])
+    selected.extend(retry_failed_appids[:batch_size])
 
     if len(selected) < batch_size:
         remaining = batch_size - len(selected)
-        selected.extend(retry_failed_appids[:remaining])
+        selected.extend(new_appids[:remaining])
 
     backlog_remaining = batch_size - len(selected)
     backlog_batch: list[int] = []
@@ -929,9 +1094,29 @@ def parse_args() -> argparse.Namespace:
         help=f"Jumlah App ID yang diproses per run. Default: {DEFAULT_BATCH_SIZE}",
     )
     parser.add_argument(
+        "--refresh-snapshot",
+        action="store_true",
+        help="Refresh snapshot sumber App ID dan simpan ke file lokal.",
+    )
+    parser.add_argument(
+        "--snapshot-only",
+        action="store_true",
+        help="Hanya buat snapshot sumber, lalu keluar (tanpa memproses App ID).",
+    )
+    parser.add_argument(
         "--appid-populer-url",
         default=APPID_POPULER_URL,
         help="URL sumber appid_populer.json",
+    )
+    parser.add_argument(
+        "--fix-games-url",
+        default=FIX_GAMES_URL,
+        help="URL sumber fix_games.json",
+    )
+    parser.add_argument(
+        "--new-fix-games-url",
+        default=NEW_FIX_GAMES_URL,
+        help="URL sumber new_fix_games.json",
     )
     parser.add_argument(
         "--override-data-url",
@@ -942,6 +1127,11 @@ def parse_args() -> argparse.Namespace:
         "--steam-data-url",
         default=STEAM_DATA_URL,
         help="URL sumber steam_data.json",
+    )
+    parser.add_argument(
+        "--steam-data-gz-url",
+        default=STEAM_DATA_GZ_URL,
+        help="URL sumber steam_data.json.gz",
     )
     parser.add_argument(
         "--force-refresh",
@@ -956,11 +1146,29 @@ def main() -> None:
     output_dir = Path(args.output_dir)
     ensure_directory(output_dir)
 
-    appids, source_map, source_counts = build_prioritized_appids(
-        args.appid_populer_url,
-        args.override_data_url,
-        args.steam_data_url,
-    )
+    snapshot_loaded = False
+    snapshot_payload = None if args.refresh_snapshot else load_source_snapshot(output_dir)
+    if snapshot_payload is not None:
+        appids, source_map, source_counts = snapshot_payload
+        snapshot_loaded = True
+    else:
+        appids, source_map, source_counts = build_prioritized_appids(
+            args.appid_populer_url,
+            args.fix_games_url,
+            args.new_fix_games_url,
+            args.override_data_url,
+            args.steam_data_url,
+            args.steam_data_gz_url,
+        )
+        save_source_snapshot(output_dir, appids, source_map, source_counts)
+
+    if args.snapshot_only:
+        status = "refresh" if args.refresh_snapshot else "load"
+        print(f"[snapshot] {status} | total={len(appids)} | file={get_snapshot_path(output_dir).name}")
+        return
+
+    if snapshot_loaded:
+        print(f"[snapshot] loaded | total={len(appids)} | file={get_snapshot_path(output_dir).name}")
     existing_archive = load_existing_archive(output_dir, args.file_prefix)
     progress = load_progress(output_dir, args.file_prefix)
 
@@ -976,34 +1184,29 @@ def main() -> None:
         batch_appids = batch_appids[:args.limit]
 
     next_appid_preview = batch_appids[0] if batch_appids else None
-    cursor_before = batch_stats["backlog_cursor_before"]
-    cursor_after = batch_stats["backlog_cursor_after"]
+    archive_count_before = len(existing_archive)
+    total_source_appids = sum(source_counts.values())
+
+    print(f"[run] total sumber={total_source_appids} | arsip={archive_count_before} | ambil={len(batch_appids)}")
 
     if not batch_appids:
-        print("Tidak ada App ID yang perlu diproses.")
+        print("[run] tidak ada App ID yang perlu diproses")
         return
 
-    print(
-        f"Lanjut ke App ID {next_appid_preview} | "
-        f"progress {cursor_before}->{cursor_after}"
-    )
+    print(f"[run] mulai dari App ID {next_appid_preview}")
 
     merged_entries: list[tuple[int, dict]] = []
     failures: list[dict] = []
 
     for index, appid in enumerate(batch_appids, start=1):
         source_priority = source_map.get(appid, "unknown")
-        print(
-            f"Proses {appid} | "
-            f"siklus {index}/{len(batch_appids)} | "
-            f"tersimpan {len(existing_archive)} | "
-            f"sumber {source_priority}"
-        )
+        print(f"[{index}/{len(batch_appids)}] proses App ID {appid}")
 
         try:
             merged_payload, entry_failures = merge_metadata(appid, source_priority)
             merged_entries.append((appid, merged_payload))
             failures.extend(entry_failures)
+            result_label = "OK" if merged_payload.get("success", False) else "GAGAL"
         except Exception as exc:
             failures.append(
                 build_failure_record(appid, "merge_metadata", str(exc), source_priority)
@@ -1025,12 +1228,45 @@ def main() -> None:
                     },
                 )
             )
+            result_label = "GAGAL"
+
+        print(f"    {result_label}")
 
         if args.sleep_seconds > 0:
             time.sleep(args.sleep_seconds)
 
     for appid, payload in merged_entries:
         existing_archive[appid] = payload
+
+    failed_appids_this_run = [
+        appid for appid, payload in merged_entries if not payload.get("success", False)
+    ]
+    successful_appids_this_run = {
+        appid for appid, payload in merged_entries if payload.get("success", False)
+    }
+    failed_once_set = {
+        appid
+        for appid in (
+            parse_appid_value(value) for value in progress.get("failed_once_appids", [])
+        )
+        if appid is not None
+    }
+    failed_twice_set = {
+        appid
+        for appid in (
+            parse_appid_value(value) for value in progress.get("failed_twice_appids", [])
+        )
+        if appid is not None
+    }
+
+    for appid in failed_appids_this_run:
+        if appid in failed_once_set:
+            failed_twice_set.add(appid)
+        else:
+            failed_once_set.add(appid)
+
+    failed_once_set.difference_update(successful_appids_this_run)
+    failed_twice_set.difference_update(successful_appids_this_run)
 
     all_entries = sorted(existing_archive.items(), key=lambda item: item[0])
     chunk_files = write_chunk_files(
@@ -1045,6 +1281,8 @@ def main() -> None:
 
     progress["backlog_cursor"] = batch_stats["backlog_cursor_after"]
     progress["known_source_appids"] = appids
+    progress["failed_once_appids"] = sorted(failed_once_set)
+    progress["failed_twice_appids"] = sorted(failed_twice_set)
     progress["last_run_at"] = utc_now_iso()
     progress["last_batch"] = {
         "processed_count": len(batch_appids),
@@ -1062,8 +1300,11 @@ def main() -> None:
         "source_counts": source_counts,
         "prioritized_sources": [
             "appid_populer",
+            "fix_games",
+            "new_fix_games",
             "override_data",
             "steam_data",
+            "steam_data_gz",
         ],
         "batch": {
             "batch_size": args.batch_size,
@@ -1089,11 +1330,10 @@ def main() -> None:
 
     manifest_path = output_dir / f"{args.file_prefix}_manifest.json"
     write_json_file(manifest, manifest_path)
+
+    archive_count_after = len(all_entries)
     print(
-        f"Selesai | diproses {len(batch_appids)} | "
-        f"total tersimpan {len(existing_archive)} | "
-        f"error putaran ini {len(failures)} | "
-        f"file json {len(chunk_files)}"
+        f"[run] selesai | diproses={len(batch_appids)} | arsip={archive_count_after} | error={len(failures)} | file={len(chunk_files)}"
     )
 
 
