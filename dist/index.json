@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-18T05:30:00.508286+00:00",
+  "generated_at": "2026-05-18T05:42:50.940815+00:00",
   "dataset": "steam_metadata_NP",
-  "version": "2026-05-18T05:30:00.508292+00:00",
+  "version": "2026-05-18T05:42:50.940821+00:00",
   "chunks": {
     "folder": "chunks",
-    "count": 9,
-    "total_entries": 22242,
-    "total_size_bytes": 272737922,
+    "count": 10,
+    "total_entries": 22741,
+    "total_size_bytes": 281756378,
     "files": [
       {
         "file": "steam_metadata_NP_part001.json",
@@ -14,7 +14,7 @@
         "size_bytes": 31246861,
         "sha256": "87ec2ffcb9352119a7245be5044e313de871a9a483e327e70970150a25560044",
         "entries": 3687,
-        "last_modified_utc": "2026-05-18T05:29:48.396610+00:00"
+        "last_modified_utc": "2026-05-18T05:42:38.556962+00:00"
       },
       {
         "file": "steam_metadata_NP_part002.json",
@@ -22,7 +22,7 @@
         "size_bytes": 31153033,
         "sha256": "b0f46e957e407d02dec7ce7b072bbd79b157009ac6a0d64ee5d4166376100e90",
         "entries": 4092,
-        "last_modified_utc": "2026-05-18T05:29:49.245624+00:00"
+        "last_modified_utc": "2026-05-18T05:42:39.400976+00:00"
       },
       {
         "file": "steam_metadata_NP_part003.json",
@@ -30,62 +30,70 @@
         "size_bytes": 30964174,
         "sha256": "69c4f93bf36bd5d1c3d9c5d6df54231f9c14f00cacc32cb1691ab9646ddfc6f3",
         "entries": 2871,
-        "last_modified_utc": "2026-05-18T05:29:50.070638+00:00"
+        "last_modified_utc": "2026-05-18T05:42:40.222991+00:00"
       },
       {
         "file": "steam_metadata_NP_part004.json",
         "path": "chunks/steam_metadata_NP_part004.json",
-        "size_bytes": 30805800,
-        "sha256": "cadeb658d771328f26f04b13e6c7569867267ef967fdcb670aec66310b854320",
-        "entries": 1649,
-        "last_modified_utc": "2026-05-18T05:29:50.878653+00:00"
+        "size_bytes": 30887638,
+        "sha256": "5c18fd6f4ebe0ed2845f2e172548352c71776ad44dde051e996cced9265fabf5",
+        "entries": 1724,
+        "last_modified_utc": "2026-05-18T05:42:41.033005+00:00"
       },
       {
         "file": "steam_metadata_NP_part005.json",
         "path": "chunks/steam_metadata_NP_part005.json",
-        "size_bytes": 29739213,
-        "sha256": "5abb8fdabc87e23d21ca66366ebbb5974de7d9b8c1614e0e9bd158a650165ba9",
-        "entries": 1048,
-        "last_modified_utc": "2026-05-18T05:29:51.555664+00:00"
+        "size_bytes": 30064192,
+        "sha256": "1c178eefeef2e419e7d54333f408bcf122daf28b37c19518191b4732189bccb5",
+        "entries": 1109,
+        "last_modified_utc": "2026-05-18T05:42:41.745017+00:00"
       },
       {
         "file": "steam_metadata_NP_part006.json",
         "path": "chunks/steam_metadata_NP_part006.json",
-        "size_bytes": 29833338,
-        "sha256": "0d0ee39b3cba0e942bb38ec681a4b0c3ce93ab2cd11c41093339a2883eccb886",
-        "entries": 1325,
-        "last_modified_utc": "2026-05-18T05:29:52.247676+00:00"
+        "size_bytes": 29809245,
+        "sha256": "dd88db4522b7d0aff968b54fcc147e76a8c666a663c04286851b22c83332d60b",
+        "entries": 1310,
+        "last_modified_utc": "2026-05-18T05:42:42.432029+00:00"
       },
       {
         "file": "steam_metadata_NP_part007.json",
         "path": "chunks/steam_metadata_NP_part007.json",
-        "size_bytes": 29893572,
-        "sha256": "17592573850f7395a95e2f7cfa84b8faaad6547ab2df9c06faa580f48de9b485",
-        "entries": 1582,
-        "last_modified_utc": "2026-05-18T05:29:52.943688+00:00"
+        "size_bytes": 29807967,
+        "sha256": "e49618ccada4db9839645dfea7ff85ba26a9dbac40b219190b4f3b51a2da07a2",
+        "entries": 1312,
+        "last_modified_utc": "2026-05-18T05:42:43.116041+00:00"
       },
       {
         "file": "steam_metadata_NP_part008.json",
         "path": "chunks/steam_metadata_NP_part008.json",
-        "size_bytes": 30242257,
-        "sha256": "91865289bbe9bfd6bf481714fc5de475f2ce16cbf471042ef2dd801f97dc64e3",
-        "entries": 2941,
-        "last_modified_utc": "2026-05-18T05:29:53.681701+00:00"
+        "size_bytes": 30241301,
+        "sha256": "df3d0afb4825f89bcc43831b873393c177254abb5c6898352302342775331e6e",
+        "entries": 2774,
+        "last_modified_utc": "2026-05-18T05:42:43.871054+00:00"
       },
       {
         "file": "steam_metadata_NP_part009.json",
         "path": "chunks/steam_metadata_NP_part009.json",
-        "size_bytes": 28859674,
-        "sha256": "d11d2230363788ac74379d20a22be49f5e0158c82f4cf606fa44e25c999c5d9e",
-        "entries": 3047,
-        "last_modified_utc": "2026-05-18T05:29:54.392713+00:00"
+        "size_bytes": 30232703,
+        "sha256": "c7ef0925f217c9c86ca1f8dccaa2ac581770a6d9918898b77f0f296d462e7e67",
+        "entries": 2908,
+        "last_modified_utc": "2026-05-18T05:42:44.606067+00:00"
+      },
+      {
+        "file": "steam_metadata_NP_part010.json",
+        "path": "chunks/steam_metadata_NP_part010.json",
+        "size_bytes": 7349264,
+        "sha256": "dff2f0259e302fffea57dee1efecf5adaf7ceb6b8135b19503336bd2ae21fc11",
+        "entries": 954,
+        "last_modified_utc": "2026-05-18T05:42:44.792070+00:00"
       }
     ]
   },
   "runtime_catalog": {
     "file": "runtime_catalog.json",
     "size_bytes": 20459783,
-    "sha256": "3bbb29285ece26e61786c53322847223c99fa001c828c2bff2ca234cf184a536",
-    "last_modified_utc": "2026-05-18T05:29:57.675773+00:00"
+    "sha256": "bc17936c78ca1e9af07a66006e2085a3189e4861a92a911e2865b252c7f24ec3",
+    "last_modified_utc": "2026-05-18T05:42:48.006126+00:00"
   }
 }
