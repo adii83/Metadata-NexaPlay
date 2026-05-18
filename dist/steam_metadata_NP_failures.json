@@ -1,1857 +1,2032 @@
 [
   {
-    "appid": 623460,
+    "appid": 647850,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:22:40.516722+00:00"
+    "timestamp": "2026-05-18T06:36:10.741577+00:00"
   },
   {
-    "appid": 628530,
+    "appid": 647890,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:22:44.312620+00:00"
+    "timestamp": "2026-05-18T06:36:12.132961+00:00"
   },
   {
-    "appid": 628570,
+    "appid": 647900,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:22:51.364393+00:00"
+    "timestamp": "2026-05-18T06:36:13.504405+00:00"
   },
   {
-    "appid": 628580,
+    "appid": 647910,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:22:53.434706+00:00"
+    "timestamp": "2026-05-18T06:36:14.895380+00:00"
   },
   {
-    "appid": 628650,
+    "appid": 647930,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:22:56.094755+00:00"
+    "timestamp": "2026-05-18T06:36:16.254835+00:00"
   },
   {
-    "appid": 628660,
+    "appid": 647940,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:22:58.281316+00:00"
+    "timestamp": "2026-05-18T06:36:17.676922+00:00"
   },
   {
-    "appid": 628700,
+    "appid": 647950,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:23:02.215350+00:00"
+    "timestamp": "2026-05-18T06:36:19.186043+00:00"
   },
   {
-    "appid": 628760,
+    "appid": 647980,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:23:12.499454+00:00"
+    "timestamp": "2026-05-18T06:36:21.951453+00:00"
   },
   {
-    "appid": 628820,
+    "appid": 648020,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:23:19.273062+00:00"
+    "timestamp": "2026-05-18T06:36:24.731267+00:00"
   },
   {
-    "appid": 628880,
+    "appid": 648070,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:23:22.990104+00:00"
+    "timestamp": "2026-05-18T06:36:28.861448+00:00"
   },
   {
-    "appid": 628960,
+    "appid": 648190,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:23:31.547521+00:00"
+    "timestamp": "2026-05-18T06:36:34.437187+00:00"
   },
   {
-    "appid": 629030,
+    "appid": 648220,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:23:34.385945+00:00"
+    "timestamp": "2026-05-18T06:36:35.822410+00:00"
   },
   {
-    "appid": 629040,
+    "appid": 648380,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:23:35.774182+00:00"
+    "timestamp": "2026-05-18T06:36:38.594298+00:00"
   },
   {
-    "appid": 629080,
+    "appid": 648440,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:23:37.166744+00:00"
+    "timestamp": "2026-05-18T06:36:42.977033+00:00"
   },
   {
-    "appid": 629100,
+    "appid": 648510,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:23:40.015974+00:00"
+    "timestamp": "2026-05-18T06:36:44.368504+00:00"
   },
   {
-    "appid": 629110,
+    "appid": 648530,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:23:41.397053+00:00"
+    "timestamp": "2026-05-18T06:36:45.762472+00:00"
   },
   {
-    "appid": 629180,
+    "appid": 648550,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:23:42.765867+00:00"
+    "timestamp": "2026-05-18T06:36:47.195435+00:00"
   },
   {
-    "appid": 629240,
+    "appid": 648570,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:23:46.954239+00:00"
+    "timestamp": "2026-05-18T06:36:48.593176+00:00"
   },
   {
-    "appid": 629270,
+    "appid": 648600,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:23:48.321934+00:00"
+    "timestamp": "2026-05-18T06:36:51.381745+00:00"
   },
   {
-    "appid": 629360,
+    "appid": 648810,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:23:51.096582+00:00"
+    "timestamp": "2026-05-18T06:37:02.572141+00:00"
   },
   {
-    "appid": 629380,
+    "appid": 648890,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:23:52.469054+00:00"
+    "timestamp": "2026-05-18T06:37:05.364216+00:00"
   },
   {
-    "appid": 629400,
+    "appid": 649000,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:23:53.866307+00:00"
+    "timestamp": "2026-05-18T06:37:08.160021+00:00"
   },
   {
-    "appid": 629410,
+    "appid": 649040,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:23:55.246306+00:00"
+    "timestamp": "2026-05-18T06:37:09.572128+00:00"
   },
   {
-    "appid": 629420,
+    "appid": 649120,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:23:56.631797+00:00"
+    "timestamp": "2026-05-18T06:37:10.938188+00:00"
   },
   {
-    "appid": 629440,
+    "appid": 649150,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:23:59.412185+00:00"
+    "timestamp": "2026-05-18T06:37:12.353330+00:00"
   },
   {
-    "appid": 629540,
+    "appid": 649300,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:24:02.164302+00:00"
+    "timestamp": "2026-05-18T06:37:16.547809+00:00"
   },
   {
-    "appid": 629550,
+    "appid": 649360,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:24:03.573461+00:00"
+    "timestamp": "2026-05-18T06:37:17.955286+00:00"
   },
   {
-    "appid": 629640,
+    "appid": 649450,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:24:04.942681+00:00"
+    "timestamp": "2026-05-18T06:37:19.364719+00:00"
   },
   {
-    "appid": 629720,
+    "appid": 649460,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:24:09.079179+00:00"
+    "timestamp": "2026-05-18T06:37:20.769905+00:00"
   },
   {
-    "appid": 629780,
+    "appid": 649510,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:24:14.642810+00:00"
+    "timestamp": "2026-05-18T06:37:22.143221+00:00"
   },
   {
-    "appid": 629810,
+    "appid": 649580,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:24:16.020859+00:00"
+    "timestamp": "2026-05-18T06:37:26.314791+00:00"
   },
   {
-    "appid": 629840,
+    "appid": 649620,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:24:17.405744+00:00"
+    "timestamp": "2026-05-18T06:37:29.091246+00:00"
   },
   {
-    "appid": 629960,
+    "appid": 649630,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:24:20.172347+00:00"
+    "timestamp": "2026-05-18T06:37:30.480688+00:00"
   },
   {
-    "appid": 630020,
+    "appid": 649660,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:24:22.933237+00:00"
+    "timestamp": "2026-05-18T06:37:33.429143+00:00"
   },
   {
-    "appid": 630030,
+    "appid": 649730,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:24:24.338306+00:00"
+    "timestamp": "2026-05-18T06:37:36.202553+00:00"
   },
   {
-    "appid": 630040,
+    "appid": 649740,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:24:25.811141+00:00"
+    "timestamp": "2026-05-18T06:37:37.579779+00:00"
   },
   {
-    "appid": 630050,
+    "appid": 649870,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:24:27.249242+00:00"
+    "timestamp": "2026-05-18T06:37:43.084156+00:00"
   },
   {
-    "appid": 630070,
+    "appid": 649880,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:24:30.100650+00:00"
+    "timestamp": "2026-05-18T06:37:44.485068+00:00"
   },
   {
-    "appid": 630080,
+    "appid": 649890,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:24:31.536299+00:00"
+    "timestamp": "2026-05-18T06:37:45.844902+00:00"
   },
   {
-    "appid": 630130,
+    "appid": 649990,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:24:32.909503+00:00"
+    "timestamp": "2026-05-18T06:37:51.489989+00:00"
   },
   {
-    "appid": 630160,
+    "appid": 650010,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:24:35.680186+00:00"
+    "timestamp": "2026-05-18T06:37:54.395961+00:00"
   },
   {
-    "appid": 630240,
+    "appid": 650120,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:24:38.458620+00:00"
+    "timestamp": "2026-05-18T06:37:55.763425+00:00"
   },
   {
-    "appid": 630260,
+    "appid": 650310,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:24:39.890277+00:00"
+    "timestamp": "2026-05-18T06:37:58.578746+00:00"
   },
   {
-    "appid": 630360,
+    "appid": 650340,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:24:42.752441+00:00"
+    "timestamp": "2026-05-18T06:38:01.360432+00:00"
   },
   {
-    "appid": 630390,
+    "appid": 650350,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:24:44.298472+00:00"
+    "timestamp": "2026-05-18T06:38:02.740007+00:00"
   },
   {
-    "appid": 630440,
+    "appid": 650440,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:24:45.701704+00:00"
+    "timestamp": "2026-05-18T06:38:04.167027+00:00"
   },
   {
-    "appid": 630460,
+    "appid": 650490,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:24:47.109102+00:00"
+    "timestamp": "2026-05-18T06:38:05.638556+00:00"
   },
   {
-    "appid": 630470,
+    "appid": 650510,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:24:48.504223+00:00"
+    "timestamp": "2026-05-18T06:38:07.044403+00:00"
   },
   {
-    "appid": 630490,
+    "appid": 650600,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:24:49.885278+00:00"
+    "timestamp": "2026-05-18T06:38:09.940303+00:00"
   },
   {
-    "appid": 630510,
+    "appid": 650620,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:24:51.269980+00:00"
+    "timestamp": "2026-05-18T06:38:11.349907+00:00"
   },
   {
-    "appid": 630610,
+    "appid": 650670,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:24:54.090073+00:00"
+    "timestamp": "2026-05-18T06:38:12.751503+00:00"
   },
   {
-    "appid": 630630,
+    "appid": 650680,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:24:55.493289+00:00"
+    "timestamp": "2026-05-18T06:38:14.138215+00:00"
   },
   {
-    "appid": 630670,
+    "appid": 650690,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:24:58.288858+00:00"
+    "timestamp": "2026-05-18T06:38:15.519055+00:00"
   },
   {
-    "appid": 631120,
+    "appid": 650730,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:25:05.264745+00:00"
+    "timestamp": "2026-05-18T06:38:19.828392+00:00"
   },
   {
-    "appid": 631220,
+    "appid": 650760,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:25:06.658491+00:00"
+    "timestamp": "2026-05-18T06:38:24.055055+00:00"
   },
   {
-    "appid": 631240,
+    "appid": 650770,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:25:08.044753+00:00"
+    "timestamp": "2026-05-18T06:38:25.435152+00:00"
   },
   {
-    "appid": 631250,
+    "appid": 650810,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:25:09.395514+00:00"
+    "timestamp": "2026-05-18T06:38:28.239715+00:00"
   },
   {
-    "appid": 631260,
+    "appid": 650820,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:25:10.760188+00:00"
+    "timestamp": "2026-05-18T06:38:29.609412+00:00"
   },
   {
-    "appid": 631270,
+    "appid": 650860,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:25:12.159338+00:00"
+    "timestamp": "2026-05-18T06:38:31.013301+00:00"
   },
   {
-    "appid": 631490,
+    "appid": 650880,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:25:13.528597+00:00"
+    "timestamp": "2026-05-18T06:38:32.400282+00:00"
   },
   {
-    "appid": 631660,
+    "appid": 650980,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:25:19.099156+00:00"
+    "timestamp": "2026-05-18T06:38:35.193842+00:00"
   },
   {
-    "appid": 631770,
+    "appid": 650990,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:25:21.869815+00:00"
+    "timestamp": "2026-05-18T06:38:36.572387+00:00"
   },
   {
-    "appid": 631810,
+    "appid": 651010,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:25:23.231227+00:00"
+    "timestamp": "2026-05-18T06:38:37.987220+00:00"
   },
   {
-    "appid": 631900,
+    "appid": 651080,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:25:27.391721+00:00"
+    "timestamp": "2026-05-18T06:38:39.376914+00:00"
   },
   {
-    "appid": 631950,
+    "appid": 651090,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:25:31.463954+00:00"
+    "timestamp": "2026-05-18T06:38:40.732854+00:00"
   },
   {
-    "appid": 631960,
+    "appid": 651120,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:25:32.811694+00:00"
+    "timestamp": "2026-05-18T06:38:42.220566+00:00"
   },
   {
-    "appid": 631980,
+    "appid": 651170,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:25:34.196381+00:00"
+    "timestamp": "2026-05-18T06:38:43.607910+00:00"
   },
   {
-    "appid": 631990,
+    "appid": 651280,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:25:35.599558+00:00"
+    "timestamp": "2026-05-18T06:38:45.002787+00:00"
   },
   {
-    "appid": 632040,
+    "appid": 651310,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:25:39.736813+00:00"
+    "timestamp": "2026-05-18T06:38:46.395240+00:00"
   },
   {
-    "appid": 632070,
+    "appid": 651370,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:25:42.497195+00:00"
+    "timestamp": "2026-05-18T06:38:50.577308+00:00"
   },
   {
-    "appid": 632080,
+    "appid": 651380,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:25:43.858574+00:00"
+    "timestamp": "2026-05-18T06:38:51.946333+00:00"
   },
   {
-    "appid": 632200,
+    "appid": 651550,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:38:59.157109+00:00"
+  },
+  {
+    "appid": 651560,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:39:00.553389+00:00"
+  },
+  {
+    "appid": 651610,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:39:03.351232+00:00"
+  },
+  {
+    "appid": 651640,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:39:04.832262+00:00"
+  },
+  {
+    "appid": 651650,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:39:06.364498+00:00"
+  },
+  {
+    "appid": 651690,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:39:12.073469+00:00"
+  },
+  {
+    "appid": 651820,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:39:13.454001+00:00"
+  },
+  {
+    "appid": 651970,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:39:17.620468+00:00"
+  },
+  {
+    "appid": 651990,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:39:19.026027+00:00"
+  },
+  {
+    "appid": 652040,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:39:21.801030+00:00"
+  },
+  {
+    "appid": 652060,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:39:24.567197+00:00"
+  },
+  {
+    "appid": 652070,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:39:25.954813+00:00"
+  },
+  {
+    "appid": 652120,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:39:28.706964+00:00"
+  },
+  {
+    "appid": 652140,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:39:30.137364+00:00"
+  },
+  {
+    "appid": 652160,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:39:31.565645+00:00"
+  },
+  {
+    "appid": 652180,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:39:33.044449+00:00"
+  },
+  {
+    "appid": 652200,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:39:35.936057+00:00"
+  },
+  {
+    "appid": 652230,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:39:37.315245+00:00"
+  },
+  {
+    "appid": 652250,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:39:38.689497+00:00"
+  },
+  {
+    "appid": 652310,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:39:41.439169+00:00"
+  },
+  {
+    "appid": 652340,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:39:44.228480+00:00"
+  },
+  {
+    "appid": 652390,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:39:47.032196+00:00"
+  },
+  {
+    "appid": 652470,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:39:51.257785+00:00"
+  },
+  {
+    "appid": 652480,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:39:52.619340+00:00"
+  },
+  {
+    "appid": 652530,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:39:55.436238+00:00"
+  },
+  {
+    "appid": 652540,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:39:56.947936+00:00"
+  },
+  {
+    "appid": 652550,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:39:58.338670+00:00"
+  },
+  {
+    "appid": 652560,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:39:59.721667+00:00"
+  },
+  {
+    "appid": 652600,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:40:02.545266+00:00"
+  },
+  {
+    "appid": 652610,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:40:03.950760+00:00"
+  },
+  {
+    "appid": 652660,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:40:05.345652+00:00"
+  },
+  {
+    "appid": 652700,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:40:06.769134+00:00"
+  },
+  {
+    "appid": 652730,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:40:08.124952+00:00"
+  },
+  {
+    "appid": 652750,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:40:09.500308+00:00"
+  },
+  {
+    "appid": 652800,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:40:15.247590+00:00"
+  },
+  {
+    "appid": 652830,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:40:18.052913+00:00"
+  },
+  {
+    "appid": 652880,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:40:19.493352+00:00"
+  },
+  {
+    "appid": 652890,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:40:20.891249+00:00"
+  },
+  {
+    "appid": 652910,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:40:23.732762+00:00"
+  },
+  {
+    "appid": 652950,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:40:26.564319+00:00"
+  },
+  {
+    "appid": 652980,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:40:27.950485+00:00"
+  },
+  {
+    "appid": 652990,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:40:29.387461+00:00"
+  },
+  {
+    "appid": 653050,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:40:32.240529+00:00"
+  },
+  {
+    "appid": 653130,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:40:38.047331+00:00"
+  },
+  {
+    "appid": 653190,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:40:39.444049+00:00"
+  },
+  {
+    "appid": 653210,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:40:40.849756+00:00"
+  },
+  {
+    "appid": 653760,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:40:46.597008+00:00"
+  },
+  {
+    "appid": 653770,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:40:48.021605+00:00"
+  },
+  {
+    "appid": 653780,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:40:49.405120+00:00"
+  },
+  {
+    "appid": 653840,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:40:50.754744+00:00"
+  },
+  {
+    "appid": 653870,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:40:53.697446+00:00"
+  },
+  {
+    "appid": 653920,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:40:55.262134+00:00"
+  },
+  {
+    "appid": 653930,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:40:56.976269+00:00"
+  },
+  {
+    "appid": 653950,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:40:59.879773+00:00"
+  },
+  {
+    "appid": 653960,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:41:01.266518+00:00"
+  },
+  {
+    "appid": 653970,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:41:02.644732+00:00"
+  },
+  {
+    "appid": 654000,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:41:04.022384+00:00"
+  },
+  {
+    "appid": 654010,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:41:05.437283+00:00"
+  },
+  {
+    "appid": 654020,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:41:06.866021+00:00"
+  },
+  {
+    "appid": 654060,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:41:08.228687+00:00"
+  },
+  {
+    "appid": 654070,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:41:09.601223+00:00"
+  },
+  {
+    "appid": 654090,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:41:12.446476+00:00"
+  },
+  {
+    "appid": 654110,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:41:15.204344+00:00"
+  },
+  {
+    "appid": 654240,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:41:19.466659+00:00"
+  },
+  {
+    "appid": 654250,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:41:20.847245+00:00"
+  },
+  {
+    "appid": 654260,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:41:22.264324+00:00"
+  },
+  {
+    "appid": 654300,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:41:23.690303+00:00"
+  },
+  {
+    "appid": 654350,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:41:25.140887+00:00"
+  },
+  {
+    "appid": 654430,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:41:29.350065+00:00"
+  },
+  {
+    "appid": 654520,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:41:36.369698+00:00"
+  },
+  {
+    "appid": 654570,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:41:39.246591+00:00"
+  },
+  {
+    "appid": 654610,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:41:43.451779+00:00"
+  },
+  {
+    "appid": 654630,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:41:44.823641+00:00"
+  },
+  {
+    "appid": 654640,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:41:46.194034+00:00"
+  },
+  {
+    "appid": 654660,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:41:47.614493+00:00"
+  },
+  {
+    "appid": 654670,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:41:49.026995+00:00"
+  },
+  {
+    "appid": 654680,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:41:50.499937+00:00"
+  },
+  {
+    "appid": 654700,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:41:51.977464+00:00"
+  },
+  {
+    "appid": 654710,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:41:53.360245+00:00"
+  },
+  {
+    "appid": 654740,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:41:54.731951+00:00"
+  },
+  {
+    "appid": 654770,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:41:57.525715+00:00"
+  },
+  {
+    "appid": 654800,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:41:58.988025+00:00"
+  },
+  {
+    "appid": 654810,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:42:00.379730+00:00"
+  },
+  {
+    "appid": 654820,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:42:01.761339+00:00"
+  },
+  {
+    "appid": 654840,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:42:03.134283+00:00"
+  },
+  {
+    "appid": 654910,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:42:11.448348+00:00"
+  },
+  {
+    "appid": 654940,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:42:12.874420+00:00"
+  },
+  {
+    "appid": 654970,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:42:16.979682+00:00"
+  },
+  {
+    "appid": 654980,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:42:18.344031+00:00"
+  },
+  {
+    "appid": 655040,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:42:23.846565+00:00"
+  },
+  {
+    "appid": 655110,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:42:28.035143+00:00"
+  },
+  {
+    "appid": 655160,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:42:29.416464+00:00"
+  },
+  {
+    "appid": 655170,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:42:30.889183+00:00"
+  },
+  {
+    "appid": 655180,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:42:32.333502+00:00"
+  },
+  {
+    "appid": 655200,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:42:33.742018+00:00"
+  },
+  {
+    "appid": 655220,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:42:35.187363+00:00"
+  },
+  {
+    "appid": 655250,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:42:36.568718+00:00"
+  },
+  {
+    "appid": 655280,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:42:39.322560+00:00"
+  },
+  {
+    "appid": 655360,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:42:43.553951+00:00"
+  },
+  {
+    "appid": 655420,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:42:47.722337+00:00"
+  },
+  {
+    "appid": 655430,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:42:49.132250+00:00"
+  },
+  {
+    "appid": 655440,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:42:50.501225+00:00"
+  },
+  {
+    "appid": 655460,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:42:51.938267+00:00"
+  },
+  {
+    "appid": 655490,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:42:54.766015+00:00"
+  },
+  {
+    "appid": 655520,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:42:57.556580+00:00"
+  },
+  {
+    "appid": 655550,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:43:00.290034+00:00"
+  },
+  {
+    "appid": 655580,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:43:01.668144+00:00"
+  },
+  {
+    "appid": 655600,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:43:03.097625+00:00"
+  },
+  {
+    "appid": 655610,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:43:04.511950+00:00"
+  },
+  {
+    "appid": 655620,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:43:05.890904+00:00"
+  },
+  {
+    "appid": 655630,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:43:07.256522+00:00"
+  },
+  {
+    "appid": 655640,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:43:08.839139+00:00"
+  },
+  {
+    "appid": 655650,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:43:10.231692+00:00"
+  },
+  {
+    "appid": 655700,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:43:14.387257+00:00"
+  },
+  {
+    "appid": 655710,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-18T06:43:15.785300+00:00"
+  },
+  {
+    "appid": 655910,
     "stage": "steam_appdetails",
-    "error": "Steam mengembalikan success=false.",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=655910&l=english&cc=us",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:25:50.479677+00:00"
+    "timestamp": "2026-05-18T06:43:41.173591+00:00"
   },
   {
-    "appid": 632200,
+    "appid": 655910,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:25:50.711344+00:00"
+    "timestamp": "2026-05-18T06:43:41.407798+00:00"
   },
   {
-    "appid": 632240,
+    "appid": 655930,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:25:52.083364+00:00"
+    "timestamp": "2026-05-18T06:43:42.863437+00:00"
   },
   {
-    "appid": 632290,
+    "appid": 655950,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:25:54.895385+00:00"
+    "timestamp": "2026-05-18T06:43:45.767441+00:00"
   },
   {
-    "appid": 632510,
+    "appid": 655980,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:26:03.459487+00:00"
+    "timestamp": "2026-05-18T06:43:47.199002+00:00"
   },
   {
-    "appid": 632710,
+    "appid": 656020,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:26:06.319317+00:00"
+    "timestamp": "2026-05-18T06:43:48.658805+00:00"
   },
   {
-    "appid": 632820,
+    "appid": 656060,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:26:09.124551+00:00"
+    "timestamp": "2026-05-18T06:43:51.464805+00:00"
   },
   {
-    "appid": 632830,
+    "appid": 656070,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:26:10.515103+00:00"
+    "timestamp": "2026-05-18T06:43:52.827012+00:00"
   },
   {
-    "appid": 632840,
+    "appid": 656130,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:26:11.879056+00:00"
+    "timestamp": "2026-05-18T06:43:55.622977+00:00"
   },
   {
-    "appid": 633320,
+    "appid": 656140,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:26:23.192354+00:00"
+    "timestamp": "2026-05-18T06:43:56.978845+00:00"
   },
   {
-    "appid": 633430,
+    "appid": 656170,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:26:25.963639+00:00"
+    "timestamp": "2026-05-18T06:43:58.384203+00:00"
   },
   {
-    "appid": 633580,
+    "appid": 656210,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:26:30.129977+00:00"
+    "timestamp": "2026-05-18T06:44:02.564996+00:00"
   },
   {
-    "appid": 633600,
+    "appid": 656260,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:26:31.650044+00:00"
+    "timestamp": "2026-05-18T06:44:06.885554+00:00"
   },
   {
-    "appid": 633660,
+    "appid": 656280,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:26:33.014794+00:00"
+    "timestamp": "2026-05-18T06:44:08.250850+00:00"
   },
   {
-    "appid": 633930,
+    "appid": 656330,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:26:34.411160+00:00"
+    "timestamp": "2026-05-18T06:44:12.472636+00:00"
   },
   {
-    "appid": 633940,
+    "appid": 656360,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:26:35.830267+00:00"
+    "timestamp": "2026-05-18T06:44:15.270156+00:00"
   },
   {
-    "appid": 633950,
+    "appid": 656400,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:26:37.223151+00:00"
+    "timestamp": "2026-05-18T06:44:18.090355+00:00"
   },
   {
-    "appid": 633970,
+    "appid": 656440,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:26:39.007310+00:00"
+    "timestamp": "2026-05-18T06:44:19.496068+00:00"
   },
   {
-    "appid": 634060,
+    "appid": 656480,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:26:40.392713+00:00"
+    "timestamp": "2026-05-18T06:44:23.724280+00:00"
   },
   {
-    "appid": 634070,
+    "appid": 656530,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:26:41.784226+00:00"
+    "timestamp": "2026-05-18T06:44:28.539530+00:00"
   },
   {
-    "appid": 634090,
+    "appid": 656560,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:26:43.167763+00:00"
+    "timestamp": "2026-05-18T06:44:32.868226+00:00"
   },
   {
-    "appid": 634150,
+    "appid": 656580,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:26:45.958912+00:00"
+    "timestamp": "2026-05-18T06:44:35.705054+00:00"
   },
   {
-    "appid": 634200,
+    "appid": 656600,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:26:50.248990+00:00"
+    "timestamp": "2026-05-18T06:44:39.162183+00:00"
   },
   {
-    "appid": 634700,
+    "appid": 656610,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:26:54.427287+00:00"
+    "timestamp": "2026-05-18T06:44:41.041605+00:00"
   },
   {
-    "appid": 635040,
+    "appid": 656620,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:26:57.142646+00:00"
+    "timestamp": "2026-05-18T06:44:43.080153+00:00"
   },
   {
-    "appid": 635050,
+    "appid": 656630,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:26:58.510887+00:00"
+    "timestamp": "2026-05-18T06:44:45.334957+00:00"
   },
   {
-    "appid": 635060,
+    "appid": 656640,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:26:59.881469+00:00"
+    "timestamp": "2026-05-18T06:44:46.958302+00:00"
   },
   {
-    "appid": 635190,
+    "appid": 656660,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:27:01.232352+00:00"
+    "timestamp": "2026-05-18T06:44:49.317353+00:00"
   },
   {
-    "appid": 635220,
+    "appid": 656680,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:27:03.950023+00:00"
+    "timestamp": "2026-05-18T06:44:50.819900+00:00"
   },
   {
-    "appid": 635250,
+    "appid": 656730,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:27:05.398666+00:00"
+    "timestamp": "2026-05-18T06:44:55.128686+00:00"
   },
   {
-    "appid": 635270,
+    "appid": 656840,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:27:08.123878+00:00"
+    "timestamp": "2026-05-18T06:45:01.288048+00:00"
   },
   {
-    "appid": 635310,
+    "appid": 656880,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:27:09.488227+00:00"
+    "timestamp": "2026-05-18T06:45:02.789176+00:00"
   },
   {
-    "appid": 635520,
+    "appid": 656890,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:27:15.003527+00:00"
+    "timestamp": "2026-05-18T06:45:04.437960+00:00"
   },
   {
-    "appid": 635810,
+    "appid": 656900,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:27:21.972739+00:00"
+    "timestamp": "2026-05-18T06:45:06.182421+00:00"
   },
   {
-    "appid": 635830,
+    "appid": 656910,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:27:23.333806+00:00"
+    "timestamp": "2026-05-18T06:45:08.329302+00:00"
   },
   {
-    "appid": 635850,
+    "appid": 656940,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:27:24.703133+00:00"
+    "timestamp": "2026-05-18T06:45:09.957661+00:00"
   },
   {
-    "appid": 635880,
+    "appid": 657010,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:27:26.075202+00:00"
+    "timestamp": "2026-05-18T06:45:14.063420+00:00"
   },
   {
-    "appid": 635980,
+    "appid": 657020,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:27:31.680612+00:00"
+    "timestamp": "2026-05-18T06:45:15.430095+00:00"
   },
   {
-    "appid": 636010,
+    "appid": 657070,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:27:33.047111+00:00"
+    "timestamp": "2026-05-18T06:45:21.063335+00:00"
   },
   {
-    "appid": 636020,
+    "appid": 657080,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:27:34.442410+00:00"
+    "timestamp": "2026-05-18T06:45:22.460923+00:00"
   },
   {
-    "appid": 636030,
+    "appid": 657110,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:27:35.800764+00:00"
+    "timestamp": "2026-05-18T06:45:25.299399+00:00"
   },
   {
-    "appid": 636050,
+    "appid": 657120,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:27:37.204066+00:00"
+    "timestamp": "2026-05-18T06:45:26.661641+00:00"
   },
   {
-    "appid": 636220,
+    "appid": 657210,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:27:45.549348+00:00"
+    "timestamp": "2026-05-18T06:45:30.787245+00:00"
   },
   {
-    "appid": 636230,
+    "appid": 657230,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:27:46.923824+00:00"
+    "timestamp": "2026-05-18T06:45:32.207012+00:00"
   },
   {
-    "appid": 636270,
+    "appid": 657400,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:27:48.288925+00:00"
+    "timestamp": "2026-05-18T06:45:41.080354+00:00"
   },
   {
-    "appid": 636310,
+    "appid": 657410,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:27:49.655396+00:00"
+    "timestamp": "2026-05-18T06:45:42.429092+00:00"
   },
   {
-    "appid": 636330,
+    "appid": 657440,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:27:52.583117+00:00"
+    "timestamp": "2026-05-18T06:45:43.807889+00:00"
   },
   {
-    "appid": 636360,
+    "appid": 657450,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:27:53.949768+00:00"
+    "timestamp": "2026-05-18T06:45:45.218637+00:00"
   },
   {
-    "appid": 636370,
+    "appid": 657500,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:27:55.349615+00:00"
+    "timestamp": "2026-05-18T06:45:48.019102+00:00"
   },
   {
-    "appid": 636400,
+    "appid": 657530,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:27:58.126654+00:00"
+    "timestamp": "2026-05-18T06:45:49.403360+00:00"
   },
   {
-    "appid": 636430,
+    "appid": 657580,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:27:59.640250+00:00"
+    "timestamp": "2026-05-18T06:45:52.215977+00:00"
   },
   {
-    "appid": 636460,
+    "appid": 657590,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:28:02.374354+00:00"
+    "timestamp": "2026-05-18T06:45:53.607325+00:00"
   },
   {
-    "appid": 636490,
+    "appid": 657780,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:28:05.102236+00:00"
+    "timestamp": "2026-05-18T06:46:00.590651+00:00"
   },
   {
-    "appid": 636520,
+    "appid": 658060,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:28:06.455571+00:00"
+    "timestamp": "2026-05-18T06:46:06.161288+00:00"
   },
   {
-    "appid": 636560,
+    "appid": 658120,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:28:07.806269+00:00"
+    "timestamp": "2026-05-18T06:46:08.923646+00:00"
   },
   {
-    "appid": 636570,
+    "appid": 658140,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:28:09.191706+00:00"
+    "timestamp": "2026-05-18T06:46:10.346237+00:00"
   },
   {
-    "appid": 636580,
+    "appid": 658160,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:28:10.636827+00:00"
+    "timestamp": "2026-05-18T06:46:13.318184+00:00"
   },
   {
-    "appid": 636590,
+    "appid": 658210,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:28:11.997153+00:00"
+    "timestamp": "2026-05-18T06:46:14.744946+00:00"
   },
   {
-    "appid": 636620,
+    "appid": 658230,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:28:13.369505+00:00"
+    "timestamp": "2026-05-18T06:46:16.160381+00:00"
   },
   {
-    "appid": 636910,
+    "appid": 658250,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:28:20.268889+00:00"
+    "timestamp": "2026-05-18T06:46:17.565755+00:00"
   },
   {
-    "appid": 636950,
+    "appid": 658260,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:28:23.042457+00:00"
+    "timestamp": "2026-05-18T06:46:18.965535+00:00"
   },
   {
-    "appid": 636960,
-    "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=636960&l=english&cc=us",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:28:38.546517+00:00"
-  },
-  {
-    "appid": 637040,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:28:41.684307+00:00"
-  },
-  {
-    "appid": 637070,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:28:45.908088+00:00"
-  },
-  {
-    "appid": 637110,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:28:48.701419+00:00"
-  },
-  {
-    "appid": 637120,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:28:50.122620+00:00"
-  },
-  {
-    "appid": 637330,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:28:52.891970+00:00"
-  },
-  {
-    "appid": 637340,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:28:54.271044+00:00"
-  },
-  {
-    "appid": 637640,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:28:57.038563+00:00"
-  },
-  {
-    "appid": 637860,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:29:01.216245+00:00"
-  },
-  {
-    "appid": 637870,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:29:02.590374+00:00"
-  },
-  {
-    "appid": 637880,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:29:04.002729+00:00"
-  },
-  {
-    "appid": 637980,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:29:09.506284+00:00"
-  },
-  {
-    "appid": 638020,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:29:12.283765+00:00"
-  },
-  {
-    "appid": 638110,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:29:16.457495+00:00"
-  },
-  {
-    "appid": 638240,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:29:22.159962+00:00"
-  },
-  {
-    "appid": 638250,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:29:23.551997+00:00"
-  },
-  {
-    "appid": 638260,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:29:24.933538+00:00"
-  },
-  {
-    "appid": 638270,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:29:26.279940+00:00"
-  },
-  {
-    "appid": 638290,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:29:27.662638+00:00"
-  },
-  {
-    "appid": 638500,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:29:33.313723+00:00"
-  },
-  {
-    "appid": 638650,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:29:36.094619+00:00"
-  },
-  {
-    "appid": 638830,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:29:40.255804+00:00"
-  },
-  {
-    "appid": 638900,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:29:43.043847+00:00"
-  },
-  {
-    "appid": 638920,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:29:44.415364+00:00"
-  },
-  {
-    "appid": 639220,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:29:52.758753+00:00"
-  },
-  {
-    "appid": 639280,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:29:58.409874+00:00"
-  },
-  {
-    "appid": 639320,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:30:01.171481+00:00"
-  },
-  {
-    "appid": 639440,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:30:02.598873+00:00"
-  },
-  {
-    "appid": 639460,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:30:03.955641+00:00"
-  },
-  {
-    "appid": 639490,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:30:06.793098+00:00"
-  },
-  {
-    "appid": 639560,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:30:08.173066+00:00"
-  },
-  {
-    "appid": 639920,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:30:17.962683+00:00"
-  },
-  {
-    "appid": 640050,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:30:20.765200+00:00"
-  },
-  {
-    "appid": 640250,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:30:29.185764+00:00"
-  },
-  {
-    "appid": 640310,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:30:33.391844+00:00"
-  },
-  {
-    "appid": 640600,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:30:39.169504+00:00"
-  },
-  {
-    "appid": 640760,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:30:43.374664+00:00"
-  },
-  {
-    "appid": 640840,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:30:49.002756+00:00"
-  },
-  {
-    "appid": 640990,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:30:55.970009+00:00"
-  },
-  {
-    "appid": 641050,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:30:57.388802+00:00"
-  },
-  {
-    "appid": 641590,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:31:00.284809+00:00"
-  },
-  {
-    "appid": 641860,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:31:03.140778+00:00"
-  },
-  {
-    "appid": 641870,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:31:04.583309+00:00"
-  },
-  {
-    "appid": 641940,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:31:07.341840+00:00"
-  },
-  {
-    "appid": 642000,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:31:14.271283+00:00"
-  },
-  {
-    "appid": 642070,
+    "appid": 658280,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:31:17.072907+00:00"
+    "timestamp": "2026-05-18T06:46:20.320266+00:00"
   },
   {
-    "appid": 642190,
+    "appid": 658340,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:31:21.192823+00:00"
+    "timestamp": "2026-05-18T06:46:21.685890+00:00"
   },
   {
-    "appid": 642520,
+    "appid": 658390,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:31:23.925036+00:00"
+    "timestamp": "2026-05-18T06:46:23.070536+00:00"
   },
   {
-    "appid": 642560,
+    "appid": 658400,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:31:25.294208+00:00"
+    "timestamp": "2026-05-18T06:46:24.438778+00:00"
   },
   {
-    "appid": 642570,
+    "appid": 658430,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:31:26.650933+00:00"
+    "timestamp": "2026-05-18T06:46:25.860902+00:00"
   },
   {
-    "appid": 642660,
+    "appid": 658450,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:31:34.975790+00:00"
-  },
-  {
-    "appid": 642670,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:31:36.338137+00:00"
-  },
-  {
-    "appid": 642690,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:31:37.715792+00:00"
-  },
-  {
-    "appid": 642700,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:31:39.079714+00:00"
-  },
-  {
-    "appid": 642710,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:31:40.426390+00:00"
-  },
-  {
-    "appid": 642730,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:31:41.914509+00:00"
-  },
-  {
-    "appid": 642830,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:31:43.325017+00:00"
-  },
-  {
-    "appid": 642840,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:31:44.756894+00:00"
-  },
-  {
-    "appid": 642860,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:31:46.139232+00:00"
-  },
-  {
-    "appid": 643260,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:31:50.305363+00:00"
-  },
-  {
-    "appid": 643270,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:31:51.681993+00:00"
-  },
-  {
-    "appid": 643570,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:31:54.436390+00:00"
-  },
-  {
-    "appid": 643590,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:31:55.818758+00:00"
-  },
-  {
-    "appid": 643620,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:31:58.591361+00:00"
-  },
-  {
-    "appid": 643830,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:32:02.710672+00:00"
-  },
-  {
-    "appid": 643930,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:32:08.239807+00:00"
-  },
-  {
-    "appid": 643950,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:32:11.003714+00:00"
-  },
-  {
-    "appid": 643970,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:32:13.795737+00:00"
-  },
-  {
-    "appid": 644010,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:32:17.979796+00:00"
-  },
-  {
-    "appid": 644080,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:32:19.400125+00:00"
-  },
-  {
-    "appid": 644130,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:32:20.769324+00:00"
-  },
-  {
-    "appid": 644150,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:32:22.139534+00:00"
-  },
-  {
-    "appid": 644160,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:32:23.515562+00:00"
-  },
-  {
-    "appid": 644280,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:32:24.890384+00:00"
-  },
-  {
-    "appid": 644330,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:32:26.316340+00:00"
-  },
-  {
-    "appid": 644340,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:32:27.715361+00:00"
-  },
-  {
-    "appid": 644370,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:32:29.123027+00:00"
-  },
-  {
-    "appid": 644380,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:32:30.531478+00:00"
-  },
-  {
-    "appid": 644400,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:32:33.288664+00:00"
-  },
-  {
-    "appid": 644420,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:32:34.687831+00:00"
-  },
-  {
-    "appid": 644540,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:32:38.891707+00:00"
-  },
-  {
-    "appid": 644550,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:32:40.294743+00:00"
-  },
-  {
-    "appid": 644610,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:32:44.457007+00:00"
-  },
-  {
-    "appid": 644640,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:32:45.836264+00:00"
-  },
-  {
-    "appid": 644660,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:32:47.224692+00:00"
-  },
-  {
-    "appid": 644670,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:32:48.647874+00:00"
-  },
-  {
-    "appid": 644680,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:32:50.240098+00:00"
-  },
-  {
-    "appid": 644740,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:32:53.013237+00:00"
-  },
-  {
-    "appid": 644760,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:32:54.457659+00:00"
-  },
-  {
-    "appid": 644800,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:32:55.811525+00:00"
-  },
-  {
-    "appid": 644890,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:33:01.539980+00:00"
-  },
-  {
-    "appid": 645150,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:33:07.058536+00:00"
-  },
-  {
-    "appid": 645240,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:33:13.950371+00:00"
-  },
-  {
-    "appid": 645260,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:33:15.333729+00:00"
-  },
-  {
-    "appid": 645280,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:33:18.121481+00:00"
-  },
-  {
-    "appid": 645290,
-    "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=645290&l=english&cc=us",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:33:33.622860+00:00"
+    "timestamp": "2026-05-18T06:46:27.210588+00:00"
   },
   {
-    "appid": 645330,
+    "appid": 658470,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:33:42.945518+00:00"
+    "timestamp": "2026-05-18T06:46:28.840161+00:00"
   },
   {
-    "appid": 645340,
+    "appid": 658490,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:33:44.374923+00:00"
+    "timestamp": "2026-05-18T06:46:31.744828+00:00"
   },
   {
-    "appid": 645360,
+    "appid": 658510,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:33:45.763224+00:00"
+    "timestamp": "2026-05-18T06:46:34.484182+00:00"
   },
   {
-    "appid": 645420,
+    "appid": 658570,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:33:50.015563+00:00"
+    "timestamp": "2026-05-18T06:46:40.160289+00:00"
   },
   {
-    "appid": 645440,
+    "appid": 658610,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:33:51.387447+00:00"
+    "timestamp": "2026-05-18T06:46:44.353620+00:00"
   },
   {
-    "appid": 645470,
+    "appid": 658630,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:33:55.577936+00:00"
+    "timestamp": "2026-05-18T06:46:47.102311+00:00"
   },
   {
-    "appid": 645730,
+    "appid": 658660,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:34:03.973047+00:00"
+    "timestamp": "2026-05-18T06:46:48.472293+00:00"
   },
   {
-    "appid": 645750,
+    "appid": 658710,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:34:05.405735+00:00"
+    "timestamp": "2026-05-18T06:46:52.634237+00:00"
   },
   {
-    "appid": 645790,
+    "appid": 658770,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:34:08.150004+00:00"
+    "timestamp": "2026-05-18T06:46:55.346951+00:00"
   },
   {
-    "appid": 645860,
+    "appid": 658800,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:34:12.394714+00:00"
+    "timestamp": "2026-05-18T06:46:59.461141+00:00"
   },
   {
-    "appid": 645920,
+    "appid": 658810,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:34:13.777956+00:00"
+    "timestamp": "2026-05-18T06:47:00.870008+00:00"
   },
   {
-    "appid": 645930,
+    "appid": 658870,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:34:15.155930+00:00"
+    "timestamp": "2026-05-18T06:47:05.044498+00:00"
   },
   {
-    "appid": 645940,
+    "appid": 659000,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:34:16.545295+00:00"
+    "timestamp": "2026-05-18T06:47:13.414708+00:00"
   },
   {
-    "appid": 646010,
+    "appid": 659040,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:34:17.945925+00:00"
+    "timestamp": "2026-05-18T06:47:14.783639+00:00"
   },
   {
-    "appid": 646050,
+    "appid": 659110,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:34:20.739117+00:00"
+    "timestamp": "2026-05-18T06:47:17.571142+00:00"
   },
   {
-    "appid": 646100,
+    "appid": 659130,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:34:22.112924+00:00"
+    "timestamp": "2026-05-18T06:47:18.955574+00:00"
   },
   {
-    "appid": 646150,
+    "appid": 659150,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:34:23.494623+00:00"
+    "timestamp": "2026-05-18T06:47:21.732008+00:00"
   },
   {
-    "appid": 646180,
+    "appid": 659320,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:34:24.855836+00:00"
+    "timestamp": "2026-05-18T06:47:32.926581+00:00"
   },
   {
-    "appid": 646200,
+    "appid": 659330,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:34:26.265778+00:00"
+    "timestamp": "2026-05-18T06:47:34.269296+00:00"
   },
   {
-    "appid": 646280,
+    "appid": 659460,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:34:30.459992+00:00"
+    "timestamp": "2026-05-18T06:47:35.677067+00:00"
   },
   {
-    "appid": 646300,
+    "appid": 659480,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:34:31.854276+00:00"
+    "timestamp": "2026-05-18T06:47:37.098681+00:00"
   },
   {
-    "appid": 646350,
+    "appid": 659500,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:34:34.642631+00:00"
+    "timestamp": "2026-05-18T06:47:39.865207+00:00"
   },
   {
-    "appid": 646360,
+    "appid": 659510,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:34:36.025507+00:00"
+    "timestamp": "2026-05-18T06:47:41.227834+00:00"
   },
   {
-    "appid": 646370,
+    "appid": 659560,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:34:37.453447+00:00"
+    "timestamp": "2026-05-18T06:47:44.020918+00:00"
   },
   {
-    "appid": 646430,
+    "appid": 659630,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:34:38.859522+00:00"
+    "timestamp": "2026-05-18T06:47:45.444704+00:00"
   },
   {
-    "appid": 646460,
+    "appid": 659760,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:34:40.282320+00:00"
+    "timestamp": "2026-05-18T06:47:46.810369+00:00"
   },
   {
-    "appid": 646470,
+    "appid": 659790,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:34:41.665369+00:00"
+    "timestamp": "2026-05-18T06:47:49.678339+00:00"
   },
   {
-    "appid": 646680,
+    "appid": 659810,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:34:48.783916+00:00"
+    "timestamp": "2026-05-18T06:47:51.073251+00:00"
   },
   {
-    "appid": 646820,
+    "appid": 659830,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:34:50.161800+00:00"
+    "timestamp": "2026-05-18T06:47:52.502856+00:00"
   },
   {
-    "appid": 646890,
+    "appid": 659860,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:34:52.910567+00:00"
+    "timestamp": "2026-05-18T06:47:55.426559+00:00"
   },
   {
-    "appid": 646960,
+    "appid": 659870,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:34:54.368276+00:00"
+    "timestamp": "2026-05-18T06:47:56.901177+00:00"
   },
   {
-    "appid": 647000,
+    "appid": 659890,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:34:55.740391+00:00"
+    "timestamp": "2026-05-18T06:47:58.290751+00:00"
   },
   {
-    "appid": 647040,
+    "appid": 659900,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:34:57.192832+00:00"
+    "timestamp": "2026-05-18T06:47:59.686891+00:00"
   },
   {
-    "appid": 647050,
+    "appid": 659910,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:34:58.600045+00:00"
+    "timestamp": "2026-05-18T06:48:01.089196+00:00"
   },
   {
-    "appid": 647080,
+    "appid": 659940,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:34:59.989546+00:00"
+    "timestamp": "2026-05-18T06:48:03.949673+00:00"
   },
   {
-    "appid": 647090,
+    "appid": 659950,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:35:01.398185+00:00"
+    "timestamp": "2026-05-18T06:48:05.323431+00:00"
   },
   {
-    "appid": 647500,
+    "appid": 660030,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-18T06:35:04.185123+00:00"
+    "timestamp": "2026-05-18T06:48:08.095399+00:00"
   }
 ]
