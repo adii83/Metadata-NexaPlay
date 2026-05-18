@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-18T06:48:17.398713+00:00",
+  "generated_at": "2026-05-18T07:01:35.666989+00:00",
   "total_appids_processed_this_run": 500,
-  "total_entries_in_archive": 25240,
+  "total_entries_in_archive": 25739,
   "source_counts": {
     "appid_populer": 238,
     "fix_games": 120,
@@ -22,13 +22,13 @@
     "batch_size": 500,
     "selected_count": 500,
     "new_count": 0,
-    "retry_429_count": 0,
+    "retry_429_count": 1,
     "retry_failed_count": 0,
-    "backlog_count": 500,
-    "backlog_cursor_before": 24740,
-    "backlog_cursor_after": 25240
+    "backlog_count": 499,
+    "backlog_cursor_before": 25240,
+    "backlog_cursor_after": 25739
   },
-  "skipped_success_existing": 21657,
+  "skipped_success_existing": 22156,
   "force_refresh": false,
   "chunking": {
     "max_file_size_mb": 25,
@@ -61,33 +61,38 @@
       },
       {
         "file": "steam_metadata_NP_part006.json",
-        "entries": 1482,
-        "size_bytes": 30594803
+        "entries": 1657,
+        "size_bytes": 30719564
       },
       {
         "file": "steam_metadata_NP_part007.json",
-        "entries": 1120,
-        "size_bytes": 29752624
+        "entries": 1056,
+        "size_bytes": 29873800
       },
       {
         "file": "steam_metadata_NP_part008.json",
-        "entries": 1308,
-        "size_bytes": 29794741
+        "entries": 1321,
+        "size_bytes": 29825637
       },
       {
         "file": "steam_metadata_NP_part009.json",
-        "entries": 1807,
-        "size_bytes": 29956791
+        "entries": 1322,
+        "size_bytes": 29802294
       },
       {
         "file": "steam_metadata_NP_part010.json",
-        "entries": 3060,
-        "size_bytes": 30291750
+        "entries": 3036,
+        "size_bytes": 30286082
       },
       {
         "file": "steam_metadata_NP_part011.json",
-        "entries": 2481,
-        "size_bytes": 23615562
+        "entries": 2997,
+        "size_bytes": 30219480
+      },
+      {
+        "file": "steam_metadata_NP_part012.json",
+        "entries": 368,
+        "size_bytes": 2266210
       }
     ]
   },
