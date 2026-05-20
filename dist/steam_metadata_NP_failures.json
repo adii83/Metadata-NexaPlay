@@ -1,9 +1,23 @@
 [
   {
-    "appid": 1203890,
+    "appid": 1213920,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-20T07:13:53.383118+00:00"
+    "timestamp": "2026-05-20T07:25:42.110843+00:00"
+  },
+  {
+    "appid": 1219280,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-20T07:31:33.323710+00:00"
+  },
+  {
+    "appid": 1220670,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-20T07:33:13.250627+00:00"
   }
 ]

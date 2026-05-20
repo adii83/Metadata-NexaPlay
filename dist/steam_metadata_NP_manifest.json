@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-20T07:21:29.888465+00:00",
+  "generated_at": "2026-05-20T07:35:13.868175+00:00",
   "total_appids_processed_this_run": 500,
-  "total_entries_in_archive": 46733,
+  "total_entries_in_archive": 47233,
   "source_counts": {
     "appid_populer": 244,
     "fix_games": 120,
@@ -25,10 +25,10 @@
     "retry_429_count": 0,
     "retry_failed_count": 0,
     "backlog_count": 500,
-    "backlog_cursor_before": 46234,
-    "backlog_cursor_after": 46734
+    "backlog_cursor_before": 46734,
+    "backlog_cursor_after": 47234
   },
-  "skipped_success_existing": 43145,
+  "skipped_success_existing": 43645,
   "force_refresh": false,
   "chunking": {
     "max_file_size_mb": 25,
@@ -131,33 +131,38 @@
       },
       {
         "file": "steam_metadata_NP_part020.json",
-        "entries": 1069,
-        "size_bytes": 29812314
+        "entries": 1173,
+        "size_bytes": 30165684
       },
       {
         "file": "steam_metadata_NP_part021.json",
-        "entries": 1322,
-        "size_bytes": 29816353
+        "entries": 1306,
+        "size_bytes": 29789748
       },
       {
         "file": "steam_metadata_NP_part022.json",
-        "entries": 1565,
-        "size_bytes": 29881176
+        "entries": 1297,
+        "size_bytes": 29786323
       },
       {
         "file": "steam_metadata_NP_part023.json",
-        "entries": 2825,
-        "size_bytes": 30209353
+        "entries": 2715,
+        "size_bytes": 30230948
       },
       {
         "file": "steam_metadata_NP_part024.json",
-        "entries": 3215,
-        "size_bytes": 29687394
+        "entries": 2797,
+        "size_bytes": 30175995
+      },
+      {
+        "file": "steam_metadata_NP_part025.json",
+        "entries": 1208,
+        "size_bytes": 9244369
       }
     ]
   },
   "failures": {
-    "count": 1,
+    "count": 3,
     "file": "steam_metadata_NP_failures.json"
   },
   "progress_file": "steam_metadata_NP_progress.json"
