@@ -1,9 +1,16 @@
 [
   {
-    "appid": 1162100,
+    "appid": 1177000,
+    "stage": "steam_appdetails",
+    "error": "Steam mengembalikan success=false.",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-20T06:44:24.524383+00:00"
+  },
+  {
+    "appid": 1184960,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-20T06:27:45.097592+00:00"
+    "timestamp": "2026-05-20T06:52:09.191297+00:00"
   }
 ]
