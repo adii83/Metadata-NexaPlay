@@ -1,44 +1,30 @@
 [
   {
-    "appid": 1236270,
+    "appid": 1253500,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-20T07:50:27.161877+00:00"
+    "timestamp": "2026-05-20T08:06:32.163191+00:00"
   },
   {
-    "appid": 1238470,
+    "appid": 1256690,
+    "stage": "steam_appdetails",
+    "error": "Steam mengembalikan success=false.",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-20T08:09:26.908919+00:00"
+  },
+  {
+    "appid": 1257210,
+    "stage": "steamgriddb_lookup",
+    "error": "Steam appid tidak ditemukan di SteamGridDB",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-20T08:09:50.354629+00:00"
+  },
+  {
+    "appid": 1259310,
     "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
+    "error": "'list' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-20T07:52:32.584065+00:00"
-  },
-  {
-    "appid": 1239780,
-    "stage": "steamgriddb_lookup",
-    "error": "Steam appid tidak ditemukan di SteamGridDB",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-20T07:53:35.828237+00:00"
-  },
-  {
-    "appid": 1240910,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-20T07:54:44.752415+00:00"
-  },
-  {
-    "appid": 1246470,
-    "stage": "steamgriddb_lookup",
-    "error": "Steam appid tidak ditemukan di SteamGridDB",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-20T07:58:49.258790+00:00"
-  },
-  {
-    "appid": 1247370,
-    "stage": "steamgriddb_lookup",
-    "error": "Steam appid tidak ditemukan di SteamGridDB",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-20T07:59:25.837090+00:00"
+    "timestamp": "2026-05-20T08:12:08.138653+00:00"
   }
 ]
