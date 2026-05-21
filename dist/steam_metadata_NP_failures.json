@@ -1,44 +1,51 @@
 [
   {
-    "appid": 1415920,
-    "stage": "steamgriddb_lookup",
-    "error": "Steam appid tidak ditemukan di SteamGridDB",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-21T06:58:02.957535+00:00"
-  },
-  {
-    "appid": 1417180,
-    "stage": "steamgriddb_lookup",
-    "error": "Steam appid tidak ditemukan di SteamGridDB",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-21T06:59:18.975894+00:00"
-  },
-  {
-    "appid": 1418330,
+    "appid": 1424800,
     "stage": "steam_appdetails",
     "error": "Steam mengembalikan success=false.",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-21T07:00:26.338841+00:00"
+    "timestamp": "2026-05-21T07:08:23.605980+00:00"
   },
   {
-    "appid": 1419310,
+    "appid": 1427140,
     "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=1419310&l=english&cc=us",
+    "error": "Steam mengembalikan success=false.",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-21T07:01:33.141223+00:00"
+    "timestamp": "2026-05-21T07:10:34.467223+00:00"
   },
   {
-    "appid": 1424640,
+    "appid": 1433110,
     "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=1424640&l=english&cc=us",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=1433110&l=english&cc=us",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-21T07:06:32.279376+00:00"
+    "timestamp": "2026-05-21T07:16:33.192468+00:00"
   },
   {
-    "appid": 1424650,
-    "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=1424650&l=english&cc=us",
+    "appid": 1434340,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-21T07:06:47.883819+00:00"
+    "timestamp": "2026-05-21T07:17:51.829722+00:00"
+  },
+  {
+    "appid": 1434720,
+    "stage": "steam_appdetails",
+    "error": "Steam mengembalikan success=false.",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-21T07:18:06.292108+00:00"
+  },
+  {
+    "appid": 1434770,
+    "stage": "steamgriddb_lookup",
+    "error": "Steam appid tidak ditemukan di SteamGridDB",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-21T07:18:11.836816+00:00"
+  },
+  {
+    "appid": 1436580,
+    "stage": "steamgriddb_lookup",
+    "error": "Steam appid tidak ditemukan di SteamGridDB",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-21T07:19:25.338263+00:00"
   }
 ]
