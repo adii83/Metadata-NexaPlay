@@ -1,5 +1,5 @@
 {
-  "backlog_cursor": 50234,
+  "backlog_cursor": 51262,
   "known_source_appids": [
     3357650,
     3321460,
@@ -160558,13 +160558,13 @@
     224060,
     255480
   ],
-  "last_run_at": "2026-05-21T04:53:59.067110+00:00",
+  "last_run_at": "2026-05-21T05:07:13.645150+00:00",
   "last_batch": {
     "processed_count": 500,
-    "new_count": 500,
+    "new_count": 0,
     "retry_429_count": 0,
     "retry_failed_count": 0,
-    "backlog_count": 0,
+    "backlog_count": 500,
     "force_refresh": false
   },
   "retry_429_appids": []
