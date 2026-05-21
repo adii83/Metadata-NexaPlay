@@ -1,44 +1,44 @@
 [
   {
-    "appid": 1391380,
-    "stage": "steamgriddb_lookup",
-    "error": "Steam appid tidak ditemukan di SteamGridDB",
+    "appid": 1404490,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-21T06:31:41.805391+00:00"
+    "timestamp": "2026-05-21T06:45:12.654997+00:00"
   },
   {
-    "appid": 1395290,
-    "stage": "steamgriddb_lookup",
-    "error": "Steam appid tidak ditemukan di SteamGridDB",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-21T06:35:37.350441+00:00"
-  },
-  {
-    "appid": 1396050,
+    "appid": 1406020,
     "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=1396050&l=english&cc=us",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=1406020&l=english&cc=us",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-21T06:36:29.292366+00:00"
+    "timestamp": "2026-05-21T06:46:31.711851+00:00"
   },
   {
-    "appid": 1396140,
+    "appid": 1406030,
     "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=1396140&l=english&cc=us",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=1406030&l=english&cc=us",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-21T06:36:44.889371+00:00"
+    "timestamp": "2026-05-21T06:46:47.373040+00:00"
   },
   {
-    "appid": 1396380,
+    "appid": 1409410,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-21T06:49:47.743221+00:00"
+  },
+  {
+    "appid": 1410840,
+    "stage": "steam_appdetails",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=1410840&l=english&cc=us",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-21T06:51:33.208297+00:00"
+  },
+  {
+    "appid": 1412120,
     "stage": "steam_appdetails",
     "error": "Steam mengembalikan success=false.",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-21T06:36:57.888705+00:00"
-  },
-  {
-    "appid": 1399370,
-    "stage": "steam_appdetails",
-    "error": "Steam mengembalikan success=false.",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-21T06:39:46.421082+00:00"
+    "timestamp": "2026-05-21T06:53:01.725259+00:00"
   }
 ]
