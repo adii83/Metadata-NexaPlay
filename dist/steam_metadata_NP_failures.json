@@ -1,37 +1,37 @@
 [
   {
-    "appid": 1673210,
-    "stage": "steamgriddb_lookup",
-    "error": "Steam appid tidak ditemukan di SteamGridDB",
+    "appid": 1687030,
+    "stage": "steam_appdetails",
+    "error": "Steam mengembalikan success=false.",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-22T07:11:07.613254+00:00"
+    "timestamp": "2026-05-22T07:27:39.424675+00:00"
   },
   {
-    "appid": 1673670,
+    "appid": 1687430,
+    "stage": "steam_appdetails",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=1687430&l=english&cc=us",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-22T07:28:23.940324+00:00"
+  },
+  {
+    "appid": 1688010,
     "stage": "steamgriddb_public",
-    "error": "'list' object has no attribute 'get'",
+    "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-22T07:11:36.923459+00:00"
+    "timestamp": "2026-05-22T07:28:59.458162+00:00"
   },
   {
-    "appid": 1674200,
-    "stage": "steamgriddb_lookup",
-    "error": "Steam appid tidak ditemukan di SteamGridDB",
+    "appid": 1689890,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-22T07:12:09.534192+00:00"
+    "timestamp": "2026-05-22T07:30:57.068987+00:00"
   },
   {
-    "appid": 1675110,
+    "appid": 1692390,
     "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=1675110&l=english&cc=us",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=1692390&l=english&cc=us",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-22T07:13:23.205577+00:00"
-  },
-  {
-    "appid": 1679770,
-    "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=1679770&l=english&cc=us",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-22T07:18:21.752028+00:00"
+    "timestamp": "2026-05-22T07:33:30.486223+00:00"
   }
 ]
