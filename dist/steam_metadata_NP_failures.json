@@ -1,44 +1,37 @@
 [
   {
-    "appid": 1735280,
+    "appid": 1743190,
     "stage": "steam_appdetails",
     "error": "Steam mengembalikan success=false.",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-22T08:23:20.214628+00:00"
+    "timestamp": "2026-05-22T08:32:27.286019+00:00"
   },
   {
-    "appid": 1735970,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
+    "appid": 1744280,
+    "stage": "steamgriddb_lookup",
+    "error": "Steam appid tidak ditemukan di SteamGridDB",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-22T08:23:46.760196+00:00"
+    "timestamp": "2026-05-22T08:33:20.456041+00:00"
   },
   {
-    "appid": 1736120,
+    "appid": 1749810,
     "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=1736120&l=english&cc=us",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=1749810&l=english&cc=us",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-22T08:24:07.872334+00:00"
+    "timestamp": "2026-05-22T08:39:10.589103+00:00"
   },
   {
-    "appid": 1737960,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
+    "appid": 1751160,
+    "stage": "steamgriddb_lookup",
+    "error": "Steam appid tidak ditemukan di SteamGridDB",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-22T08:25:58.908349+00:00"
+    "timestamp": "2026-05-22T08:40:20.606124+00:00"
   },
   {
-    "appid": 1740000,
-    "stage": "steam_appdetails",
-    "error": "Steam mengembalikan success=false.",
+    "appid": 1753140,
+    "stage": "steamgriddb_lookup",
+    "error": "Steam appid tidak ditemukan di SteamGridDB",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-22T08:27:26.599642+00:00"
-  },
-  {
-    "appid": 1741490,
-    "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=1741490&l=english&cc=us",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-22T08:29:10.219711+00:00"
+    "timestamp": "2026-05-22T08:41:59.471353+00:00"
   }
 ]
