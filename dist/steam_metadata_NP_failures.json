@@ -1,51 +1,58 @@
 [
   {
-    "appid": 1693500,
+    "appid": 1706440,
     "stage": "steam_appdetails",
     "error": "Steam mengembalikan success=false.",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-22T07:36:23.324585+00:00"
+    "timestamp": "2026-05-22T07:50:42.704607+00:00"
   },
   {
-    "appid": 1695280,
+    "appid": 1706960,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-22T07:38:14.324554+00:00"
+    "timestamp": "2026-05-22T07:51:19.309809+00:00"
   },
   {
-    "appid": 1699510,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-22T07:42:24.668125+00:00"
-  },
-  {
-    "appid": 1699720,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-22T07:42:31.613696+00:00"
-  },
-  {
-    "appid": 1700450,
+    "appid": 1709460,
     "stage": "steam_appdetails",
     "error": "Steam mengembalikan success=false.",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-22T07:43:23.165719+00:00"
+    "timestamp": "2026-05-22T07:54:02.515542+00:00"
   },
   {
-    "appid": 1704740,
+    "appid": 1709500,
+    "stage": "steam_appdetails",
+    "error": "Steam mengembalikan success=false.",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-22T07:54:03.892729+00:00"
+  },
+  {
+    "appid": 1711420,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-22T07:47:15.233996+00:00"
+    "timestamp": "2026-05-22T07:56:11.399440+00:00"
   },
   {
-    "appid": 1706090,
+    "appid": 1711960,
     "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=1706090&l=english&cc=us",
+    "error": "Steam mengembalikan success=false.",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-22T07:48:34.580533+00:00"
+    "timestamp": "2026-05-22T07:56:40.508036+00:00"
+  },
+  {
+    "appid": 1712100,
+    "stage": "steamgriddb_lookup",
+    "error": "Steam appid tidak ditemukan di SteamGridDB",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-22T07:56:48.957263+00:00"
+  },
+  {
+    "appid": 1713680,
+    "stage": "steam_appdetails",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=1713680&l=english&cc=us",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-22T07:58:37.800808+00:00"
   }
 ]
