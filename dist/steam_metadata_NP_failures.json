@@ -1,58 +1,23 @@
 [
   {
-    "appid": 1706440,
-    "stage": "steam_appdetails",
-    "error": "Steam mengembalikan success=false.",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-22T07:50:42.704607+00:00"
-  },
-  {
-    "appid": 1706960,
+    "appid": 1720060,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-22T07:51:19.309809+00:00"
+    "timestamp": "2026-05-22T08:06:44.879040+00:00"
   },
   {
-    "appid": 1709460,
+    "appid": 1722090,
     "stage": "steam_appdetails",
-    "error": "Steam mengembalikan success=false.",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=1722090&l=english&cc=us",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-22T07:54:02.515542+00:00"
+    "timestamp": "2026-05-22T08:08:59.677473+00:00"
   },
   {
-    "appid": 1709500,
-    "stage": "steam_appdetails",
-    "error": "Steam mengembalikan success=false.",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-22T07:54:03.892729+00:00"
-  },
-  {
-    "appid": 1711420,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-22T07:56:11.399440+00:00"
-  },
-  {
-    "appid": 1711960,
-    "stage": "steam_appdetails",
-    "error": "Steam mengembalikan success=false.",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-22T07:56:40.508036+00:00"
-  },
-  {
-    "appid": 1712100,
+    "appid": 1725810,
     "stage": "steamgriddb_lookup",
     "error": "Steam appid tidak ditemukan di SteamGridDB",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-22T07:56:48.957263+00:00"
-  },
-  {
-    "appid": 1713680,
-    "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=1713680&l=english&cc=us",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-22T07:58:37.800808+00:00"
+    "timestamp": "2026-05-22T08:12:22.307116+00:00"
   }
 ]
