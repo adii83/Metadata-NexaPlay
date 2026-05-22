@@ -1,65 +1,51 @@
 [
   {
-    "appid": 1526600,
+    "appid": 1537600,
     "stage": "steam_appdetails",
     "error": "Steam mengembalikan success=false.",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-21T08:59:26.236087+00:00"
+    "timestamp": "2026-05-22T04:29:45.227338+00:00"
   },
   {
-    "appid": 1526690,
-    "stage": "steam_appdetails",
-    "error": "Steam mengembalikan success=false.",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-21T08:59:30.189363+00:00"
-  },
-  {
-    "appid": 1528880,
-    "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=1528880&l=english&cc=us",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-21T09:01:41.795473+00:00"
-  },
-  {
-    "appid": 1528900,
-    "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=1528900&l=english&cc=us",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-21T09:01:57.417150+00:00"
-  },
-  {
-    "appid": 1530990,
-    "stage": "steamgriddb_public",
-    "error": "'list' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-21T09:03:42.388770+00:00"
-  },
-  {
-    "appid": 1533990,
+    "appid": 1538550,
     "stage": "steamgriddb_lookup",
-    "error": "Steam appid tidak ditemukan di SteamGridDB",
+    "error": "HTTPSConnectionPool(host='www.steamgriddb.com', port=443): Read timed out. (read timeout=30)",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-21T09:06:09.018207+00:00"
+    "timestamp": "2026-05-22T04:31:24.820674+00:00"
   },
   {
-    "appid": 1534430,
+    "appid": 1540920,
+    "stage": "steamgriddb_lookup",
+    "error": "HTTPSConnectionPool(host='www.steamgriddb.com', port=443): Read timed out. (read timeout=30)",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-22T04:36:25.115981+00:00"
+  },
+  {
+    "appid": 1541590,
+    "stage": "steamgriddb_public",
+    "error": "HTTPSConnectionPool(host='www.steamgriddb.com', port=443): Read timed out. (read timeout=30)",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-22T04:37:38.017064+00:00"
+  },
+  {
+    "appid": 1543080,
     "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=1534430&l=english&cc=us",
+    "error": "Steam mengembalikan success=false.",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-21T09:06:42.972931+00:00"
+    "timestamp": "2026-05-22T04:40:45.281852+00:00"
   },
   {
-    "appid": 1534450,
-    "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=1534450&l=english&cc=us",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-21T09:06:58.569922+00:00"
-  },
-  {
-    "appid": 1534640,
+    "appid": 1546820,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-21T09:07:14.241157+00:00"
+    "timestamp": "2026-05-22T04:46:20.573998+00:00"
+  },
+  {
+    "appid": 1546880,
+    "stage": "steamgriddb_lookup",
+    "error": "Steam appid tidak ditemukan di SteamGridDB",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-22T04:46:26.168461+00:00"
   }
 ]
