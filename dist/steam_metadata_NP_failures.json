@@ -1,51 +1,9 @@
 [
   {
-    "appid": 1537600,
+    "appid": 1548090,
     "stage": "steam_appdetails",
     "error": "Steam mengembalikan success=false.",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-22T04:29:45.227338+00:00"
-  },
-  {
-    "appid": 1538550,
-    "stage": "steamgriddb_lookup",
-    "error": "HTTPSConnectionPool(host='www.steamgriddb.com', port=443): Read timed out. (read timeout=30)",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-22T04:31:24.820674+00:00"
-  },
-  {
-    "appid": 1540920,
-    "stage": "steamgriddb_lookup",
-    "error": "HTTPSConnectionPool(host='www.steamgriddb.com', port=443): Read timed out. (read timeout=30)",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-22T04:36:25.115981+00:00"
-  },
-  {
-    "appid": 1541590,
-    "stage": "steamgriddb_public",
-    "error": "HTTPSConnectionPool(host='www.steamgriddb.com', port=443): Read timed out. (read timeout=30)",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-22T04:37:38.017064+00:00"
-  },
-  {
-    "appid": 1543080,
-    "stage": "steam_appdetails",
-    "error": "Steam mengembalikan success=false.",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-22T04:40:45.281852+00:00"
-  },
-  {
-    "appid": 1546820,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-22T04:46:20.573998+00:00"
-  },
-  {
-    "appid": 1546880,
-    "stage": "steamgriddb_lookup",
-    "error": "Steam appid tidak ditemukan di SteamGridDB",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-22T04:46:26.168461+00:00"
+    "timestamp": "2026-05-22T04:49:30.813666+00:00"
   }
 ]
