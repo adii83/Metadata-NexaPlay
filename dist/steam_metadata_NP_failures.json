@@ -1,23 +1,44 @@
 [
   {
-    "appid": 1919910,
-    "stage": "steam_appdetails",
-    "error": "Steam mengembalikan success=false.",
+    "appid": 1928300,
+    "stage": "steamgriddb_public",
+    "error": "'list' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-23T06:43:44.270249+00:00"
+    "timestamp": "2026-05-23T06:54:22.752515+00:00"
   },
   {
-    "appid": 1920040,
-    "stage": "steam_appdetails",
-    "error": "Steam mengembalikan success=false.",
+    "appid": 1929170,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-23T06:43:49.785132+00:00"
+    "timestamp": "2026-05-23T06:55:20.788654+00:00"
   },
   {
-    "appid": 1924150,
-    "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=1924150&l=english&cc=us",
+    "appid": 1931360,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-23T06:48:07.208600+00:00"
+    "timestamp": "2026-05-23T06:57:35.497632+00:00"
+  },
+  {
+    "appid": 1932360,
+    "stage": "steam_appdetails",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=1932360&l=english&cc=us",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-23T06:58:55.598788+00:00"
+  },
+  {
+    "appid": 1934220,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-23T07:01:00.573830+00:00"
+  },
+  {
+    "appid": 1937200,
+    "stage": "steam_appdetails",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=1937200&l=english&cc=us",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-23T07:03:59.201001+00:00"
   }
 ]
