@@ -1,16 +1,23 @@
 [
   {
-    "appid": 1812760,
+    "appid": 1825070,
     "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=1812760&l=english&cc=us",
+    "error": "Steam mengembalikan success=false.",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-23T04:41:43.110294+00:00"
+    "timestamp": "2026-05-23T04:56:18.243812+00:00"
   },
   {
-    "appid": 1817200,
+    "appid": 1825290,
     "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=1817200&l=english&cc=us",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=1825290&l=english&cc=us",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-23T04:46:44.942713+00:00"
+    "timestamp": "2026-05-23T04:56:47.806126+00:00"
+  },
+  {
+    "appid": 1827310,
+    "stage": "steam_appdetails",
+    "error": "Steam mengembalikan success=false.",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-23T04:58:43.377028+00:00"
   }
 ]
