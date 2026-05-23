@@ -9,10 +9,7 @@ import requests
 STEAMGRIDDB_API_KEY = "96d55ab4fd62b3b32565f2724c10ce32"
 
 DEFAULT_STEAM_APPIDS = [
-    3321460,
-    2807960,
-    2483190,
-    3065800,
+15500
 ]
 
 OUTPUT_FILE = "steam_original_assets_from_appid.json"

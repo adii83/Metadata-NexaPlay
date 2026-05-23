@@ -19,7 +19,9 @@ Thumbs.db
 # Local-only test outputs
 dist_test/
 test/*.json
+test/json/*json
 GITHUB_SETUP.md
 
 # Keep production archive outputs tracked by Actions
 # dist/
+
