@@ -1,37 +1,44 @@
 [
   {
-    "appid": 1880290,
+    "appid": 1891570,
     "stage": "steam_appdetails",
     "error": "Steam mengembalikan success=false.",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-23T05:59:51.758519+00:00"
+    "timestamp": "2026-05-23T06:12:26.482637+00:00"
   },
   {
-    "appid": 1883210,
+    "appid": 1895670,
     "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=1883210&l=english&cc=us",
+    "error": "Steam mengembalikan success=false.",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-23T06:02:56.016257+00:00"
+    "timestamp": "2026-05-23T06:16:00.853027+00:00"
   },
   {
-    "appid": 1883370,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-23T06:03:15.070766+00:00"
-  },
-  {
-    "appid": 1888690,
+    "appid": 1897400,
     "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=1888690&l=english&cc=us",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=1897400&l=english&cc=us",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-23T06:07:57.873727+00:00"
+    "timestamp": "2026-05-23T06:18:01.014065+00:00"
   },
   {
-    "appid": 1889660,
-    "stage": "steamgriddb_lookup",
-    "error": "Steam appid tidak ditemukan di SteamGridDB",
+    "appid": 1901340,
+    "stage": "steam_appdetails",
+    "error": "Steam mengembalikan success=false.",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-23T06:08:54.993355+00:00"
+    "timestamp": "2026-05-23T06:21:51.145972+00:00"
+  },
+  {
+    "appid": 1902300,
+    "stage": "steam_appdetails",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=1902300&l=english&cc=us",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-23T06:23:06.367083+00:00"
+  },
+  {
+    "appid": 1903360,
+    "stage": "steam_appdetails",
+    "error": "Steam mengembalikan success=false.",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-23T06:23:57.751209+00:00"
   }
 ]
