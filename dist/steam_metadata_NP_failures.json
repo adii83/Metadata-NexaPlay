@@ -1,16 +1,79 @@
 [
   {
-    "appid": 1776790,
+    "appid": 1782560,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-23T04:07:24.081606+00:00"
+  },
+  {
+    "appid": 1782780,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-23T04:07:41.087234+00:00"
+  },
+  {
+    "appid": 1786540,
     "stage": "steamgriddb_lookup",
     "error": "Steam appid tidak ditemukan di SteamGridDB",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-22T09:06:18.329250+00:00"
+    "timestamp": "2026-05-23T04:10:53.729613+00:00"
   },
   {
-    "appid": 1777550,
+    "appid": 1786740,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-23T04:11:13.496842+00:00"
+  },
+  {
+    "appid": 1786820,
+    "stage": "steam_appdetails",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=1786820&l=english&cc=us",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-23T04:11:38.781163+00:00"
+  },
+  {
+    "appid": 1787140,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-23T04:12:04.164527+00:00"
+  },
+  {
+    "appid": 1789300,
     "stage": "steam_appdetails",
     "error": "Steam mengembalikan success=false.",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-22T09:06:57.271672+00:00"
+    "timestamp": "2026-05-23T04:14:40.285453+00:00"
+  },
+  {
+    "appid": 1791300,
+    "stage": "steamgriddb_lookup",
+    "error": "Steam appid tidak ditemukan di SteamGridDB",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-23T04:16:07.123698+00:00"
+  },
+  {
+    "appid": 1791610,
+    "stage": "steam_appdetails",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=1791610&l=english&cc=us",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-23T04:16:36.465548+00:00"
+  },
+  {
+    "appid": 1791900,
+    "stage": "steamgriddb_public",
+    "error": "'list' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-23T04:16:59.763954+00:00"
+  },
+  {
+    "appid": 1792060,
+    "stage": "steam_appdetails",
+    "error": "Steam mengembalikan success=false.",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-23T04:17:06.433700+00:00"
   }
 ]

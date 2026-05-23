@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T04:26:10.657530+00:00",
+  "generated_at": "2026-05-23T04:06:27.658366+00:00",
   "appids": [
     3357650,
     3321460,
@@ -359,7 +359,6 @@
     3059520,
     2928600,
     1490890,
-    976310,
     307780,
     4179020,
     993090,
@@ -157821,7 +157820,6 @@
     "3059520": "new_fix_games",
     "2928600": "new_fix_games",
     "1490890": "new_fix_games",
-    "976310": "new_fix_games",
     "307780": "new_fix_games",
     "4179020": "override_data",
     "993090": "override_data",
@@ -314927,7 +314925,7 @@
   "source_counts": {
     "appid_populer": 244,
     "fix_games": 120,
-    "new_fix_games": 12,
+    "new_fix_games": 11,
     "override_data": 662,
     "steam_data": 9945,
     "steam_data_gz": 147759
