@@ -1,0 +1,530 @@
+{
+  "4724200": {
+    "success": true,
+    "source_priority": "steam_data",
+    "fetch_status": {
+      "steam_appdetails": true,
+      "steam_original_assets": true
+    },
+    "name": "Serpent Rift",
+    "steam_appid": "4724200",
+    "steamgriddb_game_id": 5529289,
+    "store_asset_mtime": 1778621149,
+    "assets_count": 19,
+    "assets": {
+      "header": [
+        {
+          "path": "fba1473b5139b3c609202f987fec71d4bb84e7a8/header.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4724200/fba1473b5139b3c609202f987fec71d4bb84e7a8/header.jpg?t=1778621149",
+          "language": "english"
+        }
+      ],
+      "library_capsule": [
+        {
+          "path": "1f9fa90b078e335009b15ce372269f767bee27d9/library_capsule.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4724200/1f9fa90b078e335009b15ce372269f767bee27d9/library_capsule.jpg?t=1778621149",
+          "language": "english"
+        }
+      ],
+      "library_capsule_2x": [
+        {
+          "path": "1f9fa90b078e335009b15ce372269f767bee27d9/library_capsule_2x.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4724200/1f9fa90b078e335009b15ce372269f767bee27d9/library_capsule_2x.jpg?t=1778621149",
+          "language": "english"
+        }
+      ],
+      "library_hero": [
+        {
+          "path": "e39c6828a79a1c4b57ca7dc6c9c47b2252143305/library_hero.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4724200/e39c6828a79a1c4b57ca7dc6c9c47b2252143305/library_hero.jpg?t=1778621149",
+          "language": "english"
+        }
+      ],
+      "library_hero_2x": [
+        {
+          "path": "e39c6828a79a1c4b57ca7dc6c9c47b2252143305/library_hero_2x.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4724200/e39c6828a79a1c4b57ca7dc6c9c47b2252143305/library_hero_2x.jpg?t=1778621149",
+          "language": "english"
+        }
+      ],
+      "library_logo": [
+        {
+          "path": "a8005273319773b27bf6c8ea8d70ce675dbb21b2/logo.png",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4724200/a8005273319773b27bf6c8ea8d70ce675dbb21b2/logo.png?t=1778621149",
+          "language": "english"
+        }
+      ],
+      "library_logo_2x": [
+        {
+          "path": "a8005273319773b27bf6c8ea8d70ce675dbb21b2/logo_2x.png",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4724200/a8005273319773b27bf6c8ea8d70ce675dbb21b2/logo_2x.png?t=1778621149",
+          "language": "english"
+        }
+      ],
+      "clienticon": [
+        {
+          "hash": "18b9c43ce1cec5368f8363aee93ab986b3ab6abd",
+          "url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/4724200/18b9c43ce1cec5368f8363aee93ab986b3ab6abd.ico"
+        }
+      ],
+      "icon": [
+        {
+          "hash": "18b9c43ce1cec5368f8363aee93ab986b3ab6abd",
+          "url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/4724200/18b9c43ce1cec5368f8363aee93ab986b3ab6abd.jpg"
+        }
+      ],
+      "capsule_image": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/310e5a829a2e395bae62193b28b828f5c2490bcd/capsule_231x87.jpg?t=1778896311"
+        }
+      ],
+      "capsule_imagev5": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/310e5a829a2e395bae62193b28b828f5c2490bcd/capsule_184x69.jpg?t=1778896311"
+        }
+      ],
+      "background": [
+        {
+          "url": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4724200?t=1778896311"
+        }
+      ],
+      "background_raw": [
+        {
+          "url": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4724200?t=1778896311"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": 0,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/800ce9ef6ba0bdb74c2d6919ca532615f91ef728/ss_800ce9ef6ba0bdb74c2d6919ca532615f91ef728.600x338.jpg?t=1778896311",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/800ce9ef6ba0bdb74c2d6919ca532615f91ef728/ss_800ce9ef6ba0bdb74c2d6919ca532615f91ef728.1920x1080.jpg?t=1778896311"
+        },
+        {
+          "id": 1,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/0751605483c9a763036edee6cb065499f1b7f4e8/ss_0751605483c9a763036edee6cb065499f1b7f4e8.600x338.jpg?t=1778896311",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/0751605483c9a763036edee6cb065499f1b7f4e8/ss_0751605483c9a763036edee6cb065499f1b7f4e8.1920x1080.jpg?t=1778896311"
+        },
+        {
+          "id": 2,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/370f584b34a9e88fc0e76c082c4a30a4eb2963e7/ss_370f584b34a9e88fc0e76c082c4a30a4eb2963e7.600x338.jpg?t=1778896311",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/370f584b34a9e88fc0e76c082c4a30a4eb2963e7/ss_370f584b34a9e88fc0e76c082c4a30a4eb2963e7.1920x1080.jpg?t=1778896311"
+        },
+        {
+          "id": 3,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/657be54365cbc6d7bfb23a18bac644ce670179c2/ss_657be54365cbc6d7bfb23a18bac644ce670179c2.600x338.jpg?t=1778896311",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/657be54365cbc6d7bfb23a18bac644ce670179c2/ss_657be54365cbc6d7bfb23a18bac644ce670179c2.1920x1080.jpg?t=1778896311"
+        },
+        {
+          "id": 4,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/5ba471f51a9fd261a89abc5212842da385206cce/ss_5ba471f51a9fd261a89abc5212842da385206cce.600x338.jpg?t=1778896311",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/5ba471f51a9fd261a89abc5212842da385206cce/ss_5ba471f51a9fd261a89abc5212842da385206cce.1920x1080.jpg?t=1778896311"
+        }
+      ],
+      "movies": [],
+      "embedded_media": {
+        "about_the_game_urls": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/extras/9ceeca00f691cb70577c00d1553af008.poster.avif?t=1778896311",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/extras/9ceeca00f691cb70577c00d1553af008.webm?t=1778896311",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/extras/9ceeca00f691cb70577c00d1553af008.mp4?t=1778896311",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/extras/663f18f9218cb856a4047ce4ee6f54cd.poster.avif?t=1778896311",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/extras/663f18f9218cb856a4047ce4ee6f54cd.webm?t=1778896311",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/extras/663f18f9218cb856a4047ce4ee6f54cd.mp4?t=1778896311"
+        ],
+        "detailed_description_urls": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/extras/9ceeca00f691cb70577c00d1553af008.poster.avif?t=1778896311",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/extras/9ceeca00f691cb70577c00d1553af008.webm?t=1778896311",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/extras/9ceeca00f691cb70577c00d1553af008.mp4?t=1778896311",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/extras/663f18f9218cb856a4047ce4ee6f54cd.poster.avif?t=1778896311",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/extras/663f18f9218cb856a4047ce4ee6f54cd.webm?t=1778896311",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/extras/663f18f9218cb856a4047ce4ee6f54cd.mp4?t=1778896311"
+        ],
+        "all_urls": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/extras/9ceeca00f691cb70577c00d1553af008.poster.avif?t=1778896311",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/extras/9ceeca00f691cb70577c00d1553af008.webm?t=1778896311",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/extras/9ceeca00f691cb70577c00d1553af008.mp4?t=1778896311",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/extras/663f18f9218cb856a4047ce4ee6f54cd.poster.avif?t=1778896311",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/extras/663f18f9218cb856a4047ce4ee6f54cd.webm?t=1778896311",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/extras/663f18f9218cb856a4047ce4ee6f54cd.mp4?t=1778896311"
+        ],
+        "videos_mp4": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/extras/9ceeca00f691cb70577c00d1553af008.mp4?t=1778896311",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/extras/663f18f9218cb856a4047ce4ee6f54cd.mp4?t=1778896311"
+        ],
+        "videos_webm": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/extras/9ceeca00f691cb70577c00d1553af008.webm?t=1778896311",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/extras/663f18f9218cb856a4047ce4ee6f54cd.webm?t=1778896311"
+        ],
+        "images": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/extras/9ceeca00f691cb70577c00d1553af008.poster.avif?t=1778896311",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/extras/663f18f9218cb856a4047ce4ee6f54cd.poster.avif?t=1778896311"
+        ]
+      }
+    },
+    "store_data": {
+      "type": "game",
+      "required_age": 0,
+      "is_free": false,
+      "about_the_game": "<p class=\"bb_paragraph\" ><strong>(Early preview, more screenshots and details coming soon!)</strong><i><br><br>Scientists have discovered a groundbreaking technology, the ability to open Rifts, tears in space that allow instant travel across short distances. A massive leap for mankind... but before risking it on humans, they needed a test subject.</i></p><p class=\"bb_paragraph\" ><i>Naturally, they chose snakes. The reasoning remains classified.</i></p><h2 class=\"bb_tag\" >Reimagine Snake with Portals!</h2><p class=\"bb_paragraph\" >Find new ways to experience Snake by strategically moving around using portals, rush to golden fruits, travel through shortcuts, and get out of complicated situations. Just be careful! you might get too tangled up!</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/extras/9ceeca00f691cb70577c00d1553af008.poster.avif?t=1778896311\" width=800 height=450 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/extras/9ceeca00f691cb70577c00d1553af008.webm?t=1778896311\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/extras/9ceeca00f691cb70577c00d1553af008.mp4?t=1778896311\" type=\"video/mp4\"></video></span></p><h2 class=\"bb_tag\" >New mechanics that put you to the Test!</h2><p class=\"bb_paragraph\" >Find new mechanics that will push your newfound portal abilities to the test! </p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/extras/663f18f9218cb856a4047ce4ee6f54cd.poster.avif?t=1778896311\" width=800 height=450 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/extras/663f18f9218cb856a4047ce4ee6f54cd.webm?t=1778896311\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/extras/663f18f9218cb856a4047ce4ee6f54cd.mp4?t=1778896311\" type=\"video/mp4\"></video></span></p><h2 class=\"bb_tag\" >Create your own challenges with the Level Editor!</h2><p class=\"bb_paragraph\" >Put your creativity into making your own custom levels to test and experiment all the layouts that come to mind!</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >Unlock different looks and modifiers!</h2><p class=\"bb_paragraph\" >Customize your Snake to your own taste! change its skin or mix and match modifiers to experience each level in a whole different way! Just be careful what you combine, you might accidentally make your Snake impossible to survive!</p>",
+      "detailed_description": "<p class=\"bb_paragraph\" ><strong>(Early preview, more screenshots and details coming soon!)</strong><i><br><br>Scientists have discovered a groundbreaking technology, the ability to open Rifts, tears in space that allow instant travel across short distances. A massive leap for mankind... but before risking it on humans, they needed a test subject.</i></p><p class=\"bb_paragraph\" ><i>Naturally, they chose snakes. The reasoning remains classified.</i></p><h2 class=\"bb_tag\" >Reimagine Snake with Portals!</h2><p class=\"bb_paragraph\" >Find new ways to experience Snake by strategically moving around using portals, rush to golden fruits, travel through shortcuts, and get out of complicated situations. Just be careful! you might get too tangled up!</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/extras/9ceeca00f691cb70577c00d1553af008.poster.avif?t=1778896311\" width=800 height=450 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/extras/9ceeca00f691cb70577c00d1553af008.webm?t=1778896311\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/extras/9ceeca00f691cb70577c00d1553af008.mp4?t=1778896311\" type=\"video/mp4\"></video></span></p><h2 class=\"bb_tag\" >New mechanics that put you to the Test!</h2><p class=\"bb_paragraph\" >Find new mechanics that will push your newfound portal abilities to the test! </p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/extras/663f18f9218cb856a4047ce4ee6f54cd.poster.avif?t=1778896311\" width=800 height=450 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/extras/663f18f9218cb856a4047ce4ee6f54cd.webm?t=1778896311\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724200/extras/663f18f9218cb856a4047ce4ee6f54cd.mp4?t=1778896311\" type=\"video/mp4\"></video></span></p><h2 class=\"bb_tag\" >Create your own challenges with the Level Editor!</h2><p class=\"bb_paragraph\" >Put your creativity into making your own custom levels to test and experiment all the layouts that come to mind!</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >Unlock different looks and modifiers!</h2><p class=\"bb_paragraph\" >Customize your Snake to your own taste! change its skin or mix and match modifiers to experience each level in a whole different way! Just be careful what you combine, you might accidentally make your Snake impossible to survive!</p>",
+      "short_description": "Snake. Portals. Chaos. Use portals to outsmart levels, dodge deadly obstacles and master every run, just don't get tangled up.",
+      "supported_languages": "English, Spanish - Latin America, Portuguese - Brazil",
+      "website": null,
+      "pc_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows 7 or later (64-bit)<br></li><li><strong>Processor:</strong> Dual Core 2.0 GHz (Intel Core i3 / AMD Phenom II)<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Graphics card with OpenGL 3.3 or DirectX 11 support (Intel HD 4000 / NVIDIA GeForce 400)<br></li><li><strong>Storage:</strong> 256 MB available space<br></li><li><strong>Sound Card:</strong> OS-compatible sound card</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10/11 (64-bit)<br></li><li><strong>Processor:</strong> Quad Core 3.0 GHz+ or equivalent<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Graphics card with OpenGL 3.3 or DirectX 11 support (Intel HD 4000 / NVIDIA GeForce 400)<br></li><li><strong>Storage:</strong> 256 MB available space<br></li><li><strong>Sound Card:</strong> OS-compatible sound card</li></ul>"
+      },
+      "mac_requirements": [],
+      "linux_requirements": [],
+      "developers": [
+        "oworowo"
+      ],
+      "publishers": [
+        "oworowo"
+      ],
+      "support_info": {
+        "url": "https://oworowo.itch.io/",
+        "email": "ctc.jgcc@gmail.com"
+      },
+      "package_groups": [],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "categories": [
+        {
+          "id": 2,
+          "description": "Single-player"
+        },
+        {
+          "id": 22,
+          "description": "Steam Achievements"
+        },
+        {
+          "id": 30,
+          "description": "Steam Workshop"
+        },
+        {
+          "id": 68,
+          "description": "Custom Volume Controls"
+        },
+        {
+          "id": 78,
+          "description": "Adjustable Difficulty"
+        },
+        {
+          "id": 79,
+          "description": "Save Anytime"
+        },
+        {
+          "id": 18,
+          "description": "Partial Controller Support"
+        },
+        {
+          "id": 17,
+          "description": "Includes level editor"
+        },
+        {
+          "id": 62,
+          "description": "Family Sharing"
+        }
+      ],
+      "genres": [
+        {
+          "id": "4",
+          "description": "Casual"
+        },
+        {
+          "id": "23",
+          "description": "Indie"
+        },
+        {
+          "id": "28",
+          "description": "Simulation"
+        }
+      ],
+      "release_date": {
+        "coming_soon": true,
+        "date": "Coming soon"
+      },
+      "content_descriptors": {
+        "ids": [],
+        "notes": null
+      },
+      "ratings": {
+        "dejus": {
+          "rating_generated": "1",
+          "rating": "l",
+          "required_age": "0",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": ""
+        },
+        "steam_germany": {
+          "rating_generated": "1",
+          "rating": "0",
+          "required_age": "0",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": ""
+        },
+        "igrs": {
+          "rating_generated": "1",
+          "rating": "3",
+          "required_age": "0",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": ""
+        }
+      }
+    }
+  },
+  "4724240": {
+    "success": true,
+    "source_priority": "steam_data",
+    "fetch_status": {
+      "steam_appdetails": true,
+      "steam_original_assets": true
+    },
+    "name": "Vector Storm",
+    "steam_appid": "4724240",
+    "steamgriddb_game_id": 5528877,
+    "store_asset_mtime": 1778370391,
+    "assets_count": 20,
+    "assets": {
+      "header": [
+        {
+          "path": "2cbf798decc8531b5cf8a050c6343ae93ae1d435/header.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4724240/2cbf798decc8531b5cf8a050c6343ae93ae1d435/header.jpg?t=1778370391",
+          "language": "english"
+        }
+      ],
+      "library_capsule": [
+        {
+          "path": "717683c8825a218d02cd6a9867e9f0c944aab5ab/library_capsule.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4724240/717683c8825a218d02cd6a9867e9f0c944aab5ab/library_capsule.jpg?t=1778370391",
+          "language": "english"
+        }
+      ],
+      "library_capsule_2x": [
+        {
+          "path": "717683c8825a218d02cd6a9867e9f0c944aab5ab/library_capsule_2x.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4724240/717683c8825a218d02cd6a9867e9f0c944aab5ab/library_capsule_2x.jpg?t=1778370391",
+          "language": "english"
+        }
+      ],
+      "library_hero": [
+        {
+          "path": "b762356c08413baee36dcd0ab44199a8e3967bcb/library_hero.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4724240/b762356c08413baee36dcd0ab44199a8e3967bcb/library_hero.jpg?t=1778370391",
+          "language": "english"
+        }
+      ],
+      "library_hero_2x": [
+        {
+          "path": "b762356c08413baee36dcd0ab44199a8e3967bcb/library_hero_2x.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4724240/b762356c08413baee36dcd0ab44199a8e3967bcb/library_hero_2x.jpg?t=1778370391",
+          "language": "english"
+        }
+      ],
+      "library_logo": [
+        {
+          "path": "ffcb5f7f492be5de4dcd45bad2d857e5b9919174/logo.png",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4724240/ffcb5f7f492be5de4dcd45bad2d857e5b9919174/logo.png?t=1778370391",
+          "language": "english"
+        }
+      ],
+      "library_logo_2x": [
+        {
+          "path": "ffcb5f7f492be5de4dcd45bad2d857e5b9919174/logo_2x.png",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4724240/ffcb5f7f492be5de4dcd45bad2d857e5b9919174/logo_2x.png?t=1778370391",
+          "language": "english"
+        }
+      ],
+      "clienticon": [
+        {
+          "hash": "b9a1bf48e18f097d49b05a0f0920919621b28fc2",
+          "url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/4724240/b9a1bf48e18f097d49b05a0f0920919621b28fc2.ico"
+        }
+      ],
+      "icon": [
+        {
+          "hash": "b9a1bf48e18f097d49b05a0f0920919621b28fc2",
+          "url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/4724240/b9a1bf48e18f097d49b05a0f0920919621b28fc2.jpg"
+        }
+      ],
+      "capsule_image": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724240/4edf73ca521b859ab6717ddbdbf6ee0bb14b1b43/capsule_231x87.jpg?t=1778761816"
+        }
+      ],
+      "capsule_imagev5": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724240/4edf73ca521b859ab6717ddbdbf6ee0bb14b1b43/capsule_184x69.jpg?t=1778761816"
+        }
+      ],
+      "background": [
+        {
+          "url": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4724240?t=1778761816"
+        }
+      ],
+      "background_raw": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724240/4a0c6b0528f2e1b7719ea5a1d1aedfddf064c7d8/page_bg_raw.jpg?t=1778761816"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": 0,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724240/36f025a80b0441e4f68253fdbe0372da1de154d6/ss_36f025a80b0441e4f68253fdbe0372da1de154d6.600x338.jpg?t=1778761816",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724240/36f025a80b0441e4f68253fdbe0372da1de154d6/ss_36f025a80b0441e4f68253fdbe0372da1de154d6.1920x1080.jpg?t=1778761816"
+        },
+        {
+          "id": 1,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724240/8ab3c9f38f1413c5949f26818858d47bbdabd617/ss_8ab3c9f38f1413c5949f26818858d47bbdabd617.600x338.jpg?t=1778761816",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724240/8ab3c9f38f1413c5949f26818858d47bbdabd617/ss_8ab3c9f38f1413c5949f26818858d47bbdabd617.1920x1080.jpg?t=1778761816"
+        },
+        {
+          "id": 2,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724240/d38ae576b7e0f4b4ec22b1720f84f4ee8d33ec79/ss_d38ae576b7e0f4b4ec22b1720f84f4ee8d33ec79.600x338.jpg?t=1778761816",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724240/d38ae576b7e0f4b4ec22b1720f84f4ee8d33ec79/ss_d38ae576b7e0f4b4ec22b1720f84f4ee8d33ec79.1920x1080.jpg?t=1778761816"
+        },
+        {
+          "id": 3,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724240/ffccf3a4b33ff15b386fa9a1f3449f0cbc48a0b1/ss_ffccf3a4b33ff15b386fa9a1f3449f0cbc48a0b1.600x338.jpg?t=1778761816",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724240/ffccf3a4b33ff15b386fa9a1f3449f0cbc48a0b1/ss_ffccf3a4b33ff15b386fa9a1f3449f0cbc48a0b1.1920x1080.jpg?t=1778761816"
+        },
+        {
+          "id": 4,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724240/1db8bc77806d3ceb87bd877bcf789ead8de86cc2/ss_1db8bc77806d3ceb87bd877bcf789ead8de86cc2.600x338.jpg?t=1778761816",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724240/1db8bc77806d3ceb87bd877bcf789ead8de86cc2/ss_1db8bc77806d3ceb87bd877bcf789ead8de86cc2.1920x1080.jpg?t=1778761816"
+        }
+      ],
+      "movies": [
+        {
+          "id": 257334067,
+          "name": "Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257334067/14bcbcc64e2146aaaf339ad9e4d0207f32eda777/movie_600x337.jpg?t=1778646122",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4724240/350099005/d6f34f76dae27d70eb2816b251c2cca58c1f88e2/1778365809/dash_av1.mpd?t=1778646122",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4724240/350099005/d6f34f76dae27d70eb2816b251c2cca58c1f88e2/1778365809/dash_h264.mpd?t=1778646122",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4724240/350099005/d6f34f76dae27d70eb2816b251c2cca58c1f88e2/1778365809/hls_264_master.m3u8?t=1778646122",
+          "highlight": true
+        }
+      ],
+      "embedded_media": {
+        "about_the_game_urls": [],
+        "detailed_description_urls": [],
+        "all_urls": [],
+        "videos_mp4": [],
+        "videos_webm": [],
+        "images": []
+      }
+    },
+    "store_data": {
+      "type": "game",
+      "required_age": 0,
+      "is_free": false,
+      "about_the_game": "<p class=\"bb_paragraph\" ><strong>Vector Storm</strong> is a fast-paced top-down arcade shooter that rewards aggression, precision, and smart builds.</p><p class=\"bb_paragraph\" >  Fight through endless waves of escalating enemies, survive devastating boss encounters, and grow stronger with every</p><p class=\"bb_paragraph\" >  run.</p><h2 class=\"bb_tag\" >  Survive. Build. Repeat.</h2><p class=\"bb_paragraph\" >  Each run drops you into an arena that gets deadlier by the wave. Clear enemies to earn credits, spend them in the</p><p class=\"bb_paragraph\" >  mid-run shop on weapons and upgrades, and scavenge gear from fallen bosses. Die, bank your tokens, and come back</p><p class=\"bb_paragraph\" >  stronger.</p><h2 class=\"bb_tag\" >  Build Your Loadout</h2><p class=\"bb_paragraph\" >  Equip tiered gear across seven slots — cockpit, wings, boosters, plating, shield, dampener, and weapon bay. Every</p><p class=\"bb_paragraph\" >  piece changes how your ship performs. Stack synergies, push your combo multiplier, and find the build that carries you</p><p class=\"bb_paragraph\" >   deepest.</p><h2 class=\"bb_tag\" >  Five Ships. Five Playstyles.</h2><p class=\"bb_paragraph\" >  Start with the balanced Viper or unlock faster, stranger ships as you clear waves. The heavy Bastion regenerates</p><p class=\"bb_paragraph\" >  shields. The Phantom opens with a stealth window. The Ironclad reflects damage back. Each ship demands a different</p><p class=\"bb_paragraph\" >  approach.</p><h2 class=\"bb_tag\" >  Meta-Progression</h2><p class=\"bb_paragraph\" >  Tokens earned each run fund permanent upgrades — more health, faster fire rate, bonus starting credits, and more. Sink</p><p class=\"bb_paragraph\" >   enough tokens into the tree and the arena changes with you.</p><h2 class=\"bb_tag\" >  Features</h2><p class=\"bb_paragraph\" >  </p><p class=\"bb_paragraph\" >  [] Endless wave-based survival with escalating difficulty</p><p class=\"bb_paragraph\" >  [] Seven-slot gear system with tiered boss drops</p><p class=\"bb_paragraph\" >  [] Five unlockable ships with unique passives</p><p class=\"bb_paragraph\" >  [] Deep mid-run upgrade shop</p><p class=\"bb_paragraph\" >  [] Persistent meta-progression across runs</p><p class=\"bb_paragraph\" >  [] Multiple distinct boss encounters</p><p class=\"bb_paragraph\" >  [] 44 Steam achievements</p><p class=\"bb_paragraph\" >  [] Global leaderboards</p><p class=\"bb_paragraph\" >  [*] Procedurally generated adaptive soundtrack</p><p class=\"bb_paragraph\" >  </p>",
+      "detailed_description": "<p class=\"bb_paragraph\" ><strong>Vector Storm</strong> is a fast-paced top-down arcade shooter that rewards aggression, precision, and smart builds.</p><p class=\"bb_paragraph\" >  Fight through endless waves of escalating enemies, survive devastating boss encounters, and grow stronger with every</p><p class=\"bb_paragraph\" >  run.</p><h2 class=\"bb_tag\" >  Survive. Build. Repeat.</h2><p class=\"bb_paragraph\" >  Each run drops you into an arena that gets deadlier by the wave. Clear enemies to earn credits, spend them in the</p><p class=\"bb_paragraph\" >  mid-run shop on weapons and upgrades, and scavenge gear from fallen bosses. Die, bank your tokens, and come back</p><p class=\"bb_paragraph\" >  stronger.</p><h2 class=\"bb_tag\" >  Build Your Loadout</h2><p class=\"bb_paragraph\" >  Equip tiered gear across seven slots — cockpit, wings, boosters, plating, shield, dampener, and weapon bay. Every</p><p class=\"bb_paragraph\" >  piece changes how your ship performs. Stack synergies, push your combo multiplier, and find the build that carries you</p><p class=\"bb_paragraph\" >   deepest.</p><h2 class=\"bb_tag\" >  Five Ships. Five Playstyles.</h2><p class=\"bb_paragraph\" >  Start with the balanced Viper or unlock faster, stranger ships as you clear waves. The heavy Bastion regenerates</p><p class=\"bb_paragraph\" >  shields. The Phantom opens with a stealth window. The Ironclad reflects damage back. Each ship demands a different</p><p class=\"bb_paragraph\" >  approach.</p><h2 class=\"bb_tag\" >  Meta-Progression</h2><p class=\"bb_paragraph\" >  Tokens earned each run fund permanent upgrades — more health, faster fire rate, bonus starting credits, and more. Sink</p><p class=\"bb_paragraph\" >   enough tokens into the tree and the arena changes with you.</p><h2 class=\"bb_tag\" >  Features</h2><p class=\"bb_paragraph\" >  </p><p class=\"bb_paragraph\" >  [] Endless wave-based survival with escalating difficulty</p><p class=\"bb_paragraph\" >  [] Seven-slot gear system with tiered boss drops</p><p class=\"bb_paragraph\" >  [] Five unlockable ships with unique passives</p><p class=\"bb_paragraph\" >  [] Deep mid-run upgrade shop</p><p class=\"bb_paragraph\" >  [] Persistent meta-progression across runs</p><p class=\"bb_paragraph\" >  [] Multiple distinct boss encounters</p><p class=\"bb_paragraph\" >  [] 44 Steam achievements</p><p class=\"bb_paragraph\" >  [] Global leaderboards</p><p class=\"bb_paragraph\" >  [*] Procedurally generated adaptive soundtrack</p><p class=\"bb_paragraph\" >  </p>",
+      "short_description": "A relentless top-down arcade shooter with roguelite progression. Blast through escalating waves, battle massive bosses, and build your loadout with boss-dropped gear. Earn tokens to permanently upgrade your fleet and unlock new ships between runs.",
+      "supported_languages": "English",
+      "website": null,
+      "pc_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10 64-bit<br></li><li><strong>Processor:</strong> Intel Core i3 / AMD Ryzen 3 (any generation) <br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Any GPU with DirectX 10 support <br></li><li><strong>Storage:</strong> 150 MB available space</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10/11 64-bit <br></li><li><strong>Processor:</strong> Intel Core i5 / AMD Ryzen 5 <br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Any dedicated GPU<br></li><li><strong>Storage:</strong> 15 MB available space</li></ul>"
+      },
+      "mac_requirements": [],
+      "linux_requirements": [],
+      "developers": [
+        "WHODATYAT"
+      ],
+      "publishers": [
+        "WHODATYAT"
+      ],
+      "support_info": {
+        "url": "",
+        "email": "whodatyat1@yahoo.com"
+      },
+      "package_groups": [],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "categories": [
+        {
+          "id": 2,
+          "description": "Single-player"
+        },
+        {
+          "id": 22,
+          "description": "Steam Achievements"
+        },
+        {
+          "id": 68,
+          "description": "Custom Volume Controls"
+        },
+        {
+          "id": 18,
+          "description": "Partial Controller Support"
+        },
+        {
+          "id": 15,
+          "description": "Stats"
+        },
+        {
+          "id": 25,
+          "description": "Steam Leaderboards"
+        },
+        {
+          "id": 62,
+          "description": "Family Sharing"
+        }
+      ],
+      "genres": [
+        {
+          "id": "1",
+          "description": "Action"
+        },
+        {
+          "id": "25",
+          "description": "Adventure"
+        }
+      ],
+      "release_date": {
+        "coming_soon": true,
+        "date": "Coming soon"
+      },
+      "content_descriptors": {
+        "ids": [],
+        "notes": null
+      },
+      "ratings": {
+        "dejus": {
+          "rating_generated": "1",
+          "rating": "10",
+          "required_age": "10",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": "Violência"
+        },
+        "steam_germany": {
+          "rating_generated": "1",
+          "rating": "12",
+          "required_age": "12",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": "Gewalt"
+        },
+        "igrs": {
+          "rating_generated": "1",
+          "rating": "15",
+          "required_age": "15",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": "Penggunaan bahasa\nKekerasan"
+        }
+      }
+    }
+  }
+}
