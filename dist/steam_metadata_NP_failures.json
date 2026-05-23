@@ -1,44 +1,23 @@
 [
   {
-    "appid": 1990220,
+    "appid": 2008950,
+    "stage": "steam_appdetails",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=2008950&l=english&cc=us",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-23T08:24:52.161812+00:00"
+  },
+  {
+    "appid": 2009300,
     "stage": "steam_appdetails",
     "error": "Steam mengembalikan success=false.",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-23T08:05:30.395943+00:00"
+    "timestamp": "2026-05-23T08:25:06.828874+00:00"
   },
   {
-    "appid": 1994540,
+    "appid": 2014500,
     "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=1994540&l=english&cc=us",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=2014500&l=english&cc=us",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-23T08:09:54.133885+00:00"
-  },
-  {
-    "appid": 1994750,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-23T08:10:11.771548+00:00"
-  },
-  {
-    "appid": 1995800,
-    "stage": "steam_appdetails",
-    "error": "Steam mengembalikan success=false.",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-23T08:11:05.584051+00:00"
-  },
-  {
-    "appid": 1999430,
-    "stage": "steamgriddb_lookup",
-    "error": "Steam appid tidak ditemukan di SteamGridDB",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-23T08:14:17.464779+00:00"
-  },
-  {
-    "appid": 1999740,
-    "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=1999740&l=english&cc=us",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-23T08:14:49.735469+00:00"
+    "timestamp": "2026-05-23T08:29:52.602586+00:00"
   }
 ]
