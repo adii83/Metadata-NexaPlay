@@ -1,23 +1,44 @@
 [
   {
-    "appid": 2089110,
-    "stage": "steam_appdetails",
-    "error": "Steam mengembalikan success=false.",
+    "appid": 2098360,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-24T05:22:06.434433+00:00"
+    "timestamp": "2026-05-24T05:33:42.910903+00:00"
   },
   {
-    "appid": 2094250,
-    "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=2094250&l=english&cc=us",
+    "appid": 2101450,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-24T05:27:22.485029+00:00"
+    "timestamp": "2026-05-24T05:37:03.644389+00:00"
   },
   {
-    "appid": 2096790,
+    "appid": 2102400,
     "stage": "steam_appdetails",
-    "error": "Steam mengembalikan success=false.",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=2102400&l=english&cc=us",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-24T05:30:19.174143+00:00"
+    "timestamp": "2026-05-24T05:38:15.924751+00:00"
+  },
+  {
+    "appid": 2107170,
+    "stage": "steam_appdetails",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=2107170&l=english&cc=us",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-24T05:43:18.263315+00:00"
+  },
+  {
+    "appid": 2107400,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-24T05:43:34.652926+00:00"
+  },
+  {
+    "appid": 2109650,
+    "stage": "steamgriddb_lookup",
+    "error": "Steam appid tidak ditemukan di SteamGridDB",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-24T05:45:26.706948+00:00"
   }
 ]
