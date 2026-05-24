@@ -1,9 +1,37 @@
 [
   {
-    "appid": 2176230,
+    "appid": 2188910,
     "stage": "steam_appdetails",
     "error": "Steam mengembalikan success=false.",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-24T07:00:07.616582+00:00"
+    "timestamp": "2026-05-24T07:15:19.469050+00:00"
+  },
+  {
+    "appid": 2188920,
+    "stage": "steam_appdetails",
+    "error": "Steam mengembalikan success=false.",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-24T07:15:20.827861+00:00"
+  },
+  {
+    "appid": 2193090,
+    "stage": "steam_appdetails",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=2193090&l=english&cc=us",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-24T07:19:44.448517+00:00"
+  },
+  {
+    "appid": 2196370,
+    "stage": "steam_appdetails",
+    "error": "Steam mengembalikan success=false.",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-24T07:23:19.044697+00:00"
+  },
+  {
+    "appid": 2196380,
+    "stage": "steam_appdetails",
+    "error": "Steam mengembalikan success=false.",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-24T07:23:20.418777+00:00"
   }
 ]
