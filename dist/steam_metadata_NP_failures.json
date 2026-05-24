@@ -1,51 +1,23 @@
 [
   {
-    "appid": 2078120,
+    "appid": 2089110,
     "stage": "steam_appdetails",
     "error": "Steam mengembalikan success=false.",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-24T05:08:40.593195+00:00"
+    "timestamp": "2026-05-24T05:22:06.434433+00:00"
   },
   {
-    "appid": 2080660,
+    "appid": 2094250,
+    "stage": "steam_appdetails",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=2094250&l=english&cc=us",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-24T05:27:22.485029+00:00"
+  },
+  {
+    "appid": 2096790,
     "stage": "steam_appdetails",
     "error": "Steam mengembalikan success=false.",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-24T05:11:09.619731+00:00"
-  },
-  {
-    "appid": 2080670,
-    "stage": "steam_appdetails",
-    "error": "Steam mengembalikan success=false.",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-24T05:11:10.991701+00:00"
-  },
-  {
-    "appid": 2081590,
-    "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=2081590&l=english&cc=us",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-24T05:12:16.666548+00:00"
-  },
-  {
-    "appid": 2082400,
-    "stage": "steam_appdetails",
-    "error": "Steam mengembalikan success=false.",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-24T05:13:08.571142+00:00"
-  },
-  {
-    "appid": 2085310,
-    "stage": "steamgriddb_public",
-    "error": "'list' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-24T05:16:12.815928+00:00"
-  },
-  {
-    "appid": 2086180,
-    "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=2086180&l=english&cc=us",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-24T05:17:16.878041+00:00"
+    "timestamp": "2026-05-24T05:30:19.174143+00:00"
   }
 ]
