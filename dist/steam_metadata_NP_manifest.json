@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-24T07:24:53.328407+00:00",
+  "generated_at": "2026-05-24T07:39:09.815672+00:00",
   "total_appids_processed_this_run": 500,
-  "total_entries_in_archive": 86233,
+  "total_entries_in_archive": 86733,
   "source_counts": {
     "appid_populer": 244,
     "fix_games": 120,
@@ -25,10 +25,10 @@
     "retry_429_count": 0,
     "retry_failed_count": 0,
     "backlog_count": 500,
-    "backlog_cursor_before": 85762,
-    "backlog_cursor_after": 86262
+    "backlog_cursor_before": 86262,
+    "backlog_cursor_after": 86762
   },
-  "skipped_success_existing": 82643,
+  "skipped_success_existing": 83143,
   "force_refresh": false,
   "chunking": {
     "max_file_size_mb": 25,
@@ -261,38 +261,38 @@
       },
       {
         "file": "steam_metadata_NP_part046.json",
-        "entries": 1430,
-        "size_bytes": 30394750
+        "entries": 1435,
+        "size_bytes": 30373133
       },
       {
         "file": "steam_metadata_NP_part047.json",
-        "entries": 1160,
-        "size_bytes": 29693503
+        "entries": 1172,
+        "size_bytes": 29835422
       },
       {
         "file": "steam_metadata_NP_part048.json",
-        "entries": 1309,
-        "size_bytes": 29807186
+        "entries": 1332,
+        "size_bytes": 29849133
       },
       {
         "file": "steam_metadata_NP_part049.json",
-        "entries": 2050,
-        "size_bytes": 29997912
+        "entries": 1426,
+        "size_bytes": 29837705
       },
       {
         "file": "steam_metadata_NP_part050.json",
-        "entries": 2915,
-        "size_bytes": 30265314
+        "entries": 2937,
+        "size_bytes": 30239984
       },
       {
         "file": "steam_metadata_NP_part051.json",
-        "entries": 2724,
-        "size_bytes": 30063675
+        "entries": 3018,
+        "size_bytes": 30219195
       },
       {
         "file": "steam_metadata_NP_part052.json",
-        "entries": 13,
-        "size_bytes": 215152
+        "entries": 781,
+        "size_bytes": 10883773
       }
     ]
   },
