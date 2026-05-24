@@ -1,23 +1,51 @@
 [
   {
-    "appid": 2236260,
-    "stage": "steamgriddb_lookup",
-    "error": "Steam appid tidak ditemukan di SteamGridDB",
+    "appid": 2250100,
+    "stage": "steam_appdetails",
+    "error": "Steam mengembalikan success=false.",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-24T08:11:25.438736+00:00"
+    "timestamp": "2026-05-24T08:26:20.415502+00:00"
   },
   {
-    "appid": 2240430,
+    "appid": 2250110,
+    "stage": "steam_appdetails",
+    "error": "Steam mengembalikan success=false.",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-24T08:26:21.789733+00:00"
+  },
+  {
+    "appid": 2250750,
+    "stage": "steam_appdetails",
+    "error": "Steam mengembalikan success=false.",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-24T08:27:07.036203+00:00"
+  },
+  {
+    "appid": 2251220,
+    "stage": "steam_appdetails",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=2251220&l=english&cc=us",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-24T08:27:46.398647+00:00"
+  },
+  {
+    "appid": 2255670,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-24T08:14:47.132004+00:00"
+    "timestamp": "2026-05-24T08:31:28.723489+00:00"
   },
   {
-    "appid": 2241800,
-    "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=2241800&l=english&cc=us",
+    "appid": 2256350,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-24T08:16:15.699258+00:00"
+    "timestamp": "2026-05-24T08:31:59.218246+00:00"
+  },
+  {
+    "appid": 2256860,
+    "stage": "steam_appdetails",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=2256860&l=english&cc=us",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-24T08:32:46.704694+00:00"
   }
 ]
