@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-25T20:32:41.860696+00:00",
+  "generated_at": "2026-05-25T20:47:31.060625+00:00",
   "total_appids_processed_this_run": 500,
-  "total_entries_in_archive": 103733,
+  "total_entries_in_archive": 104233,
   "source_counts": {
     "appid_populer": 244,
     "fix_games": 120,
@@ -25,10 +25,10 @@
     "retry_429_count": 0,
     "retry_failed_count": 0,
     "backlog_count": 500,
-    "backlog_cursor_before": 103262,
-    "backlog_cursor_after": 103762
+    "backlog_cursor_before": 103762,
+    "backlog_cursor_after": 104262
   },
-  "skipped_success_existing": 100143,
+  "skipped_success_existing": 100643,
   "force_refresh": false,
   "chunking": {
     "max_file_size_mb": 25,
@@ -326,38 +326,38 @@
       },
       {
         "file": "steam_metadata_NP_part059.json",
-        "entries": 1244,
-        "size_bytes": 30007952
+        "entries": 1367,
+        "size_bytes": 30258518
       },
       {
         "file": "steam_metadata_NP_part060.json",
-        "entries": 1311,
-        "size_bytes": 29813348
+        "entries": 1209,
+        "size_bytes": 29688704
       },
       {
         "file": "steam_metadata_NP_part061.json",
-        "entries": 1312,
-        "size_bytes": 29796614
+        "entries": 1307,
+        "size_bytes": 29795865
       },
       {
         "file": "steam_metadata_NP_part062.json",
-        "entries": 2770,
-        "size_bytes": 30222582
+        "entries": 2195,
+        "size_bytes": 30064137
       },
       {
         "file": "steam_metadata_NP_part063.json",
-        "entries": 2805,
-        "size_bytes": 30186557
+        "entries": 2783,
+        "size_bytes": 30237590
       },
       {
         "file": "steam_metadata_NP_part064.json",
-        "entries": 1574,
-        "size_bytes": 17735841
+        "entries": 2655,
+        "size_bytes": 28669073
       }
     ]
   },
   "failures": {
-    "count": 0,
+    "count": 4,
     "file": "steam_metadata_NP_failures.json"
   },
   "progress_file": "steam_metadata_NP_progress.json"

@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "appid": 2643430,
+    "stage": "steamgriddb_lookup",
+    "error": "Steam appid tidak ditemukan di SteamGridDB",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-25T20:36:58.549629+00:00"
+  },
+  {
+    "appid": 2649230,
+    "stage": "steam_appdetails",
+    "error": "Steam mengembalikan success=false.",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-25T20:42:39.044928+00:00"
+  },
+  {
+    "appid": 2651130,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-25T20:44:23.247597+00:00"
+  },
+  {
+    "appid": 2652660,
+    "stage": "steamgriddb_lookup",
+    "error": "Steam appid tidak ditemukan di SteamGridDB",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-25T20:45:58.070757+00:00"
+  }
+]
