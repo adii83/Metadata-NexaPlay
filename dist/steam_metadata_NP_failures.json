@@ -1,9 +1,9 @@
 [
   {
-    "appid": 2578530,
-    "stage": "steam_appdetails",
-    "error": "Steam mengembalikan success=false.",
+    "appid": 2589050,
+    "stage": "steamgriddb_lookup",
+    "error": "Steam appid tidak ditemukan di SteamGridDB",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-25T19:25:31.363389+00:00"
+    "timestamp": "2026-05-25T19:37:03.442547+00:00"
   }
 ]
