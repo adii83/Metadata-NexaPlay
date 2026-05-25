@@ -1,23 +1,16 @@
 [
   {
-    "appid": 2784010,
-    "stage": "steam_appdetails",
-    "error": "Steam mengembalikan success=false.",
+    "appid": 2800410,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-25T23:17:34.473640+00:00"
+    "timestamp": "2026-05-25T23:35:16.625553+00:00"
   },
   {
-    "appid": 2786920,
+    "appid": 2802110,
     "stage": "steam_appdetails",
     "error": "Steam mengembalikan success=false.",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-25T23:20:47.597175+00:00"
-  },
-  {
-    "appid": 2793460,
-    "stage": "steam_appdetails",
-    "error": "Steam mengembalikan success=false.",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-25T23:26:25.478723+00:00"
+    "timestamp": "2026-05-25T23:36:43.500887+00:00"
   }
 ]
