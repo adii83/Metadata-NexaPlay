@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-25T18:18:30.653438+00:00",
+  "generated_at": "2026-05-25T18:32:16.604003+00:00",
   "total_appids_processed_this_run": 500,
-  "total_entries_in_archive": 99733,
+  "total_entries_in_archive": 100233,
   "source_counts": {
     "appid_populer": 244,
     "fix_games": 120,
@@ -25,10 +25,10 @@
     "retry_429_count": 0,
     "retry_failed_count": 0,
     "backlog_count": 500,
-    "backlog_cursor_before": 99262,
-    "backlog_cursor_after": 99762
+    "backlog_cursor_before": 99762,
+    "backlog_cursor_after": 100262
   },
-  "skipped_success_existing": 96143,
+  "skipped_success_existing": 96643,
   "force_refresh": false,
   "chunking": {
     "max_file_size_mb": 25,
@@ -311,38 +311,43 @@
       },
       {
         "file": "steam_metadata_NP_part056.json",
-        "entries": 1250,
-        "size_bytes": 30049149
+        "entries": 1353,
+        "size_bytes": 30165589
       },
       {
         "file": "steam_metadata_NP_part057.json",
-        "entries": 1304,
-        "size_bytes": 29764062
+        "entries": 1188,
+        "size_bytes": 29743284
       },
       {
         "file": "steam_metadata_NP_part058.json",
-        "entries": 1288,
-        "size_bytes": 29774708
+        "entries": 1306,
+        "size_bytes": 29793564
       },
       {
         "file": "steam_metadata_NP_part059.json",
-        "entries": 2689,
-        "size_bytes": 30222223
+        "entries": 1911,
+        "size_bytes": 29988266
       },
       {
         "file": "steam_metadata_NP_part060.json",
-        "entries": 2745,
-        "size_bytes": 30177954
+        "entries": 2995,
+        "size_bytes": 30292239
       },
       {
         "file": "steam_metadata_NP_part061.json",
-        "entries": 1863,
-        "size_bytes": 20788906
+        "entries": 2773,
+        "size_bytes": 30098529
+      },
+      {
+        "file": "steam_metadata_NP_part062.json",
+        "entries": 113,
+        "size_bytes": 2156678
       }
     ]
   },
   "failures": {
-    "count": 8,
+    "count": 10,
     "file": "steam_metadata_NP_failures.json"
   },
   "progress_file": "steam_metadata_NP_progress.json"
