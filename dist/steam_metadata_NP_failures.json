@@ -1,58 +1,16 @@
 [
   {
-    "appid": 2325190,
-    "stage": "steamgriddb_lookup",
-    "error": "Steam appid tidak ditemukan di SteamGridDB",
+    "appid": 2335890,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-25T05:21:18.414439+00:00"
+    "timestamp": "2026-05-25T05:34:57.562566+00:00"
   },
   {
-    "appid": 2325850,
-    "stage": "steamgriddb_lookup",
-    "error": "Steam appid tidak ditemukan di SteamGridDB",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-25T05:21:49.737383+00:00"
-  },
-  {
-    "appid": 2328290,
+    "appid": 2340860,
     "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=2328290&l=english&cc=us",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=2340860&l=english&cc=us",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-25T05:24:49.612326+00:00"
-  },
-  {
-    "appid": 2330070,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-25T05:26:51.202653+00:00"
-  },
-  {
-    "appid": 2330750,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-25T05:27:36.429889+00:00"
-  },
-  {
-    "appid": 2331020,
-    "stage": "steamgriddb_lookup",
-    "error": "Steam appid tidak ditemukan di SteamGridDB",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-25T05:27:54.218892+00:00"
-  },
-  {
-    "appid": 2332800,
-    "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=2332800&l=english&cc=us",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-25T05:29:54.716178+00:00"
-  },
-  {
-    "appid": 2332940,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-25T05:30:17.529497+00:00"
+    "timestamp": "2026-05-25T05:40:00.684688+00:00"
   }
 ]
