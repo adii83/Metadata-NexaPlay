@@ -1,16 +1,23 @@
 [
   {
-    "appid": 2689200,
+    "appid": 2694720,
     "stage": "steam_appdetails",
     "error": "Steam mengembalikan success=false.",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-25T21:28:15.756761+00:00"
+    "timestamp": "2026-05-25T21:35:43.037287+00:00"
   },
   {
-    "appid": 2689230,
-    "stage": "steam_appdetails",
-    "error": "Steam mengembalikan success=false.",
+    "appid": 2698960,
+    "stage": "steamgriddb_lookup",
+    "error": "Steam appid tidak ditemukan di SteamGridDB",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-25T21:28:18.653338+00:00"
+    "timestamp": "2026-05-25T21:39:29.345864+00:00"
+  },
+  {
+    "appid": 2702630,
+    "stage": "steamgriddb_lookup",
+    "error": "Steam appid tidak ditemukan di SteamGridDB",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-25T21:43:48.890946+00:00"
   }
 ]
