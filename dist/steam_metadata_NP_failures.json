@@ -1,23 +1,58 @@
 [
   {
-    "appid": 2719620,
+    "appid": 2732490,
+    "stage": "steam_appdetails",
+    "error": "Steam mengembalikan success=false.",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-25T22:20:17.975907+00:00"
+  },
+  {
+    "appid": 2732500,
+    "stage": "steam_appdetails",
+    "error": "Steam mengembalikan success=false.",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-25T22:20:19.481625+00:00"
+  },
+  {
+    "appid": 2736210,
+    "stage": "steam_appdetails",
+    "error": "Steam mengembalikan success=false.",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-25T22:23:39.357318+00:00"
+  },
+  {
+    "appid": 2737000,
+    "stage": "steamgriddb_public",
+    "error": "'NoneType' object has no attribute 'get'",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-25T22:24:36.669139+00:00"
+  },
+  {
+    "appid": 2738470,
     "stage": "steamgriddb_lookup",
     "error": "Steam appid tidak ditemukan di SteamGridDB",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-25T22:05:31.060439+00:00"
+    "timestamp": "2026-05-25T22:25:51.334107+00:00"
   },
   {
-    "appid": 2722780,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
+    "appid": 2741050,
+    "stage": "steamgriddb_lookup",
+    "error": "Steam appid tidak ditemukan di SteamGridDB",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-25T22:08:49.443171+00:00"
+    "timestamp": "2026-05-25T22:27:52.210499+00:00"
   },
   {
-    "appid": 2728330,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
+    "appid": 2741500,
+    "stage": "steam_appdetails",
+    "error": "Steam mengembalikan success=false.",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-25T22:14:19.356408+00:00"
+    "timestamp": "2026-05-25T22:28:25.821802+00:00"
+  },
+  {
+    "appid": 2742710,
+    "stage": "steamgriddb_lookup",
+    "error": "Steam appid tidak ditemukan di SteamGridDB",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-25T22:29:33.118944+00:00"
   }
 ]
