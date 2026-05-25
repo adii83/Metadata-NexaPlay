@@ -1,23 +1,30 @@
 [
   {
-    "appid": 2694720,
+    "appid": 2706670,
     "stage": "steam_appdetails",
     "error": "Steam mengembalikan success=false.",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-25T21:35:43.037287+00:00"
+    "timestamp": "2026-05-25T21:50:45.696608+00:00"
   },
   {
-    "appid": 2698960,
+    "appid": 2707020,
     "stage": "steamgriddb_lookup",
     "error": "Steam appid tidak ditemukan di SteamGridDB",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-25T21:39:29.345864+00:00"
+    "timestamp": "2026-05-25T21:51:10.785899+00:00"
   },
   {
-    "appid": 2702630,
-    "stage": "steamgriddb_lookup",
-    "error": "Steam appid tidak ditemukan di SteamGridDB",
+    "appid": 2716830,
+    "stage": "steamgriddb_public",
+    "error": "'list' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-25T21:43:48.890946+00:00"
+    "timestamp": "2026-05-25T22:00:34.701549+00:00"
+  },
+  {
+    "appid": 2717080,
+    "stage": "steam_appdetails",
+    "error": "Steam mengembalikan success=false.",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-25T22:00:51.298811+00:00"
   }
 ]
