@@ -1,72 +1,30 @@
 [
   {
-    "appid": 2602730,
+    "appid": 2614080,
     "stage": "steam_appdetails",
     "error": "Steam mengembalikan success=false.",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-25T19:52:52.060577+00:00"
+    "timestamp": "2026-05-25T20:05:21.662266+00:00"
   },
   {
-    "appid": 2603120,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-25T19:53:16.138408+00:00"
-  },
-  {
-    "appid": 2607220,
-    "stage": "steamgriddb_lookup",
-    "error": "Steam appid tidak ditemukan di SteamGridDB",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-25T19:56:38.752874+00:00"
-  },
-  {
-    "appid": 2610770,
-    "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-25T20:00:22.945520+00:00"
-  },
-  {
-    "appid": 2611160,
+    "appid": 2614710,
     "stage": "steam_appdetails",
     "error": "Steam mengembalikan success=false.",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-25T20:00:53.055116+00:00"
+    "timestamp": "2026-05-25T20:06:04.968894+00:00"
   },
   {
-    "appid": 2611590,
-    "stage": "steamgriddb_public",
-    "error": "Expecting value: line 1 column 1 (char 0)",
+    "appid": 2618970,
+    "stage": "steam_appdetails",
+    "error": "Steam mengembalikan success=false.",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-25T20:01:16.696193+00:00"
+    "timestamp": "2026-05-25T20:09:24.057554+00:00"
   },
   {
-    "appid": 2611600,
-    "stage": "steamgriddb_lookup",
-    "error": "Expecting value: line 1 column 1 (char 0)",
+    "appid": 2624050,
+    "stage": "steam_appdetails",
+    "error": "Steam mengembalikan success=false.",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-25T20:01:18.001930+00:00"
-  },
-  {
-    "appid": 2611620,
-    "stage": "steamgriddb_lookup",
-    "error": "Expecting value: line 1 column 1 (char 0)",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-25T20:01:19.319850+00:00"
-  },
-  {
-    "appid": 2611630,
-    "stage": "steamgriddb_lookup",
-    "error": "Expecting value: line 1 column 1 (char 0)",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-25T20:01:20.640727+00:00"
-  },
-  {
-    "appid": 2611710,
-    "stage": "steamgriddb_lookup",
-    "error": "Expecting value: line 1 column 1 (char 0)",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-25T20:01:21.913978+00:00"
+    "timestamp": "2026-05-25T20:13:55.570255+00:00"
   }
 ]
