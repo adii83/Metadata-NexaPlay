@@ -1,30 +1,37 @@
 [
   {
-    "appid": 2446390,
+    "appid": 2460070,
     "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=2446390&l=english&cc=us",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=2460070&l=english&cc=us",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-25T07:44:58.202965+00:00"
+    "timestamp": "2026-05-25T07:59:57.999254+00:00"
   },
   {
-    "appid": 2449950,
-    "stage": "steamgriddb_lookup",
-    "error": "Steam appid tidak ditemukan di SteamGridDB",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-25T07:48:14.258564+00:00"
-  },
-  {
-    "appid": 2451620,
+    "appid": 2460120,
     "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=2451620&l=english&cc=us",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=2460120&l=english&cc=us",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-25T07:49:57.470019+00:00"
+    "timestamp": "2026-05-25T08:00:13.719719+00:00"
   },
   {
-    "appid": 2453340,
+    "appid": 2464120,
     "stage": "steam_appdetails",
     "error": "Steam mengembalikan success=false.",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-25T07:51:37.845725+00:00"
+    "timestamp": "2026-05-25T08:03:46.677420+00:00"
+  },
+  {
+    "appid": 2465310,
+    "stage": "steam_appdetails",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=2465310&l=english&cc=us",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-25T08:04:58.783637+00:00"
+  },
+  {
+    "appid": 2465360,
+    "stage": "steam_appdetails",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=2465360&l=english&cc=us",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-25T08:05:14.418006+00:00"
   }
 ]
