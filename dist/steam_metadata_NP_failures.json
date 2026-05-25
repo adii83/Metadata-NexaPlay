@@ -1,23 +1,23 @@
 [
   {
-    "appid": 2286070,
+    "appid": 2301830,
+    "stage": "steam_appdetails",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=2301830&l=english&cc=us",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-25T04:54:30.616252+00:00"
+  },
+  {
+    "appid": 2305770,
     "stage": "steamgriddb_public",
-    "error": "'NoneType' object has no attribute 'get'",
+    "error": "'list' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-24T09:08:10.964890+00:00"
+    "timestamp": "2026-05-25T04:58:22.625935+00:00"
   },
   {
-    "appid": 2291020,
+    "appid": 2307020,
     "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=2291020&l=english&cc=us",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=2307020&l=english&cc=us",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-24T09:12:51.467438+00:00"
-  },
-  {
-    "appid": 2296080,
-    "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=2296080&l=english&cc=us",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-24T09:17:50.052333+00:00"
+    "timestamp": "2026-05-25T04:59:36.038682+00:00"
   }
 ]
