@@ -1,44 +1,30 @@
 [
   {
-    "appid": 3109040,
-    "stage": "steamgriddb_lookup",
-    "error": "Steam appid tidak ditemukan di SteamGridDB",
+    "appid": 3127000,
+    "stage": "steam_appdetails",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=3127000&l=english&cc=us",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-26T06:30:44.394085+00:00"
+    "timestamp": "2026-05-26T06:50:08.056738+00:00"
   },
   {
-    "appid": 3110090,
+    "appid": 3127030,
     "stage": "steam_appdetails",
-    "error": "Steam mengembalikan success=false.",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=3127030&l=english&cc=us",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-26T06:31:54.065353+00:00"
+    "timestamp": "2026-05-26T06:50:23.660117+00:00"
   },
   {
-    "appid": 3113690,
+    "appid": 3133440,
     "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=3113690&l=english&cc=us",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=3133440&l=english&cc=us",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-26T06:35:08.205242+00:00"
+    "timestamp": "2026-05-26T06:55:08.915691+00:00"
   },
   {
-    "appid": 3113710,
+    "appid": 3133480,
     "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=3113710&l=english&cc=us",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=3133480&l=english&cc=us",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-26T06:35:23.834800+00:00"
-  },
-  {
-    "appid": 3119450,
-    "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=3119450&l=english&cc=us",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-26T06:40:08.740371+00:00"
-  },
-  {
-    "appid": 3119460,
-    "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=3119460&l=english&cc=us",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-26T06:40:24.373603+00:00"
+    "timestamp": "2026-05-26T06:55:24.518443+00:00"
   }
 ]
