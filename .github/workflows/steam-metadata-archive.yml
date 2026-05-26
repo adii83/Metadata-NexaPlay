@@ -43,9 +43,9 @@ jobs:
           git config user.name "${COMMIT_USER_NAME:-${GITHUB_ACTOR}}"
           git config user.email "${COMMIT_USER_EMAIL:-${GITHUB_ACTOR}@users.noreply.github.com}"
 
-          # 60 x 500 = 30.000 App ID per run harian
-          for i in $(seq 1 60); do
-            echo "=== Siklus $i/60 (500 App ID) ==="
+          # 20 x 500 = 30.000 App ID per run harian
+          for i in $(seq 1 20); do
+            echo "=== Siklus $i/20 (500 App ID) ==="
             if [ "$i" -eq 1 ]; then
               python final/steam_metadata_NP.py \
                 --batch-size 500 \
@@ -68,6 +68,6 @@ jobs:
             fi
 
             git add dist
-            git commit -m "Update Steam metadata archive (+500 appids, siklus $i/60)" || true
+            git commit -m "Update Steam metadata archive (+500 appids, siklus $i/20)" || true
             git push
           done
