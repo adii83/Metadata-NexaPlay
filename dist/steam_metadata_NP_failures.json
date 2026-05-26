@@ -1,37 +1,16 @@
 [
   {
-    "appid": 3052150,
-    "stage": "steamgriddb_lookup",
-    "error": "Steam appid tidak ditemukan di SteamGridDB",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-26T05:31:26.944641+00:00"
-  },
-  {
-    "appid": 3063670,
-    "stage": "steamgriddb_lookup",
-    "error": "Steam appid tidak ditemukan di SteamGridDB",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-26T05:36:02.161350+00:00"
-  },
-  {
-    "appid": 3065820,
+    "appid": 3078730,
     "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=3065820&l=english&cc=us",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=3078730&l=english&cc=us",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-26T05:38:07.117458+00:00"
+    "timestamp": "2026-05-26T05:53:08.990901+00:00"
   },
   {
-    "appid": 3065860,
+    "appid": 3078740,
     "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=3065860&l=english&cc=us",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=3078740&l=english&cc=us",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-26T05:38:22.735959+00:00"
-  },
-  {
-    "appid": 3070860,
-    "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=3070860&l=english&cc=us",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-26T05:43:09.237332+00:00"
+    "timestamp": "2026-05-26T05:53:24.738577+00:00"
   }
 ]
