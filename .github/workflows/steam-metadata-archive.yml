@@ -43,7 +43,7 @@ jobs:
           git config user.name "${COMMIT_USER_NAME:-${GITHUB_ACTOR}}"
           git config user.email "${COMMIT_USER_EMAIL:-${GITHUB_ACTOR}@users.noreply.github.com}"
 
-          # 20 x 500 = 30.000 App ID per run harian
+          # 20 x 500 = 10.000 App ID per run harian
           for i in $(seq 1 20); do
             echo "=== Siklus $i/20 (500 App ID) ==="
             if [ "$i" -eq 1 ]; then
