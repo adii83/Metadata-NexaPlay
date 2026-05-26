@@ -1,44 +1,23 @@
 [
   {
-    "appid": 2928650,
+    "appid": 2946940,
+    "stage": "steam_appdetails",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=2946940&l=english&cc=us",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-26T03:25:11.966297+00:00"
+  },
+  {
+    "appid": 2946990,
     "stage": "steam_appdetails",
     "error": "Steam mengembalikan success=false.",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-26T03:04:56.103852+00:00"
+    "timestamp": "2026-05-26T03:25:27.734658+00:00"
   },
   {
-    "appid": 2928660,
+    "appid": 2952060,
     "stage": "steam_appdetails",
-    "error": "Steam mengembalikan success=false.",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=2952060&l=english&cc=us",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-26T03:04:57.476242+00:00"
-  },
-  {
-    "appid": 2931810,
-    "stage": "steam_appdetails",
-    "error": "Steam mengembalikan success=false.",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-26T03:08:02.703191+00:00"
-  },
-  {
-    "appid": 2934080,
-    "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=2934080&l=english&cc=us",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-26T03:10:10.696266+00:00"
-  },
-  {
-    "appid": 2937990,
-    "stage": "steam_appdetails",
-    "error": "Steam mengembalikan success=false.",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-26T03:13:38.479584+00:00"
-  },
-  {
-    "appid": 2939510,
-    "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=2939510&l=english&cc=us",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-26T03:15:11.429619+00:00"
+    "timestamp": "2026-05-26T03:30:16.853301+00:00"
   }
 ]
