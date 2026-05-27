@@ -1,65 +1,121 @@
 [
   {
-    "appid": 3150450,
-    "stage": "steamgriddb_lookup",
-    "error": "Steam appid tidak ditemukan di SteamGridDB",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-27T05:05:17.393255+00:00"
-  },
-  {
-    "appid": 3152280,
-    "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=3152280&l=english&cc=us",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-27T05:07:12.087081+00:00"
-  },
-  {
-    "appid": 3152290,
-    "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=3152290&l=english&cc=us",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-27T05:07:27.719542+00:00"
-  },
-  {
-    "appid": 3152310,
-    "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=3152310&l=english&cc=us",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-27T05:07:43.515842+00:00"
-  },
-  {
-    "appid": 3155730,
-    "stage": "steam_appdetails",
-    "error": "Steam mengembalikan success=false.",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-27T05:10:17.775635+00:00"
-  },
-  {
-    "appid": 3156230,
+    "appid": 3160490,
     "stage": "steamgriddb_public",
     "error": "'NoneType' object has no attribute 'get'",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-27T05:10:44.561535+00:00"
+    "timestamp": "2026-05-27T05:17:34.165478+00:00"
   },
   {
-    "appid": 3158080,
+    "appid": 3165740,
     "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=3158080&l=english&cc=us",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=3165740&l=english&cc=us",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-27T05:12:15.763776+00:00"
+    "timestamp": "2026-05-27T05:22:18.979839+00:00"
   },
   {
-    "appid": 3158110,
+    "appid": 3165800,
     "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=3158110&l=english&cc=us",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=3165800&l=english&cc=us",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-27T05:12:31.142525+00:00"
+    "timestamp": "2026-05-27T05:22:34.378624+00:00"
   },
   {
-    "appid": 3158160,
+    "appid": 3165810,
     "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=3158160&l=english&cc=us",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=3165810&l=english&cc=us",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-27T05:12:46.603105+00:00"
+    "timestamp": "2026-05-27T05:22:49.845686+00:00"
+  },
+  {
+    "appid": 3169800,
+    "stage": "steam_appdetails",
+    "error": "Steam mengembalikan success=false.",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-27T05:25:56.658832+00:00"
+  },
+  {
+    "appid": 3169810,
+    "stage": "steam_appdetails",
+    "error": "Steam mengembalikan success=false.",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-27T05:25:57.837393+00:00"
+  },
+  {
+    "appid": 3169820,
+    "stage": "steam_appdetails",
+    "error": "Steam mengembalikan success=false.",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-27T05:25:59.014525+00:00"
+  },
+  {
+    "appid": 3169830,
+    "stage": "steam_appdetails",
+    "error": "Steam mengembalikan success=false.",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-27T05:26:00.233875+00:00"
+  },
+  {
+    "appid": 3171380,
+    "stage": "steam_appdetails",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=3171380&l=english&cc=us",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-27T05:27:23.145357+00:00"
+  },
+  {
+    "appid": 3171440,
+    "stage": "steam_appdetails",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=3171440&l=english&cc=us",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-27T05:27:38.538641+00:00"
+  },
+  {
+    "appid": 3171450,
+    "stage": "steam_appdetails",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=3171450&l=english&cc=us",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-27T05:27:53.912140+00:00"
+  },
+  {
+    "appid": 3172060,
+    "stage": "steam_appdetails",
+    "error": "Steam mengembalikan success=false.",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-27T05:28:38.252841+00:00"
+  },
+  {
+    "appid": 3172180,
+    "stage": "steam_appdetails",
+    "error": "Steam mengembalikan success=false.",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-27T05:28:44.228279+00:00"
+  },
+  {
+    "appid": 3172190,
+    "stage": "steam_appdetails",
+    "error": "Steam mengembalikan success=false.",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-27T05:28:45.436971+00:00"
+  },
+  {
+    "appid": 3172200,
+    "stage": "steam_appdetails",
+    "error": "Steam mengembalikan success=false.",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-27T05:28:46.633112+00:00"
+  },
+  {
+    "appid": 3172220,
+    "stage": "steam_appdetails",
+    "error": "Steam mengembalikan success=false.",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-27T05:28:47.804458+00:00"
+  },
+  {
+    "appid": 3172230,
+    "stage": "steam_appdetails",
+    "error": "Steam mengembalikan success=false.",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-27T05:28:48.975349+00:00"
   }
 ]
