@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "appid": 3579220,
+    "stage": "steam_appdetails",
+    "error": "Steam mengembalikan success=false.",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-28T07:12:17.881508+00:00"
+  }
+]
