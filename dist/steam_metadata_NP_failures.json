@@ -1,9 +1,16 @@
 [
   {
-    "appid": 3460150,
+    "appid": 3473160,
     "stage": "steam_appdetails",
     "error": "Steam mengembalikan success=false.",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-28T05:43:56.666173+00:00"
+    "timestamp": "2026-05-28T05:57:07.115461+00:00"
+  },
+  {
+    "appid": 3475340,
+    "stage": "steam_appdetails",
+    "error": "Steam mengembalikan success=false.",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-28T05:59:09.825699+00:00"
   }
 ]
