@@ -1,44 +1,30 @@
 [
   {
-    "appid": 3850320,
+    "appid": 3868740,
+    "stage": "steam_appdetails",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=3868740&l=english&cc=us",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-29T07:21:00.934720+00:00"
+  },
+  {
+    "appid": 3872670,
     "stage": "steam_appdetails",
     "error": "Steam mengembalikan success=false.",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-29T07:00:41.825471+00:00"
+    "timestamp": "2026-05-29T07:24:20.003435+00:00"
   },
   {
-    "appid": 3854780,
-    "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=3854780&l=english&cc=us",
+    "appid": 3873560,
+    "stage": "steamgriddb_public",
+    "error": "HTTPSConnectionPool(host='www.steamgriddb.com', port=443): Read timed out. (read timeout=30)",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-29T07:05:26.884854+00:00"
+    "timestamp": "2026-05-29T07:25:37.160645+00:00"
   },
   {
-    "appid": 3855290,
-    "stage": "steam_appdetails",
-    "error": "Steam mengembalikan success=false.",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-29T07:05:54.368164+00:00"
-  },
-  {
-    "appid": 3856680,
+    "appid": 3874620,
     "stage": "steam_appdetails",
     "error": "Steam mengembalikan success=false.",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-29T07:07:10.212716+00:00"
-  },
-  {
-    "appid": 3860410,
-    "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=3860410&l=english&cc=us",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-29T07:10:25.385677+00:00"
-  },
-  {
-    "appid": 3861100,
-    "stage": "steam_appdetails",
-    "error": "Steam mengembalikan success=false.",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-29T07:11:07.502758+00:00"
+    "timestamp": "2026-05-29T07:26:23.169521+00:00"
   }
 ]
