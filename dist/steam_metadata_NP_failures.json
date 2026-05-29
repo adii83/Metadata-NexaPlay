@@ -1,23 +1,9 @@
 [
   {
-    "appid": 3951790,
-    "stage": "steamgriddb_lookup",
-    "error": "Steam appid tidak ditemukan di SteamGridDB",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-29T08:50:48.404689+00:00"
-  },
-  {
-    "appid": 3954940,
+    "appid": 3966450,
     "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=3954940&l=english&cc=us",
+    "error": "Steam mengembalikan success=false.",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-29T08:53:42.389316+00:00"
-  },
-  {
-    "appid": 3960930,
-    "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=3960930&l=english&cc=us",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-29T08:58:40.605124+00:00"
+    "timestamp": "2026-05-29T09:07:10.394417+00:00"
   }
 ]
