@@ -1,30 +1,44 @@
 [
   {
-    "appid": 3838050,
+    "appid": 3850320,
     "stage": "steam_appdetails",
     "error": "Steam mengembalikan success=false.",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-29T06:46:35.154193+00:00"
+    "timestamp": "2026-05-29T07:00:41.825471+00:00"
   },
   {
-    "appid": 3842180,
+    "appid": 3854780,
     "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=3842180&l=english&cc=us",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=3854780&l=english&cc=us",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-29T06:50:04.601330+00:00"
+    "timestamp": "2026-05-29T07:05:26.884854+00:00"
   },
   {
-    "appid": 3844690,
-    "stage": "steamgriddb_lookup",
-    "error": "Steam appid tidak ditemukan di SteamGridDB",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-29T06:52:15.844234+00:00"
-  },
-  {
-    "appid": 3847480,
+    "appid": 3855290,
     "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=3847480&l=english&cc=us",
+    "error": "Steam mengembalikan success=false.",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-29T06:55:09.288711+00:00"
+    "timestamp": "2026-05-29T07:05:54.368164+00:00"
+  },
+  {
+    "appid": 3856680,
+    "stage": "steam_appdetails",
+    "error": "Steam mengembalikan success=false.",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-29T07:07:10.212716+00:00"
+  },
+  {
+    "appid": 3860410,
+    "stage": "steam_appdetails",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=3860410&l=english&cc=us",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-29T07:10:25.385677+00:00"
+  },
+  {
+    "appid": 3861100,
+    "stage": "steam_appdetails",
+    "error": "Steam mengembalikan success=false.",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-29T07:11:07.502758+00:00"
   }
 ]
