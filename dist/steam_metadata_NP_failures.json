@@ -1,44 +1,23 @@
 [
   {
-    "appid": 4053780,
+    "appid": 4076090,
     "stage": "steam_appdetails",
-    "error": "Steam mengembalikan success=false.",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=4076090&l=english&cc=us",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-30T05:06:36.853289+00:00"
+    "timestamp": "2026-05-30T05:22:58.085091+00:00"
   },
   {
-    "appid": 4055570,
+    "appid": 4076100,
     "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=4055570&l=english&cc=us",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=4076100&l=english&cc=us",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-30T05:07:57.050697+00:00"
+    "timestamp": "2026-05-30T05:23:13.575431+00:00"
   },
   {
-    "appid": 4055580,
-    "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=4055580&l=english&cc=us",
+    "appid": 4077020,
+    "stage": "steamgriddb_lookup",
+    "error": "HTTPSConnectionPool(host='www.steamgriddb.com', port=443): Read timed out. (read timeout=30)",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-30T05:08:12.582161+00:00"
-  },
-  {
-    "appid": 4062390,
-    "stage": "steam_appdetails",
-    "error": "Steam mengembalikan success=false.",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-30T05:11:42.228582+00:00"
-  },
-  {
-    "appid": 4064520,
-    "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=4064520&l=english&cc=us",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-30T05:12:50.737157+00:00"
-  },
-  {
-    "appid": 4064540,
-    "stage": "steam_appdetails",
-    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=4064540&l=english&cc=us",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-30T05:13:06.254475+00:00"
+    "timestamp": "2026-05-30T05:24:32.045257+00:00"
   }
 ]
