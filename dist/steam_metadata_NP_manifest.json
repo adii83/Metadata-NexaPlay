@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-30T06:50:08.903281+00:00",
-  "total_appids_processed_this_run": 500,
-  "total_entries_in_archive": 157732,
+  "generated_at": "2026-05-30T06:57:44.789294+00:00",
+  "total_appids_processed_this_run": 194,
+  "total_entries_in_archive": 157926,
   "source_counts": {
     "appid_populer": 244,
     "fix_games": 120,
@@ -20,15 +20,15 @@
   ],
   "batch": {
     "batch_size": 500,
-    "selected_count": 500,
+    "selected_count": 194,
     "new_count": 0,
     "retry_429_count": 0,
     "retry_failed_count": 0,
-    "backlog_count": 500,
-    "backlog_cursor_before": 157261,
+    "backlog_count": 194,
+    "backlog_cursor_before": 157761,
     "backlog_cursor_after": 157761
   },
-  "skipped_success_existing": 154142,
+  "skipped_success_existing": 154642,
   "force_refresh": false,
   "chunking": {
     "max_file_size_mb": 25,
@@ -207,37 +207,37 @@
       {
         "file": "steam_metadata_NP_part035.json",
         "entries": 1464,
-        "size_bytes": 30480928
+        "size_bytes": 30467518
       },
       {
         "file": "steam_metadata_NP_part036.json",
         "entries": 1469,
-        "size_bytes": 30459559
+        "size_bytes": 30446782
       },
       {
         "file": "steam_metadata_NP_part037.json",
-        "entries": 1469,
-        "size_bytes": 30422390
+        "entries": 1468,
+        "size_bytes": 30427714
       },
       {
         "file": "steam_metadata_NP_part038.json",
         "entries": 1438,
-        "size_bytes": 30387576
+        "size_bytes": 30388660
       },
       {
         "file": "steam_metadata_NP_part039.json",
-        "entries": 1484,
-        "size_bytes": 30477478
+        "entries": 1483,
+        "size_bytes": 30459549
       },
       {
         "file": "steam_metadata_NP_part040.json",
-        "entries": 1410,
-        "size_bytes": 30322399
+        "entries": 1412,
+        "size_bytes": 30358151
       },
       {
         "file": "steam_metadata_NP_part041.json",
-        "entries": 1419,
-        "size_bytes": 30305212
+        "entries": 1420,
+        "size_bytes": 30319305
       },
       {
         "file": "steam_metadata_NP_part042.json",
@@ -276,28 +276,28 @@
       },
       {
         "file": "steam_metadata_NP_part049.json",
-        "entries": 1400,
-        "size_bytes": 30330602
+        "entries": 1399,
+        "size_bytes": 30325793
       },
       {
         "file": "steam_metadata_NP_part050.json",
-        "entries": 1416,
-        "size_bytes": 30292534
+        "entries": 1417,
+        "size_bytes": 30311022
       },
       {
         "file": "steam_metadata_NP_part051.json",
         "entries": 1348,
-        "size_bytes": 30222493
+        "size_bytes": 30215879
       },
       {
         "file": "steam_metadata_NP_part052.json",
         "entries": 1432,
-        "size_bytes": 30368458
+        "size_bytes": 30373832
       },
       {
         "file": "steam_metadata_NP_part053.json",
-        "entries": 1356,
-        "size_bytes": 30203890
+        "entries": 1357,
+        "size_bytes": 30219140
       },
       {
         "file": "steam_metadata_NP_part054.json",
@@ -311,253 +311,253 @@
       },
       {
         "file": "steam_metadata_NP_part056.json",
-        "entries": 1353,
-        "size_bytes": 30165589
+        "entries": 1352,
+        "size_bytes": 30174590
       },
       {
         "file": "steam_metadata_NP_part057.json",
-        "entries": 1387,
-        "size_bytes": 30273572
+        "entries": 1386,
+        "size_bytes": 30257248
       },
       {
         "file": "steam_metadata_NP_part058.json",
-        "entries": 1383,
-        "size_bytes": 30235256
+        "entries": 1384,
+        "size_bytes": 30244125
       },
       {
         "file": "steam_metadata_NP_part059.json",
-        "entries": 1367,
-        "size_bytes": 30258518
+        "entries": 1366,
+        "size_bytes": 30255417
       },
       {
         "file": "steam_metadata_NP_part060.json",
-        "entries": 1379,
-        "size_bytes": 30260899
+        "entries": 1378,
+        "size_bytes": 30221920
       },
       {
         "file": "steam_metadata_NP_part061.json",
-        "entries": 1362,
-        "size_bytes": 30236353
+        "entries": 1360,
+        "size_bytes": 30202891
       },
       {
         "file": "steam_metadata_NP_part062.json",
-        "entries": 1356,
-        "size_bytes": 30210077
+        "entries": 1355,
+        "size_bytes": 30192836
       },
       {
         "file": "steam_metadata_NP_part063.json",
-        "entries": 1374,
-        "size_bytes": 30239636
+        "entries": 1375,
+        "size_bytes": 30219006
       },
       {
         "file": "steam_metadata_NP_part064.json",
-        "entries": 1363,
-        "size_bytes": 30207949
+        "entries": 1361,
+        "size_bytes": 30211828
       },
       {
         "file": "steam_metadata_NP_part065.json",
-        "entries": 1358,
-        "size_bytes": 30211154
+        "entries": 1357,
+        "size_bytes": 30204339
       },
       {
         "file": "steam_metadata_NP_part066.json",
-        "entries": 1347,
-        "size_bytes": 30161540
+        "entries": 1348,
+        "size_bytes": 30185731
       },
       {
         "file": "steam_metadata_NP_part067.json",
-        "entries": 1348,
-        "size_bytes": 30167374
+        "entries": 1347,
+        "size_bytes": 30151603
       },
       {
         "file": "steam_metadata_NP_part068.json",
-        "entries": 1353,
-        "size_bytes": 30155949
+        "entries": 1354,
+        "size_bytes": 30147266
       },
       {
         "file": "steam_metadata_NP_part069.json",
-        "entries": 1339,
-        "size_bytes": 30099613
+        "entries": 1336,
+        "size_bytes": 30089230
       },
       {
         "file": "steam_metadata_NP_part070.json",
-        "entries": 1331,
-        "size_bytes": 30095239
+        "entries": 1333,
+        "size_bytes": 30079068
       },
       {
         "file": "steam_metadata_NP_part071.json",
-        "entries": 1340,
-        "size_bytes": 30131947
+        "entries": 1341,
+        "size_bytes": 30112304
       },
       {
         "file": "steam_metadata_NP_part072.json",
-        "entries": 1345,
-        "size_bytes": 30097805
+        "entries": 1342,
+        "size_bytes": 30063987
       },
       {
         "file": "steam_metadata_NP_part073.json",
-        "entries": 1322,
-        "size_bytes": 30082020
+        "entries": 1323,
+        "size_bytes": 30067060
       },
       {
         "file": "steam_metadata_NP_part074.json",
-        "entries": 1323,
-        "size_bytes": 29992324
+        "entries": 1322,
+        "size_bytes": 29984452
       },
       {
         "file": "steam_metadata_NP_part075.json",
         "entries": 1328,
-        "size_bytes": 30034148
+        "size_bytes": 30014088
       },
       {
         "file": "steam_metadata_NP_part076.json",
-        "entries": 1281,
-        "size_bytes": 29945863
+        "entries": 1277,
+        "size_bytes": 29935435
       },
       {
         "file": "steam_metadata_NP_part077.json",
-        "entries": 1279,
-        "size_bytes": 29902463
+        "entries": 1281,
+        "size_bytes": 29908970
       },
       {
         "file": "steam_metadata_NP_part078.json",
-        "entries": 1289,
-        "size_bytes": 29903453
+        "entries": 1291,
+        "size_bytes": 29906139
       },
       {
         "file": "steam_metadata_NP_part079.json",
         "entries": 1321,
-        "size_bytes": 29965216
+        "size_bytes": 29979501
       },
       {
         "file": "steam_metadata_NP_part080.json",
-        "entries": 1305,
-        "size_bytes": 29944965
+        "entries": 1304,
+        "size_bytes": 29947540
       },
       {
         "file": "steam_metadata_NP_part081.json",
-        "entries": 1273,
-        "size_bytes": 29903365
+        "entries": 1269,
+        "size_bytes": 29902519
       },
       {
         "file": "steam_metadata_NP_part082.json",
-        "entries": 1277,
-        "size_bytes": 29903681
+        "entries": 1280,
+        "size_bytes": 29908619
       },
       {
         "file": "steam_metadata_NP_part083.json",
-        "entries": 1292,
-        "size_bytes": 29939581
+        "entries": 1293,
+        "size_bytes": 29946328
       },
       {
         "file": "steam_metadata_NP_part084.json",
-        "entries": 1282,
-        "size_bytes": 29866567
+        "entries": 1281,
+        "size_bytes": 29850965
       },
       {
         "file": "steam_metadata_NP_part085.json",
         "entries": 1256,
-        "size_bytes": 29796994
+        "size_bytes": 29819336
       },
       {
         "file": "steam_metadata_NP_part086.json",
-        "entries": 1235,
-        "size_bytes": 29764390
+        "entries": 1238,
+        "size_bytes": 29771614
       },
       {
         "file": "steam_metadata_NP_part087.json",
-        "entries": 1278,
-        "size_bytes": 29824976
+        "entries": 1275,
+        "size_bytes": 29820290
       },
       {
         "file": "steam_metadata_NP_part088.json",
-        "entries": 1258,
-        "size_bytes": 29812642
+        "entries": 1260,
+        "size_bytes": 29804319
       },
       {
         "file": "steam_metadata_NP_part089.json",
         "entries": 1263,
-        "size_bytes": 29809930
+        "size_bytes": 29809761
       },
       {
         "file": "steam_metadata_NP_part090.json",
         "entries": 1261,
-        "size_bytes": 29845772
+        "size_bytes": 29858904
       },
       {
         "file": "steam_metadata_NP_part091.json",
-        "entries": 1272,
-        "size_bytes": 29848227
+        "entries": 1271,
+        "size_bytes": 29822169
       },
       {
         "file": "steam_metadata_NP_part092.json",
         "entries": 1266,
-        "size_bytes": 29826564
+        "size_bytes": 29820009
       },
       {
         "file": "steam_metadata_NP_part093.json",
-        "entries": 1316,
-        "size_bytes": 29940733
+        "entries": 1313,
+        "size_bytes": 29930724
       },
       {
         "file": "steam_metadata_NP_part094.json",
-        "entries": 1285,
-        "size_bytes": 29912659
+        "entries": 1286,
+        "size_bytes": 29907750
       },
       {
         "file": "steam_metadata_NP_part095.json",
-        "entries": 1305,
-        "size_bytes": 29912482
+        "entries": 1307,
+        "size_bytes": 29893832
       },
       {
         "file": "steam_metadata_NP_part096.json",
-        "entries": 1271,
-        "size_bytes": 29809035
+        "entries": 1267,
+        "size_bytes": 29804520
       },
       {
         "file": "steam_metadata_NP_part097.json",
         "entries": 1314,
-        "size_bytes": 29862393
+        "size_bytes": 29874304
       },
       {
         "file": "steam_metadata_NP_part098.json",
-        "entries": 1344,
-        "size_bytes": 29911039
+        "entries": 1345,
+        "size_bytes": 29912660
       },
       {
         "file": "steam_metadata_NP_part099.json",
-        "entries": 1326,
-        "size_bytes": 29824978
+        "entries": 1325,
+        "size_bytes": 29829038
       },
       {
         "file": "steam_metadata_NP_part100.json",
-        "entries": 1273,
-        "size_bytes": 29741256
+        "entries": 1294,
+        "size_bytes": 29776183
       },
       {
         "file": "steam_metadata_NP_part101.json",
-        "entries": 1332,
-        "size_bytes": 29849133
+        "entries": 1318,
+        "size_bytes": 29833475
       },
       {
         "file": "steam_metadata_NP_part102.json",
-        "entries": 1426,
-        "size_bytes": 29837705
+        "entries": 1318,
+        "size_bytes": 29794359
       },
       {
         "file": "steam_metadata_NP_part103.json",
-        "entries": 2937,
-        "size_bytes": 30239984
+        "entries": 2844,
+        "size_bytes": 30255187
       },
       {
         "file": "steam_metadata_NP_part104.json",
-        "entries": 3018,
-        "size_bytes": 30219195
+        "entries": 3152,
+        "size_bytes": 30295729
       },
       {
         "file": "steam_metadata_NP_part105.json",
-        "entries": 1245,
-        "size_bytes": 20191960
+        "entries": 1512,
+        "size_bytes": 24518865
       }
     ]
   },

@@ -1,30 +1,30 @@
 [
   {
-    "appid": 4169070,
-    "stage": "steamgriddb_public",
-    "error": "HTTPSConnectionPool(host='www.steamgriddb.com', port=443): Read timed out. (read timeout=30)",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-30T06:38:43.148403+00:00"
-  },
-  {
-    "appid": 4169490,
-    "stage": "steamgriddb_lookup",
-    "error": "HTTPSConnectionPool(host='www.steamgriddb.com', port=443): Read timed out. (read timeout=30)",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-30T06:39:32.665285+00:00"
-  },
-  {
-    "appid": 4173720,
-    "stage": "steamgriddb_public",
-    "error": "HTTPSConnectionPool(host='www.steamgriddb.com', port=443): Read timed out. (read timeout=30)",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-30T06:42:06.120449+00:00"
-  },
-  {
-    "appid": 4186610,
+    "appid": 4190530,
     "stage": "steam_appdetails",
     "error": "Steam mengembalikan success=false.",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-30T06:47:49.850614+00:00"
+    "timestamp": "2026-05-30T06:52:39.334691+00:00"
+  },
+  {
+    "appid": 4190600,
+    "stage": "steam_appdetails",
+    "error": "Steam mengembalikan success=false.",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-30T06:52:40.515954+00:00"
+  },
+  {
+    "appid": 4198800,
+    "stage": "steam_appdetails",
+    "error": "Steam mengembalikan success=false.",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-30T06:55:01.380638+00:00"
+  },
+  {
+    "appid": 4725200,
+    "stage": "steam_appdetails",
+    "error": "Steam mengembalikan success=false.",
+    "source_priority": "steam_data",
+    "timestamp": "2026-05-30T06:55:54.244181+00:00"
   }
 ]
