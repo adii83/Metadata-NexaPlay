@@ -1,44 +1,37 @@
 [
   {
-    "appid": 4091890,
-    "stage": "steam_appdetails",
-    "error": "Steam mengembalikan success=false.",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-30T05:36:30.604858+00:00"
-  },
-  {
-    "appid": 4092850,
-    "stage": "steam_appdetails",
-    "error": "Steam mengembalikan success=false.",
-    "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-30T05:36:45.241306+00:00"
-  },
-  {
-    "appid": 4095190,
+    "appid": 4112140,
     "stage": "steamgriddb_public",
     "error": "HTTPSConnectionPool(host='www.steamgriddb.com', port=443): Read timed out. (read timeout=30)",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-30T05:38:32.749526+00:00"
+    "timestamp": "2026-05-30T05:52:48.535440+00:00"
   },
   {
-    "appid": 4096370,
+    "appid": 4113810,
     "stage": "steam_appdetails",
     "error": "Steam mengembalikan success=false.",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-30T05:39:01.807869+00:00"
+    "timestamp": "2026-05-30T05:53:47.301403+00:00"
   },
   {
-    "appid": 4100170,
+    "appid": 4120500,
     "stage": "steam_appdetails",
     "error": "Steam mengembalikan success=false.",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-30T05:41:01.231429+00:00"
+    "timestamp": "2026-05-30T05:58:01.633317+00:00"
   },
   {
-    "appid": 4100360,
-    "stage": "steamgriddb_public",
-    "error": "HTTPSConnectionPool(host='www.steamgriddb.com', port=443): Read timed out. (read timeout=30)",
+    "appid": 4121610,
+    "stage": "steam_appdetails",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=4121610&l=english&cc=us",
     "source_priority": "steam_data_gz",
-    "timestamp": "2026-05-30T05:41:39.804629+00:00"
+    "timestamp": "2026-05-30T05:58:59.616336+00:00"
+  },
+  {
+    "appid": 4121620,
+    "stage": "steam_appdetails",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=4121620&l=english&cc=us",
+    "source_priority": "steam_data_gz",
+    "timestamp": "2026-05-30T05:59:15.138234+00:00"
   }
 ]
