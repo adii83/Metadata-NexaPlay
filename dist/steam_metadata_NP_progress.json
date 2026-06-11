@@ -162075,13 +162075,13 @@
     224060,
     255480
   ],
-  "last_run_at": "2026-06-11T05:14:29.602821+00:00",
+  "last_run_at": "2026-06-11T05:18:37.294712+00:00",
   "last_batch": {
-    "processed_count": 500,
-    "new_count": 500,
+    "processed_count": 56,
+    "new_count": 0,
     "retry_429_count": 0,
     "retry_failed_count": 0,
-    "backlog_count": 0,
+    "backlog_count": 56,
     "force_refresh": false
   },
   "retry_429_appids": []
