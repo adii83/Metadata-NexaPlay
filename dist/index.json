@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-11T05:32:13.616547+00:00",
+  "generated_at": "2026-06-11T05:33:22.505205+00:00",
   "dataset": "steam_metadata_NP",
-  "version": "2026-06-11T05:32:13.616551+00:00",
+  "version": "2026-06-11T05:33:22.505210+00:00",
   "chunks": {
     "folder": "chunks",
     "count": 106,
@@ -861,7 +861,7 @@
   "runtime_catalog": {
     "file": "runtime_catalog.json",
     "size_bytes": 20459794,
-    "sha256": "92e4d19d12976cce61a6129fb4bf37c6ca92fa34752aeb8f9f35db666533e1f5",
-    "last_modified_utc": "2026-06-11T05:31:42.922782+00:00"
+    "sha256": "8ee7fc940296aab2ecd075f0be29923c7f1958496322e3b6c6851df58d55ed6f",
+    "last_modified_utc": "2026-06-11T05:32:51.918449+00:00"
   }
 }
