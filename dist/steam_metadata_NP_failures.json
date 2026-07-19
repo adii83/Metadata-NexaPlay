@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "appid": 4914420,
+    "stage": "steamgriddb_lookup",
+    "error": "Steam appid tidak ditemukan di SteamGridDB",
+    "source_priority": "steam_data",
+    "timestamp": "2026-07-19T03:53:01.452680+00:00"
+  }
+]
