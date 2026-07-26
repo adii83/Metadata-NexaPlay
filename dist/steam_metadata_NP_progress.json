@@ -165348,13 +165348,13 @@
     224060,
     255480
   ],
-  "last_run_at": "2026-07-26T04:06:19.965783+00:00",
+  "last_run_at": "2026-07-26T04:09:16.606930+00:00",
   "last_batch": {
-    "processed_count": 500,
-    "new_count": 500,
+    "processed_count": 20,
+    "new_count": 0,
     "retry_429_count": 0,
     "retry_failed_count": 0,
-    "backlog_count": 0,
+    "backlog_count": 20,
     "force_refresh": false
   },
   "retry_429_appids": []
