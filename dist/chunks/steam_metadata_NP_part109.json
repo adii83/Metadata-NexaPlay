@@ -237741,5 +237741,773 @@
         }
       }
     }
+  },
+  "5038830": {
+    "success": true,
+    "source_priority": "steam_data",
+    "fetch_status": {
+      "steam_appdetails": true,
+      "steam_original_assets": true
+    },
+    "name": "Cartagol: Football Card Career",
+    "steam_appid": "5038830",
+    "steamgriddb_game_id": 5541160,
+    "store_asset_mtime": 1786047142,
+    "assets_count": 25,
+    "assets": {
+      "header": [
+        {
+          "path": "30fa3dd44ceebf14855b729cca809d14b100ea43/header.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5038830/30fa3dd44ceebf14855b729cca809d14b100ea43/header.jpg?t=1786047142",
+          "language": "english"
+        }
+      ],
+      "library_capsule": [
+        {
+          "path": "8fd32f12aa0ab19f011aca3b783cc8356aef2568/library_capsule.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5038830/8fd32f12aa0ab19f011aca3b783cc8356aef2568/library_capsule.jpg?t=1786047142",
+          "language": "english"
+        }
+      ],
+      "library_capsule_2x": [
+        {
+          "path": "8fd32f12aa0ab19f011aca3b783cc8356aef2568/library_capsule_2x.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5038830/8fd32f12aa0ab19f011aca3b783cc8356aef2568/library_capsule_2x.jpg?t=1786047142",
+          "language": "english"
+        }
+      ],
+      "library_hero": [
+        {
+          "path": "29711b10126932fa5435406fdd8aff72680b6aba/library_hero.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5038830/29711b10126932fa5435406fdd8aff72680b6aba/library_hero.jpg?t=1786047142",
+          "language": "english"
+        }
+      ],
+      "library_hero_2x": [
+        {
+          "path": "29711b10126932fa5435406fdd8aff72680b6aba/library_hero_2x.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5038830/29711b10126932fa5435406fdd8aff72680b6aba/library_hero_2x.jpg?t=1786047142",
+          "language": "english"
+        }
+      ],
+      "library_logo": [
+        {
+          "path": "693e5d1cd64b70f6a16bd3de805b625548776c1e/logo.png",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5038830/693e5d1cd64b70f6a16bd3de805b625548776c1e/logo.png?t=1786047142",
+          "language": "english"
+        }
+      ],
+      "library_logo_2x": [
+        {
+          "path": "693e5d1cd64b70f6a16bd3de805b625548776c1e/logo_2x.png",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5038830/693e5d1cd64b70f6a16bd3de805b625548776c1e/logo_2x.png?t=1786047142",
+          "language": "english"
+        }
+      ],
+      "clienticon": [
+        {
+          "hash": "687d2de31a5228fd9bc9af7cbe6c573c9b8e520c",
+          "url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/5038830/687d2de31a5228fd9bc9af7cbe6c573c9b8e520c.ico"
+        }
+      ],
+      "icon": [
+        {
+          "hash": "687d2de31a5228fd9bc9af7cbe6c573c9b8e520c",
+          "url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/5038830/687d2de31a5228fd9bc9af7cbe6c573c9b8e520c.jpg"
+        }
+      ],
+      "capsule_image": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038830/92d6fc93d375df1509582ed8c86501c7d109fde2/capsule_231x87.jpg?t=1786054195"
+        }
+      ],
+      "capsule_imagev5": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038830/92d6fc93d375df1509582ed8c86501c7d109fde2/capsule_184x69.jpg?t=1786054195"
+        }
+      ],
+      "background": [
+        {
+          "url": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5038830?t=1786054195"
+        }
+      ],
+      "background_raw": [
+        {
+          "url": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5038830?t=1786054195"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": 0,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038830/4386ff904ba466e98cc5c8561ee7a78b0729f315/ss_4386ff904ba466e98cc5c8561ee7a78b0729f315.600x338.jpg?t=1786054195",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038830/4386ff904ba466e98cc5c8561ee7a78b0729f315/ss_4386ff904ba466e98cc5c8561ee7a78b0729f315.1920x1080.jpg?t=1786054195"
+        },
+        {
+          "id": 1,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038830/6cf22188496f18a56de370455982f2fbaaf6b153/ss_6cf22188496f18a56de370455982f2fbaaf6b153.600x338.jpg?t=1786054195",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038830/6cf22188496f18a56de370455982f2fbaaf6b153/ss_6cf22188496f18a56de370455982f2fbaaf6b153.1920x1080.jpg?t=1786054195"
+        },
+        {
+          "id": 2,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038830/29030162c3e2e235878a6f0e6e9faf94ee44774d/ss_29030162c3e2e235878a6f0e6e9faf94ee44774d.600x338.jpg?t=1786054195",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038830/29030162c3e2e235878a6f0e6e9faf94ee44774d/ss_29030162c3e2e235878a6f0e6e9faf94ee44774d.1920x1080.jpg?t=1786054195"
+        },
+        {
+          "id": 3,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038830/8d9fb6330715a1a1c2019908aebfc4e9b98bb0d6/ss_8d9fb6330715a1a1c2019908aebfc4e9b98bb0d6.600x338.jpg?t=1786054195",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038830/8d9fb6330715a1a1c2019908aebfc4e9b98bb0d6/ss_8d9fb6330715a1a1c2019908aebfc4e9b98bb0d6.1920x1080.jpg?t=1786054195"
+        },
+        {
+          "id": 4,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038830/54401bdbfa8b5971cbac291255b455027f8851da/ss_54401bdbfa8b5971cbac291255b455027f8851da.600x338.jpg?t=1786054195",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038830/54401bdbfa8b5971cbac291255b455027f8851da/ss_54401bdbfa8b5971cbac291255b455027f8851da.1920x1080.jpg?t=1786054195"
+        },
+        {
+          "id": 5,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038830/b033d018364dc7ebad6074bf1cd0a572a7c8aad4/ss_b033d018364dc7ebad6074bf1cd0a572a7c8aad4.600x338.jpg?t=1786054195",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038830/b033d018364dc7ebad6074bf1cd0a572a7c8aad4/ss_b033d018364dc7ebad6074bf1cd0a572a7c8aad4.1920x1080.jpg?t=1786054195"
+        },
+        {
+          "id": 6,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038830/28d171983b91ce49d8199ad013a70e0fd7925482/ss_28d171983b91ce49d8199ad013a70e0fd7925482.600x338.jpg?t=1786054195",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038830/28d171983b91ce49d8199ad013a70e0fd7925482/ss_28d171983b91ce49d8199ad013a70e0fd7925482.1920x1080.jpg?t=1786054195"
+        },
+        {
+          "id": 7,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038830/67b062181623d2a2318058d497b40c74f74388cc/ss_67b062181623d2a2318058d497b40c74f74388cc.600x338.jpg?t=1786054195",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038830/67b062181623d2a2318058d497b40c74f74388cc/ss_67b062181623d2a2318058d497b40c74f74388cc.1920x1080.jpg?t=1786054195"
+        },
+        {
+          "id": 8,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038830/5e83f99b3b07da8098d14382a077373c829a8a8e/ss_5e83f99b3b07da8098d14382a077373c829a8a8e.600x338.jpg?t=1786054195",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038830/5e83f99b3b07da8098d14382a077373c829a8a8e/ss_5e83f99b3b07da8098d14382a077373c829a8a8e.1920x1080.jpg?t=1786054195"
+        },
+        {
+          "id": 9,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038830/5360f166b59fe81f8b5f564e56e044ed9aa72bbe/ss_5360f166b59fe81f8b5f564e56e044ed9aa72bbe.600x338.jpg?t=1786054195",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038830/5360f166b59fe81f8b5f564e56e044ed9aa72bbe/ss_5360f166b59fe81f8b5f564e56e044ed9aa72bbe.1920x1080.jpg?t=1786054195"
+        }
+      ],
+      "movies": [
+        {
+          "id": 257393220,
+          "name": "Announcement Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257393220/06646c81303e84f543afe590b57b878022ae6403/movie_600x337.jpg?t=1786047181",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/5038830/1360395703/55b8d6a91e706e1ca5c16c91852ddac5a5124afb/1786046535/dash_av1.mpd?t=1786047181",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/5038830/1360395703/55b8d6a91e706e1ca5c16c91852ddac5a5124afb/1786046535/dash_h264.mpd?t=1786047181",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/5038830/1360395703/55b8d6a91e706e1ca5c16c91852ddac5a5124afb/1786046535/hls_264_master.m3u8?t=1786047181",
+          "highlight": true
+        }
+      ],
+      "embedded_media": {
+        "about_the_game_urls": [],
+        "detailed_description_urls": [],
+        "all_urls": [],
+        "videos_mp4": [],
+        "videos_webm": [],
+        "images": []
+      }
+    },
+    "store_data": {
+      "type": "game",
+      "required_age": 0,
+      "is_free": false,
+      "about_the_game": "Live the life of a footballer - from a rented room with a cork board to the biggest stages in Europe. And play every single match with cards.<h2 class=\"bb_tag\" >EVERY MATCH IS A CARD BATTLE</h2>No simulation slider, no auto-play. When matchday comes, you sit at the table:<br><ul class=\"bb_ul\"><li>Draw a hand, read the situation, and play up to 3 cards per position - POWER x MULTIPLIER decides your score.<br></li><li>Chain card sequences like TIKI-TAKA, COUNTER-ATTACK or SOLO RUN for combo bonuses.<br></li><li>Spin the wheel between attack and defense, manage momentum, and finish chances - only the goals YOU play for count.<br></li><li>Survive two-legged European knockouts, and when it all ends level... penalty shootouts, card against card.</li></ul><h2 class=\"bb_tag\" >BUILD YOUR JOKER COLLECTION</h2><ul class=\"bb_ul\"><li>34 jokers across three rarity tiers, each bending the rules of the match in its own way.<br></li><li>Earn experience points only by playing, tear open card packs, and build a loadout that fits your style.<br></li><li>Sequence specialists, multiplier monsters, defensive anchors - find your build.</li></ul><h2 class=\"bb_tag\" >A CAREER THAT FEELS ALIVE</h2><ul class=\"bb_ul\"><li>6 top leagues and their second divisions - promotion, relegation, and over 100 clubs.<br></li><li>Transfer windows with real negotiation drama: offers arrive, wait, and get withdrawn.<br></li><li>Contracts, wage talks and boardroom meetings.<br></li><li>European competitions with group phases, knockout rounds and finals.<br></li><li>A real season calendar on your wall - match by match, week by week.</li></ul><h2 class=\"bb_tag\" >YOUR ROOM IS YOUR HUB</h2>Everything happens in your own room, on real objects:<br><ul class=\"bb_ul\"><li>A cork board with hand-pinned league standings and fixture notes.<br></li><li>A match ticket on the desk - pick it up to play.<br></li><li>A retro 90s desktop computer: check your stats, browse the transfer market, manage your jokers, and read decades of league history in the archive.<br></li><li>A training ground with card puzzles to sharpen your skills.</li></ul><h2 class=\"bb_tag\" >THE WORLD REACTS TO YOU</h2><ul class=\"bb_ul\"><li>A living social media feed: fans celebrate you, mock you, and turn on you when form dips.<br></li><li>Press rumors, transfer gossip, title race hysteria and end-of-season verdicts.<br></li><li>A market value graph that rises and falls with your real performances.<br></li><li>A trophy cabinet that slowly fills - if you're good enough.</li></ul><br>Start as a nobody. Retire as a legend. Or don't - that part is up to your cards.<br>",
+      "detailed_description": "Live the life of a footballer - from a rented room with a cork board to the biggest stages in Europe. And play every single match with cards.<h2 class=\"bb_tag\" >EVERY MATCH IS A CARD BATTLE</h2>No simulation slider, no auto-play. When matchday comes, you sit at the table:<br><ul class=\"bb_ul\"><li>Draw a hand, read the situation, and play up to 3 cards per position - POWER x MULTIPLIER decides your score.<br></li><li>Chain card sequences like TIKI-TAKA, COUNTER-ATTACK or SOLO RUN for combo bonuses.<br></li><li>Spin the wheel between attack and defense, manage momentum, and finish chances - only the goals YOU play for count.<br></li><li>Survive two-legged European knockouts, and when it all ends level... penalty shootouts, card against card.</li></ul><h2 class=\"bb_tag\" >BUILD YOUR JOKER COLLECTION</h2><ul class=\"bb_ul\"><li>34 jokers across three rarity tiers, each bending the rules of the match in its own way.<br></li><li>Earn experience points only by playing, tear open card packs, and build a loadout that fits your style.<br></li><li>Sequence specialists, multiplier monsters, defensive anchors - find your build.</li></ul><h2 class=\"bb_tag\" >A CAREER THAT FEELS ALIVE</h2><ul class=\"bb_ul\"><li>6 top leagues and their second divisions - promotion, relegation, and over 100 clubs.<br></li><li>Transfer windows with real negotiation drama: offers arrive, wait, and get withdrawn.<br></li><li>Contracts, wage talks and boardroom meetings.<br></li><li>European competitions with group phases, knockout rounds and finals.<br></li><li>A real season calendar on your wall - match by match, week by week.</li></ul><h2 class=\"bb_tag\" >YOUR ROOM IS YOUR HUB</h2>Everything happens in your own room, on real objects:<br><ul class=\"bb_ul\"><li>A cork board with hand-pinned league standings and fixture notes.<br></li><li>A match ticket on the desk - pick it up to play.<br></li><li>A retro 90s desktop computer: check your stats, browse the transfer market, manage your jokers, and read decades of league history in the archive.<br></li><li>A training ground with card puzzles to sharpen your skills.</li></ul><h2 class=\"bb_tag\" >THE WORLD REACTS TO YOU</h2><ul class=\"bb_ul\"><li>A living social media feed: fans celebrate you, mock you, and turn on you when form dips.<br></li><li>Press rumors, transfer gossip, title race hysteria and end-of-season verdicts.<br></li><li>A market value graph that rises and falls with your real performances.<br></li><li>A trophy cabinet that slowly fills - if you're good enough.</li></ul><br>Start as a nobody. Retire as a legend. Or don't - that part is up to your cards.<br>",
+      "short_description": "A football career sim where every match is a card battle. Build joker combos, chase form, survive the press, sign transfers and fill your trophy cabinet — all from your own room. Deckbuilding meets the beautiful game.",
+      "supported_languages": "English, Turkish",
+      "website": null,
+      "pc_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS *:</strong> Windows 7/8/10 64-bit<br></li><li><strong>Processor:</strong>  Intel Core i3-4130 / AMD FX-6300<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> DirectX 11 compatible GPU with 1 GB VRAM — Intel HD 4400 / GeForce GTX 750 or equivalent<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 2 GB available space<br></li><li><strong>Sound Card:</strong> DirectX compatible</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS *:</strong> Windows 7/8/10 64-bit<br></li><li><strong>Processor:</strong> Intel Core i5-8400 / AMD Ryzen 5 2600<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> GeForce GTX 1050 / Radeon RX 560 / Intel Iris Xe<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 3 GB available space<br></li><li><strong>Sound Card:</strong> DirectX compatible</li></ul>"
+      },
+      "mac_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+      },
+      "linux_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+      },
+      "developers": [
+        "İlker Yelken"
+      ],
+      "publishers": [
+        "Lofwin Games"
+      ],
+      "support_info": {
+        "url": "",
+        "email": "lostzonesurvival@gmail.com"
+      },
+      "package_groups": [],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "categories": [
+        {
+          "id": 2,
+          "description": "Single-player"
+        },
+        {
+          "id": 62,
+          "description": "Family Sharing"
+        }
+      ],
+      "genres": [
+        {
+          "id": "4",
+          "description": "Casual"
+        },
+        {
+          "id": "23",
+          "description": "Indie"
+        },
+        {
+          "id": "28",
+          "description": "Simulation"
+        },
+        {
+          "id": "18",
+          "description": "Sports"
+        },
+        {
+          "id": "2",
+          "description": "Strategy"
+        }
+      ],
+      "release_date": {
+        "coming_soon": true,
+        "date": "To be announced"
+      },
+      "content_descriptors": {
+        "ids": [],
+        "notes": null
+      },
+      "ratings": {
+        "dejus": {
+          "rating_generated": "1",
+          "rating": "14",
+          "required_age": "14",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": ""
+        },
+        "steam_germany": {
+          "rating_generated": "1",
+          "rating": "12",
+          "required_age": "12",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": ""
+        },
+        "igrs": {
+          "rating_generated": "1",
+          "rating": "18",
+          "required_age": "18",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": "Simulasi dan/atau kegiatan judi"
+        }
+      }
+    }
+  },
+  "5038840": {
+    "success": true,
+    "source_priority": "steam_data",
+    "fetch_status": {
+      "steam_appdetails": true,
+      "steam_original_assets": true
+    },
+    "name": "Salty",
+    "steam_appid": "5038840",
+    "steamgriddb_game_id": 5541113,
+    "store_asset_mtime": 1785586589,
+    "assets_count": 21,
+    "assets": {
+      "header": [
+        {
+          "path": "ca435c96520ef8a3281024efe82223ded5ede991/header.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5038840/ca435c96520ef8a3281024efe82223ded5ede991/header.jpg?t=1785586589",
+          "language": "english"
+        }
+      ],
+      "library_capsule": [
+        {
+          "path": "ec479ca592784ce20f0480ee6c569ff2710e06d7/library_capsule.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5038840/ec479ca592784ce20f0480ee6c569ff2710e06d7/library_capsule.jpg?t=1785586589",
+          "language": "english"
+        }
+      ],
+      "library_capsule_2x": [
+        {
+          "path": "ec479ca592784ce20f0480ee6c569ff2710e06d7/library_capsule_2x.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5038840/ec479ca592784ce20f0480ee6c569ff2710e06d7/library_capsule_2x.jpg?t=1785586589",
+          "language": "english"
+        }
+      ],
+      "library_hero": [
+        {
+          "path": "a56c1a5cb01f615d03a59223594afb51d90d0ba3/library_hero.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5038840/a56c1a5cb01f615d03a59223594afb51d90d0ba3/library_hero.jpg?t=1785586589",
+          "language": "english"
+        }
+      ],
+      "library_hero_2x": [
+        {
+          "path": "a56c1a5cb01f615d03a59223594afb51d90d0ba3/library_hero_2x.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5038840/a56c1a5cb01f615d03a59223594afb51d90d0ba3/library_hero_2x.jpg?t=1785586589",
+          "language": "english"
+        }
+      ],
+      "library_logo": [
+        {
+          "path": "47bd6a9d3b09ddb9afbbb0f5a3c093154e2d9e16/logo.png",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5038840/47bd6a9d3b09ddb9afbbb0f5a3c093154e2d9e16/logo.png?t=1785586589",
+          "language": "english"
+        }
+      ],
+      "library_logo_2x": [
+        {
+          "path": "47bd6a9d3b09ddb9afbbb0f5a3c093154e2d9e16/logo_2x.png",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5038840/47bd6a9d3b09ddb9afbbb0f5a3c093154e2d9e16/logo_2x.png?t=1785586589",
+          "language": "english"
+        }
+      ],
+      "clienticon": [
+        {
+          "hash": "bcbb886160564faeefb52d9927ddc24de3d59bc4",
+          "url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/5038840/bcbb886160564faeefb52d9927ddc24de3d59bc4.ico"
+        }
+      ],
+      "icon": [
+        {
+          "hash": "92efd04b17c00b14c8611afcfdb3bd50c58e479c",
+          "url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/5038840/92efd04b17c00b14c8611afcfdb3bd50c58e479c.jpg"
+        }
+      ],
+      "capsule_image": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038840/c8b366c029d95dbbaf77be47aac59e769261fb7f/capsule_231x87.jpg?t=1785949359"
+        }
+      ],
+      "capsule_imagev5": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038840/c8b366c029d95dbbaf77be47aac59e769261fb7f/capsule_184x69.jpg?t=1785949359"
+        }
+      ],
+      "background": [
+        {
+          "url": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5038840?t=1785949359"
+        }
+      ],
+      "background_raw": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038840/96351070438fbb376b6a73b22d45d312496b1e79/page_bg_raw.jpg?t=1785949359"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": 0,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038840/183d0329196682e96f6400a0ef5d8f14260091df/ss_183d0329196682e96f6400a0ef5d8f14260091df.600x338.jpg?t=1785949359",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038840/183d0329196682e96f6400a0ef5d8f14260091df/ss_183d0329196682e96f6400a0ef5d8f14260091df.1920x1080.jpg?t=1785949359"
+        },
+        {
+          "id": 1,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038840/11a482b446ad4ad069956801d64c8c5400dac59e/ss_11a482b446ad4ad069956801d64c8c5400dac59e.600x338.jpg?t=1785949359",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038840/11a482b446ad4ad069956801d64c8c5400dac59e/ss_11a482b446ad4ad069956801d64c8c5400dac59e.1920x1080.jpg?t=1785949359"
+        },
+        {
+          "id": 2,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038840/1d5cb79e70bf85d9ab36622baf82c1d77a895374/ss_1d5cb79e70bf85d9ab36622baf82c1d77a895374.600x338.jpg?t=1785949359",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038840/1d5cb79e70bf85d9ab36622baf82c1d77a895374/ss_1d5cb79e70bf85d9ab36622baf82c1d77a895374.1920x1080.jpg?t=1785949359"
+        },
+        {
+          "id": 3,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038840/04131bfe63dbb0264ca5dc81f0c1421cd8dda2ce/ss_04131bfe63dbb0264ca5dc81f0c1421cd8dda2ce.600x338.jpg?t=1785949359",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038840/04131bfe63dbb0264ca5dc81f0c1421cd8dda2ce/ss_04131bfe63dbb0264ca5dc81f0c1421cd8dda2ce.1920x1080.jpg?t=1785949359"
+        },
+        {
+          "id": 4,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038840/7a274558aaaefe919075633dcd33b6d65af10394/ss_7a274558aaaefe919075633dcd33b6d65af10394.600x338.jpg?t=1785949359",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038840/7a274558aaaefe919075633dcd33b6d65af10394/ss_7a274558aaaefe919075633dcd33b6d65af10394.1920x1080.jpg?t=1785949359"
+        },
+        {
+          "id": 5,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038840/01867a4510f0b8b2dd3e2415256d6153bfdd10ea/ss_01867a4510f0b8b2dd3e2415256d6153bfdd10ea.600x338.jpg?t=1785949359",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038840/01867a4510f0b8b2dd3e2415256d6153bfdd10ea/ss_01867a4510f0b8b2dd3e2415256d6153bfdd10ea.1920x1080.jpg?t=1785949359"
+        }
+      ],
+      "movies": [
+        {
+          "id": 257388780,
+          "name": "Salty Game Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257388780/c035d3a08c03c971f1603663f1727026ff20bbdd/movie_600x337.jpg?t=1785949358",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/5038840/1398598037/26c5f0972fba317d69c22de31936e15222af526e/1785586176/dash_av1.mpd?t=1785949358",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/5038840/1398598037/26c5f0972fba317d69c22de31936e15222af526e/1785586176/dash_h264.mpd?t=1785949358",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/5038840/1398598037/26c5f0972fba317d69c22de31936e15222af526e/1785586176/hls_264_master.m3u8?t=1785949358",
+          "highlight": true
+        }
+      ],
+      "embedded_media": {
+        "about_the_game_urls": [],
+        "detailed_description_urls": [],
+        "all_urls": [],
+        "videos_mp4": [],
+        "videos_webm": [],
+        "images": []
+      }
+    },
+    "store_data": {
+      "type": "game",
+      "required_age": 0,
+      "is_free": false,
+      "about_the_game": "<h2 class=\"bb_tag\" >It starts with one cell. Goal to become a multicellular organism!</h2>Salty puts you at the eyepiece of a microscope, looking down at a single prokaryote adrift in saltwater. No nucleus. No defenses. No idea what's coming.<br><br>Everything that happens next is up to you.<h2 class=\"bb_tag\" >Build the machinery of life</h2>Gather lipids, proteins, and fiber from the water around you, then spend them in the crafting ring to assemble real organelles — nucleus pores, ribosomes, mitochondria, Golgi bodies, lysosomes, endoplasmic reticulum. Each one you build genuinely changes what your organism can do, exactly as it does in a living cell.<h2 class=\"bb_tag\" >Survive a hostile microscopic world</h2>You are not alone in the water. Aggressive viruses hunt for cells to hijack. Larger, more complex organisms will run you down and consume you. Watch your health and stamina, learn what's dangerous, and grow strong enough to stop being prey.<h2 class=\"bb_tag\" >Discover and evolve</h2>Every species you swim close to is recorded in your Compendium — real organisms with real biology, hazards, and secrets. Discovery unlocks new DNA. New DNA unlocks new complexity. Push from prokaryote to eukaryote, from single cell to multicellular creature.<h2 class=\"bb_tag\" >Real biology, underneath all of it</h2>Every organelle does what it actually does.  The evolutionary pressures are the ones that shaped life on this planet. Salty was built so that getting good at the game means genuinely understanding how cells work — no quizzes, no lectures, no homework.<br><br><ul class=\"bb_ul\"><li><strong>A complete cell, built by hand</strong> — learn organelles by depending on them<br></li><li><strong>Living biomes</strong> — from kelp forests to volcanic vents<br></li><li><strong>Real threats</strong> — viral infection, predation, competition<br></li><li><strong>The long climb</strong> — prokaryote to eukaryote to multicellular life<br></li><li><strong>A living Compendium</strong> — discover and catalogue real microscopic species</li></ul><h2 class=\"bb_tag\" >From Garrack Gaming Studios</h2>We build simulation games where the systems do the storytelling. Salty is our first — and the demo is free.<br><br><strong>► Wishlist Salty</strong> to be notified the moment it launches, and play the free demo today.",
+      "detailed_description": "<h2 class=\"bb_tag\" >It starts with one cell. Goal to become a multicellular organism!</h2>Salty puts you at the eyepiece of a microscope, looking down at a single prokaryote adrift in saltwater. No nucleus. No defenses. No idea what's coming.<br><br>Everything that happens next is up to you.<h2 class=\"bb_tag\" >Build the machinery of life</h2>Gather lipids, proteins, and fiber from the water around you, then spend them in the crafting ring to assemble real organelles — nucleus pores, ribosomes, mitochondria, Golgi bodies, lysosomes, endoplasmic reticulum. Each one you build genuinely changes what your organism can do, exactly as it does in a living cell.<h2 class=\"bb_tag\" >Survive a hostile microscopic world</h2>You are not alone in the water. Aggressive viruses hunt for cells to hijack. Larger, more complex organisms will run you down and consume you. Watch your health and stamina, learn what's dangerous, and grow strong enough to stop being prey.<h2 class=\"bb_tag\" >Discover and evolve</h2>Every species you swim close to is recorded in your Compendium — real organisms with real biology, hazards, and secrets. Discovery unlocks new DNA. New DNA unlocks new complexity. Push from prokaryote to eukaryote, from single cell to multicellular creature.<h2 class=\"bb_tag\" >Real biology, underneath all of it</h2>Every organelle does what it actually does.  The evolutionary pressures are the ones that shaped life on this planet. Salty was built so that getting good at the game means genuinely understanding how cells work — no quizzes, no lectures, no homework.<br><br><ul class=\"bb_ul\"><li><strong>A complete cell, built by hand</strong> — learn organelles by depending on them<br></li><li><strong>Living biomes</strong> — from kelp forests to volcanic vents<br></li><li><strong>Real threats</strong> — viral infection, predation, competition<br></li><li><strong>The long climb</strong> — prokaryote to eukaryote to multicellular life<br></li><li><strong>A living Compendium</strong> — discover and catalogue real microscopic species</li></ul><h2 class=\"bb_tag\" >From Garrack Gaming Studios</h2>We build simulation games where the systems do the storytelling. Salty is our first — and the demo is free.<br><br><strong>► Wishlist Salty</strong> to be notified the moment it launches, and play the free demo today.",
+      "short_description": "Salty is a 2D evolution game seen down a microscope. Guide one cell from simple prokaryote to complex multicellular life: craft organelles, fight off invading viruses, outgrow rival cells, and evolve toward the day you crawl out of the water.",
+      "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+      "website": "https://garrackgaming.com",
+      "pc_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10 64-bit<br></li><li><strong>Processor:</strong> Dual-core 2.0 GHz<br></li><li><strong>Memory:</strong> 4 MB RAM<br></li><li><strong>Graphics:</strong> GPU with OpenGL 3.3 / Vulkan 1.0 support<br></li><li><strong>Storage:</strong> 2 GB available space<br></li><li><strong>Sound Card:</strong> Windows-compatible audio device</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 11 64-bit<br></li><li><strong>Processor:</strong> Quad-core 3.0 GHz<br></li><li><strong>Memory:</strong> 8 MB RAM<br></li><li><strong>Graphics:</strong> Dedicated GPU with Vulkan 1.2 support, 2 GB VRAM<br></li><li><strong>Storage:</strong> 2 GB available space<br></li><li><strong>Sound Card:</strong> Windows-compatible audio device</li></ul>"
+      },
+      "mac_requirements": [],
+      "linux_requirements": [],
+      "developers": [
+        "Garrack Gaming Studios"
+      ],
+      "publishers": [
+        "Garrack Gaming Studios"
+      ],
+      "support_info": {
+        "url": "https://garrackgaming.com",
+        "email": "support@garrackgaming.com"
+      },
+      "package_groups": [],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "categories": [
+        {
+          "id": 2,
+          "description": "Single-player"
+        },
+        {
+          "id": 62,
+          "description": "Family Sharing"
+        }
+      ],
+      "genres": [
+        {
+          "id": "25",
+          "description": "Adventure"
+        },
+        {
+          "id": "28",
+          "description": "Simulation"
+        }
+      ],
+      "release_date": {
+        "coming_soon": true,
+        "date": "Nov 10, 2026"
+      },
+      "content_descriptors": {
+        "ids": [],
+        "notes": null
+      },
+      "ratings": {
+        "dejus": {
+          "rating_generated": "1",
+          "rating": "l",
+          "required_age": "0",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": ""
+        },
+        "steam_germany": {
+          "rating_generated": "1",
+          "rating": "0",
+          "required_age": "0",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": ""
+        },
+        "igrs": {
+          "rating_generated": "1",
+          "rating": "3",
+          "required_age": "0",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": ""
+        }
+      }
+    }
+  },
+  "5039000": {
+    "success": true,
+    "source_priority": "steam_data",
+    "fetch_status": {
+      "steam_appdetails": true,
+      "steam_original_assets": true
+    },
+    "name": "The Kingdom's Merchant",
+    "steam_appid": "5039000",
+    "steamgriddb_game_id": 5541114,
+    "store_asset_mtime": 1785471677,
+    "assets_count": 19,
+    "assets": {
+      "header": [
+        {
+          "path": "42ec98610863ca1af5107e37abb262a36a28cdaf/header.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5039000/42ec98610863ca1af5107e37abb262a36a28cdaf/header.jpg?t=1785471677",
+          "language": "english"
+        }
+      ],
+      "library_capsule": [
+        {
+          "path": "247f5f5949b6b39733eed15045338eea59e24b95/library_capsule.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5039000/247f5f5949b6b39733eed15045338eea59e24b95/library_capsule.jpg?t=1785471677",
+          "language": "english"
+        }
+      ],
+      "library_capsule_2x": [
+        {
+          "path": "247f5f5949b6b39733eed15045338eea59e24b95/library_capsule_2x.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5039000/247f5f5949b6b39733eed15045338eea59e24b95/library_capsule_2x.jpg?t=1785471677",
+          "language": "english"
+        }
+      ],
+      "library_hero": [
+        {
+          "path": "ff8313c8ad71223ac3c86148c901d5103680e719/library_hero.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5039000/ff8313c8ad71223ac3c86148c901d5103680e719/library_hero.jpg?t=1785471677",
+          "language": "english"
+        }
+      ],
+      "library_hero_2x": [
+        {
+          "path": "ff8313c8ad71223ac3c86148c901d5103680e719/library_hero_2x.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5039000/ff8313c8ad71223ac3c86148c901d5103680e719/library_hero_2x.jpg?t=1785471677",
+          "language": "english"
+        }
+      ],
+      "library_logo": [
+        {
+          "path": "804a91718eb08e571c3f2c3c0044f024ede4d917/logo.png",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5039000/804a91718eb08e571c3f2c3c0044f024ede4d917/logo.png?t=1785471677",
+          "language": "english"
+        }
+      ],
+      "library_logo_2x": [
+        {
+          "path": "804a91718eb08e571c3f2c3c0044f024ede4d917/logo_2x.png",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5039000/804a91718eb08e571c3f2c3c0044f024ede4d917/logo_2x.png?t=1785471677",
+          "language": "english"
+        }
+      ],
+      "clienticon": [
+        {
+          "hash": "eb80151882fe1a630cadc064799196d843d75f3e",
+          "url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/5039000/eb80151882fe1a630cadc064799196d843d75f3e.ico"
+        }
+      ],
+      "icon": [
+        {
+          "hash": "eb80151882fe1a630cadc064799196d843d75f3e",
+          "url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/5039000/eb80151882fe1a630cadc064799196d843d75f3e.jpg"
+        }
+      ],
+      "capsule_image": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5039000/4a0e10a6e2640010948c42321b42b69b66a83206/capsule_231x87.jpg?t=1785952125"
+        }
+      ],
+      "capsule_imagev5": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5039000/4a0e10a6e2640010948c42321b42b69b66a83206/capsule_184x69.jpg?t=1785952125"
+        }
+      ],
+      "background": [
+        {
+          "url": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5039000?t=1785952125"
+        }
+      ],
+      "background_raw": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5039000/852afad488248bd2c91e6dbd0d2bcb8b2072ca25/page_bg_raw.jpg?t=1785952125"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": 0,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5039000/7fe1532fd61021dd7eb4a63ad7451798860f4f0c/ss_7fe1532fd61021dd7eb4a63ad7451798860f4f0c.600x338.jpg?t=1785952125",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5039000/7fe1532fd61021dd7eb4a63ad7451798860f4f0c/ss_7fe1532fd61021dd7eb4a63ad7451798860f4f0c.1920x1080.jpg?t=1785952125"
+        },
+        {
+          "id": 1,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5039000/86dadcf4c421e8ebe28b9f7a8587d35eb433c5ed/ss_86dadcf4c421e8ebe28b9f7a8587d35eb433c5ed.600x338.jpg?t=1785952125",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5039000/86dadcf4c421e8ebe28b9f7a8587d35eb433c5ed/ss_86dadcf4c421e8ebe28b9f7a8587d35eb433c5ed.1920x1080.jpg?t=1785952125"
+        },
+        {
+          "id": 2,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5039000/7cb83facce767e2f63d89858e26d41c14fd09c52/ss_7cb83facce767e2f63d89858e26d41c14fd09c52.600x338.jpg?t=1785952125",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5039000/7cb83facce767e2f63d89858e26d41c14fd09c52/ss_7cb83facce767e2f63d89858e26d41c14fd09c52.1920x1080.jpg?t=1785952125"
+        },
+        {
+          "id": 3,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5039000/c1a5c69902df8861bcd163351639c071a0523045/ss_c1a5c69902df8861bcd163351639c071a0523045.600x338.jpg?t=1785952125",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5039000/c1a5c69902df8861bcd163351639c071a0523045/ss_c1a5c69902df8861bcd163351639c071a0523045.1920x1080.jpg?t=1785952125"
+        },
+        {
+          "id": 4,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5039000/6e8fe4f3125f632423e2e2b0fbe24e8182c4c560/ss_6e8fe4f3125f632423e2e2b0fbe24e8182c4c560.600x338.jpg?t=1785952125",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5039000/6e8fe4f3125f632423e2e2b0fbe24e8182c4c560/ss_6e8fe4f3125f632423e2e2b0fbe24e8182c4c560.1920x1080.jpg?t=1785952125"
+        }
+      ],
+      "movies": [],
+      "embedded_media": {
+        "about_the_game_urls": [],
+        "detailed_description_urls": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5039000/extras/eeffc45a15e312d77721fc9d4c189183.avif?t=1785952125",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5039000/extras_big/eeffc45a15e312d77721fc9d4c189183.avif?t=1785952125"
+        ],
+        "all_urls": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5039000/extras/eeffc45a15e312d77721fc9d4c189183.avif?t=1785952125",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5039000/extras_big/eeffc45a15e312d77721fc9d4c189183.avif?t=1785952125"
+        ],
+        "videos_mp4": [],
+        "videos_webm": [],
+        "images": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5039000/extras/eeffc45a15e312d77721fc9d4c189183.avif?t=1785952125",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5039000/extras_big/eeffc45a15e312d77721fc9d4c189183.avif?t=1785952125"
+        ]
+      }
+    },
+    "store_data": {
+      "type": "game",
+      "required_age": 0,
+      "is_free": false,
+      "about_the_game": "<h2 class=\"bb_tag\" >The Kingdom's Merchant</h2><h2 class=\"bb_tag\" >Build an empire through trade, not conquest.</h2><p class=\"bb_paragraph\" ><strong>The Kingdom's Merchant</strong> is a deep medieval trading and economic simulation where your greatest weapon is good business. Starting with little more than a single caravan and a handful of coins, you'll travel a living kingdom, discovering settlements, buying and selling goods, expanding your business, and building a merchant empire that spans the realm.</p><p class=\"bb_paragraph\" >Whether you choose to build your fortune alone or compete against rival merchants in multiplayer, every decision can shape the economy of the kingdom.</p><p class=\"bb_paragraph\" >Every settlement has its own economy, opportunities, and challenges. Grain may be plentiful in one village while nearby cities desperately need food. A war on the frontier can send weapon prices soaring. A bountiful harvest may flood markets with cheap produce, while a harsh winter can leave entire regions struggling to survive. Successful merchants learn to adapt, invest wisely, and stay one step ahead of an ever-changing marketplace.</p><p class=\"bb_paragraph\" >Purchase shops and warehouses throughout the kingdom, hire trusted staff to manage your growing enterprise, establish profitable trade routes, and expand from a lone trader into one of the wealthiest merchants the realm has ever known. But wealth alone isn't enough—your reputation with the Merchant's Guild, local nobles, and even the King may determine your ultimate fate.</p><p class=\"bb_paragraph\" >The road to fortune is rarely safe. Bandits, storms, political unrest, failed harvests, rumors, and unexpected opportunities ensure that no two campaigns unfold exactly alike.</p><p class=\"bb_paragraph\" >Will you become the kingdom's greatest merchant... or be outmaneuvered by your rivals?</p><h2 class=\"bb_tag\" >A Living Kingdom</h2><p class=\"bb_paragraph\" >The Kingdom's Merchant is built around a dynamic world where economies evolve naturally over time. Markets react to supply and demand, settlements prosper or decline, and world events reshape trading opportunities across the realm.</p><p class=\"bb_paragraph\" >Information itself becomes a valuable commodity. Travelers spread rumors that may or may not be true, merchants share news of profitable markets, and official announcements from the kingdom can arrive long after events have already changed the landscape. Success belongs to merchants who can separate opportunity from speculation.</p><p class=\"bb_paragraph\" >No two kingdoms—or the stories they create—will ever be exactly the same.</p><h2 class=\"bb_tag\" >Compete for Commercial Dominance</h2><p class=\"bb_paragraph\" >The road to becoming the kingdom's greatest merchant doesn't have to be walked alone.</p><p class=\"bb_paragraph\" >Challenge friends or other players in competitive multiplayer, where every merchant begins with the same opportunity—but only one can become the wealthiest and most influential trader in the realm.</p><p class=\"bb_paragraph\" >Compete for valuable trade routes, purchase the most desirable properties before your rivals, corner regional markets, react to changing prices faster than the competition, and build an economic empire capable of outperforming every other merchant house.</p><p class=\"bb_paragraph\" >The world continues to evolve for everyone. Wars, famines, festivals, disasters, and political events affect every player, forcing each merchant to adapt their strategy in real time.</p><p class=\"bb_paragraph\" >There are no military victories—only commercial ones.</p><h2 class=\"bb_tag\" >Build Your Merchant Empire</h2><p class=\"bb_paragraph\" >Every successful merchant starts somewhere.</p><p class=\"bb_paragraph\" >Begin with a single caravan and a modest amount of capital. Explore the kingdom, discover new settlements, invest in shops and warehouses, hire employees, and gradually transform your humble business into a kingdom-wide trading network.</p><p class=\"bb_paragraph\" >Expand carefully by purchasing additional caravans, assigning managers to oversee distant operations, protecting valuable cargo with hired guards, and automating profitable trade routes while you pursue new opportunities elsewhere.</p><p class=\"bb_paragraph\" >Whether you choose to dominate local markets or establish a trading empire spanning the entire kingdom, every business decision shapes your growing legacy.</p><h2 class=\"bb_tag\" >A World That Reacts to You</h2><p class=\"bb_paragraph\" >The economy is never static.</p><p class=\"bb_paragraph\" >Wars increase demand for military supplies.</p><p class=\"bb_paragraph\" >Poor harvests drive up food prices.</p><p class=\"bb_paragraph\" >Festivals create temporary booms in luxury goods.</p><p class=\"bb_paragraph\" >Bandit activity can make once-profitable trade routes dangerous.</p><p class=\"bb_paragraph\" >Natural disasters reshape regional markets.</p><p class=\"bb_paragraph\" >Political decisions influence commerce.</p><p class=\"bb_paragraph\" >Your choices matter as well. Aid starving communities and earn the respect of the people—or exploit shortages for enormous profits while risking the anger of powerful allies. Every opportunity comes with its own rewards and consequences.</p><p class=\"bb_paragraph\" >In multiplayer, these same events create opportunities—and challenges—for every competing merchant, making timing, planning, and adaptability just as valuable as wealth.</p><h2 class=\"bb_tag\" >Gameplay</h2><p class=\"bb_paragraph\" >Your journey is one of careful planning, calculated risks, and long-term growth.</p><p class=\"bb_paragraph\" ><strong>Explore</strong> a procedurally generated kingdom.</p><p class=\"bb_paragraph\" ><strong>Discover</strong> profitable trade opportunities.</p><p class=\"bb_paragraph\" ><strong>Buy</strong> goods where they are plentiful.</p><p class=\"bb_paragraph\" ><strong>Transport</strong> them safely across the realm.</p><p class=\"bb_paragraph\" ><strong>Expand</strong> with shops, warehouses, and caravans.</p><p class=\"bb_paragraph\" ><strong>Hire</strong> staff to manage your growing enterprise.</p><p class=\"bb_paragraph\" ><strong>Automate</strong> trade routes and optimize your business.</p><p class=\"bb_paragraph\" ><strong>Outmaneuver</strong> rival merchants in competitive multiplayer.</p><p class=\"bb_paragraph\" ><strong>React</strong> to changing world events and economic conditions.</p><p class=\"bb_paragraph\" ><strong>Build</strong> a merchant empire worthy of legend.</p><h2 class=\"bb_tag\" >Planned Features</h2><p class=\"bb_paragraph\" >The Kingdom's Merchant is currently in active development, with many systems planned to expand the experience.</p><h2 class=\"bb_tag\" >Planned Features Include</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Deep single-player merchant campaign.</p></li><li><p class=\"bb_paragraph\" >Competitive 2–4 player multiplayer where merchants compete for wealth, influence, and commercial dominance.</p></li><li><p class=\"bb_paragraph\" >A living medieval economy driven by supply, demand, seasons, wars, disasters, and regional events.</p></li><li><p class=\"bb_paragraph\" >Procedurally generated kingdoms filled with villages, towns, cities, castles, forests, mountains, rivers, and ancient ruins.</p></li><li><p class=\"bb_paragraph\" >Purchasable shops and warehouses throughout the kingdom.</p></li><li><p class=\"bb_paragraph\" >Caravan management featuring wagons, employees, guards, and logistical planning.</p></li><li><p class=\"bb_paragraph\" >Automated trade routes that allow your business to grow while you pursue new opportunities.</p></li><li><p class=\"bb_paragraph\" >A wide variety of trade goods spanning food, clothing, tools, luxury items, construction materials, military supplies, and more.</p></li><li><p class=\"bb_paragraph\" >Dynamic world events including wars, famines, festivals, political changes, natural disasters, and bandit activity.</p></li><li><p class=\"bb_paragraph\" >Reputation systems involving the Merchant's Guild, settlements, nobles, and the Crown.</p></li><li><p class=\"bb_paragraph\" >Multiple paths to success through commerce, influence, reputation, and strategic investment.</p></li><li><p class=\"bb_paragraph\" >Procedural replayability ensuring every campaign presents new opportunities and challenges.</p></li><li><p class=\"bb_paragraph\" >Steam achievements, leaderboards, multiplayer statistics, and ongoing post-launch content updates.</p></li></ul><p class=\"bb_paragraph\" ><i>Features may evolve throughout development as the game grows with community feedback.</i></p><h2 class=\"bb_tag\" >Follow the Journey</h2><p class=\"bb_paragraph\" >The Kingdom's Merchant is a passion project being developed by a solo developer who believes that economic strategy games can be every bit as engaging as city builders or grand strategy titles.</p><p class=\"bb_paragraph\" >Community feedback will help shape the future of the game as new mechanics, systems, multiplayer features, and content continue to be added throughout development.</p><p class=\"bb_paragraph\" >Whether you enjoy building a thriving merchant empire alone or proving your business acumen against rival traders, your journey begins with a single caravan.</p><p class=\"bb_paragraph\" ><strong>Wishlist The Kingdom's Merchant today—and prepare to compete for the wealth of an entire kingdom.</strong></p>",
+      "detailed_description": "<h1>Roadmap</h1><p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5039000/extras/eeffc45a15e312d77721fc9d4c189183.avif?t=1785952125\" data-big-src=https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5039000/extras_big/eeffc45a15e312d77721fc9d4c189183.avif?t=1785952125 width=1560 height=878 /></span></p></p><br><h1>About the Game</h1><h2 class=\"bb_tag\" >The Kingdom's Merchant</h2><h2 class=\"bb_tag\" >Build an empire through trade, not conquest.</h2><p class=\"bb_paragraph\" ><strong>The Kingdom's Merchant</strong> is a deep medieval trading and economic simulation where your greatest weapon is good business. Starting with little more than a single caravan and a handful of coins, you'll travel a living kingdom, discovering settlements, buying and selling goods, expanding your business, and building a merchant empire that spans the realm.</p><p class=\"bb_paragraph\" >Whether you choose to build your fortune alone or compete against rival merchants in multiplayer, every decision can shape the economy of the kingdom.</p><p class=\"bb_paragraph\" >Every settlement has its own economy, opportunities, and challenges. Grain may be plentiful in one village while nearby cities desperately need food. A war on the frontier can send weapon prices soaring. A bountiful harvest may flood markets with cheap produce, while a harsh winter can leave entire regions struggling to survive. Successful merchants learn to adapt, invest wisely, and stay one step ahead of an ever-changing marketplace.</p><p class=\"bb_paragraph\" >Purchase shops and warehouses throughout the kingdom, hire trusted staff to manage your growing enterprise, establish profitable trade routes, and expand from a lone trader into one of the wealthiest merchants the realm has ever known. But wealth alone isn't enough—your reputation with the Merchant's Guild, local nobles, and even the King may determine your ultimate fate.</p><p class=\"bb_paragraph\" >The road to fortune is rarely safe. Bandits, storms, political unrest, failed harvests, rumors, and unexpected opportunities ensure that no two campaigns unfold exactly alike.</p><p class=\"bb_paragraph\" >Will you become the kingdom's greatest merchant... or be outmaneuvered by your rivals?</p><h2 class=\"bb_tag\" >A Living Kingdom</h2><p class=\"bb_paragraph\" >The Kingdom's Merchant is built around a dynamic world where economies evolve naturally over time. Markets react to supply and demand, settlements prosper or decline, and world events reshape trading opportunities across the realm.</p><p class=\"bb_paragraph\" >Information itself becomes a valuable commodity. Travelers spread rumors that may or may not be true, merchants share news of profitable markets, and official announcements from the kingdom can arrive long after events have already changed the landscape. Success belongs to merchants who can separate opportunity from speculation.</p><p class=\"bb_paragraph\" >No two kingdoms—or the stories they create—will ever be exactly the same.</p><h2 class=\"bb_tag\" >Compete for Commercial Dominance</h2><p class=\"bb_paragraph\" >The road to becoming the kingdom's greatest merchant doesn't have to be walked alone.</p><p class=\"bb_paragraph\" >Challenge friends or other players in competitive multiplayer, where every merchant begins with the same opportunity—but only one can become the wealthiest and most influential trader in the realm.</p><p class=\"bb_paragraph\" >Compete for valuable trade routes, purchase the most desirable properties before your rivals, corner regional markets, react to changing prices faster than the competition, and build an economic empire capable of outperforming every other merchant house.</p><p class=\"bb_paragraph\" >The world continues to evolve for everyone. Wars, famines, festivals, disasters, and political events affect every player, forcing each merchant to adapt their strategy in real time.</p><p class=\"bb_paragraph\" >There are no military victories—only commercial ones.</p><h2 class=\"bb_tag\" >Build Your Merchant Empire</h2><p class=\"bb_paragraph\" >Every successful merchant starts somewhere.</p><p class=\"bb_paragraph\" >Begin with a single caravan and a modest amount of capital. Explore the kingdom, discover new settlements, invest in shops and warehouses, hire employees, and gradually transform your humble business into a kingdom-wide trading network.</p><p class=\"bb_paragraph\" >Expand carefully by purchasing additional caravans, assigning managers to oversee distant operations, protecting valuable cargo with hired guards, and automating profitable trade routes while you pursue new opportunities elsewhere.</p><p class=\"bb_paragraph\" >Whether you choose to dominate local markets or establish a trading empire spanning the entire kingdom, every business decision shapes your growing legacy.</p><h2 class=\"bb_tag\" >A World That Reacts to You</h2><p class=\"bb_paragraph\" >The economy is never static.</p><p class=\"bb_paragraph\" >Wars increase demand for military supplies.</p><p class=\"bb_paragraph\" >Poor harvests drive up food prices.</p><p class=\"bb_paragraph\" >Festivals create temporary booms in luxury goods.</p><p class=\"bb_paragraph\" >Bandit activity can make once-profitable trade routes dangerous.</p><p class=\"bb_paragraph\" >Natural disasters reshape regional markets.</p><p class=\"bb_paragraph\" >Political decisions influence commerce.</p><p class=\"bb_paragraph\" >Your choices matter as well. Aid starving communities and earn the respect of the people—or exploit shortages for enormous profits while risking the anger of powerful allies. Every opportunity comes with its own rewards and consequences.</p><p class=\"bb_paragraph\" >In multiplayer, these same events create opportunities—and challenges—for every competing merchant, making timing, planning, and adaptability just as valuable as wealth.</p><h2 class=\"bb_tag\" >Gameplay</h2><p class=\"bb_paragraph\" >Your journey is one of careful planning, calculated risks, and long-term growth.</p><p class=\"bb_paragraph\" ><strong>Explore</strong> a procedurally generated kingdom.</p><p class=\"bb_paragraph\" ><strong>Discover</strong> profitable trade opportunities.</p><p class=\"bb_paragraph\" ><strong>Buy</strong> goods where they are plentiful.</p><p class=\"bb_paragraph\" ><strong>Transport</strong> them safely across the realm.</p><p class=\"bb_paragraph\" ><strong>Expand</strong> with shops, warehouses, and caravans.</p><p class=\"bb_paragraph\" ><strong>Hire</strong> staff to manage your growing enterprise.</p><p class=\"bb_paragraph\" ><strong>Automate</strong> trade routes and optimize your business.</p><p class=\"bb_paragraph\" ><strong>Outmaneuver</strong> rival merchants in competitive multiplayer.</p><p class=\"bb_paragraph\" ><strong>React</strong> to changing world events and economic conditions.</p><p class=\"bb_paragraph\" ><strong>Build</strong> a merchant empire worthy of legend.</p><h2 class=\"bb_tag\" >Planned Features</h2><p class=\"bb_paragraph\" >The Kingdom's Merchant is currently in active development, with many systems planned to expand the experience.</p><h2 class=\"bb_tag\" >Planned Features Include</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Deep single-player merchant campaign.</p></li><li><p class=\"bb_paragraph\" >Competitive 2–4 player multiplayer where merchants compete for wealth, influence, and commercial dominance.</p></li><li><p class=\"bb_paragraph\" >A living medieval economy driven by supply, demand, seasons, wars, disasters, and regional events.</p></li><li><p class=\"bb_paragraph\" >Procedurally generated kingdoms filled with villages, towns, cities, castles, forests, mountains, rivers, and ancient ruins.</p></li><li><p class=\"bb_paragraph\" >Purchasable shops and warehouses throughout the kingdom.</p></li><li><p class=\"bb_paragraph\" >Caravan management featuring wagons, employees, guards, and logistical planning.</p></li><li><p class=\"bb_paragraph\" >Automated trade routes that allow your business to grow while you pursue new opportunities.</p></li><li><p class=\"bb_paragraph\" >A wide variety of trade goods spanning food, clothing, tools, luxury items, construction materials, military supplies, and more.</p></li><li><p class=\"bb_paragraph\" >Dynamic world events including wars, famines, festivals, political changes, natural disasters, and bandit activity.</p></li><li><p class=\"bb_paragraph\" >Reputation systems involving the Merchant's Guild, settlements, nobles, and the Crown.</p></li><li><p class=\"bb_paragraph\" >Multiple paths to success through commerce, influence, reputation, and strategic investment.</p></li><li><p class=\"bb_paragraph\" >Procedural replayability ensuring every campaign presents new opportunities and challenges.</p></li><li><p class=\"bb_paragraph\" >Steam achievements, leaderboards, multiplayer statistics, and ongoing post-launch content updates.</p></li></ul><p class=\"bb_paragraph\" ><i>Features may evolve throughout development as the game grows with community feedback.</i></p><h2 class=\"bb_tag\" >Follow the Journey</h2><p class=\"bb_paragraph\" >The Kingdom's Merchant is a passion project being developed by a solo developer who believes that economic strategy games can be every bit as engaging as city builders or grand strategy titles.</p><p class=\"bb_paragraph\" >Community feedback will help shape the future of the game as new mechanics, systems, multiplayer features, and content continue to be added throughout development.</p><p class=\"bb_paragraph\" >Whether you enjoy building a thriving merchant empire alone or proving your business acumen against rival traders, your journey begins with a single caravan.</p><p class=\"bb_paragraph\" ><strong>Wishlist The Kingdom's Merchant today—and prepare to compete for the wealth of an entire kingdom.</strong></p>",
+      "short_description": "Build your fortune in a living medieval kingdom. Establish shops, manage caravans, master a dynamic economy, and outmaneuver rival merchant houses in single-player or competitive multiplayer as you build the realm's greatest trading empire.",
+      "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+      "website": null,
+      "pc_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10 (64-bit)<br></li><li><strong>Processor:</strong> 64-bit processor and operating system<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> DirectX 12 feature-level 12_0 or Vulkan 1.0 GPU; GeForce GTX 1050 / Radeon RX 460 or equivalent, 2 GB VRAM<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 5 GB available space<br></li><li><strong>Sound Card:</strong> DirectX-compatible sound device<br></li><li><strong>Additional Notes:</strong> Keyboard and mouse; 1280×720 display</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10 or 11 (64-bit)<br></li><li><strong>Processor:</strong> 64-bit processor and operating system<br></li><li><strong>Memory:</strong> 16 GB RAM<br></li><li><strong>Graphics:</strong> DirectX 12 feature-level 12_0 or Vulkan 1.2 GPU; GeForce GTX 1650 / Radeon RX 570 or equivalent, 4 GB VRAM<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 5 GB available space<br></li><li><strong>Sound Card:</strong> DirectX-compatible sound device<br></li><li><strong>Additional Notes:</strong> Recommended for 1080p play, large worlds, and hosting four-player sessions</li></ul>"
+      },
+      "mac_requirements": [],
+      "linux_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 22.04 LTS, SteamOS 3, or equivalent modern Steam Runtime-compatible distribution<br></li><li><strong>Processor:</strong> 64-bit processor and operating system<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Vulkan 1.0-capable GPU; GeForce GTX 1050 / Radeon RX 460 or equivalent, 2 GB VRAM; current Mesa or NVIDIA driver<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 5 GB available space<br></li><li><strong>Sound Card:</strong> DirectX-compatible sound device<br></li><li><strong>Additional Notes:</strong> Keyboard and mouse; 1280×720 display</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 24.04 LTS, SteamOS 3, or equivalent modern Steam Runtime-compatible distribution<br></li><li><strong>Processor:</strong> 64-bit processor and operating system<br></li><li><strong>Memory:</strong> 16 GB RAM<br></li><li><strong>Graphics:</strong> Vulkan 1.2-capable GPU; GeForce GTX 1650 / Radeon RX 570 or equivalent, 4 GB VRAM; current Mesa or NVIDIA driver<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 5 GB available space<br></li><li><strong>Sound Card:</strong> DirectX-compatible sound device<br></li><li><strong>Additional Notes:</strong> Recommended for 1080p play, large worlds, and hosting four-player sessions</li></ul>"
+      },
+      "developers": [
+        "Lantern & Ledger Studios"
+      ],
+      "publishers": [
+        "Lantern & Ledger Studios"
+      ],
+      "support_info": {
+        "url": "",
+        "email": "support@lanternandledgerstudios.com"
+      },
+      "package_groups": [],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      },
+      "categories": [
+        {
+          "id": 2,
+          "description": "Single-player"
+        },
+        {
+          "id": 1,
+          "description": "Multi-player"
+        },
+        {
+          "id": 49,
+          "description": "PvP"
+        },
+        {
+          "id": 36,
+          "description": "Online PvP"
+        },
+        {
+          "id": 9,
+          "description": "Co-op"
+        },
+        {
+          "id": 38,
+          "description": "Online Co-op"
+        },
+        {
+          "id": 62,
+          "description": "Family Sharing"
+        }
+      ],
+      "genres": [
+        {
+          "id": "4",
+          "description": "Casual"
+        },
+        {
+          "id": "23",
+          "description": "Indie"
+        },
+        {
+          "id": "28",
+          "description": "Simulation"
+        },
+        {
+          "id": "2",
+          "description": "Strategy"
+        },
+        {
+          "id": "70",
+          "description": "Early Access"
+        }
+      ],
+      "release_date": {
+        "coming_soon": true,
+        "date": "To be announced"
+      },
+      "content_descriptors": {
+        "ids": [
+          5
+        ],
+        "notes": "The Kingdom's Merchant contains depictions of medieval-themed violence and criminal activity. Players may encounter events involving bandit attacks, warfare, assassinations, theft, sabotage, executions, and other dangerous situations presented through text, illustrations, or stylized gameplay. Players may choose to engage with or become the target of these activities as part of the game's economic and political systems.\r\n\r\nThe game also includes references to alcoholic beverages as trade goods and occasional depictions of their consumption. There is no graphic gore, explicit sexual content, sexual assault, or depictions of self-harm."
+      },
+      "ratings": {
+        "dejus": {
+          "rating_generated": "1",
+          "rating": "10",
+          "required_age": "10",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": "Atos criminosos"
+        },
+        "steam_germany": {
+          "rating_generated": "1",
+          "rating": "6",
+          "required_age": "6",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": "Alkohol / Tabak"
+        },
+        "igrs": {
+          "rating_generated": "1",
+          "rating": "15",
+          "required_age": "15",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": "Rokok dan/atau rokok elektronik, minuman beralkohol, narkotika, psikotropika, dan/atau zat adiktif lainnya"
+        }
+      }
+    }
   }
 }
