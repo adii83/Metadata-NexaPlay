@@ -168417,13 +168417,13 @@
     224060,
     255480
   ],
-  "last_run_at": "2026-08-30T06:05:22.839737+00:00",
+  "last_run_at": "2026-08-30T06:19:27.996123+00:00",
   "last_batch": {
-    "processed_count": 500,
+    "processed_count": 454,
     "new_count": 0,
     "retry_429_count": 0,
     "retry_failed_count": 0,
-    "backlog_count": 500,
+    "backlog_count": 454,
     "force_refresh": false
   },
   "retry_429_appids": []
