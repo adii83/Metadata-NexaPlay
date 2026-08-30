@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T03:06:16.175204+00:00",
+  "generated_at": "2026-08-30T05:34:41.132933+00:00",
   "sources": {
     "steam_data_gz_url": "https://raw.githubusercontent.com/adii83/steam-metadata-archive/main/steam_data.json.gz",
     "override_data_url": "https://raw.githubusercontent.com/adii83/steam-metadata-archive/main/override_data.json"
@@ -12,8 +12,8 @@
   ],
   "stats": {
     "base_loaded": 147759,
-    "override_loaded": 661,
-    "final_total": 147849
+    "override_loaded": 664,
+    "final_total": 147851
   },
   "data": {
     "10": {
@@ -886570,6 +886570,12 @@
       "price_normalized": 0,
       "protection": null
     },
+    "1293830": {
+      "appid": 1293830,
+      "price_display": "Free",
+      "price_normalized": 0,
+      "protection": null
+    },
     "4179020": {
       "appid": 4179020,
       "price_display": "Rp 106.999",
@@ -886712,6 +886718,12 @@
       "appid": 3793540,
       "price_display": "Rp 169.900",
       "price_normalized": 169900,
+      "protection": true
+    },
+    "3751950": {
+      "appid": 3751950,
+      "price_display": "Rp 679.000",
+      "price_normalized": 679000,
       "protection": true
     },
     "1335090": {
