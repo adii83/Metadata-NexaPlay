@@ -1,9 +1,9 @@
 [
   {
-    "appid": 5105990,
+    "appid": 5138020,
     "stage": "steam_appdetails",
-    "error": "Steam mengembalikan success=false.",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=5138020&l=english&cc=us",
     "source_priority": "steam_data",
-    "timestamp": "2026-08-30T06:14:33.065417+00:00"
+    "timestamp": "2026-08-31T05:38:03.672753+00:00"
   }
 ]
