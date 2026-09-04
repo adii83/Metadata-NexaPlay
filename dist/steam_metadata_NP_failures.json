@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "appid": 5155770,
+    "stage": "steam_appdetails",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=5155770&l=english&cc=us",
+    "source_priority": "steam_data",
+    "timestamp": "2026-09-04T04:31:16.944797+00:00"
+  }
+]
