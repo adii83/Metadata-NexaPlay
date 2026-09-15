@@ -157169,5 +157169,1300 @@
       },
       "reviews": "“Extraordinary delight... makes learning hilarious.”<br>Deseret News<br>"
     }
+  },
+  "5227770": {
+    "success": true,
+    "source_priority": "steam_data",
+    "fetch_status": {
+      "steam_appdetails": true,
+      "steam_original_assets": true
+    },
+    "name": "Panda Rails: Desktop Journeys",
+    "steam_appid": "5227770",
+    "steamgriddb_game_id": 5549493,
+    "store_asset_mtime": 1789137931,
+    "assets_count": 25,
+    "assets": {
+      "header": [
+        {
+          "path": "071ec89ad61069730156737502a7c55d95553aac/header.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5227770/071ec89ad61069730156737502a7c55d95553aac/header.jpg?t=1789137931",
+          "language": "english"
+        }
+      ],
+      "library_capsule": [
+        {
+          "path": "95815f5bd2c47fdf1af3efe66c0b5d45850fd683/library_capsule.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5227770/95815f5bd2c47fdf1af3efe66c0b5d45850fd683/library_capsule.jpg?t=1789137931",
+          "language": "english"
+        }
+      ],
+      "library_capsule_2x": [
+        {
+          "path": "95815f5bd2c47fdf1af3efe66c0b5d45850fd683/library_capsule_2x.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5227770/95815f5bd2c47fdf1af3efe66c0b5d45850fd683/library_capsule_2x.jpg?t=1789137931",
+          "language": "english"
+        }
+      ],
+      "library_hero": [
+        {
+          "path": "2a7d01471d1b66a38ea294219d662c92713d7c71/library_hero.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5227770/2a7d01471d1b66a38ea294219d662c92713d7c71/library_hero.jpg?t=1789137931",
+          "language": "english"
+        }
+      ],
+      "library_hero_2x": [
+        {
+          "path": "2a7d01471d1b66a38ea294219d662c92713d7c71/library_hero_2x.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5227770/2a7d01471d1b66a38ea294219d662c92713d7c71/library_hero_2x.jpg?t=1789137931",
+          "language": "english"
+        }
+      ],
+      "library_logo": [
+        {
+          "path": "1e2d8ba105cd35a92d43ef5046d2059da8f1edfd/logo.png",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5227770/1e2d8ba105cd35a92d43ef5046d2059da8f1edfd/logo.png?t=1789137931",
+          "language": "english"
+        }
+      ],
+      "library_logo_2x": [
+        {
+          "path": "1e2d8ba105cd35a92d43ef5046d2059da8f1edfd/logo_2x.png",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5227770/1e2d8ba105cd35a92d43ef5046d2059da8f1edfd/logo_2x.png?t=1789137931",
+          "language": "english"
+        }
+      ],
+      "clienticon": [
+        {
+          "hash": "7729bc3b781a0adce35bcc0b715a86dcb9fc471a",
+          "url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/5227770/7729bc3b781a0adce35bcc0b715a86dcb9fc471a.ico"
+        }
+      ],
+      "icon": [
+        {
+          "hash": "7729bc3b781a0adce35bcc0b715a86dcb9fc471a",
+          "url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/5227770/7729bc3b781a0adce35bcc0b715a86dcb9fc471a.jpg"
+        }
+      ],
+      "capsule_image": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227770/f4444f59b7c6017f63cc4c2eef168b5f8b7fedeb/capsule_231x87.jpg?t=1789137968"
+        }
+      ],
+      "capsule_imagev5": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227770/f4444f59b7c6017f63cc4c2eef168b5f8b7fedeb/capsule_184x69.jpg?t=1789137968"
+        }
+      ],
+      "background": [
+        {
+          "url": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5227770?t=1789137968"
+        }
+      ],
+      "background_raw": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227770/1177f2b92abddcad8fe54eda1a5c6babd08a997c/page_bg_raw.jpg?t=1789137968"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": 0,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227770/e76e3a3b343d69cac40d67ba7118db36b6d61016/ss_e76e3a3b343d69cac40d67ba7118db36b6d61016.600x338.jpg?t=1789137968",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227770/e76e3a3b343d69cac40d67ba7118db36b6d61016/ss_e76e3a3b343d69cac40d67ba7118db36b6d61016.1920x1080.jpg?t=1789137968"
+        },
+        {
+          "id": 1,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227770/df355336190562acbac256f5dbc46070c6b59fe0/ss_df355336190562acbac256f5dbc46070c6b59fe0.600x338.jpg?t=1789137968",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227770/df355336190562acbac256f5dbc46070c6b59fe0/ss_df355336190562acbac256f5dbc46070c6b59fe0.1920x1080.jpg?t=1789137968"
+        },
+        {
+          "id": 2,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227770/92f673f10c4a0d870cfd3a7daf4dadfd0d838c5f/ss_92f673f10c4a0d870cfd3a7daf4dadfd0d838c5f.600x338.jpg?t=1789137968",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227770/92f673f10c4a0d870cfd3a7daf4dadfd0d838c5f/ss_92f673f10c4a0d870cfd3a7daf4dadfd0d838c5f.1920x1080.jpg?t=1789137968"
+        },
+        {
+          "id": 3,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227770/512787cd75b98120420fb1c531b4304d5b8c374e/ss_512787cd75b98120420fb1c531b4304d5b8c374e.600x338.jpg?t=1789137968",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227770/512787cd75b98120420fb1c531b4304d5b8c374e/ss_512787cd75b98120420fb1c531b4304d5b8c374e.1920x1080.jpg?t=1789137968"
+        },
+        {
+          "id": 4,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227770/d868986782e89586449d9c9bc0d686848b193931/ss_d868986782e89586449d9c9bc0d686848b193931.600x338.jpg?t=1789137968",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227770/d868986782e89586449d9c9bc0d686848b193931/ss_d868986782e89586449d9c9bc0d686848b193931.1920x1080.jpg?t=1789137968"
+        },
+        {
+          "id": 5,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227770/eba60129396a4e1b88a4608195cf16c2404802dc/ss_eba60129396a4e1b88a4608195cf16c2404802dc.600x338.jpg?t=1789137968",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227770/eba60129396a4e1b88a4608195cf16c2404802dc/ss_eba60129396a4e1b88a4608195cf16c2404802dc.1920x1080.jpg?t=1789137968"
+        },
+        {
+          "id": 6,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227770/cccc7cc506b94da01eb3b84b75251ed271e00b08/ss_cccc7cc506b94da01eb3b84b75251ed271e00b08.600x338.jpg?t=1789137968",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227770/cccc7cc506b94da01eb3b84b75251ed271e00b08/ss_cccc7cc506b94da01eb3b84b75251ed271e00b08.1920x1080.jpg?t=1789137968"
+        },
+        {
+          "id": 7,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227770/48844d22b15a1e154f7403710c0b456422139b75/ss_48844d22b15a1e154f7403710c0b456422139b75.600x338.jpg?t=1789137968",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227770/48844d22b15a1e154f7403710c0b456422139b75/ss_48844d22b15a1e154f7403710c0b456422139b75.1920x1080.jpg?t=1789137968"
+        },
+        {
+          "id": 8,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227770/554ad506fe4f4fc66243090f6d75ac893a1c5f11/ss_554ad506fe4f4fc66243090f6d75ac893a1c5f11.600x338.jpg?t=1789137968",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227770/554ad506fe4f4fc66243090f6d75ac893a1c5f11/ss_554ad506fe4f4fc66243090f6d75ac893a1c5f11.1920x1080.jpg?t=1789137968"
+        },
+        {
+          "id": 9,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227770/bf253e0068dbec526c739f62f588e53312744b68/ss_bf253e0068dbec526c739f62f588e53312744b68.600x338.jpg?t=1789137968",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227770/bf253e0068dbec526c739f62f588e53312744b68/ss_bf253e0068dbec526c739f62f588e53312744b68.1920x1080.jpg?t=1789137968"
+        }
+      ],
+      "movies": [
+        {
+          "id": 257421440,
+          "name": "桌面上的旅行",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257421440/cccc7cc506b94da01eb3b84b75251ed271e00b08/movie_600x337.jpg?t=1789137967",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/5227770/1756747204/84ea33f7b850beb9874c851e0fe39c0f338b4d9c/1789004951/dash_av1.mpd?t=1789137967",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/5227770/1756747204/84ea33f7b850beb9874c851e0fe39c0f338b4d9c/1789004951/dash_h264.mpd?t=1789137967",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/5227770/1756747204/84ea33f7b850beb9874c851e0fe39c0f338b4d9c/1789004951/hls_264_master.m3u8?t=1789137967",
+          "highlight": true
+        }
+      ],
+      "embedded_media": {
+        "about_the_game_urls": [],
+        "detailed_description_urls": [],
+        "all_urls": [],
+        "videos_mp4": [],
+        "videos_webm": [],
+        "images": []
+      }
+    },
+    "store_data": {
+      "type": "game",
+      "required_age": 0,
+      "is_free": false,
+      "about_the_game": "<p class=\"bb_paragraph\" >A little train, a spontaneous getaway—right on your desktop! Panda Rails: Desktop Journeys is a cozy desktop idle game where every click and keystroke gives your high-speed train a boost. Join adorable animal passengers on a journey through mountains and peaceful countryside, enjoy local delicacies, and receive beautiful postcards along the way!</p>",
+      "detailed_description": "<p class=\"bb_paragraph\" >A little train, a spontaneous getaway—right on your desktop! Panda Rails: Desktop Journeys is a cozy desktop idle game where every click and keystroke gives your high-speed train a boost. Join adorable animal passengers on a journey through mountains and peaceful countryside, enjoy local delicacies, and receive beautiful postcards along the way!</p>",
+      "short_description": "Panda Rails: Desktop Journeys is a cozy desktop idle game where every click and keystroke boosts your high-speed train. Travel through scenic countryside with adorable animal passengers, enjoy local dishes, and receive beautiful postcards along the way!",
+      "supported_languages": "English, Japanese, Simplified Chinese, Traditional Chinese",
+      "website": null,
+      "pc_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows 7 or higher<br></li><li><strong>Processor:</strong> 2 GHz Dual Core<br></li><li><strong>Memory:</strong> 4 MB RAM<br></li><li><strong>Graphics:</strong> OpenGL 3.3 compatible / Integrated graphics<br></li><li><strong>Storage:</strong> 500 MB available space<br></li><li><strong>Sound Card:</strong> DirectX compatible sound card<br></li><li><strong>Additional Notes:</strong> A lightweight 2D cozy game. No persistent internet connection required.</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10 or higher<br></li><li><strong>Processor:</strong> 2 GHz Dual Core<br></li><li><strong>Memory:</strong> 8 MB RAM<br></li><li><strong>Graphics:</strong> OpenGL 3.3 compatible / Integrated graphics<br></li><li><strong>Storage:</strong> 500 MB available space<br></li><li><strong>Sound Card:</strong> DirectX compatible sound card<br></li><li><strong>Additional Notes:</strong> A lightweight 2D cozy game. No persistent internet connection required.</li></ul>"
+      },
+      "mac_requirements": [],
+      "linux_requirements": [],
+      "developers": [
+        "Pandaweave"
+      ],
+      "publishers": [
+        "Pandaweave"
+      ],
+      "support_info": {
+        "url": "",
+        "email": "knightyouyun@gmail.com"
+      },
+      "package_groups": [],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "categories": [
+        {
+          "id": 2,
+          "description": "Single-player"
+        },
+        {
+          "id": 22,
+          "description": "Steam Achievements"
+        },
+        {
+          "id": 68,
+          "description": "Custom Volume Controls"
+        },
+        {
+          "id": 76,
+          "description": "Mouse Only Option"
+        },
+        {
+          "id": 80,
+          "description": "#category_playable_at_your_own_pace"
+        },
+        {
+          "id": 74,
+          "description": "Playable without Timed Input"
+        },
+        {
+          "id": 79,
+          "description": "Save Anytime"
+        },
+        {
+          "id": 23,
+          "description": "Steam Cloud"
+        },
+        {
+          "id": 25,
+          "description": "Steam Leaderboards"
+        },
+        {
+          "id": 62,
+          "description": "Family Sharing"
+        }
+      ],
+      "genres": [
+        {
+          "id": "4",
+          "description": "Casual"
+        }
+      ],
+      "release_date": {
+        "coming_soon": true,
+        "date": "Q1 2027"
+      },
+      "content_descriptors": {
+        "ids": [],
+        "notes": null
+      },
+      "ratings": {
+        "dejus": {
+          "rating_generated": "1",
+          "rating": "l",
+          "required_age": "0",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": ""
+        },
+        "steam_germany": {
+          "rating_generated": "1",
+          "rating": "0",
+          "required_age": "0",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": ""
+        },
+        "igrs": {
+          "rating_generated": "1",
+          "rating": "3",
+          "required_age": "0",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": ""
+        }
+      }
+    }
+  },
+  "5227860": {
+    "success": true,
+    "source_priority": "steam_data",
+    "fetch_status": {
+      "steam_appdetails": true,
+      "steam_original_assets": true
+    },
+    "name": "Fable Gear",
+    "steam_appid": "5227860",
+    "steamgriddb_game_id": 5549532,
+    "store_asset_mtime": 1788612989,
+    "assets_count": 20,
+    "assets": {
+      "header": [
+        {
+          "path": "3fad876a7ce3e66935c7c568e828fea55dcc2fdc/header.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5227860/3fad876a7ce3e66935c7c568e828fea55dcc2fdc/header.jpg?t=1788612989",
+          "language": "english"
+        }
+      ],
+      "library_capsule": [
+        {
+          "path": "1414f46700303e91caaebdbfb4c6f932d9b70db1/library_capsule.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5227860/1414f46700303e91caaebdbfb4c6f932d9b70db1/library_capsule.jpg?t=1788612989",
+          "language": "english"
+        }
+      ],
+      "library_capsule_2x": [
+        {
+          "path": "1414f46700303e91caaebdbfb4c6f932d9b70db1/library_capsule_2x.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5227860/1414f46700303e91caaebdbfb4c6f932d9b70db1/library_capsule_2x.jpg?t=1788612989",
+          "language": "english"
+        }
+      ],
+      "library_hero": [
+        {
+          "path": "83f51caf15a4481c07f6da7bc8f170b9befc58aa/library_hero.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5227860/83f51caf15a4481c07f6da7bc8f170b9befc58aa/library_hero.jpg?t=1788612989",
+          "language": "english"
+        }
+      ],
+      "library_hero_2x": [
+        {
+          "path": "83f51caf15a4481c07f6da7bc8f170b9befc58aa/library_hero_2x.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5227860/83f51caf15a4481c07f6da7bc8f170b9befc58aa/library_hero_2x.jpg?t=1788612989",
+          "language": "english"
+        }
+      ],
+      "library_logo": [
+        {
+          "path": "c8e4a9acaaa4bdfd01c66a6fb217a564c03e4ab0/logo.png",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5227860/c8e4a9acaaa4bdfd01c66a6fb217a564c03e4ab0/logo.png?t=1788612989",
+          "language": "english"
+        }
+      ],
+      "library_logo_2x": [
+        {
+          "path": "c8e4a9acaaa4bdfd01c66a6fb217a564c03e4ab0/logo_2x.png",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5227860/c8e4a9acaaa4bdfd01c66a6fb217a564c03e4ab0/logo_2x.png?t=1788612989",
+          "language": "english"
+        }
+      ],
+      "clienticon": [
+        {
+          "hash": "5e7dedc3901f320b038ef0baba7bc266881835a1",
+          "url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/5227860/5e7dedc3901f320b038ef0baba7bc266881835a1.ico"
+        }
+      ],
+      "icon": [
+        {
+          "hash": "5e7dedc3901f320b038ef0baba7bc266881835a1",
+          "url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/5227860/5e7dedc3901f320b038ef0baba7bc266881835a1.jpg"
+        }
+      ],
+      "capsule_image": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/a19f4ba35a4768ec68a379aa91ea7cbb5c25aeec/capsule_231x87.jpg?t=1789144123"
+        }
+      ],
+      "capsule_imagev5": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/a19f4ba35a4768ec68a379aa91ea7cbb5c25aeec/capsule_184x69.jpg?t=1789144123"
+        }
+      ],
+      "background": [
+        {
+          "url": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5227860?t=1789144123"
+        }
+      ],
+      "background_raw": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/e3864ac9d02310bb34d384193c2946da3202200c/page_bg_raw.jpg?t=1789144123"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": 0,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/8290fecacae2abdd077752343b192c097ad1fbd3/ss_8290fecacae2abdd077752343b192c097ad1fbd3.600x338.jpg?t=1789144123",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/8290fecacae2abdd077752343b192c097ad1fbd3/ss_8290fecacae2abdd077752343b192c097ad1fbd3.1920x1080.jpg?t=1789144123"
+        },
+        {
+          "id": 1,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/bf7fba8012d7d85a8bf4388526c37ca6932a115b/ss_bf7fba8012d7d85a8bf4388526c37ca6932a115b.600x338.jpg?t=1789144123",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/bf7fba8012d7d85a8bf4388526c37ca6932a115b/ss_bf7fba8012d7d85a8bf4388526c37ca6932a115b.1920x1080.jpg?t=1789144123"
+        },
+        {
+          "id": 2,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/fd243168003e05cc6d391b4ee681c517138e76ff/ss_fd243168003e05cc6d391b4ee681c517138e76ff.600x338.jpg?t=1789144123",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/fd243168003e05cc6d391b4ee681c517138e76ff/ss_fd243168003e05cc6d391b4ee681c517138e76ff.1920x1080.jpg?t=1789144123"
+        },
+        {
+          "id": 3,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/b03203d364f45eed82f794dc50c4174389521ad2/ss_b03203d364f45eed82f794dc50c4174389521ad2.600x338.jpg?t=1789144123",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/b03203d364f45eed82f794dc50c4174389521ad2/ss_b03203d364f45eed82f794dc50c4174389521ad2.1920x1080.jpg?t=1789144123"
+        },
+        {
+          "id": 4,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/cb68c847bd0fc39574764e7d14e88d153aded36e/ss_cb68c847bd0fc39574764e7d14e88d153aded36e.600x338.jpg?t=1789144123",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/cb68c847bd0fc39574764e7d14e88d153aded36e/ss_cb68c847bd0fc39574764e7d14e88d153aded36e.1920x1080.jpg?t=1789144123"
+        }
+      ],
+      "movies": [
+        {
+          "id": 257417799,
+          "name": "Gameplay Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257417799/885b86264b24f67fa86e6004510394c55b6a2130/movie_600x337.jpg?t=1789144122",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/5227860/1681606254/ad152ddc270fa3cc660ab200ca1372ccceae6fe5/1788612279/dash_av1.mpd?t=1789144122",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/5227860/1681606254/ad152ddc270fa3cc660ab200ca1372ccceae6fe5/1788612279/dash_h264.mpd?t=1789144122",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/5227860/1681606254/ad152ddc270fa3cc660ab200ca1372ccceae6fe5/1788612279/hls_264_master.m3u8?t=1789144122",
+          "highlight": true
+        }
+      ],
+      "embedded_media": {
+        "about_the_game_urls": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/extras/6ea0bc636337255449f3132d3a6992d9.avif?t=1789144123",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/extras_big/6ea0bc636337255449f3132d3a6992d9.avif?t=1789144123",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/extras/6021add143afbe35200990c2de79ad78.avif?t=1789144123",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/extras_big/6021add143afbe35200990c2de79ad78.avif?t=1789144123",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/extras/f8bfcd8157c212e1df04195db4ab6d78.avif?t=1789144123",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/extras_big/f8bfcd8157c212e1df04195db4ab6d78.avif?t=1789144123"
+        ],
+        "detailed_description_urls": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/extras/6ea0bc636337255449f3132d3a6992d9.avif?t=1789144123",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/extras_big/6ea0bc636337255449f3132d3a6992d9.avif?t=1789144123",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/extras/6021add143afbe35200990c2de79ad78.avif?t=1789144123",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/extras_big/6021add143afbe35200990c2de79ad78.avif?t=1789144123",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/extras/f8bfcd8157c212e1df04195db4ab6d78.avif?t=1789144123",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/extras_big/f8bfcd8157c212e1df04195db4ab6d78.avif?t=1789144123"
+        ],
+        "all_urls": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/extras/6ea0bc636337255449f3132d3a6992d9.avif?t=1789144123",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/extras_big/6ea0bc636337255449f3132d3a6992d9.avif?t=1789144123",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/extras/6021add143afbe35200990c2de79ad78.avif?t=1789144123",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/extras_big/6021add143afbe35200990c2de79ad78.avif?t=1789144123",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/extras/f8bfcd8157c212e1df04195db4ab6d78.avif?t=1789144123",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/extras_big/f8bfcd8157c212e1df04195db4ab6d78.avif?t=1789144123"
+        ],
+        "videos_mp4": [],
+        "videos_webm": [],
+        "images": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/extras/6ea0bc636337255449f3132d3a6992d9.avif?t=1789144123",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/extras_big/6ea0bc636337255449f3132d3a6992d9.avif?t=1789144123",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/extras/6021add143afbe35200990c2de79ad78.avif?t=1789144123",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/extras_big/6021add143afbe35200990c2de79ad78.avif?t=1789144123",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/extras/f8bfcd8157c212e1df04195db4ab6d78.avif?t=1789144123",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/extras_big/f8bfcd8157c212e1df04195db4ab6d78.avif?t=1789144123"
+        ]
+      }
+    },
+    "store_data": {
+      "type": "game",
+      "required_age": 0,
+      "is_free": false,
+      "controller_support": "full",
+      "dlc": [
+        5228710
+      ],
+      "demos": [
+        {
+          "appid": 5228710,
+          "description": ""
+        }
+      ],
+      "about_the_game": "<p class=\"bb_paragraph\" ><strong>Beyond the &quot;mist&quot;, a world awaits discovery.</strong></p><p class=\"bb_paragraph\" >Fable Gear is a single-player isometric action RPG featuring exploration, loot, and real-time combat. Play as Aldric, a knight who must venture beyond Velania, kindle the Three Fires, and uncover what lies behind the mysterious &quot;mist&quot; enclosing these lands.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/extras/6ea0bc636337255449f3132d3a6992d9.avif?t=1789144123\" data-big-src=https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/extras_big/6ea0bc636337255449f3132d3a6992d9.avif?t=1789144123 width=1560 height=878 /></span></p><h2 class=\"bb_tag\" ><strong>EXPLORE BEYOND THE &quot;MIST&quot;</strong></h2><p class=\"bb_paragraph\" >Travel through forests, frozen wastes, remote villages, and forgotten fortresses. Help their inhabitants, discover hidden passages, and delve into dungeons with dangers of their own. Each fire you kindle opens new lands and brings Aldric closer to the truth.</p><h2 class=\"bb_tag\" ><strong>MASTER COMBAT</strong></h2><p class=\"bb_paragraph\" >Face creatures and bosses with attacks, dodges, and counterattacks. Unlock powers to stop time, leap over obstacles, or teleport through walls. Your abilities will also be the key to exploring places that once seemed unreachable.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/extras/6021add143afbe35200990c2de79ad78.avif?t=1789144123\" data-big-src=https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/extras_big/6021add143afbe35200990c2de79ad78.avif?t=1789144123 width=1560 height=878 /></span></p><h2 class=\"bb_tag\" ><strong>FIND YOUR GEAR</strong></h2><p class=\"bb_paragraph\" >Collect weapons and armor, combine equipment sets, and discover unique items. Upgrade and reforge your gear at the blacksmith, and use mutation runes to modify your abilities and experiment with different combinations.</p><h2 class=\"bb_tag\" ><strong>TAKE ON A NEW CHALLENGE</strong></h2><p class=\"bb_paragraph\" >Seek treasures and secrets off the beaten path, overcome dungeons that test your abilities, and descend into the Abyss: a succession of increasingly dangerous floors that will put your gear to the test. When the campaign ends, you can keep exploring the world.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/extras/f8bfcd8157c212e1df04195db4ab6d78.avif?t=1789144123\" data-big-src=https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/extras_big/f8bfcd8157c212e1df04195db4ab6d78.avif?t=1789144123 width=1560 height=878 /></span></p>",
+      "detailed_description": "<p class=\"bb_paragraph\" ><strong>Beyond the &quot;mist&quot;, a world awaits discovery.</strong></p><p class=\"bb_paragraph\" >Fable Gear is a single-player isometric action RPG featuring exploration, loot, and real-time combat. Play as Aldric, a knight who must venture beyond Velania, kindle the Three Fires, and uncover what lies behind the mysterious &quot;mist&quot; enclosing these lands.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/extras/6ea0bc636337255449f3132d3a6992d9.avif?t=1789144123\" data-big-src=https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/extras_big/6ea0bc636337255449f3132d3a6992d9.avif?t=1789144123 width=1560 height=878 /></span></p><h2 class=\"bb_tag\" ><strong>EXPLORE BEYOND THE &quot;MIST&quot;</strong></h2><p class=\"bb_paragraph\" >Travel through forests, frozen wastes, remote villages, and forgotten fortresses. Help their inhabitants, discover hidden passages, and delve into dungeons with dangers of their own. Each fire you kindle opens new lands and brings Aldric closer to the truth.</p><h2 class=\"bb_tag\" ><strong>MASTER COMBAT</strong></h2><p class=\"bb_paragraph\" >Face creatures and bosses with attacks, dodges, and counterattacks. Unlock powers to stop time, leap over obstacles, or teleport through walls. Your abilities will also be the key to exploring places that once seemed unreachable.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/extras/6021add143afbe35200990c2de79ad78.avif?t=1789144123\" data-big-src=https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/extras_big/6021add143afbe35200990c2de79ad78.avif?t=1789144123 width=1560 height=878 /></span></p><h2 class=\"bb_tag\" ><strong>FIND YOUR GEAR</strong></h2><p class=\"bb_paragraph\" >Collect weapons and armor, combine equipment sets, and discover unique items. Upgrade and reforge your gear at the blacksmith, and use mutation runes to modify your abilities and experiment with different combinations.</p><h2 class=\"bb_tag\" ><strong>TAKE ON A NEW CHALLENGE</strong></h2><p class=\"bb_paragraph\" >Seek treasures and secrets off the beaten path, overcome dungeons that test your abilities, and descend into the Abyss: a succession of increasingly dangerous floors that will put your gear to the test. When the campaign ends, you can keep exploring the world.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/extras/f8bfcd8157c212e1df04195db4ab6d78.avif?t=1789144123\" data-big-src=https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227860/extras_big/f8bfcd8157c212e1df04195db4ab6d78.avif?t=1789144123 width=1560 height=878 /></span></p>",
+      "short_description": "Battle powerful bosses and conquer dangerous dungeons in this single-player isometric action RPG. Explore beyond the &quot;mist&quot;, collect loot, and combine your gear. Master powers such as stopping time and teleportation to overcome every challenge.",
+      "supported_languages": "English, French, German, Spanish - Spain, Simplified Chinese, Korean, Japanese, Polish, Portuguese - Brazil, Russian",
+      "website": null,
+      "pc_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 11 (64 bit)<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Vulkan 1.0 compatible graphics card<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 11 (64 bit)<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Vulkan 1.0 compatible graphics card<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>"
+      },
+      "mac_requirements": [],
+      "linux_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> 64-bit Linux distribution<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Vulkan-compatible graphics card<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> 64-bit Linux distribution<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Vulkan-compatible graphics card<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>"
+      },
+      "developers": [
+        "Milasuke"
+      ],
+      "publishers": [
+        "Milasuke"
+      ],
+      "support_info": {
+        "url": "",
+        "email": "milatlahk@gmail.com"
+      },
+      "package_groups": [],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      },
+      "categories": [
+        {
+          "id": 2,
+          "description": "Single-player"
+        },
+        {
+          "id": 22,
+          "description": "Steam Achievements"
+        },
+        {
+          "id": 28,
+          "description": "Full controller support"
+        },
+        {
+          "id": 64,
+          "description": "Adjustable Text Size"
+        },
+        {
+          "id": 82,
+          "description": "#category_contrast_controls"
+        },
+        {
+          "id": 68,
+          "description": "Custom Volume Controls"
+        },
+        {
+          "id": 74,
+          "description": "Playable without Timed Input"
+        },
+        {
+          "id": 57,
+          "description": "DualSense Controller Support"
+        },
+        {
+          "id": 79,
+          "description": "Save Anytime"
+        },
+        {
+          "id": 69,
+          "description": "Stereo Sound"
+        },
+        {
+          "id": 62,
+          "description": "Family Sharing"
+        }
+      ],
+      "genres": [
+        {
+          "id": "1",
+          "description": "Action"
+        },
+        {
+          "id": "25",
+          "description": "Adventure"
+        },
+        {
+          "id": "3",
+          "description": "RPG"
+        }
+      ],
+      "release_date": {
+        "coming_soon": true,
+        "date": "Coming soon"
+      },
+      "content_descriptors": {
+        "ids": [],
+        "notes": null
+      },
+      "ratings": {
+        "dejus": {
+          "rating_generated": "1",
+          "rating": "6",
+          "required_age": "6",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": "Violência fantasiosa"
+        },
+        "steam_germany": {
+          "rating_generated": "1",
+          "rating": "6",
+          "required_age": "6",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": "Fantasy-Gewalt"
+        },
+        "igrs": {
+          "rating_generated": "1",
+          "rating": "13",
+          "required_age": "13",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": "Kekerasan"
+        }
+      }
+    }
+  },
+  "5227890": {
+    "success": true,
+    "source_priority": "steam_data",
+    "fetch_status": {
+      "steam_appdetails": true,
+      "steam_original_assets": true
+    },
+    "name": "Drapers: Merchants of Middle Ages",
+    "steam_appid": "5227890",
+    "steamgriddb_game_id": 5549651,
+    "store_asset_mtime": 1788699620,
+    "assets_count": 20,
+    "assets": {
+      "header": [
+        {
+          "path": "5173b6e1a76ab5329b79610aa1f62e4356faa815/header.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5227890/5173b6e1a76ab5329b79610aa1f62e4356faa815/header.jpg?t=1788699620",
+          "language": "english"
+        }
+      ],
+      "library_capsule": [
+        {
+          "path": "5436bf690d05f56c72a575574feb497b092c1aca/library_capsule.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5227890/5436bf690d05f56c72a575574feb497b092c1aca/library_capsule.jpg?t=1788699620",
+          "language": "english"
+        }
+      ],
+      "library_capsule_2x": [
+        {
+          "path": "5436bf690d05f56c72a575574feb497b092c1aca/library_capsule_2x.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5227890/5436bf690d05f56c72a575574feb497b092c1aca/library_capsule_2x.jpg?t=1788699620",
+          "language": "english"
+        }
+      ],
+      "library_hero": [
+        {
+          "path": "2addb43cf74ed48bc64618e86656bdf7c16c27d2/library_hero.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5227890/2addb43cf74ed48bc64618e86656bdf7c16c27d2/library_hero.jpg?t=1788699620",
+          "language": "english"
+        }
+      ],
+      "library_hero_2x": [
+        {
+          "path": "2addb43cf74ed48bc64618e86656bdf7c16c27d2/library_hero_2x.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5227890/2addb43cf74ed48bc64618e86656bdf7c16c27d2/library_hero_2x.jpg?t=1788699620",
+          "language": "english"
+        }
+      ],
+      "library_logo": [
+        {
+          "path": "91eb15ec48b809810ece3040781b8b9828a09c96/logo.png",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5227890/91eb15ec48b809810ece3040781b8b9828a09c96/logo.png?t=1788699620",
+          "language": "english"
+        }
+      ],
+      "library_logo_2x": [
+        {
+          "path": "91eb15ec48b809810ece3040781b8b9828a09c96/logo_2x.png",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5227890/91eb15ec48b809810ece3040781b8b9828a09c96/logo_2x.png?t=1788699620",
+          "language": "english"
+        }
+      ],
+      "clienticon": [
+        {
+          "hash": "bca34f1152e0355a440effbac27bc6378288b819",
+          "url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/5227890/bca34f1152e0355a440effbac27bc6378288b819.ico"
+        }
+      ],
+      "icon": [
+        {
+          "hash": "bca34f1152e0355a440effbac27bc6378288b819",
+          "url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/5227890/bca34f1152e0355a440effbac27bc6378288b819.jpg"
+        }
+      ],
+      "capsule_image": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227890/0f5527cc9ab5f5830d73b13b2a4638eb81d03675/capsule_231x87.jpg?t=1789203627"
+        }
+      ],
+      "capsule_imagev5": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227890/0f5527cc9ab5f5830d73b13b2a4638eb81d03675/capsule_184x69.jpg?t=1789203627"
+        }
+      ],
+      "background": [
+        {
+          "url": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5227890?t=1789203627"
+        }
+      ],
+      "background_raw": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227890/04f2d5202f61e106a11d22a8b303749c8d6f3924/page_bg_raw.jpg?t=1789203627"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": 0,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227890/c4765672ae8c70e2a428da5c4c1d04bef7f942df/ss_c4765672ae8c70e2a428da5c4c1d04bef7f942df.600x338.jpg?t=1789203627",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227890/c4765672ae8c70e2a428da5c4c1d04bef7f942df/ss_c4765672ae8c70e2a428da5c4c1d04bef7f942df.1920x1080.jpg?t=1789203627"
+        },
+        {
+          "id": 1,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227890/17d02cc9dd51621a27c4709dd76defc9fea9979d/ss_17d02cc9dd51621a27c4709dd76defc9fea9979d.600x338.jpg?t=1789203627",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227890/17d02cc9dd51621a27c4709dd76defc9fea9979d/ss_17d02cc9dd51621a27c4709dd76defc9fea9979d.1920x1080.jpg?t=1789203627"
+        },
+        {
+          "id": 2,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227890/713598d279e07b67c0e1e4ec84d7a1e3a492c593/ss_713598d279e07b67c0e1e4ec84d7a1e3a492c593.600x338.jpg?t=1789203627",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227890/713598d279e07b67c0e1e4ec84d7a1e3a492c593/ss_713598d279e07b67c0e1e4ec84d7a1e3a492c593.1920x1080.jpg?t=1789203627"
+        },
+        {
+          "id": 3,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227890/2bc87dbe1121c63e6dcfaeb498e7c4063842aa50/ss_2bc87dbe1121c63e6dcfaeb498e7c4063842aa50.600x338.jpg?t=1789203627",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227890/2bc87dbe1121c63e6dcfaeb498e7c4063842aa50/ss_2bc87dbe1121c63e6dcfaeb498e7c4063842aa50.1920x1080.jpg?t=1789203627"
+        },
+        {
+          "id": 4,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227890/978ec44cff139293f203505e20c680e8a28a109f/ss_978ec44cff139293f203505e20c680e8a28a109f.600x338.jpg?t=1789203627",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227890/978ec44cff139293f203505e20c680e8a28a109f/ss_978ec44cff139293f203505e20c680e8a28a109f.1920x1080.jpg?t=1789203627"
+        }
+      ],
+      "movies": [
+        {
+          "id": 257418355,
+          "name": "Drapers Intro",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257418355/10193d99942ba0f25ac67281932c46eadfb19a23/movie_600x337.jpg?t=1789201005",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/5227890/1421685845/ab58cd911144d8a6a756fce682b362e4afeeba2b/1788698770/dash_av1.mpd?t=1789201005",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/5227890/1421685845/ab58cd911144d8a6a756fce682b362e4afeeba2b/1788698770/dash_h264.mpd?t=1789201005",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/5227890/1421685845/ab58cd911144d8a6a756fce682b362e4afeeba2b/1788698770/hls_264_master.m3u8?t=1789201005",
+          "highlight": true
+        }
+      ],
+      "embedded_media": {
+        "about_the_game_urls": [],
+        "detailed_description_urls": [],
+        "all_urls": [],
+        "videos_mp4": [],
+        "videos_webm": [],
+        "images": []
+      }
+    },
+    "store_data": {
+      "type": "game",
+      "required_age": 0,
+      "is_free": false,
+      "about_the_game": "<p class=\"bb_paragraph\" >It is 1242 AD, and cloth is worth more than crowns. </p><p class=\"bb_paragraph\" >Begin your journey as a novice cloth merchant in the dangerous, high-stakes waters of the medieval Mediterranean. Your goal? Out-maneuver up to seven rival merchant cities to build the wealthiest trade empire of the old world. Inspired by classic modern Euro-style board games, <strong>Drapers: Merchants of Middle Ages</strong> combines deep tactical optimization with lightning-fast, high-interaction gameplay.</p><h2 class=\"bb_tag\" >🌟 KEY FEATURES</h2><p class=\"bb_paragraph\" ><strong>Fast-Paced Strategy Game:</strong> A complete, deep economic trade war played out in under 30 minutes. </p><p class=\"bb_paragraph\" ><strong>Eurogame Mechanics:</strong> Build tight production chains from sheep wool and dye plants into high-value luxury goods. No luck, Full information, high strategic optimization.</p><p class=\"bb_paragraph\" ><strong>Simultaneous Turns:</strong> No long waits between rounds. Every player plans and executes their moves at the same time, keeping the pacing tight and intense.</p><p class=\"bb_paragraph\" ><strong>1 to 8 Players:</strong> Settle scores against smart AI opponents in singleplayer, or gather your friends for chaotic local network battles via LAN PvP.</p><p class=\"bb_paragraph\" ><strong>Multiple Win Strategies</strong>: Every voyage is a gamble. Crash  market prices by flooding ports with the same goods. Watch out for roaming pirates looking to turn your richest cargo into their prize.</p><p class=\"bb_paragraph\" ><strong>Capable AI:</strong> Battle with up to 7 AI players with varying degrees of aggression and sophistication. </p><p class=\"bb_paragraph\" ><strong>Mediterranean Atmosphere:</strong> Immerse yourself in the middle ages with beautiful, highly-detailed art and an enchanting soundtrack.</p><p class=\"bb_paragraph\" >Can you out-trade, out-produce, and out-smart your rivals to become the world's most renowned Draper?</p>",
+      "detailed_description": "<p class=\"bb_paragraph\" >It is 1242 AD, and cloth is worth more than crowns. </p><p class=\"bb_paragraph\" >Begin your journey as a novice cloth merchant in the dangerous, high-stakes waters of the medieval Mediterranean. Your goal? Out-maneuver up to seven rival merchant cities to build the wealthiest trade empire of the old world. Inspired by classic modern Euro-style board games, <strong>Drapers: Merchants of Middle Ages</strong> combines deep tactical optimization with lightning-fast, high-interaction gameplay.</p><h2 class=\"bb_tag\" >🌟 KEY FEATURES</h2><p class=\"bb_paragraph\" ><strong>Fast-Paced Strategy Game:</strong> A complete, deep economic trade war played out in under 30 minutes. </p><p class=\"bb_paragraph\" ><strong>Eurogame Mechanics:</strong> Build tight production chains from sheep wool and dye plants into high-value luxury goods. No luck, Full information, high strategic optimization.</p><p class=\"bb_paragraph\" ><strong>Simultaneous Turns:</strong> No long waits between rounds. Every player plans and executes their moves at the same time, keeping the pacing tight and intense.</p><p class=\"bb_paragraph\" ><strong>1 to 8 Players:</strong> Settle scores against smart AI opponents in singleplayer, or gather your friends for chaotic local network battles via LAN PvP.</p><p class=\"bb_paragraph\" ><strong>Multiple Win Strategies</strong>: Every voyage is a gamble. Crash  market prices by flooding ports with the same goods. Watch out for roaming pirates looking to turn your richest cargo into their prize.</p><p class=\"bb_paragraph\" ><strong>Capable AI:</strong> Battle with up to 7 AI players with varying degrees of aggression and sophistication. </p><p class=\"bb_paragraph\" ><strong>Mediterranean Atmosphere:</strong> Immerse yourself in the middle ages with beautiful, highly-detailed art and an enchanting soundtrack.</p><p class=\"bb_paragraph\" >Can you out-trade, out-produce, and out-smart your rivals to become the world's most renowned Draper?</p>",
+      "short_description": "Build a medieval trade empire in under 30 minutes! Produce luxury cloth, manage supply chains, and outsmart up to 7 rivals or AI players in this fast-paced, Euro-style digital board game. Play solo or settle scores over LAN. Will you dominate the Mediterranean market or lose it all to pirates?",
+      "supported_languages": "English",
+      "website": "https://tiltangames.com/drapers/",
+      "pc_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> 10<br></li><li><strong>Processor:</strong> Intel Core i3-2100 @ 3.10 GHz / AMD FX-4100 @ 3.60 GHz or equivalent<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Intel HD Graphics 4000, NVIDIA GeForce 7800 (512 MB), or AMD Radeon HD 4600 (512 MB)<br></li><li><strong>DirectX:</strong> Version 11</li></ul>"
+      },
+      "mac_requirements": [],
+      "linux_requirements": [],
+      "developers": [
+        "Tiltan Games"
+      ],
+      "publishers": [
+        "Tiltan Games"
+      ],
+      "support_info": {
+        "url": "https://tiltangames.com/support/",
+        "email": "info@tiltangames.com"
+      },
+      "package_groups": [],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "categories": [
+        {
+          "id": 2,
+          "description": "Single-player"
+        },
+        {
+          "id": 1,
+          "description": "Multi-player"
+        },
+        {
+          "id": 49,
+          "description": "PvP"
+        },
+        {
+          "id": 47,
+          "description": "LAN PvP"
+        },
+        {
+          "id": 62,
+          "description": "Family Sharing"
+        }
+      ],
+      "genres": [
+        {
+          "id": "4",
+          "description": "Casual"
+        },
+        {
+          "id": "23",
+          "description": "Indie"
+        },
+        {
+          "id": "2",
+          "description": "Strategy"
+        }
+      ],
+      "release_date": {
+        "coming_soon": true,
+        "date": "Coming soon"
+      },
+      "content_descriptors": {
+        "ids": [],
+        "notes": null
+      },
+      "ratings": {
+        "dejus": {
+          "rating_generated": "1",
+          "rating": "14",
+          "required_age": "14",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": "Violência"
+        },
+        "steam_germany": {
+          "rating_generated": "1",
+          "rating": "12",
+          "required_age": "12",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": "Gewalt"
+        },
+        "igrs": {
+          "rating_generated": "1",
+          "rating": "18",
+          "required_age": "18",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": "Interaksi Daring\nKekerasan"
+        }
+      }
+    }
+  },
+  "5227910": {
+    "success": true,
+    "source_priority": "steam_data",
+    "fetch_status": {
+      "steam_appdetails": true,
+      "steam_original_assets": true
+    },
+    "name": "Messa Anomaly",
+    "steam_appid": "5227910",
+    "steamgriddb_game_id": 5549533,
+    "store_asset_mtime": 1789210385,
+    "assets_count": 19,
+    "assets": {
+      "header": [
+        {
+          "path": "2535675740e127d45433169b2fc4579e9a9bf81f/header.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5227910/2535675740e127d45433169b2fc4579e9a9bf81f/header.jpg?t=1789210385",
+          "language": "english"
+        }
+      ],
+      "library_capsule": [
+        {
+          "path": "ece3340d23cf92d9c2b1fefe61c7cdbbb0927d44/library_capsule.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5227910/ece3340d23cf92d9c2b1fefe61c7cdbbb0927d44/library_capsule.jpg?t=1789210385",
+          "language": "english"
+        }
+      ],
+      "library_capsule_2x": [
+        {
+          "path": "ece3340d23cf92d9c2b1fefe61c7cdbbb0927d44/library_capsule_2x.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5227910/ece3340d23cf92d9c2b1fefe61c7cdbbb0927d44/library_capsule_2x.jpg?t=1789210385",
+          "language": "english"
+        }
+      ],
+      "library_hero": [
+        {
+          "path": "efdfa5c4c899d4ba398ffc52eea8688a4850a6e8/library_hero.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5227910/efdfa5c4c899d4ba398ffc52eea8688a4850a6e8/library_hero.jpg?t=1789210385",
+          "language": "english"
+        }
+      ],
+      "library_hero_2x": [
+        {
+          "path": "efdfa5c4c899d4ba398ffc52eea8688a4850a6e8/library_hero_2x.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5227910/efdfa5c4c899d4ba398ffc52eea8688a4850a6e8/library_hero_2x.jpg?t=1789210385",
+          "language": "english"
+        }
+      ],
+      "library_logo": [
+        {
+          "path": "e803c4a327c97c52427630b79a9a1a20978d54dc/logo.png",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5227910/e803c4a327c97c52427630b79a9a1a20978d54dc/logo.png?t=1789210385",
+          "language": "english"
+        }
+      ],
+      "library_logo_2x": [
+        {
+          "path": "e803c4a327c97c52427630b79a9a1a20978d54dc/logo_2x.png",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5227910/e803c4a327c97c52427630b79a9a1a20978d54dc/logo_2x.png?t=1789210385",
+          "language": "english"
+        }
+      ],
+      "clienticon": [
+        {
+          "hash": "0380e3cbfd443973a2885d1b180f06c5eae19dea",
+          "url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/5227910/0380e3cbfd443973a2885d1b180f06c5eae19dea.ico"
+        }
+      ],
+      "icon": [
+        {
+          "hash": "0380e3cbfd443973a2885d1b180f06c5eae19dea",
+          "url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/5227910/0380e3cbfd443973a2885d1b180f06c5eae19dea.jpg"
+        }
+      ],
+      "capsule_image": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227910/09aa2bdca3a7a14943bceaadeb7b15808d5395d1/capsule_231x87.jpg?t=1789219199"
+        }
+      ],
+      "capsule_imagev5": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227910/09aa2bdca3a7a14943bceaadeb7b15808d5395d1/capsule_184x69.jpg?t=1789219199"
+        }
+      ],
+      "background": [
+        {
+          "url": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5227910?t=1789219199"
+        }
+      ],
+      "background_raw": [
+        {
+          "url": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5227910?t=1789219199"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": 0,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227910/555ca4be90fe74c71937c3e02a3edfa0c0faa548/ss_555ca4be90fe74c71937c3e02a3edfa0c0faa548.600x338.jpg?t=1789219199",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227910/555ca4be90fe74c71937c3e02a3edfa0c0faa548/ss_555ca4be90fe74c71937c3e02a3edfa0c0faa548.1920x1080.jpg?t=1789219199"
+        },
+        {
+          "id": 1,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227910/664a7d8ed6f88ce2100f8753673a1c786d6cd856/ss_664a7d8ed6f88ce2100f8753673a1c786d6cd856.600x338.jpg?t=1789219199",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227910/664a7d8ed6f88ce2100f8753673a1c786d6cd856/ss_664a7d8ed6f88ce2100f8753673a1c786d6cd856.1920x1080.jpg?t=1789219199"
+        },
+        {
+          "id": 2,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227910/c64bfcefbe41539b58c67dd14cc95a47c1d30e8b/ss_c64bfcefbe41539b58c67dd14cc95a47c1d30e8b.600x338.jpg?t=1789219199",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227910/c64bfcefbe41539b58c67dd14cc95a47c1d30e8b/ss_c64bfcefbe41539b58c67dd14cc95a47c1d30e8b.1920x1080.jpg?t=1789219199"
+        },
+        {
+          "id": 3,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227910/ae8ca00b9062918a7f38cd401fb008162f0209be/ss_ae8ca00b9062918a7f38cd401fb008162f0209be.600x338.jpg?t=1789219199",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227910/ae8ca00b9062918a7f38cd401fb008162f0209be/ss_ae8ca00b9062918a7f38cd401fb008162f0209be.1920x1080.jpg?t=1789219199"
+        },
+        {
+          "id": 4,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227910/b75b8f26de342a1175b62741cd21a6c4cd46a0c2/ss_b75b8f26de342a1175b62741cd21a6c4cd46a0c2.600x338.jpg?t=1789219199",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227910/b75b8f26de342a1175b62741cd21a6c4cd46a0c2/ss_b75b8f26de342a1175b62741cd21a6c4cd46a0c2.1920x1080.jpg?t=1789219199"
+        }
+      ],
+      "movies": [],
+      "embedded_media": {
+        "about_the_game_urls": [],
+        "detailed_description_urls": [],
+        "all_urls": [],
+        "videos_mp4": [],
+        "videos_webm": [],
+        "images": []
+      }
+    },
+    "store_data": {
+      "type": "game",
+      "required_age": 0,
+      "is_free": false,
+      "about_the_game": "<p class=\"bb_paragraph\" >Messa Anomaly is a first-person psychological horror game about observation, memory, and the unsettling fear of the unknown.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >You are trapped in a museum during a night shift that never seems to end. Walk through repeating corridors, study the exhibits, and notice what has changed. When something feels wrong, trust your memory and choose your path carefully.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >WATCH THE MUSEUM</p><p class=\"bb_paragraph\" >Each loop may hide an anomaly: a displaced object, a broken pattern, an impossible sound, or something watching from where it should not be.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >MAKE YOUR CHOICE</p><p class=\"bb_paragraph\" >Decide whether the corridor is normal or has changed. Correct choices bring you closer to the exit. Mistakes draw you deeper into the museum.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >FEATURES</p><p class=\"bb_paragraph\" >• First-person psychological horror</p><p class=\"bb_paragraph\" >• Observation-based anomaly hunting</p><p class=\"bb_paragraph\" >• Random events that make every playthrough unpredictable</p><p class=\"bb_paragraph\" >• Atmospheric museum spaces</p><p class=\"bb_paragraph\" >• No combat — attention is your only defense</p>",
+      "detailed_description": "<p class=\"bb_paragraph\" >Messa Anomaly is a first-person psychological horror game about observation, memory, and the unsettling fear of the unknown.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >You are trapped in a museum during a night shift that never seems to end. Walk through repeating corridors, study the exhibits, and notice what has changed. When something feels wrong, trust your memory and choose your path carefully.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >WATCH THE MUSEUM</p><p class=\"bb_paragraph\" >Each loop may hide an anomaly: a displaced object, a broken pattern, an impossible sound, or something watching from where it should not be.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >MAKE YOUR CHOICE</p><p class=\"bb_paragraph\" >Decide whether the corridor is normal or has changed. Correct choices bring you closer to the exit. Mistakes draw you deeper into the museum.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >FEATURES</p><p class=\"bb_paragraph\" >• First-person psychological horror</p><p class=\"bb_paragraph\" >• Observation-based anomaly hunting</p><p class=\"bb_paragraph\" >• Random events that make every playthrough unpredictable</p><p class=\"bb_paragraph\" >• Atmospheric museum spaces</p><p class=\"bb_paragraph\" >• No combat — attention is your only defense</p>",
+      "short_description": "Messa Anomaly is a first-person psychological horror game set in an endlessly shifting museum. Observe each corridor, spot unsettling changes, and choose the correct path. One mistake can send you deeper into a night shift that refuses to end.",
+      "supported_languages": "Ukrainian, English, Russian, French, Italian, German, Spanish - Spain, Arabic, Bulgarian, Hungarian, Vietnamese, Greek, Danish, Indonesian, Spanish - Latin America, Traditional Chinese, Simplified Chinese, Korean, Malay, Dutch, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Thai, Turkish, Finnish, Czech, Swedish, Japanese",
+      "website": null,
+      "pc_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 64-bit<br></li><li><strong>Processor:</strong> Intel Core i5-4590 or AMD Ryzen 3 1200<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 970 or AMD Radeon RX 570<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 3 GB available space<br></li><li><strong>Additional Notes:</strong> 64-bit processor and operating system required</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+      },
+      "mac_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+      },
+      "linux_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+      },
+      "developers": [
+        "Macur"
+      ],
+      "publishers": [
+        "Macur "
+      ],
+      "support_info": {
+        "url": "",
+        "email": "bigari.ivan55@gmail.com"
+      },
+      "package_groups": [],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "categories": [
+        {
+          "id": 2,
+          "description": "Single-player"
+        },
+        {
+          "id": 62,
+          "description": "Family Sharing"
+        }
+      ],
+      "genres": [
+        {
+          "id": "25",
+          "description": "Adventure"
+        },
+        {
+          "id": "23",
+          "description": "Indie"
+        },
+        {
+          "id": "28",
+          "description": "Simulation"
+        }
+      ],
+      "release_date": {
+        "coming_soon": true,
+        "date": "Coming soon"
+      },
+      "content_descriptors": {
+        "ids": [],
+        "notes": null
+      },
+      "ratings": {
+        "dejus": {
+          "rating_generated": "1",
+          "rating": "14",
+          "required_age": "14",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": "Violência\nMedo"
+        },
+        "steam_germany": {
+          "rating_generated": "1",
+          "rating": "16",
+          "required_age": "16",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": "Horror"
+        },
+        "igrs": {
+          "rating_generated": "1",
+          "rating": "18",
+          "required_age": "18",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": "Horor"
+        }
+      }
+    }
+  },
+  "5227970": {
+    "success": true,
+    "source_priority": "steam_data",
+    "fetch_status": {
+      "steam_appdetails": true,
+      "steam_original_assets": true
+    },
+    "name": "ModuleZ",
+    "steam_appid": "5227970",
+    "steamgriddb_game_id": 5549464,
+    "store_asset_mtime": 1788601763,
+    "assets_count": 20,
+    "assets": {
+      "header": [
+        {
+          "path": "360c395c986a5275dae7ff9381407b136ac145a4/header.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5227970/360c395c986a5275dae7ff9381407b136ac145a4/header.jpg?t=1788601763",
+          "language": "english"
+        }
+      ],
+      "library_capsule": [
+        {
+          "path": "a368ce5af1a7d588fd64d88562603138815d6194/library_capsule.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5227970/a368ce5af1a7d588fd64d88562603138815d6194/library_capsule.jpg?t=1788601763",
+          "language": "english"
+        }
+      ],
+      "library_capsule_2x": [
+        {
+          "path": "a368ce5af1a7d588fd64d88562603138815d6194/library_capsule_2x.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5227970/a368ce5af1a7d588fd64d88562603138815d6194/library_capsule_2x.jpg?t=1788601763",
+          "language": "english"
+        }
+      ],
+      "library_hero": [
+        {
+          "path": "305e5ae5f6cec90a7c7ad4e67c9f5f0ed2af00b5/library_hero.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5227970/305e5ae5f6cec90a7c7ad4e67c9f5f0ed2af00b5/library_hero.jpg?t=1788601763",
+          "language": "english"
+        }
+      ],
+      "library_hero_2x": [
+        {
+          "path": "305e5ae5f6cec90a7c7ad4e67c9f5f0ed2af00b5/library_hero_2x.jpg",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5227970/305e5ae5f6cec90a7c7ad4e67c9f5f0ed2af00b5/library_hero_2x.jpg?t=1788601763",
+          "language": "english"
+        }
+      ],
+      "library_logo": [
+        {
+          "path": "703443b445c2ff06f69188a20cf81ff59a6fdc06/logo.png",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5227970/703443b445c2ff06f69188a20cf81ff59a6fdc06/logo.png?t=1788601763",
+          "language": "english"
+        }
+      ],
+      "library_logo_2x": [
+        {
+          "path": "703443b445c2ff06f69188a20cf81ff59a6fdc06/logo_2x.png",
+          "url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5227970/703443b445c2ff06f69188a20cf81ff59a6fdc06/logo_2x.png?t=1788601763",
+          "language": "english"
+        }
+      ],
+      "clienticon": [
+        {
+          "hash": "a05feaf5b124a818982b73e012d6d5bf2c683cd1",
+          "url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/5227970/a05feaf5b124a818982b73e012d6d5bf2c683cd1.ico"
+        }
+      ],
+      "icon": [
+        {
+          "hash": "a05feaf5b124a818982b73e012d6d5bf2c683cd1",
+          "url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/5227970/a05feaf5b124a818982b73e012d6d5bf2c683cd1.jpg"
+        }
+      ],
+      "capsule_image": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227970/85317692694f3ff255c1783ec2d4de3df8c67e89/capsule_231x87.jpg?t=1789121318"
+        }
+      ],
+      "capsule_imagev5": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227970/85317692694f3ff255c1783ec2d4de3df8c67e89/capsule_184x69.jpg?t=1789121318"
+        }
+      ],
+      "background": [
+        {
+          "url": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5227970?t=1789121318"
+        }
+      ],
+      "background_raw": [
+        {
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227970/200bf69b413cf8eb2cc9ebc852de45e71a4b59f2/page_bg_raw.jpg?t=1789121318"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": 0,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227970/9067f5382b147b224eba8a7a821488dcb053e448/ss_9067f5382b147b224eba8a7a821488dcb053e448.600x338.jpg?t=1789121318",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227970/9067f5382b147b224eba8a7a821488dcb053e448/ss_9067f5382b147b224eba8a7a821488dcb053e448.1920x1080.jpg?t=1789121318"
+        },
+        {
+          "id": 1,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227970/9abaef0719a38b32935f5fab026584cba35167ea/ss_9abaef0719a38b32935f5fab026584cba35167ea.600x338.jpg?t=1789121318",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227970/9abaef0719a38b32935f5fab026584cba35167ea/ss_9abaef0719a38b32935f5fab026584cba35167ea.1920x1080.jpg?t=1789121318"
+        },
+        {
+          "id": 2,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227970/65319e48944dbc9d00041880bc30c5444f40a247/ss_65319e48944dbc9d00041880bc30c5444f40a247.600x338.jpg?t=1789121318",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227970/65319e48944dbc9d00041880bc30c5444f40a247/ss_65319e48944dbc9d00041880bc30c5444f40a247.1920x1080.jpg?t=1789121318"
+        },
+        {
+          "id": 3,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227970/447a36ee269804e47d6d8dd38cda62b56036a260/ss_447a36ee269804e47d6d8dd38cda62b56036a260.600x338.jpg?t=1789121318",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227970/447a36ee269804e47d6d8dd38cda62b56036a260/ss_447a36ee269804e47d6d8dd38cda62b56036a260.1920x1080.jpg?t=1789121318"
+        },
+        {
+          "id": 4,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227970/dc4d6e2170bf1633fe12a512b803b21f3ee9c97a/ss_dc4d6e2170bf1633fe12a512b803b21f3ee9c97a.600x338.jpg?t=1789121318",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227970/dc4d6e2170bf1633fe12a512b803b21f3ee9c97a/ss_dc4d6e2170bf1633fe12a512b803b21f3ee9c97a.1920x1080.jpg?t=1789121318"
+        }
+      ],
+      "movies": [
+        {
+          "id": 257417731,
+          "name": "ModuleZ - Official Gameplay Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257417731/79c3a660fdbe5fb44b9805ae1a3b6b0bc1d9490e/movie_600x337.jpg?t=1789121317",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/5227970/1800057450/75a8aaf65a236cc539ba09aea10f892b3b99561c/1788755081/dash_av1.mpd?t=1789121317",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/5227970/1800057450/75a8aaf65a236cc539ba09aea10f892b3b99561c/1788755081/dash_h264.mpd?t=1789121317",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/5227970/1800057450/75a8aaf65a236cc539ba09aea10f892b3b99561c/1788755081/hls_264_master.m3u8?t=1789121317",
+          "highlight": true
+        }
+      ],
+      "embedded_media": {
+        "about_the_game_urls": [],
+        "detailed_description_urls": [],
+        "all_urls": [],
+        "videos_mp4": [],
+        "videos_webm": [],
+        "images": []
+      }
+    },
+    "store_data": {
+      "type": "game",
+      "required_age": 0,
+      "is_free": false,
+      "about_the_game": "<p class=\"bb_paragraph\" ><strong>MODULEZ IS A 3D PUZZLE-STRATEGY ADVENTURE</strong></p><p class=\"bb_paragraph\" >Explore a modular world, meet its characters, and find rivals who will challenge the way you think.</p><p class=\"bb_paragraph\" >Each encounter can lead to a turn-based 3D strategic duel, where piece position, orientation, and placement are part of every decision.</p><p class=\"bb_paragraph\" ><strong>EXPLORE A MODULAR WORLD</strong></p><p class=\"bb_paragraph\" >Travel through the world of ModuleZ, discover its different environments, interact with its characters, and find new rivals and challenges along your journey.</p><p class=\"bb_paragraph\" >Exploration and duels are part of the same adventure: venture into the world, find your next challenge, and enter the arena.</p><p class=\"bb_paragraph\" ><strong>CHALLENGE YOUR RIVALS</strong></p><p class=\"bb_paragraph\" >Rivals turn your encounters into strategic challenges.</p><p class=\"bb_paragraph\" >Enter turn-based 3D duels and analyze the space before you act. Your decisions determine how each encounter unfolds.</p><p class=\"bb_paragraph\" ><strong>THINK IN THREE DIMENSIONS</strong></p><p class=\"bb_paragraph\" >Space is not just the setting — it is part of the challenge.</p><p class=\"bb_paragraph\" >Observe the position of the pieces, study their orientation, and decide how to place them. Learn to read the space and use every move as part of your strategy.</p><p class=\"bb_paragraph\" ><strong>PROGRESS THROUGH MODULEZ</strong></p><p class=\"bb_paragraph\" >Explore, find rivals, overcome new challenges, and continue progressing through the world of ModuleZ.</p><p class=\"bb_paragraph\" >Every duel is part of a journey that connects exploration, strategy, and spatial puzzles.</p><p class=\"bb_paragraph\" ><strong>KEY FEATURES</strong></p><p class=\"bb_paragraph\" >• Turn-based strategic 3D duels.<br>• Spatial puzzles based on position, orientation, and placement.<br>• A modular 3D world to explore.<br>• Characters and rivals to encounter throughout your journey.<br>• Exploration and duels connected as part of the same adventure.<br>• A single-player experience.</p><p class=\"bb_paragraph\" ><strong>Explore the world. Find your next rival. Enter the arena. Think in 3D.</strong></p>",
+      "detailed_description": "<p class=\"bb_paragraph\" ><strong>MODULEZ IS A 3D PUZZLE-STRATEGY ADVENTURE</strong></p><p class=\"bb_paragraph\" >Explore a modular world, meet its characters, and find rivals who will challenge the way you think.</p><p class=\"bb_paragraph\" >Each encounter can lead to a turn-based 3D strategic duel, where piece position, orientation, and placement are part of every decision.</p><p class=\"bb_paragraph\" ><strong>EXPLORE A MODULAR WORLD</strong></p><p class=\"bb_paragraph\" >Travel through the world of ModuleZ, discover its different environments, interact with its characters, and find new rivals and challenges along your journey.</p><p class=\"bb_paragraph\" >Exploration and duels are part of the same adventure: venture into the world, find your next challenge, and enter the arena.</p><p class=\"bb_paragraph\" ><strong>CHALLENGE YOUR RIVALS</strong></p><p class=\"bb_paragraph\" >Rivals turn your encounters into strategic challenges.</p><p class=\"bb_paragraph\" >Enter turn-based 3D duels and analyze the space before you act. Your decisions determine how each encounter unfolds.</p><p class=\"bb_paragraph\" ><strong>THINK IN THREE DIMENSIONS</strong></p><p class=\"bb_paragraph\" >Space is not just the setting — it is part of the challenge.</p><p class=\"bb_paragraph\" >Observe the position of the pieces, study their orientation, and decide how to place them. Learn to read the space and use every move as part of your strategy.</p><p class=\"bb_paragraph\" ><strong>PROGRESS THROUGH MODULEZ</strong></p><p class=\"bb_paragraph\" >Explore, find rivals, overcome new challenges, and continue progressing through the world of ModuleZ.</p><p class=\"bb_paragraph\" >Every duel is part of a journey that connects exploration, strategy, and spatial puzzles.</p><p class=\"bb_paragraph\" ><strong>KEY FEATURES</strong></p><p class=\"bb_paragraph\" >• Turn-based strategic 3D duels.<br>• Spatial puzzles based on position, orientation, and placement.<br>• A modular 3D world to explore.<br>• Characters and rivals to encounter throughout your journey.<br>• Exploration and duels connected as part of the same adventure.<br>• A single-player experience.</p><p class=\"bb_paragraph\" ><strong>Explore the world. Find your next rival. Enter the arena. Think in 3D.</strong></p>",
+      "short_description": "Explore a modular world, meet its characters and challenge rivals in turn-based 3D strategic duels. Master piece positioning and rotation, solve spatial puzzles, and progress through the world of ModuleZ.",
+      "supported_languages": "English, Spanish - Spain",
+      "website": null,
+      "pc_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 64-bit<br></li><li><strong>Processor:</strong> Intel Core i3-8100 / AMD Ryzen 3 1200<br></li><li><strong>Memory:</strong> 8 GB MB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GTX 1050 / AMD RX 560<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 500 MB available space<br></li><li><strong>Sound Card:</strong> DirectX compatible<br></li><li><strong>Additional Notes:</strong> System requirements may change during development.</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 11 64-bit<br></li><li><strong>Processor:</strong> Intel Core i5-8400 / AMD Ryzen 5 2600<br></li><li><strong>Memory:</strong> 16 GB MB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GTX 1650 / AMD RX 570<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Storage:</strong> 1 GB available space<br></li><li><strong>Sound Card:</strong> DirectX compatible<br></li><li><strong>Additional Notes:</strong> System requirements may change during development.</li></ul>"
+      },
+      "mac_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+      },
+      "linux_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+      },
+      "developers": [
+        "IMTESOWL SOFTWARE"
+      ],
+      "publishers": [
+        "IMTESOWL SOFTWARE"
+      ],
+      "support_info": {
+        "url": "",
+        "email": "fabrint96@gmail.com"
+      },
+      "package_groups": [],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "categories": [
+        {
+          "id": 2,
+          "description": "Single-player"
+        },
+        {
+          "id": 62,
+          "description": "Family Sharing"
+        }
+      ],
+      "genres": [
+        {
+          "id": "25",
+          "description": "Adventure"
+        },
+        {
+          "id": "2",
+          "description": "Strategy"
+        }
+      ],
+      "release_date": {
+        "coming_soon": true,
+        "date": "Coming soon"
+      },
+      "content_descriptors": {
+        "ids": [],
+        "notes": null
+      },
+      "ratings": {
+        "dejus": {
+          "rating_generated": "1",
+          "rating": "l",
+          "required_age": "0",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": ""
+        },
+        "steam_germany": {
+          "rating_generated": "1",
+          "rating": "0",
+          "required_age": "0",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": ""
+        },
+        "igrs": {
+          "rating_generated": "1",
+          "rating": "3",
+          "required_age": "0",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": ""
+        }
+      }
+    }
   }
 }
