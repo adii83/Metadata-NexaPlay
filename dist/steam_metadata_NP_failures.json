@@ -1,16 +1,44 @@
 [
   {
-    "appid": 4032350,
-    "stage": "steamgriddb_lookup",
-    "error": "Steam appid tidak ditemukan di SteamGridDB",
-    "source_priority": "appid_populer",
-    "timestamp": "2026-09-10T04:36:22.524512+00:00"
+    "appid": 5197480,
+    "stage": "steam_appdetails",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=5197480&l=english&cc=us",
+    "source_priority": "steam_data",
+    "timestamp": "2026-09-15T04:54:55.530637+00:00"
   },
   {
-    "appid": 3940610,
-    "stage": "steamgriddb_lookup",
-    "error": "Steam appid tidak ditemukan di SteamGridDB",
-    "source_priority": "appid_populer",
-    "timestamp": "2026-09-10T04:36:23.818533+00:00"
+    "appid": 5197490,
+    "stage": "steam_appdetails",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=5197490&l=english&cc=us",
+    "source_priority": "steam_data",
+    "timestamp": "2026-09-15T04:55:11.121964+00:00"
+  },
+  {
+    "appid": 5197660,
+    "stage": "steam_appdetails",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=5197660&l=english&cc=us",
+    "source_priority": "steam_data",
+    "timestamp": "2026-09-15T04:55:27.044900+00:00"
+  },
+  {
+    "appid": 5215190,
+    "stage": "steam_appdetails",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=5215190&l=english&cc=us",
+    "source_priority": "steam_data",
+    "timestamp": "2026-09-15T04:59:58.347483+00:00"
+  },
+  {
+    "appid": 5215270,
+    "stage": "steam_appdetails",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=5215270&l=english&cc=us",
+    "source_priority": "steam_data",
+    "timestamp": "2026-09-15T05:00:14.162078+00:00"
+  },
+  {
+    "appid": 5215630,
+    "stage": "steam_appdetails",
+    "error": "429 Client Error: Too Many Requests for url: https://store.steampowered.com/api/appdetails?appids=5215630&l=english&cc=us",
+    "source_priority": "steam_data",
+    "timestamp": "2026-09-15T05:00:29.865508+00:00"
   }
 ]
